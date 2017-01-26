@@ -29,8 +29,11 @@ public class PbnParser extends BaseParser<Pbn> {
     protected final Rule DIRECTION = Dealer();
     protected final Rule PREVALS = PredefinedValue();
     protected final Rule PRETABLES = PredefinedTable();
-    // protected final Validator V = new Validator();
-    // protected final Rule PRETABLES = PredefinedTable();
+
+    /***
+     * PRETABLES only verifies that table has correct header and data format; it
+     * does not verify that data makes any sense
+     */
 
     // ----- reserved (predefined) pbn tags --------------
 
@@ -45,8 +48,6 @@ public class PbnParser extends BaseParser<Pbn> {
         }
         return isValid;
     }
-
-    // protected Rule Predefined
 
     protected Rule Date() {
         return Sequence(Sequence(NTimes(4, Digit()), '.', NTimes(2, Digit()),
@@ -66,8 +67,25 @@ public class PbnParser extends BaseParser<Pbn> {
         return FirstOf(CharRange('2', '9'), AnyOf("TJQKA"), AnyOf("tjqka"));
     }
 
+    /***
+     * isSuit checks for rank duplicates
+     */
+    protected boolean isSuit(String s) {
+
+        if (s.isEmpty()) {
+            return true;
+        }
+
+        if (s.length() > 13) {
+            return false;
+        }
+
+        s.toUpperCase(Locale.ROOT);
+        return s.chars().distinct().count() == s.length();
+    }
+
     protected Rule Suit(Var<LinkedList<String>> hand) {
-        return Sequence(FirstOf(OneOrMore(Rank()), ""),
+        return Sequence(FirstOf(OneOrMore(Rank()), ""), isSuit(match()),
                 hand.get().add(match().toUpperCase(Locale.ROOT)));
     }
 
@@ -77,12 +95,22 @@ public class PbnParser extends BaseParser<Pbn> {
                 hands.get().add(hand.get()));
     }
 
+    protected boolean isDealValid(LinkedList<LinkedList<String>> hands) {
+        if (hands.size() == 4) {
+
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
     protected Rule Deal() {
         Var<LinkedList<LinkedList<String>>> hands = new Var<>(
                 new LinkedList<>());
         StringVar dir = new StringVar();
         return Sequence(DIRECTION, dir.set(match()), ':',
-                NTimes(4, Hand(hands), LineSpace()),
+                NTimes(4, Hand(hands), LineSpace()), isDealValid(hands.get()),
                 push(PbnObject.pbnDeal(dir.get(), hands.get())));
     }
 
@@ -322,7 +350,7 @@ public class PbnParser extends BaseParser<Pbn> {
     }
 
     protected Rule TableName() {
-        return FirstOf("ScoreTable", "TotalScoreTable");
+        return FirstOf("ScoreTable", "TotalScoreTable", "OptimumResultTable");
     }
 
     protected int headerSize() {

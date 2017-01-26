@@ -85,6 +85,9 @@ public class ParserTest {
         assertTrue(matched(event, parser.TestEvents()));
     }
 
+    /***
+     * pbnFileTest tests parsing a full PBN file
+     */
     @Test
     public void pbnFileTest() {
         String input = inputText("test");
