@@ -1,8 +1,11 @@
 package com.pbn.pbnjson;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.function.Function;
 
 public class JsonOptimumResultTable extends JsonTable {
 
@@ -27,17 +30,64 @@ public class JsonOptimumResultTable extends JsonTable {
         table.rows.sort(rowComp);
     }
 
+    private static Function<List<String>, List<String>> swap(int i, int j) {
+        return t -> {
+            Collections.swap(t, i, j);
+            return t;
+        };
+    }
+
+    /***
+     * getPermutation returns permutation needed to order the columns
+     *
+     * @param is
+     *            list of indexes of the OptimumResultTable header items
+     */
+    private static Function<List<String>, List<String>> getPermutation(
+            LinkedList<Integer> is) {
+        int i = 0;
+
+        if (is.get(0) > 0) {
+            Collections.swap(is, 0, is.get(0));
+            if (is.get(0) > 0) {
+                Collections.swap(is, 0, is.get(0));
+                // apply permutation 0 twice
+                i = 1;
+            }
+        } else if (is.get(1) > 1) {
+            Collections.swap(is, 1, is.get(1));
+            // apply permutation 1 once
+            i = 2;
+        }
+
+        if (i == 0) {
+            return swap(0, 1);
+        } else if (i == 1) {
+            return swap(0, 1).compose(swap(0, 1));
+        } else {
+            return swap(1, 2);
+        }
+
+    }
+
     /*
      * sortColumns permutes the table such that header is { Declarer,
      * Denomination, Result }
      */
     public static void sortColumns(JsonOptimumResultTable table) {
-        final int decli = table.header.indexOf("Declarer");
-        final int denomi = table.header.indexOf("Denomination");
+        /* precondition: table is 20 x 3 and isValid() */
 
-        if (decli != 0 || denomi != 1) {
+        int x = table.header.indexOf("Declarer");
+        int y = table.header.indexOf("Denomination");
+        int z = table.header.indexOf("Result");
+        LinkedList<Integer> xs = new LinkedList<>();
+        Collections.addAll(xs, x, y, z);
 
+        if (x == 0 && y == 1 && z == 2) {
+            return; // is sorted if isValid() == true
+        } else {
         }
+
     }
 
     private static int compareDecl(String d1, String d2) {
