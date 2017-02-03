@@ -16,6 +16,14 @@ public class Events extends Pbn {
         return true;
     }
 
+    public LinkedList<Event> events() {
+        LinkedList<Event> es = new LinkedList<>();
+        for (int i = 0; i < events.size(); i++) {
+            es.add(get(i));
+        }
+        return es;
+    }
+
     /***
      * get the event in the parsing order (file top down)
      */

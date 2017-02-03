@@ -406,7 +406,7 @@ public class PbnParser extends BaseParser<Pbn> {
                 push(ev.get()), EmptyLine());
     }
 
-    protected Rule Events() {
+    public Rule Events() {
         Var<Events> evs = new Var<>(new Events());
         return Sequence(Optional(Escapes()),
                 OneOrMore(Event(), evs.get().add((Event) pop())),

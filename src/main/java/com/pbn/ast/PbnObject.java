@@ -112,18 +112,36 @@ public class PbnObject extends Pbn {
         return hands;
     }
 
+    /***
+     * tag pbn tag
+     */
     public String tag() {
         return tag;
     }
 
+    /***
+     * value
+     *
+     * @return the value of the tag
+     */
     public String value() {
         return value;
     }
 
+    /***
+     * header
+     *
+     * @return pbn table header
+     */
     public List<String> header() {
         return Collections.unmodifiableList(header);
     }
 
+    /***
+     * rows
+     *
+     * @return list of data rows of the table
+     */
     public List<List<String>> rows() {
         return Collections.unmodifiableList(rows);
     }

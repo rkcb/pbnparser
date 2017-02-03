@@ -119,7 +119,7 @@ public class ParserTest {
     @Test
     public void pbnValueObjectTest() {
         String v = "[ Tag \"Value\"]";
-        ParsingResult<Pbn> result = getResult(v, parser.TestValue());
+        ParsingResult<Pbn> result = getResult(v, parser.TestEvents());
         assertTrue(result.matched);
         assertTrue(result.valueStack.size() == 1);
         PbnObject o = (PbnObject) result.resultValue;
