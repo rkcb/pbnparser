@@ -122,9 +122,6 @@ public class ParserTest {
         ParsingResult<Pbn> result = getResult(v, parser.TestEvents());
         assertTrue(result.matched);
         assertTrue(result.valueStack.size() == 1);
-        PbnObject o = (PbnObject) result.resultValue;
-        assertTrue(o.tag().equals("Tag"));
-        assertTrue(o.value().equals("Value"));
     }
 
     @Test
@@ -153,9 +150,28 @@ public class ParserTest {
 
     @Test
     public void pbnFileObjectTest() {
-        String input = inputText("sm1");
+        String input = inputText("test");
         ParsingResult<Pbn> result = getResult(input, parser.TestEvents());
         Events evs = (Events) result.resultValue;
+        if (!result.matched) {
+            int i0 = result.parseErrors.get(0).getStartIndex();
+            int i1 = result.parseErrors.get(0).getEndIndex();
+            int line1 = result.inputBuffer.getPosition(i0).line;
+            int pos1 = result.inputBuffer.getPosition(i0).column;
+
+            int line2 = result.inputBuffer.getPosition(i1).line;
+            int pos2 = result.inputBuffer.getPosition(i1).column;
+
+            if (line1 != line2) {
+                o("Error starts at line " + line1 + " and column " + pos1
+                        + " and ends at line " + line2 + " and column " + pos2
+                        + ": >>>" + result.inputBuffer.charAt(i0) + "<<<");
+            } else {
+                o("Error starts at line " + line1 + " and column " + pos1
+                        + " and ends by the column " + pos2);
+            }
+        }
+        assertTrue(result.matched);
         assertTrue(evs.size() == 66);
     }
 
@@ -276,8 +292,6 @@ public class ParserTest {
             o("error line(s): \n\n" + errContext + "\n");
             o("error >>>" + "" + error.getInputBuffer().charAt(i0) + "<<<"
                     + " at line: " + pos.line + " and column: " + pos.column);
-        } else {
-            o("Matched!");
         }
     }
 

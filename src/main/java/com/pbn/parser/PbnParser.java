@@ -71,15 +71,6 @@ public class PbnParser extends BaseParser<Pbn> {
      * isSuit checks for rank duplicates
      */
     protected boolean isSuit(String s) {
-
-        if (s.isEmpty()) {
-            return true;
-        }
-
-        if (s.length() > 13) {
-            return false;
-        }
-
         s.toUpperCase(Locale.ROOT);
         return s.chars().distinct().count() == s.length();
     }
@@ -97,7 +88,6 @@ public class PbnParser extends BaseParser<Pbn> {
 
     protected boolean isDealValid(LinkedList<LinkedList<String>> hands) {
         if (hands.size() == 4) {
-
             return true;
         } else {
             return false;
@@ -365,7 +355,8 @@ public class PbnParser extends BaseParser<Pbn> {
 
     protected Rule PbnObject() {
         // push a tag object
-        return Sequence(LBR, NameToken(), push(PbnObject.pbnTag(match())), LQT,
+        return Sequence(LBR, TestNot(PreTags()), NameToken(),
+                push(PbnObject.pbnTag(match())), LQT,
                 FirstOf(Value(), Section()));
     }
 
@@ -391,6 +382,12 @@ public class PbnParser extends BaseParser<Pbn> {
 
     protected Rule PbnDeal() {
         return Sequence("Deal", LQT, Deal());
+    }
+
+    /* MUST exist to catch invalid prevalues for example */
+    protected Rule PreTags() {
+        return FirstOf("Deal", "Vulnerable", "Dealer", "Date", "Board",
+                TableName());
     }
 
     protected Rule PredefinedValue() {
