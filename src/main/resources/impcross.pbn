@@ -1,0 +1,3641 @@
+% PBN 2.0
+% EXPORT
+% 
+% <META  name=Generator                  content="Ruter">
+% <META  name=Version                    content="4.3.2.2">
+% <META  name=Author                     content="www.brenning.se">
+% 
+% <META  name=Licencee                   content="Förbundet Svensk Bridge">
+% <META  name=Arranger                   content="Sveriges Bridgeförbund">
+% <META  name=Signature                  content="Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011">
+% <META  name=Created                    content="2011-07-29 21:31:32">
+% 
+% <META  name=ContestDate                content="2011-07-29">
+% <META  name=ContestName                content="Silver 1 - Best Western City Hotel">
+% <META  name=ContestType                content="2">
+% <META  name=ScoringType                content="IMP;Cross">
+% <META  name=TournamentDirector         content="15131;Henrik Johansson, BK Albrekts;1850;Bengt Larsson, Tidaholms BK;67;Linus Jorner, Örebridgen;;;;;;;;;;;;;">
+% 
+% <META  name=TableCount                 content="40">
+% <META  name=PairCount                  content="80">
+% <META  name=PhantomCount               content="0">
+% <META  name=BoardCount                 content="42">
+% <META  name=RoundCount                 content="21">
+% <META  name=Average                    content="">
+% <META  name=HandicapPercentageAverage  content="">
+% 
+% <META  name=CRCategoryID               content="18">
+% <META  name=Factor                     content="1">
+% <META  name=FactorReason               content="">
+% <META  name=ContestID                  content="83175">
+% <META  name=SerialNumber               content="588">
+% <META  name=PlayerCategoryCount        content="">
+% 
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q654.T9874.4.KT4 AJ.AK.AQ73.AQ863 K2.632.KJT8652.7 T9873.QJ5.9.J952"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[TotalScoreTable "Rank\2R;PairId\3R;Section\3R;Table\2R;Direction\5R;TotalScoreIMP\7R;Names\44L;NrBoards\2R;Club\41L;CountryISO\5L;CountryIOC\5L;MemberID1\7R;MemberID2\7R;Sex1\3R;Sex2\3R"]
+ 1 523 "N"  3 "N-S"  2261.0 "Aron Thorfinsson - Gumundur Snorrason"      42 "Iceland"                                 -     -      "+520"  "+521" "M" "M"
+ 2 430 "M" 10 "E-W"  1896.0 "Mattias Weiler - Karl Persson"              42 "BK S:t Erik"                             "SWE" "SWE" "11482"  "2872" "M" "M"
+ 3 524 "N"  4 "N-S"  1865.0 "Hans Mattsson - Mats Axdorph"               42 "BK Bridgehuset - BK S:t Erik"            "SWE" "SWE"  "1139"  "2053" "M" "M"
+ 4 651 "O" 10 "N-S"  1735.0 "Johan Karlsson - Daniel Gullberg"           42 "Hällefors BK - BK S:t Erik"              -     -     "32229" "37167" "M" "M"
+ 5 647 "O" 14 "N-S"  1647.0 "Rudi Knutson - Lars-Åke Gustafsson"         42 "Salamandern/Wasa - Mölnlycke BS"         "SWE" "SWE"  "4857" "17359" "M" "M"
+ 6 531 "N" 11 "N-S"  1604.0 "Joel Forssell - Simon Ekenberg"             42 "Motala Bridgeallians - Lilla Sällskapet" "SWE" "SWE" "92646" "41685" "M" "M"
+ 7 460 "M"  1 "N-S"  1496.0 "Hans-Olof Hallén - Lars-Göran Niklasson"    42 "Malmö BK - LUCK"                         "SWE" "SWE"  "9896" "11361" "M" "M"
+ 8 630 "O" 10 "E-W"  1407.0 "Christer Swenson - Markus Hedström"         42 "Skövde BA"                               "SWE" "SWE"  "1859" "87082" "M" "M"
+ 9 532 "N" 12 "E-W"  1368.0 "Andrius Michailova - Saulia Sakarauska"     42 "Lithuania"                               -     -      "+517"  "+518"   -   -
+10 652 "O"  9 "E-W"  1358.0 "Peter Bäckstrand - Stefan Lilja"            42 "BK Opalen"                               "SWE" "SWE" "13838" "20858" "M" "M"
+11 458 "M"  3 "E-W"  1312.0 "Hans Kvick - Ben Hayes"                     42 "Upsala BS"                               "SWE" "SWE"  "2878"  "6654" "M" "M"
+12 559 "N"  2 "N-S"  1298.0 "Ragnar Hermansson - Sveinn Runar Eiriksson" 42 "Iceland"                                 -     -      "+519"  "+509" "M" "M"
+13 452 "M"  9 "E-W"  1255.0 "Elena Ström - Lilly Sturesson"              42 "BK S:t Erik - Sthlms-Polisens BS"        "SWE" "SWE"  "8220"  "2308" "W" "W"
+14 450 "M" 11 "E-W"  1167.0 "Carl-Åke Hollander - Marito Karlsson"       42 "Kristinehamns BK - BK Fyris"             "SWE" "SWE" "20591" "15214" "M" "M"
+15 454 "M"  7 "N-S"  1047.0 "Urban Björklund - Daniel Eriksson"          42 "Bollnäs BK"                              "SWE" "SWE"  "9496" "24659" "M" "M"
+16 428 "M"  8 "E-W"  1010.0 "Marie Johansson - Henrik Sällberg"          42 "Karlshamns BK"                           "SWE" "SWE" "17265" "29785" "W" "M"
+17 530 "N" 10 "E-W"   954.0 "Nils Åhlén - Leif Ruthström"                42 "BK Everfresh - Storsjöbygdens BK"        "SWE" "SWE"  "1169" "13060" "M" "M"
+18 550 "N" 11 "E-W"   950.0 "Eric Arvidsson - Fredrik Alfredsson"        42 "BK S:t Erik - Karlstads BK"              "SWE" "SWE" "16417" "83200" "M" "M"
+19 631 "O" 11 "N-S"   926.0 "Thomas Magnusson - Peter Flodqvist"         42 "Näsby BS - BK S:t Erik"                  "SWE" "SWE"  "3693" "14778" "M" "M"
+20 429 "M"  9 "N-S"   880.0 "Daniel Sivelind - Malin Helin"              42 "LudvikaBygdens BK - Gävle BK"            "SWE" "SWE" "12589" "30933" "M" "W"
+21 624 "O"  4 "N-S"   862.0 "Micael Svensson - Jon Scheutz"              42 "Örebridgen"                              "SWE" "SWE"  "2383" "93748" "M" "M"
+22 634 "O" 14 "E-W"   818.0 "Håkan Lindblom - Tomas Winqvist"            42 "BK S:t Erik - Harplinge BK"              "SWE" "SWE"  "1437"  "1435" "M" "M"
+23 658 "O"  3 "E-W"   806.5 "Per-Åke Jansson - Lars Lundgren"            42 "Smedstadens BK - Arboga BK"              "SWE" "SWE"  "2714" "10275" "M" "M"
+24 654 "O"  7 "N-S"   805.0 "Göran Hammarström - Mikael Arnberg"         42 "BK S:t Erik"                             "SWE" "SWE" "11426" "24686" "M" "M"
+25 522 "N"  2 "E-W"   701.0 "Anders Ljung - Michael Runfors"             42 "Åmåls BS - Örebridgen"                   "SWE" "SWE" "13459" "10344" "M" "M"
+26 421 "M"  1 "E-W"   698.0 "Mikael Westerlund - Björn Wenander"         42 "BK Lyx - Mölnlycke BS"                   "SWE" "SWE"  "9690"  "4856" "M" "M"
+27 656 "O"  5 "N-S"   663.0 "Villy Havasi - Per Andersson"               42 "BK Albrekts"                             "SWE" "SWE" "89205" "17111" "M" "M"
+28 653 "O"  8 "N-S"   636.0 "Lena Johansson - Leif Johansson"            42 "Vårgårda BS"                             "SWE" "SWE" "15309" "18448" "W" "M"
+29 529 "N"  9 "N-S"   576.0 "Per Leandersson - Jan-Olov Andersson"       42 "Karlstads BK - BK Lyx"                   "SWE" "SWE" "87992"  "3542" "M" "M"
+30 657 "O"  4 "E-W"   523.0 "Bo-Henry Ek - Peter Nordén"                 42 "Örebridgen"                              "SWE" "SWE"  "2381"  "7833" "M" "M"
+31 632 "O" 12 "E-W"   517.0 "Micke Almgren - Sofia Ryman"                42 "Arla BK - BK S:t Erik"                   "SWE" "SWE" "11390" "78200" "M" "W"
+32 621 "O"  1 "E-W"   499.0 "Suzanne Larsson - Tommi Ramstedt"           42 "Karlstads BK - Lindesbergs BS"           "SWE" "SWE" "14984" "51783" "W" "M"
+33 649 "O" 12 "N-S"   391.0 "Håkan Tjärnemo - Bengt Emanuelsson"         42 "LUCK"                                    "SWE" "SWE"  "5534"  "4620" "M" "M"
+34 554 "N"  7 "N-S"   204.0 "P. Pigot - B.J. O´Brien"                    42 "Ireland"                                 -     -      "+515"  "+516"   -   -
+35 629 "O"  9 "N-S"   108.0 "Henrik Dellien - Tommy Gunnarsson"          42 "Munkedals BS - Salamandern/Wasa"         "SWE" "SWE"  "9577" "10295" "M" "M"
+36 423 "M"  3 "N-S"    56.0 "Morgan Westerlund - Christer Johansson"     42 "Tranås BK"                               "SWE" "SWE"  "2186"  "1441" "M" "M"
+37 633 "O" 13 "E-W"    49.0 "Thomas Ekendahl - Barbara Ekendahl"         42 "Smedstadens BK"                          "SWE" "SWE" "17307" "52284" "M" "W"
+38 551 "N" 10 "N-S"    34.0 "Mats Johansson - Kent Bäckström"            42 "Upsala BS - Alnö BK"                     "SWE" "SWE" "15014" "11196" "M" "M"
+39 455 "M"  6 "N-S"     5.0 "Maria Grönkvist - Catharina Forsberg"       42 "Örebridgen"                              "SWE" "SWE"  "1076"  "7124" "W" "W"
+40 560 "N"  1 "N-S"   -70.0 "Birgitta Samuelsson - Nils Gardell"         42 "Köpings BS"                              "SWE" "SWE" "15036"   "173" "W" "M"
+41 451 "M" 10 "N-S"   -89.0 "Tobias Törnqvist - Ulrika Lindström"        42 "BK Everfresh"                            "SWE" "SWE" "16484" "26477" "M" "W"
+42 553 "N"  8 "N-S"  -144.0 "Ulf Backman - Nicklas Widhja"               42 "Kristinehamns BK - BK Opalen"            "SWE" "SWE" "82648" "25146" "M" "M"
+43 453 "M"  8 "N-S"  -147.0 "Terry Walsh - Derek O'Gorman"               42 "Ireland"                                 -     -      "+513"  "+514" "M" "M"
+44 558 "N"  3 "E-W"  -192.0 "Magnus Göransson - Börje Rudenstål"         42 "Skara BS - BK S:t Erik"                  "SWE" "SWE"  "1625"  "2336" "M" "M"
+45 431 "M" 11 "N-S"  -204.0 "Pierre Carbonnier - Jan Gutenwik"           42 "LUCK"                                    "SWE" "SWE"  "5538"  "6302" "M" "M"
+46 449 "M" 12 "N-S"  -219.0 "Kent Sjöberg - Lennart Bylund"              42 "Sundsvallsbridgen"                       "SWE" "SWE"  "3260"  "8234" "M" "M"
+47 635 "O" 15 "N-S"  -232.5 "Tommy Jansson - Magnus Hultman"             42 "Lindesbergs BS"                          "SWE" "SWE"  "8415" "14044" "M" "M"
+48 521 "N"  1 "E-W"  -262.0 "Kent Maltein - Erik Gulliksson"             42 "Gävle BK"                                "SWE" "SWE" "15967" "24169" "M" "M"
+49 525 "N"  5 "E-W"  -271.0 "Jörgen Gustavsson - Tony Elmroth"           42 "BS 53, Göteborg - BK Lyx"                -     -     "29428" "44888" "M" "M"
+50 625 "O"  5 "E-W"  -306.0 "Johan Grönkvist - Krister Ahlesved"         42 "Örebridgen - BK Fyris"                   "SWE" "SWE"  "8342" "13995" "M" "M"
+51 549 "N" 12 "N-S"  -339.0 "Dan Bylund - Helena Strömberg"              42 "Sundsvallsbridgen"                       "SWE" "SWE"  "8223" "12565" "M" "W"
+52 646 "O" 15 "E-W"  -358.0 "Björn Ohlsson - Lars Stenlund"              42 "Sölvesborgs BK - BK Lavec"               "SWE" "SWE"  "5648"  "5960" "M" "M"
+53 552 "N"  9 "E-W"  -361.0 "Tom Gärds - Robert Bäck"                    42 "BK Björken - BK Lyx"                     "SWE" "SWE" "13002" "11174" "M" "M"
+54 660 "O"  1 "N-S"  -369.0 "Ryszard Sliwinski - Marcus Hjelte"          42 "Gamla Uppsala BS - Upsala BS"            "SWE" "SWE"  "7639" "84282" "M" "M"
+55 432 "M" 12 "E-W"  -408.0 "Ylva Pyykkö - Anders Erikson"               42 "BK Centrum"                              "SWE" "SWE" "50062"  "3396" "W" "M"
+56 659 "O"  2 "N-S"  -440.0 "Bengt Nilsson - Rolf Forsberg"              42 "ABB BK - Fagersta BS"                    "SWE" "SWE" "18043" "13471" "M" "M"
+57 622 "O"  2 "E-W"  -460.0 "Jimmy Johansson - Kent Karlsson"            42 "Askers. BK Singelton"                    "SWE" "SWE" "81411"  "4155" "M" "M"
+58 424 "M"  4 "N-S"  -493.0 "Joakim Guldbrand - Ulf Westlin"             42 "Lindesbergs BS - Bollnäs BK"             "SWE" "SWE" "14177"  "3230" "M" "M"
+59 650 "O" 11 "E-W"  -519.0 "Lennart Jonasson - Mikael Eliasson"         42 "Smedstadens BK"                          "SWE" "SWE"  "6775"    "63" "M" "M"
+60 655 "O"  6 "N-S"  -527.0 "Anette Svenningsson - Anders Nero"          42 "Vaggeryds BK"                            "SWE" "SWE" "10269"  "9470" "W" "M"
+61 422 "M"  2 "E-W"  -717.0 "Eva Andersson - Olle Olsson"                42 "Tjörns BK - Orust BK"                    "SWE" "SWE"  "3585"  "7472" "W" "M"
+62 648 "O" 13 "N-S"  -791.0 "Simon Hult - William Hernebrink"            42 "Lilla Sällskapet - Filbyter Bridge"      -     -     "36107" "41017" "M" "M"
+63 456 "M"  5 "N-S"  -813.0 "Erik Franzén - Hans Johansson"              42 "Borlänge BK - Munkedals BS"              "SWE" "SWE"    "76" "14410" "M" "M"
+64 556 "N"  5 "N-S"  -847.0 "Rune Carlsson - Ingrid Petersen"            42 "BK Allians, Halmstad - BK Lyx"           "SWE" "SWE" "11874" "12906" "M" "W"
+65 459 "M"  2 "N-S"  -884.0 "Lars Ericson - Christina Ahl"               42 "Gävle BK"                                "SWE" "SWE" "12536"  "3140" "M" "W"
+66 427 "M"  7 "E-W"  -899.0 "Anders Dellien - Niclas Samuelsson"         42 "Munkedals BS - Tanums BK"                "SWE" "SWE"  "7117"  "4362" "M" "M"
+67 527 "N"  7 "E-W"  -985.0 "Kenneth Svensson - Jan Svensson"            42 "BK Albrekts"                             "SWE" "SWE" "14859" "41707" "M" "M"
+68 628 "O"  8 "E-W" -1001.0 "Per Selander - Göran Svensson"              42 "BK S:t Erik - Smedstadens BK"            "SWE" "SWE" "15820"  "8022" "M" "M"
+69 555 "N"  6 "N-S" -1307.0 "Bengt Sörensen - Vega Slottner"             42 "BK Opalen"                               "SWE" "SWE" "86943" "86942" "M" "W"
+70 636 "O" 16 "E-W" -1392.0 "Åsa Axne - Peter Karlsson"                  42 "Storsjöbygdens BK - BK Centrum"          "SWE" "SWE" "83573"  "2382" "W" "M"
+71 626 "O"  6 "E-W" -1393.0 "Marie Göthberg - Gunnar Göthberg"           42 "Örebridgen"                              "SWE" "SWE" "19806" "14641" "W" "M"
+72 528 "N"  8 "E-W" -1424.0 "Gun Röhnisch - Claus Röhnisch"              42 "Örebridgen"                              "SWE" "SWE" "10595"  "4081" "W" "M"
+73 645 "O" 16 "N-S" -1669.0 "Johan Säfsten - Joakim Nordlindh"           42 "Upsala BS"                               -     -     "35452" "35307" "M" "M"
+74 457 "M"  4 "E-W" -1755.0 "Mats Danielsson - Lennart Telkert"          42 "Kumla BS"                                "SWE" "SWE"  "4120"  "6762" "M" "M"
+75 627 "O"  7 "E-W" -1879.0 "Håkan Zejnilagic - Benny Svensson"          42 "BK Zonen"                                "SWE" "SWE" "24620"  "6245" "M" "M"
+76 426 "M"  6 "E-W" -1934.0 "Ulf Nilsson - Sune Eriksson"                42 "Arboga BK"                               "SWE" "SWE" "11234" "26454" "M" "M"
+77 425 "M"  5 "E-W" -2260.0 "Irma Petersen - Lennart Eriksson"           42 "BK Lyx - Arla BK"                        "SWE" "SWE" "33038"  "9020" "W" "M"
+78 623 "O"  3 "N-S" -2297.0 "Lars Hamberg - Ulla Ridderstad"             42 "BK Opalen"                               "SWE" "SWE"  "3696" "25973" "M" "W"
+79 557 "N"  4 "E-W" -2692.0 "Oscar Hult - Bengt-Ove Olausson"            42 "Frölunda BS"                             "SWE" "SWE" "12879" "29888" "M" "M"
+80 526 "N"  6 "E-W" -2921.0 "Dag Elmér - Lisbeth Qvist"                  42 "BK Opalen"                               "SWE" "SWE" "87314" "87306" "M" "W"
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  4  1 524 557 6N   E  9 H2   "150"      -  391.0 -391.0
+"M"  7  1 454 427 6C   W 11 D4    "50"      -  338.0 -338.0
+"M"  5  1 456 425 3N   E  8 C7    "50"      -  338.0 -338.0
+"O"  3  2 624 659 3N   E  8 D6    "50"      -  338.0 -338.0
+"O" 12  2 650 633 4S   W  9 D4    "50"      -  338.0 -338.0
+"O"  5  2 657 626 3N   E  8 DT    "50"      -  338.0 -338.0
+"O"  9  2 630 653 4D   S  6 HQ       -  "200"  145.0 -145.0
+"M"  3  1 423 458 3N   E  9 DK       -  "400"  -43.0   43.0
+"M"  9  1 429 452 3N   E  9 H6       -  "400"  -43.0   43.0
+"M" 11  1 431 450 3N   E  9 H2       -  "400"  -43.0   43.0
+"M" 10  1 451 430 3N   E  9 DT       -  "400"  -43.0   43.0
+"M"  6  1 455 426 3N   E  9 H2       -  "400"  -43.0   43.0
+"M"  2  1 459 422 3N   E  9 H3       -  "400"  -43.0   43.0
+"N"  3  1 523 558 3N   E  9 H3       -  "400"  -43.0   43.0
+"N" 11  1 531 550 3N   E  9 H2       -  "400"  -43.0   43.0
+"O"  2  2 621 623 3N   E  9 H2       -  "400"  -43.0   43.0
+"O"  4  2 625 658 3N   E  9 DK       -  "400"  -43.0   43.0
+"O" 15  2 636 647 3N   E  9 H5       -  "400"  -43.0   43.0
+"O" 14  2 648 635 3N   E  9 H2       -  "400"  -43.0   43.0
+"O" 13  2 649 634 3N   E  9 H3       -  "400"  -43.0   43.0
+"O"  8  2 654 629 3N   E  9 H2       -  "400"  -43.0   43.0
+"O"  6  2 656 627 3N   E  9 H2       -  "400"  -43.0   43.0
+"M"  4  1 424 457 3N   W 10 DJ       -  "430"  -77.0   77.0
+"M" 12  1 449 432 3N   E 10 H2       -  "430"  -77.0   77.0
+"M"  8  1 453 428 3N   E 10 DJ       -  "430"  -77.0   77.0
+"N" 12  1 549 532 3N   E 10 DJ       -  "430"  -77.0   77.0
+"N" 10  1 551 530 3N   E 10 DT       -  "430"  -77.0   77.0
+"N"  7  1 554 527 3N   E 10 DT       -  "430"  -77.0   77.0
+"N"  2  1 559 522 3N   E 10 DJ       -  "430"  -77.0   77.0
+"N"  1  1 560 521 3N   E 10 DJ       -  "430"  -77.0   77.0
+"O" 11  2 632 651 3N   E 10 D2       -  "430"  -77.0   77.0
+"O" 16  2 646 645 3N   E 10 DT       -  "430"  -77.0   77.0
+"O" 10  2 652 631 3N   E 10 H6       -  "430"  -77.0   77.0
+"O"  7  2 655 628 3N   E 10 H6       -  "430"  -77.0   77.0
+"O"  1  2 660 622 3N   E 10 D8       -  "430"  -77.0   77.0
+"M"  1  1 460 421 4S   E 11 C7       -  "450" -116.0  116.0
+"N"  8  1 553 528 4S   E 11 C7       -  "450" -116.0  116.0
+"N"  9  1 529 552 3N   E 11 DK       -  "460" -116.0  116.0
+"N"  6  1 555 526 3N   E 11 D6       -  "460" -116.0  116.0
+"N"  5  1 556 525 3N   E 11 DJ       -  "460" -116.0  116.0
+[OptimumScore "NS -430"]
+[OptimumContract "4N E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  7
+W  D  7
+W  C 11
+W NT  9
+N  S  3
+N  H  6
+N  D  6
+N  C  2
+N NT  3
+E  S 10
+E  H  7
+E  D  7
+E  C 11
+E NT 10
+S  S  3
+S  H  6
+S  D  6
+S  C  2
+S NT  3
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQ4.KJ763.2.7542 A876.Q82.KT6.AQ9 2.T954.J9874.T86 JT953.A.AQ53.KJ3"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  1  2 660 622 6SX  N 12 H9  "1660"      -  470.0 -470.0
+"M"  3  1 423 458 6S   S 12 H5  "1430"      -  365.0 -365.0
+"M"  4  1 424 457 6S   S 12 H9  "1430"      -  365.0 -365.0
+"M"  1  1 460 421 6S   S 12 H5  "1430"      -  365.0 -365.0
+"N"  8  1 553 528 6S   S 12 D9  "1430"      -  365.0 -365.0
+"N"  7  1 554 527 6S   S 12 HT  "1430"      -  365.0 -365.0
+"N"  2  1 559 522 6S   N 12 H5  "1430"      -  365.0 -365.0
+"O"  9  2 630 653 6S   S 12 HT  "1430"      -  365.0 -365.0
+"O" 11  2 632 651 6S   N 12 D2  "1430"      -  365.0 -365.0
+"O" 12  2 650 633 6S   S 12 HT  "1430"      -  365.0 -365.0
+"O"  8  2 654 629 6S   S 12 HT  "1430"      -  365.0 -365.0
+"O"  7  2 655 628 6S   S 12 H5  "1430"      -  365.0 -365.0
+"O"  6  2 656 627 6S   S 12 D8  "1430"      -  365.0 -365.0
+"M" 12  1 449 432 4S   N 12 H3   "680"      -  -93.0   93.0
+"M"  2  1 459 422 4S   N 12 D3   "680"      -  -93.0   93.0
+"N"  3  1 523 558 5S   N 12 H3   "680"      -  -93.0   93.0
+"N"  4  1 524 557 4S   S 12 HT   "680"      -  -93.0   93.0
+"N"  9  1 529 552 4S   N 12 D8   "680"      -  -93.0   93.0
+"N" 11  1 531 550 5S   S 12 H5   "680"      -  -93.0   93.0
+"N" 10  1 551 530 5S   S 12 H2   "680"      -  -93.0   93.0
+"N"  5  1 556 525 4S   S 12 D8   "680"      -  -93.0   93.0
+"O"  3  2 624 659 4S   S 12 D8   "680"      -  -93.0   93.0
+"O" 14  2 648 635 5S   S 12 HT   "680"      -  -93.0   93.0
+"M"  5  1 456 425 3N   S 11 HT   "660"      - -115.0  115.0
+"O"  2  2 621 623 4N   S 11 HT   "660"      - -115.0  115.0
+"M" 10  1 451 430 5S   S 11 H5   "650"      - -115.0  115.0
+"M"  7  1 454 427 5S   S 11 D9   "650"      - -115.0  115.0
+"N" 12  1 549 532 5S   N 11 H6   "650"      - -115.0  115.0
+"N"  6  1 555 526 4S   S 11 DT   "650"      - -115.0  115.0
+"N"  1  1 560 521 5S   N 11 HK   "650"      - -115.0  115.0
+"O" 15  2 636 647 4S   S 11 HT   "650"      - -115.0  115.0
+"O" 16  2 646 645 4S   S 11 HT   "650"      - -115.0  115.0
+"O" 13  2 649 634 4S   S 11 D4   "650"      - -115.0  115.0
+"O" 10  2 652 631 4S   N 11 D2   "650"      - -115.0  115.0
+"O"  5  2 657 626 4S   S 11 D2   "650"      - -115.0  115.0
+"M"  9  1 429 452 6S   S 11 D4       -  "100" -508.0  508.0
+"M" 11  1 431 450 6S   S 11 HT       -  "100" -508.0  508.0
+"M"  8  1 453 428 6S   S 11 H5       -  "100" -508.0  508.0
+"M"  6  1 455 426 6S   S 11 D4       -  "100" -508.0  508.0
+"O"  4  2 625 658 6S   S 11 HT       -  "100" -508.0  508.0
+[OptimumScore "NS 1430"]
+[OptimumContract "6S S 12"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  1
+W  H  6
+W  D  3
+W  C  3
+W NT  2
+N  S 12
+N  H  7
+N  D 10
+N  C  9
+N NT 11
+E  S  1
+E  H  6
+E  D  3
+E  C  3
+E NT  2
+S  S 12
+S  H  7
+S  D 10
+S  C  9
+S NT 11
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9865.T4.QJ753.4 KT7.Q873.K92.A76 Q4.A965.T84.KQJ9 J32.KJ2.A6.T8532"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  2  1 659 622 3NX  W  7 CK   "500"      -  381.0 -381.0
+"M"  1  2 460 422 3N   N  9 C8   "400"      -  323.0 -323.0
+"N"  7  2 555 528 3N   N  9 C2   "400"      -  323.0 -323.0
+"O" 15  1 635 646 3H   W  6 CK   "300"      -  242.0 -242.0
+"O" 10  1 651 630 1D   W  4 CK   "300"      -  242.0 -242.0
+"M"  6  2 456 427 3CX  E  8 HT   "200"      -  159.0 -159.0
+"N"  5  2 557 526 3CX  E  8 SA   "200"      -  159.0 -159.0
+"O" 16  1 645 636 1N   E  5 D3   "200"      -  159.0 -159.0
+"M"  9  2 430 453 2S   N  9 S2   "140"      -  107.0 -107.0
+"O"  6  1 655 626 2S   S  9 C6   "140"      -  107.0 -107.0
+"N"  4  2 525 558 2S   S  8 H7   "110"      -   69.0  -69.0
+"O" 11  1 631 650 2S   S  8 H3   "110"      -   69.0  -69.0
+"O" 12  1 649 632 2S   N  8 DA   "110"      -   69.0  -69.0
+"O"  8  1 653 628 2S   S  8 H7   "110"      -   69.0  -69.0
+"N"  9  2 530 553 1N   E  6 S8   "100"      -   69.0  -69.0
+"M"  2  2 421 423 2S   S  7 H3       -   "50"  -76.0   76.0
+"M"  3  2 424 459 2S   S  7 CQ       -   "50"  -76.0   76.0
+"M" 11  2 432 451 2S   S  7 H7       -   "50"  -76.0   76.0
+"M" 12  2 450 449 2S   S  7 H7       -   "50"  -76.0   76.0
+"M" 10  2 452 431 2S   S  7 S6       -   "50"  -76.0   76.0
+"M"  8  2 454 429 3D   S  8 H3       -   "50"  -76.0   76.0
+"N"  2  2 521 523 2S   S  7 H7       -   "50"  -76.0   76.0
+"N"  3  2 524 559 2S   S  7 D2       -   "50"  -76.0   76.0
+"N" 10  2 552 531 2S   S  7 D2       -   "50"  -76.0   76.0
+"O"  3  1 623 658 2S   S  7 H7       -   "50"  -76.0   76.0
+"O"  4  1 624 657 2S   S  7 H7       -   "50"  -76.0   76.0
+"O"  9  1 629 652 2C   N  7 C2       -   "50"  -76.0   76.0
+"O"  7  1 654 627 3D   N  8 H2       -   "50"  -76.0   76.0
+"O"  5  1 656 625 2S   S  7 C6       -   "50"  -76.0   76.0
+"O"  1  1 660 621 2S   S  7 D2       -   "50"  -76.0   76.0
+"M"  7  2 455 428 1N   E  7 S5       -   "90" -118.0  118.0
+"M"  5  2 457 426 2C   W  8 CQ       -   "90" -118.0  118.0
+"N" 11  2 532 551 3D   S  7 H4       -  "100" -136.0  136.0
+"N" 12  2 550 549 2S   S  6 H3       -  "100" -136.0  136.0
+"N"  8  2 554 529 2S   S  6 H6       -  "100" -136.0  136.0
+"N"  1  2 560 522 3DX  S  8 H7       -  "100" -136.0  136.0
+"O" 13  1 648 633 3SX  S  8 CA       -  "100" -136.0  136.0
+"N"  6  2 556 527 1N   E  8 S6       -  "120" -154.0  154.0
+"O" 14  1 647 634 1N   E  8 S5       -  "120" -154.0  154.0
+"M"  4  2 425 458 3S   N  6 DA       -  "150" -183.0  183.0
+[OptimumScore "NS -100"]
+[OptimumContract "3DX S 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H  8
+W  D  4
+W  C  8
+W NT  7
+N  S  6
+N  H  5
+N  D  8
+N  C  5
+N NT  6
+E  S  6
+E  H  8
+E  D  4
+E  C  8
+E NT  7
+S  S  6
+S  H  5
+S  D  8
+S  C  5
+S NT  6
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K54.Q92.AQJ9.JT2 A.6.KT72.AKQ9854 T932.AJ7543.643. QJ876.KT8.85.763"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  1  2 460 422 5HX  E  8 C3   "800"      -  310.0 -310.0
+"O"  9  1 629 652 1NX  W  4 CA   "800"      -  310.0 -310.0
+"N"  3  2 524 559 3NX  S  9 DA   "750"      -  276.0 -276.0
+"M"  4  2 425 458 4C   E  3 H5   "700"      -  240.0 -240.0
+"M" 11  2 432 451 4N   N 10 D3   "630"      -  180.0 -180.0
+"O" 16  1 645 636 3N   S 10 DJ   "630"      -  180.0 -180.0
+"O" 10  1 651 630 3N   N 10 H4   "630"      -  180.0 -180.0
+"O"  5  1 656 625 3N   S 10 H2   "630"      -  180.0 -180.0
+"N"  9  2 530 553 5C   N 12 D3   "620"      -  177.0 -177.0
+"O" 12  1 649 632 5C   N 12 D3   "620"      -  177.0 -177.0
+"M"  8  2 454 429 5C   N 11 D3   "600"      -  156.0 -156.0
+"M"  6  2 456 427 3N   N  9 H5   "600"      -  156.0 -156.0
+"M"  5  2 457 426 3N   N  9 D6   "600"      -  156.0 -156.0
+"N"  2  2 521 523 5C   N 11 HA   "600"      -  156.0 -156.0
+"N"  4  2 525 558 3N   S  9 H2   "600"      -  156.0 -156.0
+"N" 11  2 532 551 3N   S  9 HQ   "600"      -  156.0 -156.0
+"N" 12  2 550 549 3N   S  9 H2   "600"      -  156.0 -156.0
+"N"  8  2 554 529 3N   N  9 H7   "600"      -  156.0 -156.0
+"N"  7  2 555 528 5C   N 11 HA   "600"      -  156.0 -156.0
+"O" 11  1 631 650 3N   S  9 H2   "600"      -  156.0 -156.0
+"O"  8  1 653 628 3N   S  9 H2   "600"      -  156.0 -156.0
+"O"  7  1 654 627 3N   S  9 H2   "600"      -  156.0 -156.0
+"O"  6  1 655 626 3N   N  9 H5   "600"      -  156.0 -156.0
+"N"  1  2 560 522 4HX  E  9 D5   "200"      - -169.0  169.0
+"M"  2  2 421 423 2C   N 12 D4   "170"      - -199.0  199.0
+"O"  4  1 624 657 2C   N 12 D3   "170"      - -199.0  199.0
+"M" 12  2 450 449 4C   N 11 ST   "150"      - -213.0  213.0
+"M"  7  2 455 428 4C   N 11 D3   "150"      - -213.0  213.0
+"N" 10  2 552 531 3C   N 11 D3   "150"      - -213.0  213.0
+"N"  6  2 556 527 3C   N 11 ST   "150"      - -213.0  213.0
+"N"  5  2 557 526 4C   N 11 D6   "150"      - -213.0  213.0
+"O" 15  1 635 646 4C   N 11 D3   "150"      - -213.0  213.0
+"O" 14  1 647 634 2C   N 11 D3   "150"      - -213.0  213.0
+"O" 13  1 648 633 3C   N 11 ST   "150"      - -213.0  213.0
+"O"  2  1 659 622 4C   N 10 D3   "130"      - -228.0  228.0
+"M"  9  2 430 453 3H   E  8 C3   "100"      - -261.0  261.0
+"M" 10  2 452 431 3H   E  8 C7   "100"      - -261.0  261.0
+"M"  3  2 424 459 3H   E  9 SQ       -  "140" -381.0  381.0
+"O"  3  1 623 658 4C   N  8 S3       -  "200" -418.0  418.0
+"O"  1  1 660 621 5CX  N 10 HA       -  "200" -418.0  418.0
+[OptimumScore "NS 500"]
+[OptimumContract "4HX E 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H  9
+W  D  7
+W  C  3
+W NT  4
+N  S  7
+N  H  4
+N  D  6
+N  C 10
+N NT  9
+E  S  6
+E  H  8
+E  D  6
+E  C  2
+E NT  4
+S  S  6
+S  H  4
+S  D  6
+S  C 10
+S NT  9
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:KT3.KQ52.KJ.AJT2 8752.J84.AT743.3 AJ94.63.865.Q864 Q6.AT97.Q92.K975"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O" 12  4 652 635 4S   S 10 D2   "620"      -  444.0 -444.0
+"O" 16  4 648 647 2HX  W  5 H2   "500"      -  387.0 -387.0
+"O" 13  4 651 636 3DX  E  6 H6   "500"      -  387.0 -387.0
+"M"  2  3 422 424 1N   N 10 D3   "180"      -  169.0 -169.0
+"O" 10  4 654 633 2N   N 10 S8   "180"      -  169.0 -169.0
+"O"  8  4 656 631 1N   N  9 D3   "150"      -  137.0 -137.0
+"M" 12  3 451 450 1N   N  8 D2   "120"      -  111.0 -111.0
+"M"  7  3 456 429 1N   N  8 D3   "120"      -  111.0 -111.0
+"M"  5  3 458 427 1N   N  8 D4   "120"      -  111.0 -111.0
+"N"  2  3 522 524 1N   N  8 D3   "120"      -  111.0 -111.0
+"N" 11  3 549 552 1N   N  8 D3   "120"      -  111.0 -111.0
+"N" 12  3 551 550 1N   N  8 S5   "120"      -  111.0 -111.0
+"N"  5  3 558 527 1N   S  8 D3   "120"      -  111.0 -111.0
+"O"  9  4 632 655 1N   N  8 D4   "120"      -  111.0 -111.0
+"O"  6  4 658 629 1N   N  8 D3   "120"      -  111.0 -111.0
+"O"  1  4 660 624 1N   N  8 D5   "120"      -  111.0 -111.0
+"N"  4  3 526 559 2H   E  6 S4   "100"      -   81.0  -81.0
+"M" 10  3 453 432 1N   N  7 D3    "90"      -   78.0  -78.0
+"N"  8  3 555 530 1N   N  7 D3    "90"      -   78.0  -78.0
+"O"  2  4 623 625 1N   N  7 D3    "90"      -   78.0  -78.0
+"O"  5  4 659 628 1N   N  7 D3    "90"      -   78.0  -78.0
+"M"  4  3 426 459 2D   E  7 D5    "50"      -   39.0  -39.0
+"M"  3  3 425 421 1N   N  6 D5       -  "100"  -97.0   97.0
+"N"  3  3 525 521 2N   N  7 C3       -  "100"  -97.0   97.0
+"N" 10  3 553 532 1N   N  6 D4       -  "100"  -97.0   97.0
+"N"  1  3 560 523 2N   S  7 D4       -  "100"  -97.0   97.0
+"O"  4  4 627 621 1N   N  6 D3       -  "100"  -97.0   97.0
+"O" 15  4 646 649 2N   N  7 D3       -  "100"  -97.0   97.0
+"M"  9  3 431 454 2N   N  6 D4       -  "200" -186.0  186.0
+"M" 11  3 449 452 3N   N  7 D3       -  "200" -186.0  186.0
+"M"  6  3 457 428 3N   N  7 D3       -  "200" -186.0  186.0
+"M"  1  3 460 423 3N   N  7 D4       -  "200" -186.0  186.0
+"N"  9  3 531 554 3N   N  7 D4       -  "200" -186.0  186.0
+"N"  6  3 557 528 3N   N  7 D3       -  "200" -186.0  186.0
+"O" 14  4 650 645 4S   S  8 D2       -  "200" -186.0  186.0
+"O"  7  4 657 630 3N   N  7 D4       -  "200" -186.0  186.0
+"M"  8  3 455 430 3N   N  6 D3       -  "300" -262.0  262.0
+"O"  3  4 626 622 3N   N  6 D3       -  "300" -262.0  262.0
+"O" 11  4 634 653 3N   N  6 D3       -  "300" -262.0  262.0
+"N"  7  3 556 529 2HX  W  8 CA       -  "470" -379.0  379.0
+[OptimumScore "NS 140"]
+[OptimumContract "3S N 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  4
+W  H  4
+W  D  6
+W  C  3
+W NT  4
+N  S  9
+N  H  8
+N  D  7
+N  C 10
+N NT  8
+E  S  3
+E  H  4
+E  D  5
+E  C  3
+E NT  3
+S  S  9
+S  H  8
+S  D  7
+S  C 10
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:84.A875.K3.AK652 AT73.QT32.98.743 K9652.64.J65.JT8 QJ.KJ9.AQT742.Q9"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M" 10  3 453 432 2S   W  6 H9   "200"      -  207.0 -207.0
+"N"  6  3 557 528 3S   W  7 DA   "200"      -  207.0 -207.0
+"O" 15  4 646 649 1D   E  5 D9   "200"      -  207.0 -207.0
+"M"  1  3 460 423 2D   N  9 S8   "110"      -  124.0 -124.0
+"M" 12  3 451 450 3C   E  8 D9   "100"      -  113.0 -113.0
+"O" 12  4 652 635 3C   E  8 D9   "100"      -  113.0 -113.0
+"O"  5  4 659 628 2S   W  7 H9   "100"      -  113.0 -113.0
+"M"  4  3 426 459 2D   N  8 CA    "90"      -  109.0 -109.0
+"M"  9  3 431 454 2D   N  8 CA    "90"      -  109.0 -109.0
+"M"  6  3 457 428 2D   N  8 CA    "90"      -  109.0 -109.0
+"N"  2  3 522 524 2D   N  8 CA    "90"      -  109.0 -109.0
+"N"  3  3 525 521 2D   N  8 CK    "90"      -  109.0 -109.0
+"N"  5  3 558 527 2D   S  8 CA    "90"      -  109.0 -109.0
+"O"  4  4 627 621 2D   N  8 CA    "90"      -  109.0 -109.0
+"O" 11  4 634 653 2D   N  8 CA    "90"      -  109.0 -109.0
+"O" 16  4 648 647 2D   N  8 CA    "90"      -  109.0 -109.0
+"M"  3  3 425 421 2S   S  7 CJ       -   "50"  -34.0   34.0
+"M"  7  3 456 429 3D   N  8 CA       -   "50"  -34.0   34.0
+"M"  5  3 458 427 2D   N  7 CK       -   "50"  -34.0   34.0
+"N" 11  3 549 552 2D   N  7 S8       -   "50"  -34.0   34.0
+"N" 12  3 551 550 3D   N  8 S8       -   "50"  -34.0   34.0
+"N"  8  3 555 530 2D   N  7 CA       -   "50"  -34.0   34.0
+"N"  7  3 556 529 3D   N  8 CA       -   "50"  -34.0   34.0
+"N"  1  3 560 523 2D   S  7 CK       -   "50"  -34.0   34.0
+"O"  2  4 623 625 3D   N  8 CA       -   "50"  -34.0   34.0
+"O"  9  4 632 655 2D   N  7 C2       -   "50"  -34.0   34.0
+"O" 13  4 651 636 3D   N  8 S8       -   "50"  -34.0   34.0
+"O" 10  4 654 633 2N   N  7 C6       -   "50"  -34.0   34.0
+"O"  7  4 657 630 3D   N  8 CA       -   "50"  -34.0   34.0
+"M"  2  3 422 424 3D   N  7 CA       -  "100"  -94.0   94.0
+"M" 11  3 449 452 3D   N  7 CA       -  "100"  -94.0   94.0
+"N"  4  3 526 559 3D   N  7 HA       -  "100"  -94.0   94.0
+"O" 14  4 650 645 3D   N  7 S8       -  "100"  -94.0   94.0
+"M"  8  3 455 430 2S   W  8 SJ       -  "110"  -96.0   96.0
+"O"  1  4 660 624 2S   W  8 DA       -  "110"  -96.0   96.0
+"O"  6  4 658 629 1N   E  8 S7       -  "120" -106.0  106.0
+"O"  8  4 656 631 2S   W  9 SQ       -  "140" -135.0  135.0
+"N" 10  3 553 532 2S   W 10 SQ       -  "170" -151.0  151.0
+"N"  9  3 531 554 4HX  S  8 CJ       -  "300" -266.0  266.0
+"O"  3  4 626 622 4DX  N  7 S8       -  "500" -397.0  397.0
+[OptimumScore "NS -110"]
+[OptimumContract "3C E 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H  6
+W  D  5
+W  C  9
+W NT  7
+N  S  4
+N  H  7
+N  D  7
+N  C  4
+N NT  5
+E  S  8
+E  H  6
+E  D  5
+E  C  9
+E NT  7
+S  S  5
+S  H  7
+S  D  7
+S  C  4
+S NT  5
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:3.AJ6.AKT83.J643 QT.Q9853.975.Q72 K97654.T42.J6.A9 AJ82.K7.Q42.KT85"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  2  4 523 525 2S   N  9 C8   "140"      -  160.0 -160.0
+"M"  5  4 459 428 2D   S 10 D5   "130"      -  155.0 -155.0
+"O"  4  3 626 659 2N   S  8 SQ   "120"      -  143.0 -143.0
+"M"  2  4 423 425 2S   N  8 C8   "110"      -  120.0 -120.0
+"M" 11  4 450 453 2S   N  8 D2   "110"      -  120.0 -120.0
+"M" 10  4 454 449 2S   N  8 C8   "110"      -  120.0 -120.0
+"M"  6  4 458 429 2S   N  8 HK   "110"      -  120.0 -120.0
+"N"  9  4 532 555 2S   N  8 HK   "110"      -  120.0 -120.0
+"N" 11  4 550 553 2S   N  8 HK   "110"      -  120.0 -120.0
+"O"  2  3 622 624 2S   N  8 HK   "110"      -  120.0 -120.0
+"O"  9  3 631 654 2S   N  8 HK   "110"      -  120.0 -120.0
+"O" 14  3 649 636 2S   N  8 C8   "110"      -  120.0 -120.0
+"O"  5  3 658 627 2S   N  8 C8   "110"      -  120.0 -120.0
+"O" 12  3 651 634 2H   W  7 H2   "100"      -  115.0 -115.0
+"M"  8  4 456 431 2D   S  8 H3    "90"      -  104.0 -104.0
+"M"  1  4 460 424 2D   S  8 D3    "90"      -  104.0 -104.0
+"N"  5  4 559 528 2D   S  8 SQ    "90"      -  104.0 -104.0
+"O" 16  3 647 646 2D   S  8 D5    "90"      -  104.0 -104.0
+"M"  3  4 426 422 2N   S  7 H5       -  "100"  -82.0   82.0
+"M"  4  4 427 421 2S   N  7 C5       -  "100"  -82.0   82.0
+"M" 12  4 452 451 2S   N  7 D2       -  "100"  -82.0   82.0
+"M"  7  4 457 430 2S   N  7 C6       -  "100"  -82.0   82.0
+"N"  3  4 526 522 2S   N  7 HK       -  "100"  -82.0   82.0
+"N"  4  4 527 521 2S   N  7 HK       -  "100"  -82.0   82.0
+"N" 12  4 552 551 2S   N  7 HK       -  "100"  -82.0   82.0
+"N" 10  4 554 549 2S   N  7 C5       -  "100"  -82.0   82.0
+"N"  8  4 556 531 2S   N  7 HK       -  "100"  -82.0   82.0
+"N"  1  4 560 524 2S   N  7 HK       -  "100"  -82.0   82.0
+"O"  3  3 625 621 2S   N  7 HK       -  "100"  -82.0   82.0
+"O" 11  3 633 652 2S   N  7 HK       -  "100"  -82.0   82.0
+"O" 15  3 645 648 2S   N  7 HK       -  "100"  -82.0   82.0
+"O" 13  3 650 635 2S   N  7 C5       -  "100"  -82.0   82.0
+"O" 10  3 653 632 2S   N  7 HK       -  "100"  -82.0   82.0
+"O"  8  3 655 630 2S   N  7 C5       -  "100"  -82.0   82.0
+"O"  7  3 656 629 2S   N  7 D2       -  "100"  -82.0   82.0
+"O"  6  3 657 628 2S   N  7 D2       -  "100"  -82.0   82.0
+"O"  1  3 660 623 2S   N  7 H7       -  "100"  -82.0   82.0
+"M"  9  4 432 455 2S   N  6 HK       -  "200" -183.0  183.0
+"N"  6  4 558 529 2S   N  6 C8       -  "200" -183.0  183.0
+"N"  7  4 557 530 3C   S  6 H8       -  "300" -265.0  265.0
+[OptimumScore "NS 110"]
+[OptimumContract "2S S 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  5
+W  D  4
+W  C  6
+W NT  5
+N  S  8
+N  H  7
+N  D  8
+N  C  7
+N NT  7
+E  S  5
+E  H  5
+E  D  4
+E  C  6
+E NT  6
+S  S  8
+S  H  7
+S  D  8
+S  C  7
+S NT  7
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:73.AJ984.AT86.AT JT5.KQT7.QJ93.86 K842.6.K4.KQJ743 AQ96.532.752.952"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  2  4 523 525 2N   E 10 S6       -  "180"  236.0 -236.0
+"O" 11  3 633 652 1N   E 10 S6       -  "180"  236.0 -236.0
+"O"  1  3 660 623 2N   E 10 S9       -  "180"  236.0 -236.0
+"M"  2  4 423 425 3N   E  9 D5       -  "400"   17.0  -17.0
+"M"  9  4 432 455 3N   E  9 C2       -  "400"   17.0  -17.0
+"M" 12  4 452 451 3N   E  9 D7       -  "400"   17.0  -17.0
+"M"  7  4 457 430 3N   W  9 C8       -  "400"   17.0  -17.0
+"M"  1  4 460 424 3N   E  9 D2       -  "400"   17.0  -17.0
+"N"  3  4 526 522 3N   W  9 HK       -  "400"   17.0  -17.0
+"N"  9  4 532 555 3N   W  9 DQ       -  "400"   17.0  -17.0
+"N" 11  4 550 553 3N   E  9 D2       -  "400"   17.0  -17.0
+"N" 10  4 554 549 3N   E  9 D5       -  "400"   17.0  -17.0
+"N"  7  4 557 530 3N   E  9 D2       -  "400"   17.0  -17.0
+"N"  6  4 558 529 3N   E  9 D7       -  "400"   17.0  -17.0
+"O"  3  3 625 621 3N   W  9 HK       -  "400"   17.0  -17.0
+"O" 16  3 647 646 3N   E  9 D6       -  "400"   17.0  -17.0
+"O" 14  3 649 636 3N   E  9 D3       -  "400"   17.0  -17.0
+"O" 13  3 650 635 3N   E  9 D7       -  "400"   17.0  -17.0
+"O" 12  3 651 634 3N   E  9 D2       -  "400"   17.0  -17.0
+"O"  8  3 655 630 3N   E  9 D5       -  "400"   17.0  -17.0
+"O"  5  3 658 627 3N   E  9 D2       -  "400"   17.0  -17.0
+"M"  3  4 426 422 3N   W 10 D3       -  "430"  -19.0   19.0
+"M" 11  4 450 453 3N   E 10 SA       -  "430"  -19.0   19.0
+"M" 10  4 454 449 3N   E 10 D5       -  "430"  -19.0   19.0
+"M"  8  4 456 431 3N   E 10 S9       -  "430"  -19.0   19.0
+"M"  6  4 458 429 3N   E 10 D2       -  "430"  -19.0   19.0
+"M"  5  4 459 428 3N   E 10 C3       -  "430"  -19.0   19.0
+"N"  4  4 527 521 3N   E 10 S6       -  "430"  -19.0   19.0
+"N"  8  4 556 531 3N   E 10 S6       -  "430"  -19.0   19.0
+"N"  1  4 560 524 3N   E 10 S6       -  "430"  -19.0   19.0
+"O"  2  3 622 624 3N   E 10 S6       -  "430"  -19.0   19.0
+"O"  4  3 626 659 3N   E 10 S6       -  "430"  -19.0   19.0
+"O"  9  3 631 654 3N   E 10 S6       -  "430"  -19.0   19.0
+"O" 10  3 653 632 3N   E 10 C2       -  "430"  -19.0   19.0
+"O"  7  3 656 629 3N   E 10 S9       -  "430"  -19.0   19.0
+"O"  6  3 657 628 3N   E 10 D7       -  "430"  -19.0   19.0
+"O" 15  3 645 648 3SX  N  6 H6       -  "500"  -97.0   97.0
+"N" 12  4 552 551 3NX  E  9 H2       -  "550" -140.0  140.0
+"N"  5  4 559 528 3NX  E  9 H5       -  "550" -140.0  140.0
+"M"  4  4 427 421 3NXX E  9 H2       -  "800" -352.0  352.0
+[OptimumScore "NS -400"]
+[OptimumContract "3N W 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H  8
+W  D  7
+W  C 10
+W NT  9
+N  S  5
+N  H  5
+N  D  6
+N  C  3
+N NT  4
+E  S  8
+E  H  7
+E  D  7
+E  C 10
+E NT  9
+S  S  5
+S  H  5
+S  D  6
+S  C  3
+S NT  4
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KJ.K63.AK9854.J6 A853.J52.Q2.K984 Q974.QT74.J6.532 T62.A98.T73.AQT7"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  4  5 428 422 4C   W  7 DA   "300"      -  251.0 -251.0
+"M"  1  5 460 425 3C   W  7 DA   "200"      -  168.0 -168.0
+"O"  2  6 625 627 2H   S  9 DT   "140"      -  120.0 -120.0
+"O"  4  6 629 623 3H   S  9 C6   "140"      -  120.0 -120.0
+"M"  3  5 427 423 2D   N 10 S3   "130"      -  107.0 -107.0
+"M"  8  5 457 432 2D   N  9 H2   "110"      -   80.0  -80.0
+"M"  6  5 459 430 2H   S  8 H2   "110"      -   80.0  -80.0
+"O"  9  6 634 657 2D   N  9 H2   "110"      -   80.0  -80.0
+"O" 12  6 654 645 2S   W  7 DA   "100"      -   68.0  -68.0
+"M"  5  5 421 429 1N   N  7 C4    "90"      -   63.0  -63.0
+"M"  2  5 424 426 1N   N  7 S2    "90"      -   63.0  -63.0
+"M" 12  5 453 452 1N   N  7 HJ    "90"      -   63.0  -63.0
+"M"  7  5 458 431 2D   N  8 H4    "90"      -   63.0  -63.0
+"N"  3  5 527 523 1D   N  8 C8    "90"      -   63.0  -63.0
+"N"  4  5 528 522 2D   N  8 HJ    "90"      -   63.0  -63.0
+"N"  9  5 549 556 2D   S  8 DA    "90"      -   63.0  -63.0
+"N" 10  5 555 550 1D   N  8 H2    "90"      -   63.0  -63.0
+"N"  6  5 559 530 2D   N  8 D2    "90"      -   63.0  -63.0
+"O"  3  6 628 624 2D   N  8 C6    "90"      -   63.0  -63.0
+"O" 16  6 650 649 2D   N  8 C8    "90"      -   63.0  -63.0
+"O" 14  6 652 647 1N   N  7 C8    "90"      -   63.0  -63.0
+"M"  9  5 449 456 3D   N  8 C8       -   "50"  -87.0   87.0
+"M" 11  5 451 454 1N   N  6 C4       -   "50"  -87.0   87.0
+"M" 10  5 455 450 1N   N  6 C4       -   "50"  -87.0   87.0
+"N"  5  5 521 529 1N   N  6 S3       -   "50"  -87.0   87.0
+"N"  2  5 524 526 1N   N  6 C4       -   "50"  -87.0   87.0
+"N" 11  5 551 554 3D   N  8 C4       -   "50"  -87.0   87.0
+"N" 12  5 553 552 3D   N  8 H2       -   "50"  -87.0   87.0
+"N"  7  5 558 531 1N   N  6 C8       -   "50"  -87.0   87.0
+"N"  1  5 560 525 3D   N  8 C8       -   "50"  -87.0   87.0
+"O"  5  6 622 630 1N   N  6 S5       -   "50"  -87.0   87.0
+"O" 11  6 636 655 1N   N  6 S3       -   "50"  -87.0   87.0
+"O" 15  6 648 651 1N   N  6 S5       -   "50"  -87.0   87.0
+"O" 13  6 653 646 3D   N  8 C8       -   "50"  -87.0   87.0
+"O"  8  6 658 633 3D   N  8 SA       -   "50"  -87.0   87.0
+"O"  7  6 659 632 1N   N  6 C8       -   "50"  -87.0   87.0
+"O"  1  6 660 626 1N   N  6 C5       -   "50"  -87.0   87.0
+"N"  8  5 557 532 3D   N  7 C7       -  "100" -146.0  146.0
+"O"  6  6 621 631 3D   N  7 C8       -  "100" -146.0  146.0
+"O" 10  6 656 635 1N   N  5 H2       -  "100" -146.0  146.0
+[OptimumScore "NS 110"]
+[OptimumContract "2H N 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H  5
+W  D  5
+W  C  7
+W NT  7
+N  S  7
+N  H  8
+N  D  8
+N  C  6
+N NT  6
+E  S  6
+E  H  5
+E  D  5
+E  C  7
+E NT  7
+S  S  7
+S  H  8
+S  D  8
+S  C  6
+S NT  6
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:KJT.Q3.52.QJT753 A986.AJT6.KQ.A94 Q74.874.AJ983.K6 532.K952.T764.82"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O" 10  6 656 635 5CX  E  8 DQ   "800"      -  494.0 -494.0
+"M"  1  5 460 425 4C   E  8 C3   "200"      -  153.0 -153.0
+"O" 16  6 650 649 2D   W  6 H2   "200"      -  153.0 -153.0
+"M"  2  5 424 426 2H   N  9 D3   "140"      -   95.0  -95.0
+"M"  4  5 428 422 2H   N  9 D2   "140"      -   95.0  -95.0
+"M" 12  5 453 452 2H   S  9 CK   "140"      -   95.0  -95.0
+"M"  8  5 457 432 2H   N  9 CQ   "140"      -   95.0  -95.0
+"N"  5  5 521 529 2H   N  9 D5   "140"      -   95.0  -95.0
+"N"  7  5 558 531 3H   S  9 CK   "140"      -   95.0  -95.0
+"N"  6  5 559 530 3H   S  9 H4   "140"      -   95.0  -95.0
+"O"  6  6 621 631 1H   N  9 D5   "140"      -   95.0  -95.0
+"O"  5  6 622 630 1H   S  9 CK   "140"      -   95.0  -95.0
+"O"  9  6 634 657 2H   S  9 CK   "140"      -   95.0  -95.0
+"O" 14  6 652 647 2H   S  9 CK   "140"      -   95.0  -95.0
+"M" 11  5 451 454 1N   S  8 D8   "120"      -   68.0  -68.0
+"N"  3  5 527 523 1N   S  8 H8   "120"      -   68.0  -68.0
+"N"  9  5 549 556 2N   S  8 D3   "120"      -   68.0  -68.0
+"O" 15  6 648 651 2N   S  8 D3   "120"      -   68.0  -68.0
+"M"  3  5 427 423 1S   S  8 H7   "110"      -   57.0  -57.0
+"M" 10  5 455 450 1H   N  8 D5   "110"      -   57.0  -57.0
+"M"  6  5 459 430 2H   S  8 CK   "110"      -   57.0  -57.0
+"O" 11  6 636 655 2H   S  8 CK   "110"      -   57.0  -57.0
+"O"  7  6 659 632 2H   S  8 CK   "110"      -   57.0  -57.0
+"O"  4  6 629 623 3C   E  8 HA   "100"      -   52.0  -52.0
+"O" 12  6 654 645 3C   E  8 DA   "100"      -   52.0  -52.0
+"N"  1  5 560 525 1N   S  7 D3    "90"      -   35.0  -35.0
+"M"  7  5 458 431 2C   E  8 DK       -   "90" -133.0  133.0
+"N" 12  5 553 552 2C   E  8 DK       -   "90" -133.0  133.0
+"O"  3  6 628 624 2C   E  8 C4       -   "90" -133.0  133.0
+"O" 13  6 653 646 2C   E  8 HT       -   "90" -133.0  133.0
+"O"  8  6 658 633 2C   E  8 DK       -   "90" -133.0  133.0
+"M"  5  5 421 429 4H   S  9 H4       -  "100" -138.0  138.0
+"N"  2  5 524 526 4H   S  9 CK       -  "100" -138.0  138.0
+"N" 10  5 555 550 3H   S  8 CK       -  "100" -138.0  138.0
+"O"  2  6 625 627 3H   N  8 D8       -  "100" -138.0  138.0
+"O"  1  6 660 626 3H   S  8 CK       -  "100" -138.0  138.0
+"M"  9  5 449 456 2DX  N  7 CQ       -  "200" -228.0  228.0
+"N"  4  5 528 522 2N   S  6 D3       -  "200" -228.0  228.0
+"N" 11  5 551 554 4H   N  7 CQ       -  "300" -306.0  306.0
+"N"  8  5 557 532 4HX  N  8 CQ       -  "500" -424.0  424.0
+[OptimumScore "NS 140"]
+[OptimumContract "3H S 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  4
+W  D  6
+W  C  8
+W NT  6
+N  S  8
+N  H  9
+N  D  7
+N  C  5
+N NT  7
+E  S  5
+E  H  4
+E  D  6
+E  C  8
+E NT  6
+S  S  8
+S  H  9
+S  D  7
+S  C  5
+S NT  7
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AK65.K5.AK52.AT6 4.AT74.J9763.Q82 JT87..Q8.KJ97543 Q932.QJ98632.T4."]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  9  6 550 557 7C   S 13 S4  "1440"      -  494.0 -494.0
+"M" 11  6 452 455 6N   S 13 S4  "1020"      -  256.0 -256.0
+"M"  3  6 428 424 6N   S 12 D3   "990"      -  241.0 -241.0
+"M"  1  6 460 426 6N   S 12 HA   "990"      -  241.0 -241.0
+"M"  8  6 458 449 6S   S 12 HA   "980"      -  231.0 -231.0
+"N" 10  6 556 551 6S   S 12 HA   "980"      -  231.0 -231.0
+"O" 12  5 653 636 6S   N 12 HQ   "980"      -  231.0 -231.0
+"O"  6  5 659 630 6S   S 12 D3   "980"      -  231.0 -231.0
+"M"  2  6 425 427 6C   S 13 HA   "940"      -  197.0 -197.0
+"M"  4  6 429 423 6C   N 13 HA   "940"      -  197.0 -197.0
+"M"  9  6 450 457 6C   S 13 HA   "940"      -  197.0 -197.0
+"M" 10  6 451 456 6C   S 13 S4   "940"      -  197.0 -197.0
+"N"  8  6 558 549 6C   S 13 HA   "940"      -  197.0 -197.0
+"N"  7  6 559 532 6C   N 13 HQ   "940"      -  197.0 -197.0
+"O" 15  5 647 650 6C   S 13 HA   "940"      -  197.0 -197.0
+"O" 14  5 651 646 6C   N 13 H5   "940"      -  197.0 -197.0
+"O" 13  5 652 645 6C   S 13 HA   "940"      -  197.0 -197.0
+"O"  1  5 660 625 6C   S 13 HA   "940"      -  197.0 -197.0
+"M"  6  6 421 431 6C   S 12 HA   "920"      -  176.0 -176.0
+"O"  9  5 633 656 6C   S 12 HA   "920"      -  176.0 -176.0
+"O" 11  5 635 654 6C   N 12 HQ   "920"      -  176.0 -176.0
+"N"  2  6 525 527 3N   S 13 H4   "520"      - -121.0  121.0
+"O"  3  5 627 623 3N   N 13 H4   "520"      - -121.0  121.0
+"M" 12  6 454 453 4S   N 12 HQ   "480"      - -156.0  156.0
+"M"  7  6 459 432 4S   S 12 HA   "480"      - -156.0  156.0
+"N"  3  6 528 524 5S   N 12 HQ   "480"      - -156.0  156.0
+"O" 16  5 649 648 4S   N 12 HQ   "480"      - -156.0  156.0
+"O"  8  5 657 632 5S   N 12 H2   "480"      - -156.0  156.0
+"O"  7  5 658 631 4S   S 12 D3   "480"      - -156.0  156.0
+"N"  1  6 560 526 4S   S 11 S4   "450"      - -171.0  171.0
+"O"  4  5 628 622 4S   S 11 D6   "450"      - -171.0  171.0
+"M"  5  6 422 430 5C   S 13 HA   "440"      - -183.0  183.0
+"N" 11  6 552 555 5C   S 13 S4   "440"      - -183.0  183.0
+"O"  2  5 624 626 5C   S 13 HA   "440"      - -183.0  183.0
+"N"  6  6 521 531 6HX  E 10 DA   "300"      - -272.0  272.0
+"N"  5  6 522 530 4HX  E  9 SA   "100"      - -367.0  367.0
+"N" 12  6 554 553 6C   N 11 HQ       -   "50" -432.0  432.0
+"O" 10  5 655 634 6S   S 10 HA       -  "100" -447.0  447.0
+"N"  4  6 529 523 6S   N  9 DT       -  "150" -468.0  468.0
+"O"  5  5 621 629 4HX  E 10 SA       -  "590" -599.0  599.0
+[OptimumScore "NS 1510"]
+[OptimumContract "7S N 13"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  0
+W  H  9
+W  D  3
+W  C  0
+W NT  0
+N  S 13
+N  H  3
+N  D  9
+N  C 13
+N NT  6
+E  S  0
+E  H  9
+E  D  3
+E  C  0
+E NT  0
+S  S 12
+S  H  3
+S  D  8
+S  C 13
+S NT 12
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:Q65.Q9.T64.AQT93 AT.T72.J7532.752 K742.AJ6.AK9.KJ6 J983.K8543.Q8.84"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  1  6 460 426 6N   E 10 C8   "100"      -  423.0 -423.0
+"O" 13  5 652 645 6C   W 11 SA    "50"      -  391.0 -391.0
+"M"  5  6 422 430 3N   W 10 D3       -  "430"   -2.0    2.0
+"M"  2  6 425 427 3N   E 10 H3       -  "430"   -2.0    2.0
+"M"  3  6 428 424 3N   W 10 D2       -  "430"   -2.0    2.0
+"M" 11  6 452 455 3N   W 10 HT       -  "430"   -2.0    2.0
+"M"  8  6 458 449 3N   E 10 H4       -  "430"   -2.0    2.0
+"M"  7  6 459 432 3N   E 10 D2       -  "430"   -2.0    2.0
+"N"  2  6 525 527 3N   W 10 D2       -  "430"   -2.0    2.0
+"N"  4  6 529 523 3N   W 10 H2       -  "430"   -2.0    2.0
+"N" 11  6 552 555 3N   W 10 D2       -  "430"   -2.0    2.0
+"N" 12  6 554 553 3N   E 10 H4       -  "430"   -2.0    2.0
+"N" 10  6 556 551 3N   E 10 H4       -  "430"   -2.0    2.0
+"N"  8  6 558 549 3N   W 10 HT       -  "430"   -2.0    2.0
+"N"  7  6 559 532 3N   W 10 D3       -  "430"   -2.0    2.0
+"N"  1  6 560 526 3N   E 10 H4       -  "430"   -2.0    2.0
+"O"  5  5 621 629 3N   E 10 H3       -  "430"   -2.0    2.0
+"O"  2  5 624 626 3N   E 10 S8       -  "430"   -2.0    2.0
+"O"  4  5 628 622 3N   E 10 H3       -  "430"   -2.0    2.0
+"O"  9  5 633 656 3N   E 10 H4       -  "430"   -2.0    2.0
+"O" 11  5 635 654 3N   W 10 D5       -  "430"   -2.0    2.0
+"O" 15  5 647 650 3N   W 10 H2       -  "430"   -2.0    2.0
+"O" 16  5 649 648 3N   W 10 D2       -  "430"   -2.0    2.0
+"O" 12  5 653 636 3N   E 10 H3       -  "430"   -2.0    2.0
+"O" 10  5 655 634 3N   E 10 H4       -  "430"   -2.0    2.0
+"O"  8  5 657 632 3N   W 10 D2       -  "430"   -2.0    2.0
+"O"  7  5 658 631 3N   W 10 D2       -  "430"   -2.0    2.0
+"O"  6  5 659 630 3N   E 10 S8       -  "430"   -2.0    2.0
+"O"  1  5 660 625 3N   W 10 D2       -  "430"   -2.0    2.0
+"M"  6  6 421 431 3N   E 11 H3       -  "460"  -41.0   41.0
+"M"  4  6 429 423 3N   E 11 DQ       -  "460"  -41.0   41.0
+"M"  9  6 450 457 3N   E 11 S3       -  "460"  -41.0   41.0
+"M" 10  6 451 456 3N   E 11 H3       -  "460"  -41.0   41.0
+"M" 12  6 454 453 3N   W 11 SA       -  "460"  -41.0   41.0
+"N"  6  6 521 531 3N   E 11 H3       -  "460"  -41.0   41.0
+"N"  5  6 522 530 3N   W 11 SA       -  "460"  -41.0   41.0
+"N"  3  6 528 524 3N   E 11 S3       -  "460"  -41.0   41.0
+"N"  9  6 550 557 3N   E 11 H4       -  "460"  -41.0   41.0
+"O"  3  5 627 623 3N   W 11 H2       -  "460"  -41.0   41.0
+"O" 14  5 651 646 2HX  S  5 HQ       -  "800" -350.0  350.0
+[OptimumScore "NS -460"]
+[OptimumContract "5N W 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  7
+W  D  9
+W  C 11
+W NT 11
+N  S  3
+N  H  5
+N  D  4
+N  C  2
+N NT  2
+E  S 10
+E  H  8
+E  D  9
+E  C 11
+E NT 11
+S  S  3
+S  H  5
+S  D  4
+S  C  2
+S NT  2
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q762.J96.AKQ.Q87 KJT5.AT7.T.JT654 3.Q8532.9642.K32 A984.K4.J8753.A9"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  3  7 529 525 2N   W  5 H6   "300"      -  330.0 -330.0
+"N"  6  7 522 532 3N   E  7 H2   "200"      -  260.0 -260.0
+"M"  7  7 421 449 2H   S  8 CA   "110"      -  173.0 -173.0
+"M"  3  7 429 425 2H   N  8 DT   "110"      -  173.0 -173.0
+"M" 12  7 455 454 2H   N  8 DT   "110"      -  173.0 -173.0
+"M"  1  7 460 427 2H   S  8 D8   "110"      -  173.0 -173.0
+"N" 11  7 553 556 2H   N  8 DT   "110"      -  173.0 -173.0
+"N"  1  7 560 527 2H   S  8 S4   "110"      -  173.0 -173.0
+"O"  5  8 624 632 2H   S  8 D3   "110"      -  173.0 -173.0
+"O" 14  8 654 649 2H   S  8 D2   "110"      -  173.0 -173.0
+"O" 10  8 658 645 2H   S  8 CA   "110"      -  173.0 -173.0
+"O" 16  8 652 651 4S   E  9 H2   "100"      -  171.0 -171.0
+"M" 11  7 453 456 1N   S  7 D3    "90"      -  154.0 -154.0
+"O"  8  8 621 635 2H   N  7 DT       -  "100"  -11.0   11.0
+"O"  6  8 623 633 2H   N  7 DT       -  "100"  -11.0   11.0
+"O"  2  8 627 629 2H   N  7 DT       -  "100"  -11.0   11.0
+"O"  3  8 630 626 2H   S  7 CA       -  "100"  -11.0   11.0
+"O"  4  8 631 625 2H   S  7 S8       -  "100"  -11.0   11.0
+"O" 11  8 646 657 3H   N  8 CJ       -  "100"  -11.0   11.0
+"O"  1  8 660 628 2H   S  7 CA       -  "100"  -11.0   11.0
+"N"  7  7 521 549 2S   E  8 H2       -  "110"  -27.0   27.0
+"M"  5  7 423 431 2N   E  8 H3       -  "120"  -38.0   38.0
+"O"  7  8 622 634 1N   W  8 H6       -  "120"  -38.0   38.0
+"N"  8  7 559 550 2S   E  9 H4       -  "140"  -58.0   58.0
+"O" 15  8 650 653 1S   E  9 H3       -  "140"  -58.0   58.0
+"M"  2  7 426 428 1N   E  9 C2       -  "150"  -65.0   65.0
+"M"  8  7 459 450 1N   W  9 S6       -  "150"  -65.0   65.0
+"N"  2  7 526 528 2N   E  9 S3       -  "150"  -65.0   65.0
+"N" 12  7 555 554 2N   W  9 DQ       -  "150"  -65.0   65.0
+"O" 13  8 655 648 2N   W  9 DA       -  "150"  -65.0   65.0
+"M"  6  7 422 432 3S   W 10 DK       -  "170"  -93.0   93.0
+"M"  4  7 430 424 3S   E 10 C2       -  "170"  -93.0   93.0
+"N"  4  7 530 524 2S   E 10 C2       -  "170"  -93.0   93.0
+"N"  9  7 551 558 2S   W 10 DA       -  "170"  -93.0   93.0
+"O" 12  8 656 647 2S   W 10 DA       -  "170"  -93.0   93.0
+"M" 10  7 457 452 2H   S  6 D7       -  "200" -119.0  119.0
+"N" 10  7 557 552 1D   N  5 DT       -  "200" -119.0  119.0
+"O"  9  8 636 659 1N   S  3 D3       -  "400" -282.0  282.0
+"M"  9  7 451 458 4S   W 10 H3       -  "620" -410.0  410.0
+"N"  5  7 523 531 3SX  E  9 H2       -  "730" -456.0  456.0
+[OptimumScore "NS -620"]
+[OptimumContract "4S E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  5
+W  D  7
+W  C  9
+W NT  8
+N  S  3
+N  H  7
+N  D  5
+N  C  3
+N NT  5
+E  S 10
+E  H  5
+E  D  7
+E  C  9
+E NT  8
+S  S  3
+S  H  7
+S  D  5
+S  C  3
+S NT  5
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:K5.KQT4.KJ95.QT8 JT63.863.QT73.J6 74.A95.842.K9432 AQ982.J72.A6.A75"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  8  7 459 450 2S   N  8 HK   "110"      -  192.0 -192.0
+"O"  5  8 624 632 1N   W  5 S2   "100"      -  192.0 -192.0
+"O"  8  8 621 635 1N   W  6 S2    "50"      -  149.0 -149.0
+"M"  7  7 421 449 3S   S  8 C2       -   "50"   46.0  -46.0
+"M"  6  7 422 432 3S   N  8 HK       -   "50"   46.0  -46.0
+"M"  9  7 451 458 3S   N  8 HK       -   "50"   46.0  -46.0
+"M" 12  7 455 454 2S   N  7 HK       -   "50"   46.0  -46.0
+"M" 10  7 457 452 2S   N  7 HQ       -   "50"   46.0  -46.0
+"N"  7  7 521 549 2S   N  7 HK       -   "50"   46.0  -46.0
+"N"  3  7 529 525 3S   N  8 C8       -   "50"   46.0  -46.0
+"N"  4  7 530 524 3S   N  8 HK       -   "50"   46.0  -46.0
+"N"  9  7 551 558 2S   N  7 HK       -   "50"   46.0  -46.0
+"N" 12  7 555 554 3S   N  8 HK       -   "50"   46.0  -46.0
+"N" 10  7 557 552 2S   N  7 HK       -   "50"   46.0  -46.0
+"N"  1  7 560 527 2S   N  7 C8       -   "50"   46.0  -46.0
+"O"  7  8 622 634 3S   N  8 HK       -   "50"   46.0  -46.0
+"O" 15  8 650 653 2S   N  7 HK       -   "50"   46.0  -46.0
+"O" 16  8 652 651 2S   N  7 HK       -   "50"   46.0  -46.0
+"M"  2  7 426 428 1N   E  7 S3       -   "90"    0.0    0.0
+"M"  4  7 430 424 1N   W  7 S2       -   "90"    0.0    0.0
+"O"  9  8 636 659 1N   E  7 D7       -   "90"    0.0    0.0
+"M"  5  7 423 431 2H   N  6 SK       -  "100"  -18.0   18.0
+"N"  8  7 559 550 3S   N  7 C8       -  "100"  -18.0   18.0
+"O"  6  8 623 633 3S   N  7 C8       -  "100"  -18.0   18.0
+"O"  4  8 631 625 3S   N  7 HK       -  "100"  -18.0   18.0
+"O" 11  8 646 657 3S   N  7 C6       -  "100"  -18.0   18.0
+"O" 12  8 656 647 3S   N  7 HK       -  "100"  -18.0   18.0
+"M" 11  7 453 456 2C   W 10 DA       -  "130"  -39.0   39.0
+"O"  3  8 630 626 4C   W 10 SA       -  "130"  -39.0   39.0
+"O"  1  8 660 628 3C   W 10 DA       -  "130"  -39.0   39.0
+"M"  3  7 429 425 4S   N  7 HK       -  "150"  -75.0   75.0
+"N"  5  7 523 531 4S   N  7 HK       -  "150"  -75.0   75.0
+"O"  2  8 627 629 1N   E  9 S6       -  "150"  -75.0   75.0
+"O" 14  8 654 649 4S   N  7 H2       -  "150"  -75.0   75.0
+"O" 13  8 655 648 1N   E  9 D2       -  "150"  -75.0   75.0
+"O" 10  8 658 645 3H   E 10 CJ       -  "170"  -87.0   87.0
+"M"  1  7 460 427 1NX  E  7 SJ       -  "180" -109.0  109.0
+"N"  6  7 522 532 1NX  E  7 SJ       -  "180" -109.0  109.0
+"N"  2  7 526 528 1NX  E  7 S3       -  "180" -109.0  109.0
+"N" 11  7 553 556 4SX  N  8 HK       -  "300" -209.0  209.0
+[OptimumScore "NS -130"]
+[OptimumContract "4C E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H  8
+W  D  8
+W  C 10
+W NT  7
+N  S  7
+N  H  4
+N  D  5
+N  C  3
+N NT  4
+E  S  6
+E  H  8
+E  D  8
+E  C 10
+E NT  7
+S  S  7
+S  H  4
+S  D  5
+S  C  3
+S NT  4
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:T98532.A98.AT6.A A.KQ53.K54.QJT32 KQ764.T.Q8732.76 J.J7642.J9.K9854"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  6  8 423 449 5SX  S 12 HK  "1050"      -  378.0 -378.0
+"O" 12  7 655 646 4SX  S 11 HK   "990"      -  337.0 -337.0
+"M"  2  8 427 429 5SX  S 11 HK   "850"      -  251.0 -251.0
+"M"  1  8 460 428 5SX  S 11 HK   "850"      -  251.0 -251.0
+"N"  6  8 523 549 5SX  S 11 HK   "850"      -  251.0 -251.0
+"N"  5  8 524 532 5SX  S 11 H5   "850"      -  251.0 -251.0
+"O"  4  7 630 624 5SX  S 11 HK   "850"      -  251.0 -251.0
+"O" 10  7 657 636 5SX  N 11 SA   "850"      -  251.0 -251.0
+"O" 16  7 651 650 6CX  W  8 HT   "800"      -  212.0 -212.0
+"M"  7  8 422 450 4S   S 11 CQ   "650"      -   96.0  -96.0
+"M"  5  8 424 432 4S   S 11 CQ   "650"      -   96.0  -96.0
+"M"  3  8 430 426 4S   S 11 CQ   "650"      -   96.0  -96.0
+"M"  4  8 431 425 4S   S 11 CQ   "650"      -   96.0  -96.0
+"M"  9  8 452 459 5S   S 11 HK   "650"      -   96.0  -96.0
+"M" 12  8 456 455 4S   S 11 CQ   "650"      -   96.0  -96.0
+"N"  7  8 522 550 5S   S 11 CQ   "650"      -   96.0  -96.0
+"N"  4  8 531 525 4S   S 11 CQ   "650"      -   96.0  -96.0
+"N" 11  8 554 557 5S   S 11 CQ   "650"      -   96.0  -96.0
+"O"  5  7 623 631 4S   S 11 CQ   "650"      -   96.0  -96.0
+"O"  2  7 626 628 5S   S 11 HK   "650"      -   96.0  -96.0
+"O" 11  7 645 656 4S   S 11 CQ   "650"      -   96.0  -96.0
+"O" 14  7 653 648 5S   S 11 CQ   "650"      -   96.0  -96.0
+"O"  8  7 659 634 5S   S 11 HK   "650"      -   96.0  -96.0
+"N"  8  8 521 551 6CX  W  9 HT   "500"      -  -26.0   26.0
+"N"  1  8 560 528 6HX  E  9 CA   "500"      -  -26.0   26.0
+"M" 11  8 454 457 5HX  E  9 CA   "300"      - -177.0  177.0
+"M" 10  8 458 453 5CX  W  9 HT   "300"      - -177.0  177.0
+"N"  2  8 527 529 5CX  W  9 HT   "300"      - -177.0  177.0
+"N"  3  8 530 526 5CX  W  9 HT   "300"      - -177.0  177.0
+"O"  6  7 622 632 5CX  W  9 HT   "300"      - -177.0  177.0
+"O" 13  7 654 647 5CX  W  9 HT   "300"      - -177.0  177.0
+"M"  8  8 421 451 5HX  E 10 CA   "100"      - -310.0  310.0
+"N"  9  8 552 559 5HX  E 10 CA   "100"      - -310.0  310.0
+"N" 10  8 558 553 5C   W  9 HT   "100"      - -310.0  310.0
+"O"  7  7 621 633 5HX  E 10 CA   "100"      - -310.0  310.0
+"O"  3  7 629 625 5HX  E 10 CA   "100"      - -310.0  310.0
+"O" 15  7 649 652 5HX  E 10 CA   "100"      - -310.0  310.0
+"O"  1  7 660 627 5HX  E 10 CA   "100"      - -310.0  310.0
+"N" 12  8 556 555 3N   N  6 C4       -  "300" -493.0  493.0
+"O"  9  7 635 658 -    -  - -     "A+"   "A+"   58.5   58.5
+[OptimumScore "NS 500"]
+[OptimumContract "6HX W 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  2
+W  H  9
+W  D  2
+W  C  8
+W NT  5
+N  S 11
+N  H  3
+N  D 11
+N  C  4
+N NT  8
+E  S  2
+E  H  9
+E  D  2
+E  C  8
+E NT  5
+S  S 11
+S  H  3
+S  D 11
+S  C  4
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:KT.KJ942.86.K854 8532..JT32.AQJT9 AQJ74.AT6.AQ5.62 96.Q8753.K974.73"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  9  7 635 658 4HX  W  7 S3   "800"      -  504.0 -504.0
+"O"  1  7 660 627 4HX  W  8 S2   "500"      -  360.0 -360.0
+"O"  2  7 626 628 6H   W  8 S8   "400"      -  292.0 -292.0
+"O" 16  7 651 650 4H   W  6 D3   "400"      -  292.0 -292.0
+"O" 13  7 654 647 4H   W  6 DJ   "400"      -  292.0 -292.0
+"M" 11  8 454 457 4H   W  7 DJ   "300"      -  231.0 -231.0
+"N"  7  8 522 550 4H   W  7 DJ   "300"      -  231.0 -231.0
+"M"  5  8 424 432 4H   E  8 C7   "200"      -  150.0 -150.0
+"M"  2  8 427 429 4H   W  8 DT   "200"      -  150.0 -150.0
+"M"  4  8 431 425 4H   W  8 DJ   "200"      -  150.0 -150.0
+"M"  9  8 452 459 4H   E  8 S9   "200"      -  150.0 -150.0
+"N"  5  8 524 532 4H   W  8 DJ   "200"      -  150.0 -150.0
+"N"  3  8 530 526 4H   W  8 DJ   "200"      -  150.0 -150.0
+"N"  9  8 552 559 4H   W  8 D3   "200"      -  150.0 -150.0
+"O"  7  7 621 633 4H   E  8 C7   "200"      -  150.0 -150.0
+"O"  4  7 630 624 4H   E  8 S9   "200"      -  150.0 -150.0
+"O" 15  7 649 652 4HX  W  9 DJ   "200"      -  150.0 -150.0
+"O" 14  7 653 648 4H   W  8 DJ   "200"      -  150.0 -150.0
+"O" 10  7 657 636 4H   W  8 DQ   "200"      -  150.0 -150.0
+"O"  8  7 659 634 4H   W  8 DJ   "200"      -  150.0 -150.0
+"M"  3  8 430 426 4H   W  9 DJ   "100"      -   72.0  -72.0
+"M" 10  8 458 453 4H   E  9 H3   "100"      -   72.0  -72.0
+"N"  6  8 523 549 4H   W  9 DJ   "100"      -   72.0  -72.0
+"N" 12  8 556 555 4S   E  9 C8   "100"      -   72.0  -72.0
+"O"  6  7 622 632 4H   W  9 DJ   "100"      -   72.0  -72.0
+"O" 12  7 655 646 4H   W  9 D2   "100"      -   72.0  -72.0
+"M"  8  8 421 451 2CX  N  7 SA       -  "100"  -64.0   64.0
+"N"  4  8 531 525 1N   W 12 CQ       -  "240" -163.0  163.0
+"N" 10  8 558 553 5DX  S  8 C5       -  "500" -302.0  302.0
+"M" 12  8 456 455 3N   W  9 CJ       -  "600" -349.0  349.0
+"N" 11  8 554 557 3N   E  9 D4       -  "600" -349.0  349.0
+"M"  7  8 422 450 4H   W 10 DT       -  "620" -361.0  361.0
+"M"  6  8 423 449 4S   E 10 C7       -  "620" -361.0  361.0
+"O"  3  7 629 625 4H   W 10 CQ       -  "620" -361.0  361.0
+"M"  1  8 460 428 4H   W 11 CA       -  "650" -379.0  379.0
+"N"  8  8 521 551 4H   W 11 CA       -  "650" -379.0  379.0
+"N"  1  8 560 528 5H   W 11 DT       -  "650" -379.0  379.0
+"O"  5  7 623 631 4H   W 11 S8       -  "650" -379.0  379.0
+"N"  2  8 527 529 3N   W 11 CQ       -  "660" -379.0  379.0
+"O" 11  7 645 656 3N   W 11 CQ       -  "660" -379.0  379.0
+[OptimumScore "NS -660"]
+[OptimumContract "5N E 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  9
+W  D  6
+W  C  6
+W NT 10
+N  S  2
+N  H  3
+N  D  7
+N  C  6
+N NT  2
+E  S  9
+E  H  9
+E  D  5
+E  C  6
+E NT 11
+S  S  2
+S  H  3
+S  D  7
+S  C  6
+S NT  2
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:5.AQ62.964.AKJT7 AQ84.J9753.K.Q82 J962.KT8.QT75.93 KT73.4.AJ832.654"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  9  9 553 521 2HX  N  8 DK   "470"      -  384.0 -384.0
+"M"  3  9 431 427 2DX  W  6 S5   "300"      -  262.0 -262.0
+"N"  3  9 531 527 2H   E  5 C9   "150"      -  135.0 -135.0
+"O"  7 10 624 636 3C   E  6 C9   "150"      -  135.0 -135.0
+"M"  5  9 425 449 3H   N  9 SA   "140"      -  127.0 -127.0
+"M"  9  9 453 421 1N   N  8 H3   "120"      -  110.0 -110.0
+"N"  4  9 532 526 1N   N  8 H3   "120"      -  110.0 -110.0
+"O"  3 10 632 628 1N   N  8 D2   "120"      -  110.0 -110.0
+"O" 16 10 654 653 2N   N  8 H3   "120"      -  110.0 -110.0
+"M"  7  9 423 451 2D   W  6 CA   "100"      -   80.0  -80.0
+"M"  4  9 432 426 4S   W  8 CA   "100"      -   80.0  -80.0
+"N"  6  9 524 550 2D   W  6 D2   "100"      -   80.0  -80.0
+"N"  5  9 525 549 2H   E  6 C9   "100"      -   80.0  -80.0
+"N" 12  9 557 556 2H   E  6 C9   "100"      -   80.0  -80.0
+"O"  8 10 623 645 3N   E  7 C9   "100"      -   80.0  -80.0
+"O"  9 10 646 622 2D   W  6 D2   "100"      -   80.0  -80.0
+"O" 14 10 656 651 3S   W  7 CA   "100"      -   80.0  -80.0
+"N"  7  9 523 551 2C   N  8 H2    "90"      -   76.0  -76.0
+"M" 10  9 459 454 2D   W  7 S5    "50"      -   29.0  -29.0
+"O" 11 10 648 659 3S   E  8 C9    "50"      -   29.0  -29.0
+"O" 12 10 658 649 2S   W  7 S5    "50"      -   29.0  -29.0
+"M"  8  9 422 452 2C   N  7 H4       -   "50"  -66.0   66.0
+"M"  2  9 428 430 2C   N  7 H7       -   "50"  -66.0   66.0
+"N"  1  9 560 529 2C   N  7 H3       -   "50"  -66.0   66.0
+"O" 10 10 621 647 2C   N  7 DK       -   "50"  -66.0   66.0
+"O"  5 10 626 634 2H   N  7 DK       -   "50"  -66.0   66.0
+"O" 15 10 652 655 2H   S  7 C6       -   "50"  -66.0   66.0
+"N" 11  9 555 558 1N   W  7 CK       -   "90" -103.0  103.0
+"M"  6  9 424 450 3C   N  7 DK       -  "100" -121.0  121.0
+"M" 11  9 455 458 2C   N  6 DK       -  "100" -121.0  121.0
+"N" 10  9 559 554 2S   W  8 CA       -  "110" -123.0  123.0
+"O"  6 10 625 635 2S   W  8 CA       -  "110" -123.0  123.0
+"O" 13 10 657 650 2S   E  8 C9       -  "110" -123.0  123.0
+"O"  1 10 660 630 2S   W  8 CA       -  "110" -123.0  123.0
+"M" 12  9 457 456 3S   W  9 CK       -  "140" -159.0  159.0
+"N"  2  9 528 530 2S   W  9 CK       -  "140" -159.0  159.0
+"O"  2 10 629 631 3S   W  9 CA       -  "140" -159.0  159.0
+"O"  4 10 633 627 3S   W  9 CK       -  "140" -159.0  159.0
+"M"  1  9 460 429 3C   N  6 DK       -  "150" -165.0  165.0
+"N"  8  9 522 552 4H   N  5 DK       -  "250" -252.0  252.0
+[OptimumScore "NS -100"]
+[OptimumContract "3CX N 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H  5
+W  D  6
+W  C  5
+W NT  7
+N  S  4
+N  H  7
+N  D  6
+N  C  8
+N NT  6
+E  S  8
+E  H  5
+E  D  6
+E  C  5
+E NT  7
+S  S  4
+S  H  7
+S  D  6
+S  C  8
+S NT  6
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AQ8.K7643.KQ75.T 96.A9.AT96.J9654 J7543.52.842.AQ7 KT2.QJT8.J3.K832"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  4 10 633 627 3HX  E  6 S9   "500"      -  409.0 -409.0
+"M"  4  9 432 426 3N   W  5 DJ   "200"      -  192.0 -192.0
+"M"  3  9 431 427 2H   E  5 S9   "150"      -  148.0 -148.0
+"O" 15 10 652 655 2H   E  5 C4   "150"      -  148.0 -148.0
+"O" 13 10 657 650 2D   E  5 C2   "150"      -  148.0 -148.0
+"M"  9  9 453 421 2S   W  6 HQ   "100"      -   98.0  -98.0
+"N"  6  9 524 550 2H   E  6 D2   "100"      -   98.0  -98.0
+"N"  3  9 531 527 4S   E  8 C4   "100"      -   98.0  -98.0
+"N"  1  9 560 529 2D   E  6 C5   "100"      -   98.0  -98.0
+"O"  3 10 632 628 2H   E  6 D2   "100"      -   98.0  -98.0
+"O"  1 10 660 630 2H   E  6 S9   "100"      -   98.0  -98.0
+"O" 14 10 656 651 2C   N  8 DK    "90"      -   88.0  -88.0
+"M"  8  9 422 452 2S   W  7 HJ    "50"      -   42.0  -42.0
+"M"  5  9 425 449 2D   E  7 C5    "50"      -   42.0  -42.0
+"M"  1  9 460 429 2H   W  7 S2    "50"      -   42.0  -42.0
+"N"  4  9 532 526 2S   E  7 S3    "50"      -   42.0  -42.0
+"N"  9  9 553 521 4S   W  9 HQ    "50"      -   42.0  -42.0
+"O" 10 10 621 647 2S   W  7 S2    "50"      -   42.0  -42.0
+"O"  6 10 625 635 2S   W  7 S2    "50"      -   42.0  -42.0
+"O" 11 10 648 659 2S   W  7 S2    "50"      -   42.0  -42.0
+"O" 16 10 654 653 2S   W  7 S2    "50"      -   42.0  -42.0
+"O" 12 10 658 649 2S   W  7 S2    "50"      -   42.0  -42.0
+"O"  5 10 626 634 2D   E  8 HA       -   "90"  -88.0   88.0
+"M"  7  9 423 451 2S   W  8 S2       -  "110" -107.0  107.0
+"M"  2  9 428 430 2H   E  8 S9       -  "110" -107.0  107.0
+"M" 11  9 455 458 2S   W  8 DJ       -  "110" -107.0  107.0
+"M" 10  9 459 454 2H   W  8 S9       -  "110" -107.0  107.0
+"N"  8  9 522 552 2H   E  8 S9       -  "110" -107.0  107.0
+"N"  7  9 523 551 2S   W  8 C3       -  "110" -107.0  107.0
+"N"  5  9 525 549 2H   E  8 HA       -  "110" -107.0  107.0
+"N" 12  9 557 556 2S   W  8 DJ       -  "110" -107.0  107.0
+"N" 10  9 559 554 2S   E  8 S3       -  "110" -107.0  107.0
+"O"  8 10 623 645 2H   E  8 C6       -  "110" -107.0  107.0
+"O"  7 10 624 636 2S   W  8 HQ       -  "110" -107.0  107.0
+"M"  6  9 424 450 2S   W  9 HQ       -  "140" -146.0  146.0
+"M" 12  9 457 456 2S   W  9 HQ       -  "140" -146.0  146.0
+"N"  2  9 528 530 2S   W  9 HQ       -  "140" -146.0  146.0
+"N" 11  9 555 558 2S   W  9 HQ       -  "140" -146.0  146.0
+"O"  2 10 629 631 2S   W  9 C3       -  "140" -146.0  146.0
+"O"  9 10 646 622 2S   W  9 C3       -  "140" -146.0  146.0
+[OptimumScore "NS 100"]
+[OptimumContract "3SX E 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H  7
+W  D  5
+W  C  4
+W NT  4
+N  S  5
+N  H  6
+N  D  6
+N  C  9
+N NT  8
+E  S  8
+E  H  6
+E  D  5
+E  C  4
+E NT  4
+S  S  5
+S  H  6
+S  D  6
+S  C  9
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:JT964.Q4.Q96.KJ8 87.AJT3.A42.T765 AQ5.87652.KJ7.94 K32.K9.T853.AQ32"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  9 10 554 522 4D   E  7 SJ   "300"      -  285.0 -285.0
+"M"  2 10 429 431 1S   S  8 S8   "110"      -  118.0 -118.0
+"M" 11 10 456 459 1S   S  8 C6   "110"      -  118.0 -118.0
+"N" 11 10 556 559 2S   S  8 S8   "110"      -  118.0 -118.0
+"N" 12 10 558 557 2S   S  8 S8   "110"      -  118.0 -118.0
+"O"  3  9 631 627 1S   S  8 C2   "110"      -  118.0 -118.0
+"M"  9 10 454 422 2N   W  7 H8   "100"      -  115.0 -115.0
+"N"  7 10 524 552 3C   E  8 SJ   "100"      -  115.0 -115.0
+"N"  4 10 549 527 1N   W  6 DJ   "100"      -  115.0 -115.0
+"O"  8  9 622 636 3C   E  8 SJ   "100"      -  115.0 -115.0
+"O"  7  9 623 635 4C   E  9 SJ   "100"      -  115.0 -115.0
+"O"  5  9 625 633 2N   E  7 SJ   "100"      -  115.0 -115.0
+"O" 15  9 651 654 3N   E  8 SJ   "100"      -  115.0 -115.0
+"N"  3 10 532 528 1S   S  7 S8    "80"      -   90.0  -90.0
+"M"  8 10 423 453 Pass -  - -      "0"      -   12.0  -12.0
+"N"  8 10 523 553 Pass -  - -      "0"      -   12.0  -12.0
+"N"  6 10 525 551 Pass -  - -      "0"      -   12.0  -12.0
+"N"  2 10 529 531 Pass -  - -      "0"      -   12.0  -12.0
+"O"  2  9 628 630 Pass -  - -      "0"      -   12.0  -12.0
+"O" 11  9 647 658 Pass -  - -      "0"      -   12.0  -12.0
+"O"  1  9 660 629 Pass -  - -      "0"      -   12.0  -12.0
+"M"  5 10 426 450 3S   S  8 S8       -   "50"  -45.0   45.0
+"M"  3 10 432 428 2S   S  7 S8       -   "50"  -45.0   45.0
+"M"  4 10 449 427 1N   E  7 SJ       -   "90"  -88.0   88.0
+"M" 12 10 458 457 1N   E  7 S9       -   "90"  -88.0   88.0
+"M"  1 10 460 430 1N   W  7 SJ       -   "90"  -88.0   88.0
+"N"  5 10 526 550 1N   E  7 SJ       -   "90"  -88.0   88.0
+"O"  6  9 624 634 1N   E  7 SJ       -   "90"  -88.0   88.0
+"O" 13  9 656 649 1N   E  7 SJ       -   "90"  -88.0   88.0
+"O" 10  9 659 646 1N   E  7 SJ       -   "90"  -88.0   88.0
+"N" 10 10 521 555 4S   S  8 C6       -  "100"  -94.0   94.0
+"O"  9  9 645 621 1N   N  5 D5       -  "100"  -94.0   94.0
+"O" 16  9 653 652 2H   N  6 D5       -  "100"  -94.0   94.0
+"M"  6 10 425 451 2C   W  9 H8       -  "110" -109.0  109.0
+"O" 14  9 655 650 2C   E  9 SJ       -  "110" -109.0  109.0
+"O" 12  9 657 648 3C   E  9 SJ       -  "110" -109.0  109.0
+"M"  7 10 424 452 1N   E  8 SJ       -  "120" -119.0  119.0
+"N"  1 10 560 530 1N   E  8 ST       -  "120" -119.0  119.0
+"O"  4  9 632 626 1N   E  8 D2       -  "120" -119.0  119.0
+"M" 10 10 421 455 1NX  W  7 SQ       -  "180" -182.0  182.0
+[OptimumScore "NS 110"]
+[OptimumContract "2S S 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  7
+W  D  7
+W  C  8
+W NT  7
+N  S  8
+N  H  6
+N  D  5
+N  C  4
+N NT  6
+E  S  5
+E  H  7
+E  D  8
+E  C  8
+E NT  7
+S  S  8
+S  H  6
+S  D  5
+S  C  4
+S NT  6
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:J96.J9.J64.AT752 KQT87.K83.AQT2.8 A32.A7642.93.Q94 54.QT5.K875.KJ63"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  7 10 424 452 1S   N 10 D9   "170"      -   97.0  -97.0
+"N"  6 10 525 551 1S   N 10 C4   "170"      -   97.0  -97.0
+"M"  3 10 432 428 2S   N  9 D9   "140"      -   61.0  -61.0
+"O" 15  9 651 654 2S   N  9 HA   "140"      -   61.0  -61.0
+"O" 16  9 653 652 2S   N  9 D9   "140"      -   61.0  -61.0
+"O" 14  9 655 650 2S   N  9 HA   "140"      -   61.0  -61.0
+"M" 10 10 421 455 3D   N 10 C3   "130"      -   60.0  -60.0
+"M"  5 10 426 450 2D   N 10 C4   "130"      -   60.0  -60.0
+"M"  2 10 429 431 2D   N 10 C4   "130"      -   60.0  -60.0
+"M"  4 10 449 427 2D   N 10 D3   "130"      -   60.0  -60.0
+"M"  9 10 454 422 3D   N 10 HA   "130"      -   60.0  -60.0
+"M" 11 10 456 459 2D   N 10 D3   "130"      -   60.0  -60.0
+"M"  1 10 460 430 3D   N 10 C3   "130"      -   60.0  -60.0
+"N" 10 10 521 555 2D   N 10 HA   "130"      -   60.0  -60.0
+"N"  8 10 523 553 3D   N 10 C4   "130"      -   60.0  -60.0
+"N"  7 10 524 552 2D   N 10 D3   "130"      -   60.0  -60.0
+"N"  2 10 529 531 2D   N 10 D5   "130"      -   60.0  -60.0
+"N"  9 10 554 522 2D   N 10 H3   "130"      -   60.0  -60.0
+"N"  1 10 560 530 2D   N 10 C4   "130"      -   60.0  -60.0
+"O"  6  9 624 634 2D   N 10 HA   "130"      -   60.0  -60.0
+"O"  5  9 625 633 3D   N 10 D9   "130"      -   60.0  -60.0
+"O" 13  9 656 649 2D   N 10 HA   "130"      -   60.0  -60.0
+"M"  8 10 423 453 2D   N  9 C4   "110"      -   21.0  -21.0
+"M"  6 10 425 451 2D   N  9 C5   "110"      -   21.0  -21.0
+"M" 12 10 458 457 2D   N  9 C4   "110"      -   21.0  -21.0
+"N"  4 10 549 527 2D   N  9 C4   "110"      -   21.0  -21.0
+"N" 12 10 558 557 3D   N  9 HA   "110"      -   21.0  -21.0
+"O"  2  9 628 630 2D   N  9 HA   "110"      -   21.0  -21.0
+"O"  3  9 631 627 2D   N  9 D2   "110"      -   21.0  -21.0
+"O"  4  9 632 626 2D   N  9 D7   "110"      -   21.0  -21.0
+"O" 11  9 647 658 3D   N  9 D3   "110"      -   21.0  -21.0
+"O" 12  9 657 648 2D   N  9 H2   "110"      -   21.0  -21.0
+"O"  1  9 660 629 3D   N  9 C4   "110"      -   21.0  -21.0
+"O"  7  9 623 635 2D   N  8 D3    "90"      -    5.0   -5.0
+"N"  5 10 526 550 3D   N  8 D9       -  "100" -176.0  176.0
+"O"  8  9 622 636 5D   N 10 C3       -  "100" -176.0  176.0
+"N"  3 10 532 528 3N   S  7 C5       -  "200" -259.0  259.0
+"N" 11 10 556 559 3N   S  6 C5       -  "300" -341.0  341.0
+"O"  9  9 645 621 3N   S  6 C2       -  "300" -341.0  341.0
+"O" 10  9 659 646 3N   S  6 C5       -  "300" -341.0  341.0
+[OptimumScore "NS 140"]
+[OptimumContract "3S N 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  3
+W  H  5
+W  D  3
+W  C  6
+W NT  4
+N  S  9
+N  H  7
+N  D 10
+N  C  7
+N NT  8
+E  S  3
+E  H  5
+E  D  3
+E  C  6
+E NT  4
+S  S  9
+S  H  7
+S  D 10
+S  C  7
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J74.AJ87.KT9.AT6 8.Q653.8532.KQ85 AQ952.T94.Q64.74 KT63.K2.AJ7.J932"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  1 11 460 431 2SX  S  8 C3   "670"      -  445.0 -445.0
+"N" 12 11 559 558 2S   S 10 S8   "170"      -  104.0 -104.0
+"M"  9 11 455 423 1N   N  9 S8   "150"      -   74.0  -74.0
+"M" 10 11 422 456 2S   S  9 C3   "140"      -   72.0  -72.0
+"M" 11 11 457 421 2H   N  9 H5   "140"      -   72.0  -72.0
+"N"  4 11 550 528 2S   N  9 H5   "140"      -   72.0  -72.0
+"O"  7 12 626 646 2S   N  9 H5   "140"      -   72.0  -72.0
+"O"  3 12 634 630 2S   S  9 S3   "140"      -   72.0  -72.0
+"M"  7 11 425 453 1N   N  8 D5   "120"      -   42.0  -42.0
+"M"  4 11 450 428 1N   N  8 H5   "120"      -   42.0  -42.0
+"N"  5 11 527 551 1N   N  8 H5   "120"      -   42.0  -42.0
+"N"  2 11 530 532 1N   N  8 H3   "120"      -   42.0  -42.0
+"M"  2 11 430 432 2H   N  8 CK   "110"      -   33.0  -33.0
+"M"  3 11 449 429 2S   N  8 CK   "110"      -   33.0  -33.0
+"N"  7 11 525 553 2S   S  8 C3   "110"      -   33.0  -33.0
+"N"  3 11 549 529 2S   N  8 CK   "110"      -   33.0  -33.0
+"N" 11 11 557 521 2S   S  8 HK   "110"      -   33.0  -33.0
+"O"  6 12 627 645 2S   S  8 C3   "110"      -   33.0  -33.0
+"O"  4 12 635 629 2S   S  8 C3   "110"      -   33.0  -33.0
+"O" 11 12 650 622 2S   N  8 D3   "110"      -   33.0  -33.0
+"O" 15 12 654 657 2S   S  8 D2   "110"      -   33.0  -33.0
+"O" 16 12 656 655 2S   S  8 C2   "110"      -   33.0  -33.0
+"O" 13 12 659 652 2H   N  8 S8   "110"      -   33.0  -33.0
+"O"  1 12 660 632 2H   N  8 D3   "110"      -   33.0  -33.0
+"O"  2 12 631 633 3C   E  7 HT   "100"      -   22.0  -22.0
+"O" 14 12 658 653 3CX  W  8 S4   "100"      -   22.0  -22.0
+"M"  8 11 424 454 1N   N  7 S8    "90"      -    5.0   -5.0
+"M"  5 11 427 451 1N   N  7 C5    "90"      -    5.0   -5.0
+"M" 12 11 459 458 1N   N  7 D3    "90"      -    5.0   -5.0
+"N" 10 11 522 556 1N   N  7 C5    "90"      -    5.0   -5.0
+"O" 10 12 623 649 1N   N  7 H5    "90"      -    5.0   -5.0
+"O"  9 12 648 624 1N   N  7 D3    "90"      -    5.0   -5.0
+"O"  8 12 625 647 2C   E  8 HT       -   "90" -166.0  166.0
+"M"  6 11 426 452 3S   S  8 C3       -  "100" -171.0  171.0
+"N"  8 11 524 554 3S   S  8 C2       -  "100" -171.0  171.0
+"N"  1 11 560 531 2N   N  7 C8       -  "100" -171.0  171.0
+"O"  5 12 628 636 3S   N  8 C6       -  "100" -171.0  171.0
+"N"  6 11 526 552 1N   N  5 C8       -  "200" -257.0  257.0
+"N"  9 11 555 523 1N   N  5 D8       -  "200" -257.0  257.0
+"O" 12 12 621 651 3N   N  7 H5       -  "200" -257.0  257.0
+[OptimumScore "NS 100"]
+[OptimumContract "3CX E 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  5
+W  D  7
+W  C  8
+W NT  6
+N  S  8
+N  H  8
+N  D  6
+N  C  5
+N NT  7
+E  S  5
+E  H  5
+E  D  6
+E  C  8
+E NT  5
+S  S  8
+S  H  8
+S  D  6
+S  C  5
+S NT  7
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J42.987543.T3.J6 98.QT62.K.AKT873 765.A.AQJ942.952 AKQT3.KJ.8765.Q4"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  3 12 634 630 3N   S 13 DJ   "520"      -  236.0 -236.0
+"M"  5 11 427 451 3N   S 12 DJ   "490"      -  219.0 -219.0
+"M"  4 11 450 428 3N   S 12 DJ   "490"      -  219.0 -219.0
+"O"  4 12 635 629 3N   S 12 DQ   "490"      -  219.0 -219.0
+"N"  1 11 560 531 4S   N 12 DT   "480"      -  209.0 -209.0
+"M"  2 11 430 432 4S   N 11 DT   "450"      -  192.0 -192.0
+"M"  9 11 455 423 4S   N 11 DT   "450"      -  192.0 -192.0
+"N" 10 11 522 556 4S   N 11 D5   "450"      -  192.0 -192.0
+"O" 11 12 650 622 4S   N 11 DT   "450"      -  192.0 -192.0
+"O" 15 12 654 657 4S   N 11 D2   "450"      -  192.0 -192.0
+"O" 14 12 658 653 4S   N 11 DT   "450"      -  192.0 -192.0
+"N"  7 11 525 553 5C   S 12 HA   "420"      -  154.0 -154.0
+"N" 11 11 557 521 5C   S 12 HA   "420"      -  154.0 -154.0
+"O" 12 12 621 651 4S   N 10 DT   "420"      -  154.0 -154.0
+"O" 16 12 656 655 4S   N 10 DT   "420"      -  154.0 -154.0
+"M" 10 11 422 456 5C   S 11 DA   "400"      -  132.0 -132.0
+"M" 12 11 459 458 5C   S 11 DA   "400"      -  132.0 -132.0
+"N"  4 11 550 528 5C   N 11 HA   "400"      -  132.0 -132.0
+"N" 12 11 559 558 5C   S 11 HA   "400"      -  132.0 -132.0
+"O"  6 12 627 645 5C   S 11 DA   "400"      -  132.0 -132.0
+"O"  9 12 648 624 5C   S 11 DA   "400"      -  132.0 -132.0
+"O" 13 12 659 652 5C   S 11 DA   "400"      -  132.0 -132.0
+"O"  1 12 660 632 5C   S 11 HA   "400"      -  132.0 -132.0
+"N"  8 11 524 554 3C   S 12 S5   "170"      -  -59.0   59.0
+"O"  5 12 628 636 3S   N 10 DT   "170"      -  -59.0   59.0
+"O"  2 12 631 633 3S   N  9 D4   "140"      -  -82.0   82.0
+"N"  9 11 555 523 2S   N  8 DT   "110"      - -117.0  117.0
+"M"  8 11 424 454 4S   N  9 H9       -   "50" -242.0  242.0
+"M"  7 11 425 453 4S   N  9 DT       -   "50" -242.0  242.0
+"M"  3 11 449 429 4S   N  9 DT       -   "50" -242.0  242.0
+"M" 11 11 457 421 4S   N  9 DT       -   "50" -242.0  242.0
+"O"  8 12 625 647 4S   N  9 DT       -   "50" -242.0  242.0
+"O"  7 12 626 646 4S   N  9 DT       -   "50" -242.0  242.0
+"N"  5 11 527 551 4S   N  8 DT       -  "100" -279.0  279.0
+"M"  6 11 426 452 3N   N  6 H9       -  "150" -313.0  313.0
+"M"  1 11 460 431 3N   N  6 DT       -  "150" -313.0  313.0
+"N"  6 11 526 552 3S   N  6 DT       -  "150" -313.0  313.0
+"N"  2 11 530 532 3N   S  6 DA       -  "150" -313.0  313.0
+"N"  3 11 549 529 3N   S  6 DA       -  "150" -313.0  313.0
+"O" 10 12 623 649 3N   N  6 H9       -  "150" -313.0  313.0
+[OptimumScore "NS 450"]
+[OptimumContract "5S S 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  1
+W  H  2
+W  D  7
+W  C  1
+W NT  2
+N  S 11
+N  H  9
+N  D  6
+N  C 11
+N NT  6
+E  S  1
+E  H  2
+E  D  7
+E  C  1
+E NT  2
+S  S 11
+S  H  9
+S  D  6
+S  C 11
+S NT  6
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AT.QJ6.AT6.AK543 KJ9.A8542.K2.T82 7632.K9.Q753.976 Q854.T73.J984.QJ"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M" 12 12 421 459 3N   S  9 H2   "600"      -  380.0 -380.0
+"N" 10 12 523 557 3N   S  9 H2   "600"      -  380.0 -380.0
+"O"  9 11 647 623 3N   S  9 H3   "600"      -  380.0 -380.0
+"M"  3 12 450 430 2HX  W  7 D5   "200"      -   71.0  -71.0
+"N"  4 12 551 529 2HX  W  7 C6   "200"      -   71.0  -71.0
+"N"  3 12 550 530 1N   S 10 H5   "180"      -   52.0  -52.0
+"M" 10 12 423 457 1N   S  9 H4   "150"      -   17.0  -17.0
+"M"  8 12 425 455 2N   N  9 H2   "150"      -   17.0  -17.0
+"M" 11 12 458 422 2N   S  9 H4   "150"      -   17.0  -17.0
+"N"  8 12 525 555 1N   S  9 H2   "150"      -   17.0  -17.0
+"N"  2 12 531 549 1N   S  9 H4   "150"      -   17.0  -17.0
+"O"  6 11 626 636 1N   S  9 H2   "150"      -   17.0  -17.0
+"O"  5 11 627 635 2N   S  9 H2   "150"      -   17.0  -17.0
+"O"  2 11 630 632 3C   S 10 C2   "130"      -  -10.0   10.0
+"M"  6 12 427 453 2N   S  8 H4   "120"      -  -14.0   14.0
+"M"  5 12 428 452 1N   S  8 H2   "120"      -  -14.0   14.0
+"M"  2 12 431 449 1N   S  8 H2   "120"      -  -14.0   14.0
+"M"  9 12 456 424 1N   S  8 H2   "120"      -  -14.0   14.0
+"N" 12 12 521 559 2N   S  8 H4   "120"      -  -14.0   14.0
+"N"  7 12 526 554 2N   S  8 H4   "120"      -  -14.0   14.0
+"N"  5 12 528 552 2N   S  8 H2   "120"      -  -14.0   14.0
+"N"  9 12 556 524 2N   S  8 H2   "120"      -  -14.0   14.0
+"O"  8 11 624 646 1N   S  8 H2   "120"      -  -14.0   14.0
+"O" 11 11 649 621 1N   S  8 H2   "120"      -  -14.0   14.0
+"O" 15 11 653 656 1N   S  8 H2   "120"      -  -14.0   14.0
+"O" 14 11 657 652 1N   S  8 H2   "120"      -  -14.0   14.0
+"O" 13 11 658 651 1N   S  8 H2   "120"      -  -14.0   14.0
+"N" 11 12 558 522 3C   S  9 C2   "110"      -  -25.0   25.0
+"N"  1 12 560 532 2C   S  9 C2   "110"      -  -25.0   25.0
+"O"  3 11 633 629 3C   S  9 C2   "110"      -  -25.0   25.0
+"O" 12 11 659 650 1C   S  9 C8   "110"      -  -25.0   25.0
+"M"  4 12 451 429 2H   W  7 D5   "100"      -  -49.0   49.0
+"N"  6 12 527 553 2H   W  7 C9   "100"      -  -49.0   49.0
+"O" 10 11 622 648 2H   W  7 C6   "100"      -  -49.0   49.0
+"O"  4 11 634 628 2H   W  7 C6   "100"      -  -49.0   49.0
+"O"  1 11 660 631 2H   W  7 C6   "100"      -  -49.0   49.0
+"M"  1 12 460 432 3N   S  8 H2       -  "100" -228.0  228.0
+"O"  7 11 625 645 3N   S  8 H2       -  "100" -228.0  228.0
+"O" 16 11 655 654 2S   N  7 H3       -  "100" -228.0  228.0
+"M"  7 12 426 454 2H   W  8 C9       -  "110" -232.0  232.0
+[OptimumScore "NS 110"]
+[OptimumContract "3C S 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H  7
+W  D  5
+W  C  4
+W NT  5
+N  S  7
+N  H  6
+N  D  8
+N  C  9
+N NT  7
+E  S  6
+E  H  7
+E  D  5
+E  C  4
+E NT  5
+S  S  7
+S  H  6
+S  D  8
+S  C  9
+S NT  7
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J6.T96.Q973.T962 9532.KQ4.AK65.A7 AK74.A875.8.K843 QT8.J32.JT42.QJ5"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  6 12 527 553 3N   N  9 S2   "400"      -  337.0 -337.0
+"M"  7 12 426 454 1N   N  9 SA   "150"      -  133.0 -133.0
+"N"  2 12 531 549 1N   N  9 SK   "150"      -  133.0 -133.0
+"O"  8 11 624 646 1N   N  9 SA   "150"      -  133.0 -133.0
+"O"  6 11 626 636 1N   N  9 SA   "150"      -  133.0 -133.0
+"M" 10 12 423 457 1N   N  8 SK   "120"      -  108.0 -108.0
+"M"  8 12 425 455 1N   N  8 C4   "120"      -  108.0 -108.0
+"O"  4 11 634 628 1N   N  8 S3   "120"      -  108.0 -108.0
+"M"  1 12 460 432 2S   N  8 D8   "110"      -   95.0  -95.0
+"M"  6 12 427 453 2H   E  6 H2   "100"      -   77.0  -77.0
+"O"  5 11 627 635 2HX  W  7 DA   "100"      -   77.0  -77.0
+"M"  2 12 431 449 1N   N  7 S7    "90"      -   71.0  -71.0
+"N"  8 12 525 555 1N   N  7 H7    "90"      -   71.0  -71.0
+"N"  9 12 556 524 1N   N  7 SA    "90"      -   71.0  -71.0
+"N"  1 12 560 532 1N   N  7 C4    "90"      -   71.0  -71.0
+"O"  7 11 625 645 1N   N  7 H7    "90"      -   71.0  -71.0
+"O"  2 11 630 632 1N   N  7 C4    "90"      -   71.0  -71.0
+"O" 12 11 659 650 1N   N  7 S4    "90"      -   71.0  -71.0
+"M"  4 12 451 429 2H   W  7 H4    "50"      -   29.0  -29.0
+"M" 11 12 458 422 3C   E  8 DJ    "50"      -   29.0  -29.0
+"O" 10 11 622 648 2H   W  7 DA    "50"      -   29.0  -29.0
+"O" 15 11 653 656 1N   W  6 S3    "50"      -   29.0  -29.0
+"O" 16 11 655 654 2H   E  7 H3    "50"      -   29.0  -29.0
+"M" 12 12 421 459 2D   S  7 CT       -   "50"  -72.0   72.0
+"M"  5 12 428 452 2S   N  7 D8       -   "50"  -72.0   72.0
+"N"  5 12 528 552 2D   S  7 HT       -   "50"  -72.0   72.0
+"N" 11 12 558 522 2D   N  7 SA       -   "50"  -72.0   72.0
+"O" 11 11 649 621 2N   N  7 SA       -   "50"  -72.0   72.0
+"O"  1 11 660 631 2N   N  7 S2       -   "50"  -72.0   72.0
+"N" 12 12 521 559 3N   N  7 H5       -  "100" -128.0  128.0
+"O"  3 11 633 629 3N   N  7 S7       -  "100" -128.0  128.0
+"O"  9 11 647 623 4D   N  8 SA       -  "100" -128.0  128.0
+"O" 14 11 657 652 3D   S  7 HT       -  "100" -128.0  128.0
+"O" 13 11 658 651 1N   N  5 SA       -  "100" -128.0  128.0
+"M"  3 12 450 430 2H   E  8 CQ       -  "110" -129.0  129.0
+"N" 10 12 523 557 2C   W  9 DA       -  "110" -129.0  129.0
+"N"  7 12 526 554 2H   E  8 S8       -  "110" -129.0  129.0
+"N"  4 12 551 529 2H   E  8 CQ       -  "110" -129.0  129.0
+"N"  3 12 550 530 2CX  E  8 CQ       -  "180" -203.0  203.0
+"M"  9 12 456 424 3NX  S  7 CT       -  "300" -293.0  293.0
+[OptimumScore "NS 100"]
+[OptimumContract "3CX W 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  6
+W  D  6
+W  C  8
+W NT  5
+N  S  7
+N  H  6
+N  D  7
+N  C  5
+N NT  8
+E  S  5
+E  H  6
+E  D  5
+E  C  8
+E NT  5
+S  S  7
+S  H  6
+S  D  7
+S  C  5
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A42.KQ6.K54.A652 QT85.AJ.AQJ86.Q9 J976.T97.T3.KJT8 K3.85432.972.743"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  2 14 633 635 2HX  W  6 H6   "500"      -  372.0 -372.0
+"M"  4 13 452 430 1NX  N  8 DA   "280"      -  217.0 -217.0
+"N" 12 13 522 521 1N   N 11 D6   "210"      -  145.0 -145.0
+"M"  6 13 428 454 3D   E  7 DT   "200"      -  138.0 -138.0
+"N" 10 13 524 558 2H   W  6 C5   "200"      -  138.0 -138.0
+"N"  3 13 551 531 2H   W  6 S2   "200"      -  138.0 -138.0
+"O"  5 14 630 646 2H   W  6 C5   "200"      -  138.0 -138.0
+"M"  7 13 427 455 1N   N  8 DJ   "120"      -   67.0  -67.0
+"N"  7 13 527 555 1N   N  8 D5   "120"      -   67.0  -67.0
+"N"  1 13 560 549 1N   N  8 S2   "120"      -   67.0  -67.0
+"O"  9 14 650 626 2N   N  8 HA   "120"      -   67.0  -67.0
+"O" 16 14 658 657 1N   N  8 DA   "120"      -   67.0  -67.0
+"M"  5 13 429 453 3D   E  8 HT   "100"      -   33.0  -33.0
+"M"  2 13 432 450 2H   E  7 DT   "100"      -   33.0  -33.0
+"M"  9 13 457 425 2H   E  7 D5   "100"      -   33.0  -33.0
+"N"  6 13 528 554 3D   E  8 DT   "100"      -   33.0  -33.0
+"N"  2 13 532 550 2H   W  7 HK   "100"      -   33.0  -33.0
+"N"  9 13 557 525 2S   E  7 DT   "100"      -   33.0  -33.0
+"O" 14 14 621 655 2H   W  7 CA   "100"      -   33.0  -33.0
+"O" 13 14 622 654 2H   E  7 SA   "100"      -   33.0  -33.0
+"O"  7 14 628 648 2H   W  7 HQ   "100"      -   33.0  -33.0
+"O"  4 14 645 631 3D   E  8 CT   "100"      -   33.0  -33.0
+"O"  1 14 660 634 3D   E  8 HT   "100"      -   33.0  -33.0
+"M"  8 13 426 456 1N   S  7 DA    "90"      -   33.0  -33.0
+"M" 11 13 459 423 1N   N  7 DA    "90"      -   33.0  -33.0
+"N"  5 13 529 553 1N   N  7 S8    "90"      -   33.0  -33.0
+"M"  3 13 451 431 1N   N  6 DQ       -   "50" -113.0  113.0
+"N"  4 13 552 530 1N   N  6 DJ       -   "50" -113.0  113.0
+"O" 10 14 625 651 1N   N  6 DA       -   "50" -113.0  113.0
+"O" 15 14 656 659 1N   N  6 DJ       -   "50" -113.0  113.0
+"M"  1 13 460 449 2D   E  8 CT       -   "90" -150.0  150.0
+"N" 11 13 559 523 2D   E  8 DT       -   "90" -150.0  150.0
+"O"  8 14 627 649 2D   E  8 C6       -   "90" -150.0  150.0
+"O"  6 14 629 647 2D   E  8 HT       -   "90" -150.0  150.0
+"M" 12 13 422 421 2N   N  6 DQ       -  "100" -162.0  162.0
+"O"  3 14 636 632 2H   N  6 D3       -  "100" -162.0  162.0
+"O" 11 14 652 624 2H   N  6 HA       -  "100" -162.0  162.0
+"N"  8 13 526 556 2D   E  9 HT       -  "110" -168.0  168.0
+"O" 12 14 623 653 2D   E  9 S6       -  "110" -168.0  168.0
+"M" 10 13 424 458 1S   S  4 D2       -  "150" -209.0  209.0
+[OptimumScore "NS 120"]
+[OptimumContract "2N N 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  7
+W  D  8
+W  C  4
+W NT  5
+N  S  8
+N  H  6
+N  D  5
+N  C  9
+N NT  8
+E  S  5
+E  H  7
+E  D  8
+E  C  4
+E NT  5
+S  S  7
+S  H  6
+S  D  5
+S  C  8
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:Q.9843.AT32.QJ94 AK8765.KJ.Q85.A7 T32.Q76.K96.8632 J94.AT52.J74.KT5"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  5 13 529 553 4S   S 13 S2   "710"      -  114.0 -114.0
+"N" 12 13 522 521 3N   N 12 SQ   "690"      -   77.0  -77.0
+"M" 12 13 422 421 4S   S 12 C3   "680"      -   77.0  -77.0
+"M"  9 13 457 425 4S   S 12 C3   "680"      -   77.0  -77.0
+"N"  3 13 551 531 4S   S 12 H2   "680"      -   77.0  -77.0
+"N" 11 13 559 523 4S   S 12 H6   "680"      -   77.0  -77.0
+"O" 13 14 622 654 4S   S 12 H2   "680"      -   77.0  -77.0
+"O" 10 14 625 651 4S   S 12 H6   "680"      -   77.0  -77.0
+"O"  5 14 630 646 4S   S 12 H6   "680"      -   77.0  -77.0
+"O" 11 14 652 624 4S   S 12 H6   "680"      -   77.0  -77.0
+"M" 10 13 424 458 4S   S 11 S2   "650"      -   41.0  -41.0
+"M"  6 13 428 454 4S   S 11 S2   "650"      -   41.0  -41.0
+"M"  5 13 429 453 4S   S 11 S2   "650"      -   41.0  -41.0
+"M"  2 13 432 450 4S   S 11 S2   "650"      -   41.0  -41.0
+"M"  3 13 451 431 4S   S 11 DA   "650"      -   41.0  -41.0
+"M" 11 13 459 423 4S   S 11 C6   "650"      -   41.0  -41.0
+"M"  1 13 460 449 4S   S 11 S2   "650"      -   41.0  -41.0
+"N"  8 13 526 556 4S   S 11 S2   "650"      -   41.0  -41.0
+"N"  6 13 528 554 4S   S 11 S3   "650"      -   41.0  -41.0
+"N"  2 13 532 550 4S   S 11 D6   "650"      -   41.0  -41.0
+"N"  4 13 552 530 4S   S 11 C3   "650"      -   41.0  -41.0
+"N"  9 13 557 525 4S   S 11 D7   "650"      -   41.0  -41.0
+"N"  1 13 560 549 4S   N 11 CQ   "650"      -   41.0  -41.0
+"O" 14 14 621 655 4S   S 11 C2   "650"      -   41.0  -41.0
+"O"  8 14 627 649 4S   S 11 S2   "650"      -   41.0  -41.0
+"O"  4 14 645 631 4S   S 11 S2   "650"      -   41.0  -41.0
+"O"  9 14 650 626 4S   S 11 D4   "650"      -   41.0  -41.0
+"O" 15 14 656 659 4S   S 11 D6   "650"      -   41.0  -41.0
+"O" 16 14 658 657 4S   S 11 S2   "650"      -   41.0  -41.0
+"O"  1 14 660 634 4S   S 11 C3   "650"      -   41.0  -41.0
+"N" 10 13 524 558 3N   N 10 CQ   "630"      -    4.0   -4.0
+"N"  7 13 527 555 4S   S 10 C8   "620"      -    1.0   -1.0
+"O" 12 14 623 653 4S   S 10 C8   "620"      -    1.0   -1.0
+"O"  7 14 628 648 4S   S 10 S2   "620"      -    1.0   -1.0
+"O"  6 14 629 647 4S   S 10 S2   "620"      -    1.0   -1.0
+"O"  2 14 633 635 4S   S 10 C3   "620"      -    1.0   -1.0
+"M"  7 13 427 455 2S   S 11 D6   "200"      - -342.0  342.0
+"O"  3 14 636 632 2S   S 11 C3   "200"      - -342.0  342.0
+"M"  8 13 426 456 6S   S 11 D6       -  "100" -476.0  476.0
+"M"  4 13 452 430 4S   S  9 S5       -  "100" -476.0  476.0
+[OptimumScore "NS 660"]
+[OptimumContract "5N S 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  2
+W  H  3
+W  D  5
+W  C  5
+W NT  2
+N  S 11
+N  H 10
+N  D  8
+N  C  8
+N NT 11
+E  S  2
+E  H  3
+E  D  5
+E  C  5
+E NT  2
+S  S 11
+S  H 10
+S  D  8
+S  C  8
+S NT 11
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:Q3.72.JT8742.Q86 AJ9764.T.53.AT93 8.QJ9843.AK.KJ75 KT52.AK65.Q96.42"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  9 14 458 426 3S   W 10 DK       -  "170"  237.0 -237.0
+"M"  1 14 460 450 3S   W 10 DK       -  "170"  237.0 -237.0
+"N" 12 14 523 522 3S   W 10 DK       -  "170"  237.0 -237.0
+"N"  8 14 527 557 3S   W 10 HQ       -  "170"  237.0 -237.0
+"M"  8 14 427 457 3S   E 11 HJ       -  "200"  209.0 -209.0
+"M"  7 14 428 456 2S   E 11 H7       -  "200"  209.0 -209.0
+"N"  9 14 558 526 3S   W 11 HQ       -  "200"  209.0 -209.0
+"O" 10 13 624 650 2S   W 11 HQ       -  "200"  209.0 -209.0
+"M" 12 14 423 422 4S   W 10 DA       -  "420"    4.0   -4.0
+"M"  5 14 430 454 4S   W 10 DA       -  "420"    4.0   -4.0
+"M"  2 14 449 451 4S   W 10 DK       -  "420"    4.0   -4.0
+"M"  3 14 452 432 4S   W 10 DA       -  "420"    4.0   -4.0
+"N"  5 14 530 554 4S   W 10 DK       -  "420"    4.0   -4.0
+"N"  2 14 549 551 4S   W 10 DA       -  "420"    4.0   -4.0
+"N"  3 14 552 532 4S   E 10 H7       -  "420"    4.0   -4.0
+"N"  1 14 560 550 4S   W 10 DA       -  "420"    4.0   -4.0
+"O"  7 13 627 647 4S   W 10 DA       -  "420"    4.0   -4.0
+"M" 11 14 421 424 4S   E 11 H7       -  "450"  -31.0   31.0
+"M"  6 14 429 455 4S   E 11 DK       -  "450"  -31.0   31.0
+"M"  4 14 453 431 4S   W 11 DK       -  "450"  -31.0   31.0
+"N" 11 14 521 524 4S   W 11 HQ       -  "450"  -31.0   31.0
+"N" 10 14 525 559 4S   W 11 DA       -  "450"  -31.0   31.0
+"N"  7 14 528 556 5S   W 11 DA       -  "450"  -31.0   31.0
+"N"  6 14 529 555 4S   W 11 HQ       -  "450"  -31.0   31.0
+"N"  4 14 553 531 4S   W 11 DA       -  "450"  -31.0   31.0
+"O" 13 13 621 653 4S   W 11 DK       -  "450"  -31.0   31.0
+"O" 12 13 622 652 4S   W 11 HQ       -  "450"  -31.0   31.0
+"O"  8 13 626 648 4S   W 11 HQ       -  "450"  -31.0   31.0
+"O"  6 13 628 646 4S   W 11 HQ       -  "450"  -31.0   31.0
+"O"  4 13 636 630 4S   W 11 HQ       -  "450"  -31.0   31.0
+"O"  9 13 649 625 4S   W 11 HQ       -  "450"  -31.0   31.0
+"O" 11 13 651 623 4S   W 11 HQ       -  "450"  -31.0   31.0
+"O" 15 13 655 658 4S   E 11 H7       -  "450"  -31.0   31.0
+"O" 16 13 657 656 4S   W 11 DK       -  "450"  -31.0   31.0
+"O" 14 13 659 654 4S   W 11 DK       -  "450"  -31.0   31.0
+"O"  1 13 660 633 4S   W 11 DK       -  "450"  -31.0   31.0
+"O"  5 13 629 645 4SX  W 10 DK       -  "590" -174.0  174.0
+"O"  3 13 635 631 4SX  W 11 DK       -  "690" -252.0  252.0
+"M" 10 14 425 459 5HX  N  7 S5       -  "800" -330.0  330.0
+"O"  2 13 632 634 5CX  N  6 D2       - "1100" -475.0  475.0
+[OptimumScore "NS -420"]
+[OptimumContract "4S W 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  5
+W  D  6
+W  C  6
+W NT  9
+N  S  2
+N  H  8
+N  D  7
+N  C  5
+N NT  3
+E  S 10
+E  H  5
+E  D  6
+E  C  6
+E NT  9
+S  S  2
+S  H  8
+S  D  7
+S  C  5
+S NT  3
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:43.9543.KJ5.AKJ7 KQ65.K6.T98.9862 AJT.AQJ82.732.T5 9872.T7.AQ64.Q43"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  5 13 629 645 3H   E 10 DT       -  "170"  260.0 -260.0
+"M"  2 14 449 451 3H   E 11 S7       -  "200"  229.0 -229.0
+"M"  3 14 452 432 4H   W 10 SK       -  "420"   21.0  -21.0
+"M"  9 14 458 426 4H   E 10 S9       -  "420"   21.0  -21.0
+"N" 12 14 523 522 4H   E 10 S9       -  "420"   21.0  -21.0
+"N" 10 14 525 559 4H   W 10 SK       -  "420"   21.0  -21.0
+"N"  9 14 558 526 4H   W 10 DT       -  "420"   21.0  -21.0
+"O"  6 13 628 646 4H   W 10 DT       -  "420"   21.0  -21.0
+"O" 11 13 651 623 4H   E 10 S7       -  "420"   21.0  -21.0
+"M" 11 14 421 424 4H   W 11 DT       -  "450"  -18.0   18.0
+"M" 12 14 423 422 4H   W 11 C8       -  "450"  -18.0   18.0
+"M" 10 14 425 459 4H   E 11 S7       -  "450"  -18.0   18.0
+"M"  8 14 427 457 4H   W 11 D9       -  "450"  -18.0   18.0
+"M"  7 14 428 456 4H   W 11 SK       -  "450"  -18.0   18.0
+"M"  6 14 429 455 4H   E 11 S9       -  "450"  -18.0   18.0
+"M"  5 14 430 454 4H   E 11 S7       -  "450"  -18.0   18.0
+"M"  4 14 453 431 4H   E 11 S8       -  "450"  -18.0   18.0
+"M"  1 14 460 450 4H   E 11 S9       -  "450"  -18.0   18.0
+"N" 11 14 521 524 4H   E 11 S9       -  "450"  -18.0   18.0
+"N"  8 14 527 557 4H   W 11 DT       -  "450"  -18.0   18.0
+"N"  7 14 528 556 4H   W 11 DT       -  "450"  -18.0   18.0
+"N"  6 14 529 555 4H   W 11 SK       -  "450"  -18.0   18.0
+"N"  5 14 530 554 4H   W 11 SK       -  "450"  -18.0   18.0
+"N"  2 14 549 551 4H   W 11 SK       -  "450"  -18.0   18.0
+"N"  4 14 553 531 4H   W 11 DT       -  "450"  -18.0   18.0
+"N"  1 14 560 550 4H   E 11 S8       -  "450"  -18.0   18.0
+"O" 13 13 621 653 4H   W 11 D8       -  "450"  -18.0   18.0
+"O" 12 13 622 652 4H   E 11 S9       -  "450"  -18.0   18.0
+"O" 10 13 624 650 4H   E 11 HT       -  "450"  -18.0   18.0
+"O"  7 13 627 647 4H   E 11 HT       -  "450"  -18.0   18.0
+"O"  2 13 632 634 4H   E 11 S9       -  "450"  -18.0   18.0
+"O"  3 13 635 631 4H   E 11 S7       -  "450"  -18.0   18.0
+"O"  4 13 636 630 4H   E 11 S9       -  "450"  -18.0   18.0
+"O"  9 13 649 625 4S   E 11 SK       -  "450"  -18.0   18.0
+"O" 15 13 655 658 4H   E 11 S9       -  "450"  -18.0   18.0
+"O" 16 13 657 656 4H   E 11 S9       -  "450"  -18.0   18.0
+"O" 14 13 659 654 4H   W 11 SK       -  "450"  -18.0   18.0
+"O"  1 13 660 633 4H   E 11 C3       -  "450"  -18.0   18.0
+"N"  3 14 552 532 4H   E 12 D2       -  "480"  -57.0   57.0
+"O"  8 13 626 648 4H   E 12 D6       -  "480"  -57.0   57.0
+[OptimumScore "NS -460"]
+[OptimumContract "5N W 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  9
+W  H 11
+W  D  9
+W  C 10
+W NT 11
+N  S  4
+N  H  1
+N  D  3
+N  C  3
+N NT  1
+E  S  9
+E  H 11
+E  D  9
+E  C 10
+E NT 11
+S  S  4
+S  H  1
+S  D  3
+S  C  3
+S NT  1
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "29"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T3.952.83.KQ9632 AJ.Q743.A752.J54 KQ8754.KT.KJ4.T8 962.AJ86.QT96.A7"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  6 15 430 456 4H   E  9 SK   "100"      -  283.0 -283.0
+"M"  1 15 460 451 4H   E  9 SK   "100"      -  283.0 -283.0
+"N" 12 15 524 523 4H   E  9 SK   "100"      -  283.0 -283.0
+"N"  2 15 550 552 4H   E  9 SK   "100"      -  283.0 -283.0
+"O" 16 16 621 659 4H   E  9 SK   "100"      -  283.0 -283.0
+"O"  5 16 632 648 4H   E  9 D2   "100"      -  283.0 -283.0
+"O" 11 16 654 626 4H   E  9 SK   "100"      -  283.0 -283.0
+"O"  7 16 630 650 1S   S  7 CA    "80"      -  265.0 -265.0
+"O"  9 16 652 628 2S   S  7 S2       -  "100"  135.0 -135.0
+"M" 11 15 422 425 3D   E  9 C8       -  "110"  135.0 -135.0
+"M"  7 15 429 457 3H   E  9 SK       -  "140"   95.0  -95.0
+"N"  9 15 559 527 3H   E  9 SK       -  "140"   95.0  -95.0
+"M" 10 15 426 421 3H   E 10 SK       -  "170"   70.0  -70.0
+"M"  8 15 428 458 2H   W 10 ST       -  "170"   70.0  -70.0
+"M"  5 15 431 455 3H   E 10 SK       -  "170"   70.0  -70.0
+"M"  2 15 450 452 3H   E 10 SK       -  "170"   70.0  -70.0
+"M"  4 15 454 432 3H   E 10 CT       -  "170"   70.0  -70.0
+"N" 11 15 522 525 3H   E 10 CT       -  "170"   70.0  -70.0
+"N"  5 15 531 555 3H   E 10 SK       -  "170"   70.0  -70.0
+"O"  3 16 646 634 3H   E 10 SK       -  "170"   70.0  -70.0
+"O"  4 16 647 633 3H   E 10 CT       -  "170"   70.0  -70.0
+"N"  1 15 560 551 3C   N  7 H4       -  "200"   38.0  -38.0
+"O" 13 16 624 656 3H   E 11 SK       -  "200"   38.0  -38.0
+"O" 10 16 627 653 3H   E 11 SK       -  "200"   38.0  -38.0
+"O"  8 16 629 651 3S   S  7 D9       -  "200"   38.0  -38.0
+"O" 15 16 658 622 3S   S  7 CA       -  "200"   38.0  -38.0
+"O" 14 16 623 657 3S   S  6 S2       -  "300"  -48.0   48.0
+"O"  2 16 635 645 3C   N  6 SA       -  "300"  -48.0   48.0
+"M"  3 15 453 449 2SX  S  6 CA       -  "500" -212.0  212.0
+"M" 12 15 424 423 4H   E 10 SK       -  "620" -292.0  292.0
+"M"  9 15 459 427 4H   E 10 CT       -  "620" -292.0  292.0
+"N"  8 15 528 558 4H   E 10 SK       -  "620" -292.0  292.0
+"N"  7 15 529 557 4H   W 10 ST       -  "620" -292.0  292.0
+"N"  6 15 530 556 4H   E 10 SK       -  "620" -292.0  292.0
+"N"  3 15 553 549 4H   W 10 ST       -  "620" -292.0  292.0
+"N"  4 15 554 532 4H   E 10 SK       -  "620" -292.0  292.0
+"O" 12 16 625 655 4H   E 10 SK       -  "620" -292.0  292.0
+"O"  6 16 631 649 4H   E 10 CT       -  "620" -292.0  292.0
+"O"  1 16 660 636 4H   E 10 CT       -  "620" -292.0  292.0
+"N" 10 15 526 521 3N   E 10 SK       -  "630" -298.0  298.0
+[OptimumScore "NS -620"]
+[OptimumContract "4H E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H 10
+W  D 10
+W  C  6
+W NT  8
+N  S  7
+N  H  3
+N  D  3
+N  C  7
+N NT  4
+E  S  6
+E  H 10
+E  D 10
+E  C  6
+E NT  8
+S  S  7
+S  H  3
+S  D  3
+S  C  7
+S NT  4
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "30"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:7.AKJ94.KJ83.K63 542.T85.QT765.A2 AJ9.Q762.94.9854 KQT863.3.A2.QJT7"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  3 16 646 634 3SX  N 11 HA   "730"      -  361.0 -361.0
+"M"  6 15 430 456 4SX  N 10 HA   "590"      -  274.0 -274.0
+"M"  2 15 450 452 4SX  N 10 HA   "590"      -  274.0 -274.0
+"M"  4 15 454 432 4SX  N 10 HA   "590"      -  274.0 -274.0
+"N"  2 15 550 552 4SX  N 10 HA   "590"      -  274.0 -274.0
+"O" 10 16 627 653 4SX  N 10 HA   "590"      -  274.0 -274.0
+"O"  5 16 632 648 4SX  N 10 HA   "590"      -  274.0 -274.0
+"O"  2 16 635 645 4SX  N 10 HA   "590"      -  274.0 -274.0
+"O"  4 16 647 633 4SX  N 10 HK   "590"      -  274.0 -274.0
+"O" 15 16 658 622 4SX  N 10 HA   "590"      -  274.0 -274.0
+"O" 16 16 621 659 5HX  E  8 S2   "500"      -  204.0 -204.0
+"M"  7 15 429 457 4S   N 10 HK   "420"      -  144.0 -144.0
+"N" 12 15 524 523 4S   N 10 HK   "420"      -  144.0 -144.0
+"N"  5 15 531 555 4S   N 10 HK   "420"      -  144.0 -144.0
+"O"  8 16 629 651 4S   N 10 HA   "420"      -  144.0 -144.0
+"O"  7 16 630 650 4S   N 10 HA   "420"      -  144.0 -144.0
+"O"  9 16 652 628 4S   N 10 HK   "420"      -  144.0 -144.0
+"O" 11 16 654 626 4S   N 10 HA   "420"      -  144.0 -144.0
+"N"  9 15 559 527 5H   E  7 S2   "200"      -  -39.0   39.0
+"M"  9 15 459 427 3S   N 10 HK   "170"      -  -55.0   55.0
+"N" 11 15 522 525 3S   N 10 HA   "170"      -  -55.0   55.0
+"O" 12 16 625 655 3S   N 10 HA   "170"      -  -55.0   55.0
+"M" 11 15 422 425 5H   E  8 S4   "150"      -  -83.0   83.0
+"M"  1 15 460 451 4H   E  8 S2   "100"      - -119.0  119.0
+"N"  7 15 529 557 4H   E  8 S2   "100"      - -119.0  119.0
+"N"  6 15 530 556 4H   E  8 S2   "100"      - -119.0  119.0
+"N"  3 15 553 549 4H   E  8 S2   "100"      - -119.0  119.0
+"M"  8 15 428 458 4H   E  9 CA    "50"      - -166.0  166.0
+"N"  8 15 528 558 4H   E  9 S5    "50"      - -166.0  166.0
+"O" 13 16 624 656 3H   E  8 HT    "50"      - -166.0  166.0
+"O"  1 16 660 636 3H   E  8 S2    "50"      - -166.0  166.0
+"M" 12 15 424 423 4S   N  9 HA       -   "50" -237.0  237.0
+"O" 14 16 623 657 4S   N  9 HA       -   "50" -237.0  237.0
+"M" 10 15 426 421 4SX  N  9 HA       -  "100" -274.0  274.0
+"M"  5 15 431 455 5S   N  9 HA       -  "100" -274.0  274.0
+"M"  3 15 453 449 4SX  N  9 HA       -  "100" -274.0  274.0
+"N"  1 15 560 551 4SX  N  9 HK       -  "100" -274.0  274.0
+"O"  6 16 631 649 4SX  N  9 HA       -  "100" -274.0  274.0
+"N" 10 15 526 521 4SX  N  8 HK       -  "300" -384.0  384.0
+"N"  4 15 554 532 5SX  N  9 HK       -  "300" -384.0  384.0
+[OptimumScore "NS 300"]
+[OptimumContract "5HX W 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  3
+W  H  9
+W  D  6
+W  C  7
+W NT  7
+N  S 10
+N  H  3
+N  D  7
+N  C  6
+N NT  5
+E  S  3
+E  H 10
+E  D  6
+E  C  7
+E NT  6
+S  S 10
+S  H  3
+S  D  7
+S  C  6
+S NT  5
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "31"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:K9.QJT5.QJ43.T52 864.32.AT986.Q87 J75.9864.52.KJ63 AQT32.AK7.K7.A94"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N" 11 16 523 526 3N   E  7 HQ   "100"      -  336.0 -336.0
+"O"  6 15 630 648 3N   E  7 HQ   "100"      -  336.0 -336.0
+"O"  9 15 651 627 6S   E 10 HQ   "100"      -  336.0 -336.0
+"N"  9 16 521 528 3N   E  8 HQ    "50"      -  286.0 -286.0
+"N" 12 16 525 524 3N   E  8 HQ    "50"      -  286.0 -286.0
+"N" 10 16 527 522 3N   E  8 HQ    "50"      -  286.0 -286.0
+"N"  6 16 531 557 3N   E  8 HQ    "50"      -  286.0 -286.0
+"N"  1 16 560 552 3N   E  8 HJ    "50"      -  286.0 -286.0
+"O" 12 15 624 654 2H   E  7 HQ    "50"      -  286.0 -286.0
+"O"  8 15 628 650 3N   E  8 HQ    "50"      -  286.0 -286.0
+"O"  5 15 631 647 3N   E  8 HQ    "50"      -  286.0 -286.0
+"M"  7 16 430 458 3N   E  9 HQ       -  "400"  -88.0   88.0
+"M"  6 16 431 457 3N   E  9 HQ       -  "400"  -88.0   88.0
+"M"  1 16 460 452 3N   E  9 HQ       -  "400"  -88.0   88.0
+"N"  7 16 530 558 3N   E  9 HQ       -  "400"  -88.0   88.0
+"N"  2 16 551 553 3N   E  9 HQ       -  "400"  -88.0   88.0
+"O"  4 15 646 632 3N   E  9 HQ       -  "400"  -88.0   88.0
+"O" 11 15 653 625 3N   E  9 HQ       -  "400"  -88.0   88.0
+"M"  9 16 421 428 4S   E 10 HQ       -  "420" -117.0  117.0
+"M" 11 16 423 426 4S   E 10 HQ       -  "420" -117.0  117.0
+"M" 12 16 425 424 4S   E 10 HQ       -  "420" -117.0  117.0
+"M" 10 16 427 422 4S   E 10 HJ       -  "420" -117.0  117.0
+"M"  8 16 429 459 4S   E 10 HQ       -  "420" -117.0  117.0
+"M"  5 16 432 456 4S   E 10 HQ       -  "420" -117.0  117.0
+"M"  2 16 451 453 4S   E 10 HQ       -  "420" -117.0  117.0
+"M"  3 16 454 450 4S   E 10 HQ       -  "420" -117.0  117.0
+"M"  4 16 455 449 4S   E 10 HQ       -  "420" -117.0  117.0
+"N"  8 16 529 559 4S   E 10 HQ       -  "420" -117.0  117.0
+"N"  5 16 532 556 4S   E 10 HQ       -  "420" -117.0  117.0
+"N"  3 16 554 550 4S   E 10 HQ       -  "420" -117.0  117.0
+"N"  4 16 555 549 4S   E 10 D5       -  "420" -117.0  117.0
+"O" 14 15 622 656 4S   E 10 HQ       -  "420" -117.0  117.0
+"O" 13 15 623 655 4S   E 10 HQ       -  "420" -117.0  117.0
+"O" 10 15 626 652 4S   E 10 HQ       -  "420" -117.0  117.0
+"O"  2 15 634 636 4S   E 10 HQ       -  "420" -117.0  117.0
+"O" 15 15 657 621 4S   E 10 HQ       -  "420" -117.0  117.0
+"O" 16 15 659 658 4S   E 10 HQ       -  "420" -117.0  117.0
+"O"  1 15 660 635 3N   E 10 HQ       -  "430" -117.0  117.0
+"O"  3 15 645 633 3N   E 11 SK       -  "460" -154.0  154.0
+"O"  7 15 629 649 2HX  S  6 H3       -  "500" -186.0  186.0
+[OptimumScore "NS -420"]
+[OptimumContract "4S W 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  7
+W  D 10
+W  C  9
+W NT  9
+N  S  3
+N  H  6
+N  D  3
+N  C  4
+N NT  3
+E  S 10
+E  H  7
+E  D 10
+E  C  9
+E NT  9
+S  S  3
+S  H  6
+S  D  3
+S  C  4
+S NT  3
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "32"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:6542.K2.K972.AK5 A87.AQ54.QT864.J KQJ.T983.A53.963 T93.J76.J.QT8742"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M"  3 16 454 450 2S   W  5 CJ   "300"      -  305.0 -305.0
+"N" 11 16 523 526 3S   W  6 D4   "300"      -  305.0 -305.0
+"M"  2 16 451 453 2N   W  6 D4   "200"      -  230.0 -230.0
+"M"  4 16 455 449 2S   W  6 CJ   "200"      -  230.0 -230.0
+"O"  9 15 651 627 2S   W  6 CJ   "200"      -  230.0 -230.0
+"M" 12 16 425 424 2H   N  8 SK   "110"      -  149.0 -149.0
+"M"  9 16 421 428 2S   W  7 CJ   "100"      -  144.0 -144.0
+"M"  8 16 429 459 2D   W  7 CJ   "100"      -  144.0 -144.0
+"N"  6 16 531 557 3N   E  8 H4   "100"      -  144.0 -144.0
+"O" 12 15 624 654 1N   E  6 C4   "100"      -  144.0 -144.0
+"O"  7 15 629 649 2N   W  7 D4   "100"      -  144.0 -144.0
+"O"  3 15 645 633 1S   W  6 CJ   "100"      -  144.0 -144.0
+"O" 11 15 653 625 2C   S  8 D9    "90"      -  134.0 -134.0
+"M"  1 16 460 452 2D   N  7 SK       -   "50"    7.0   -7.0
+"N"  7 16 530 558 2H   N  7 HT       -   "50"    7.0   -7.0
+"N"  3 16 554 550 2H   N  7 SK       -   "50"    7.0   -7.0
+"N"  4 16 555 549 2H   S  7 CA       -   "50"    7.0   -7.0
+"M"  7 16 430 458 1S   W  7 CJ       -   "80"  -32.0   32.0
+"N"  9 16 521 528 1N   W  7 D4       -   "90"  -36.0   36.0
+"O" 14 15 622 656 1N   W  7 D4       -   "90"  -36.0   36.0
+"M" 10 16 427 422 2D   N  6 SQ       -  "100"  -45.0   45.0
+"M"  6 16 431 457 3D   N  7 SK       -  "100"  -45.0   45.0
+"N"  5 16 532 556 3CX  S  8 HK       -  "100"  -45.0   45.0
+"O"  4 15 646 632 3C   S  7 HK       -  "100"  -45.0   45.0
+"O" 13 15 623 655 2S   W  8 CJ       -  "110"  -58.0   58.0
+"O" 10 15 626 652 2S   W  8 CJ       -  "110"  -58.0   58.0
+"O" 15 15 657 621 2S   W  8 CJ       -  "110"  -58.0   58.0
+"O" 16 15 659 658 2S   W  8 CJ       -  "110"  -58.0   58.0
+"M" 11 16 423 426 2N   W  8 D4       -  "120"  -71.0   71.0
+"M"  5 16 432 456 1N   E  8 H6       -  "120"  -71.0   71.0
+"N" 12 16 525 524 2N   W  8 D4       -  "120"  -71.0   71.0
+"N" 10 16 527 522 1N   E  8 C7       -  "120"  -71.0   71.0
+"N"  8 16 529 559 1N   E  8 ST       -  "120"  -71.0   71.0
+"N"  2 16 551 553 1N   W  8 C8       -  "120"  -71.0   71.0
+"O"  8 15 628 650 2N   W  8 CJ       -  "120"  -71.0   71.0
+"N"  1 16 560 552 2D   N  5 SK       -  "150"  -99.0   99.0
+"O"  2 15 634 636 3H   S  6 HK       -  "150"  -99.0   99.0
+"O"  6 15 630 648 3HX  N  6 HT       -  "500" -365.0  365.0
+"O"  1 15 660 635 3N   W  9 CJ       -  "600" -412.0  412.0
+"O"  5 15 631 647 3DX  N  5 SK       -  "800" -487.0  487.0
+[OptimumScore "NS -100"]
+[OptimumContract "3CX N 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H  6
+W  D  7
+W  C  5
+W NT  8
+N  S  5
+N  H  6
+N  D  6
+N  C  8
+N NT  5
+E  S  7
+E  H  6
+E  D  7
+E  C  5
+E NT  8
+S  S  5
+S  H  6
+S  D  6
+S  C  8
+S NT  5
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "33"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:JT952.J94.952.92 8.AKQ.Q743.AJ765 7.T76.AJT6.KQT43 AKQ643.8532.K8.8"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  1 18 660 646 6SX  W  9 C4   "500"      -  511.0 -511.0
+"N"  4 17 556 550 6SX  W 10 C9   "300"      -  425.0 -425.0
+"O" 14 18 625 659 6NX  E 10 CK   "300"      -  425.0 -425.0
+"O" 13 18 626 658 6N   E 10 CK   "100"      -  357.0 -357.0
+"O" 10 18 629 655 4SX  W  9 D2   "100"      -  357.0 -357.0
+"N" 11 17 524 527 4S   W  9 H4    "50"      -  317.0 -317.0
+"M" 11 17 424 427 2S   W 10 D9       -  "170"  159.0 -159.0
+"N"  5 17 549 557 2CX  S  6 SA       -  "300"   50.0  -50.0
+"M"  8 17 430 421 3N   E  9 H6       -  "400"  -41.0   41.0
+"M"  1 17 460 453 3N   E  9 CK       -  "400"  -41.0   41.0
+"N" 10 17 528 523 3N   E  9 DJ       -  "400"  -41.0   41.0
+"N"  8 17 530 521 3N   E  9 CK       -  "400"  -41.0   41.0
+"N"  7 17 531 559 3N   E  9 CQ       -  "400"  -41.0   41.0
+"N"  6 17 532 558 3N   E  9 H7       -  "400"  -41.0   41.0
+"N"  2 17 552 554 3N   E  9 S7       -  "400"  -41.0   41.0
+"N"  1 17 560 553 3N   E  9 CQ       -  "400"  -41.0   41.0
+"O"  7 18 632 652 3N   E  9 D2       -  "400"  -41.0   41.0
+"O"  5 18 634 650 3N   E  9 CK       -  "400"  -41.0   41.0
+"M" 10 17 428 423 4S   W 10 H4       -  "420"  -72.0   72.0
+"M"  7 17 431 459 4S   E 10 H6       -  "420"  -72.0   72.0
+"M"  6 17 432 458 4S   W 10 H4       -  "420"  -72.0   72.0
+"M"  5 17 449 457 4S   W 10 H2       -  "420"  -72.0   72.0
+"M"  2 17 452 454 4S   W 10 D9       -  "420"  -72.0   72.0
+"M"  3 17 455 451 4S   W 10 HQ       -  "420"  -72.0   72.0
+"O"  6 18 633 651 4S   W 10 C9       -  "420"  -72.0   72.0
+"O"  3 18 648 636 4S   W 10 D2       -  "420"  -72.0   72.0
+"O" 11 18 656 628 4S   W 10 C9       -  "420"  -72.0   72.0
+"M" 12 17 426 425 3N   E 10 CK       -  "430"  -74.0   74.0
+"N" 12 17 526 525 3N   E 10 CK       -  "430"  -74.0   74.0
+"O" 16 18 623 622 4N   E 10 CK       -  "430"  -74.0   74.0
+"O"  2 18 645 647 3N   E 10 H6       -  "430"  -74.0   74.0
+"O"  4 18 649 635 3N   E 10 CK       -  "430"  -74.0   74.0
+"N"  9 17 522 529 3N   E 11 S7       -  "460" -109.0  109.0
+"N"  3 17 555 551 3N   E 11 H6       -  "460" -109.0  109.0
+"M"  9 17 422 429 2CX  S  5 SA       -  "500" -145.0  145.0
+"O" 15 18 621 624 2CX  S  5 SA       -  "500" -145.0  145.0
+"O" 12 18 627 657 2CX  S  5 SA       -  "500" -145.0  145.0
+"O"  8 18 631 653 2CX  S  5 SA       -  "500" -145.0  145.0
+"O"  9 18 654 630 2CX  S  5 SA       -  "500" -145.0  145.0
+"M"  4 17 456 450 4SX  E 10 D2       -  "590" -230.0  230.0
+[OptimumScore "NS -420"]
+[OptimumContract "4S E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H 10
+W  D  8
+W  C  8
+W NT  9
+N  S  3
+N  H  3
+N  D  4
+N  C  5
+N NT  3
+E  S 10
+E  H 10
+E  D  8
+E  C  8
+E NT  9
+S  S  3
+S  H  3
+S  D  4
+S  C  5
+S NT  3
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "34"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:87.J3.AQ864.QJ87 JT532.A76.7532.3 K964.9852.K.9542 AQ.KQT4.JT9.AKT6"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M" 12 17 426 425 2DX  E  4 C5   "800"      -  408.0 -408.0
+"N"  5 17 549 557 4CX  W  6 HK   "800"      -  408.0 -408.0
+"N"  2 17 552 554 3N   N 10 HJ   "630"      -  300.0 -300.0
+"M"  7 17 431 459 4H   N 10 CQ   "620"      -  298.0 -298.0
+"N"  6 17 532 558 4S   N 10 DK   "620"      -  298.0 -298.0
+"O"  6 18 633 651 4S   S 10 DK   "620"      -  298.0 -298.0
+"O"  1 18 660 646 4S   N 10 DK   "620"      -  298.0 -298.0
+"M" 10 17 428 423 3N   S  9 H8   "600"      -  286.0 -286.0
+"N"  9 17 522 529 3N   N  9 CQ   "600"      -  286.0 -286.0
+"O" 10 18 629 655 3N   N  9 CQ   "600"      -  286.0 -286.0
+"O"  8 18 631 653 3N   N  9 CQ   "600"      -  286.0 -286.0
+"O"  9 18 654 630 3N   N  9 S8   "600"      -  286.0 -286.0
+"M"  2 17 452 454 2DX  W  5 CA   "500"      -  223.0 -223.0
+"M"  5 17 449 457 2H   N 11 CJ   "200"      -   -4.0    4.0
+"M"  3 17 455 451 2N   N 10 CQ   "180"      -  -24.0   24.0
+"N" 10 17 528 523 2N   N 10 D6   "180"      -  -24.0   24.0
+"M"  9 17 422 429 3S   S 10 C4   "170"      -  -29.0   29.0
+"M" 11 17 424 427 3S   S 10 DK   "170"      -  -29.0   29.0
+"M"  8 17 430 421 1H   N 10 S8   "170"      -  -29.0   29.0
+"M"  6 17 432 458 2S   N 10 S8   "170"      -  -29.0   29.0
+"N"  7 17 531 559 2S   N 10 CQ   "170"      -  -29.0   29.0
+"N"  4 17 556 550 2S   N 10 HJ   "170"      -  -29.0   29.0
+"O" 11 18 656 628 2S   N 10 HJ   "170"      -  -29.0   29.0
+"N"  1 17 560 553 3S   N  9 DK   "140"      -  -55.0   55.0
+"O" 16 18 623 622 2S   S  9 DK   "140"      -  -55.0   55.0
+"O"  7 18 632 652 3H   N  9 S7   "140"      -  -55.0   55.0
+"O"  2 18 645 647 2H   N  9 H3   "140"      -  -55.0   55.0
+"M"  4 17 456 450 3N   N  8 D2       -  "100" -240.0  240.0
+"N" 11 17 524 527 3N   N  8 D4       -  "100" -240.0  240.0
+"N" 12 17 526 525 4H   N  9 CQ       -  "100" -240.0  240.0
+"N"  8 17 530 521 3N   N  8 S8       -  "100" -240.0  240.0
+"O" 15 18 621 624 3N   N  8 C5       -  "100" -240.0  240.0
+"O" 14 18 625 659 4S   N  9 CQ       -  "100" -240.0  240.0
+"O" 13 18 626 658 3N   N  8 S8       -  "100" -240.0  240.0
+"O" 12 18 627 657 3N   N  8 D4       -  "100" -240.0  240.0
+"O"  4 18 649 635 4H   N  9 CQ       -  "100" -240.0  240.0
+"N"  3 17 555 551 3H   N  7 CQ       -  "200" -316.0  316.0
+"O"  5 18 634 650 3N   N  7 D2       -  "200" -316.0  316.0
+"O"  3 18 648 636 4S   S  8 DK       -  "200" -316.0  316.0
+"M"  1 17 460 453 3N   N  6 D6       -  "300" -378.0  378.0
+[OptimumScore "NS 620"]
+[OptimumContract "4H S 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  3
+W  H  2
+W  D  5
+W  C  6
+W NT  5
+N  S  9
+N  H 10
+N  D  8
+N  C  7
+N NT  8
+E  S  3
+E  H  2
+E  D  5
+E  C  6
+E NT  5
+S  S  9
+S  H 10
+S  D  8
+S  C  7
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "35"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QJ.T986.QJ975.J3 6532.K43.A832.A8 AKT94.Q5.64.KQT7 87.AJ72.KT.96542"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M" 11 18 425 428 2D   W  6 SA   "200"      -  139.0 -139.0
+"M"  2 18 453 455 1N   W  5 CK   "200"      -  139.0 -139.0
+"O" 11 17 655 627 1N   E  5 DQ   "200"      -  139.0 -139.0
+"N"  5 18 550 558 1N   S  9 H3   "150"      -   71.0  -71.0
+"N"  2 18 553 555 1N   S  9 D3   "150"      -   71.0  -71.0
+"M" 12 18 427 426 2S   N  9 H2   "140"      -   68.0  -68.0
+"N"  7 18 532 521 1N   N  8 C2   "120"      -   41.0  -41.0
+"M"  9 18 423 430 2S   N  8 DK   "110"      -   28.0  -28.0
+"M"  7 18 432 421 2S   N  8 C2   "110"      -   28.0  -28.0
+"M"  6 18 449 459 2S   N  8 C6   "110"      -   28.0  -28.0
+"M"  5 18 450 458 2S   N  8 C2   "110"      -   28.0  -28.0
+"M"  4 18 457 451 2S   N  8 DK   "110"      -   28.0  -28.0
+"M"  1 18 460 454 2S   N  8 C8   "110"      -   28.0  -28.0
+"N"  9 18 523 530 2S   N  8 C4   "110"      -   28.0  -28.0
+"N" 12 18 527 526 2S   N  8 S7   "110"      -   28.0  -28.0
+"N" 10 18 529 524 1S   N  8 C2   "110"      -   28.0  -28.0
+"N"  8 18 531 522 2S   N  8 DK   "110"      -   28.0  -28.0
+"N"  3 18 556 552 1S   N  8 C2   "110"      -   28.0  -28.0
+"N"  4 18 557 551 1S   N  8 C2   "110"      -   28.0  -28.0
+"N"  1 18 560 554 2S   N  8 DK   "110"      -   28.0  -28.0
+"O" 12 17 626 656 2S   N  8 DK   "110"      -   28.0  -28.0
+"O" 10 17 628 654 2S   N  8 DK   "110"      -   28.0  -28.0
+"O"  7 17 631 651 1S   N  8 C2   "110"      -   28.0  -28.0
+"O"  6 17 632 650 2S   N  8 D2   "110"      -   28.0  -28.0
+"O"  5 17 633 649 2S   N  8 DK   "110"      -   28.0  -28.0
+"O"  2 17 636 646 2S   N  8 DK   "110"      -   28.0  -28.0
+"O"  3 17 647 635 2S   N  8 C5   "110"      -   28.0  -28.0
+"O"  9 17 653 629 2S   N  8 C2   "110"      -   28.0  -28.0
+"O" 15 17 659 623 2S   N  8 DK   "110"      -   28.0  -28.0
+"N"  6 18 549 559 3C   W  8 SA   "100"      -   25.0  -25.0
+"O" 13 17 625 657 1N   W  6 ST   "100"      -   25.0  -25.0
+"O"  8 17 630 652 1N   E  6 DQ   "100"      -   25.0  -25.0
+"M"  8 18 431 422 3N   N  8 C6       -   "50" -126.0  126.0
+"M"  3 18 456 452 3S   N  8 DK       -   "50" -126.0  126.0
+"O" 16 17 622 621 2S   N  7 DK       -   "50" -126.0  126.0
+"N" 11 18 525 528 1N   W  7 SA       -   "90" -167.0  167.0
+"M" 10 18 429 424 3S   N  7 DK       -  "100" -171.0  171.0
+"O"  1 17 660 645 2S   N  6 D2       -  "100" -171.0  171.0
+"O"  4 17 648 634 3D   S  6 S3       -  "150" -215.0  215.0
+"O" 14 17 624 658 2H   S  4 CA       -  "200" -257.0  257.0
+[OptimumScore "NS 90"]
+[OptimumContract "1N S 7"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  7
+W  D  7
+W  C  7
+W NT  6
+N  S  7
+N  H  5
+N  D  6
+N  C  6
+N NT  7
+E  S  5
+E  H  7
+E  D  7
+E  C  7
+E NT  6
+S  S  7
+S  H  5
+S  D  6
+S  C  6
+S NT  7
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "36"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KJ2.AJ7643.A.743 43.T52.Q642.KQT9 Q986.K8.T75.8652 AT75.Q9.KJ983.AJ"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  1 18 560 554 5DX  S 11 S2   "750"      -  489.0 -489.0
+"O"  9 17 653 629 3S   E  7 D3   "200"      -  195.0 -195.0
+"N" 10 18 529 524 3D   S 11 S2   "150"      -  138.0 -138.0
+"O" 14 17 624 658 3D   S 11 C3   "150"      -  138.0 -138.0
+"O"  5 17 633 649 3D   S 11 C3   "150"      -  138.0 -138.0
+"N"  2 18 553 555 3D   S 10 HA   "130"      -  132.0 -132.0
+"O"  1 17 660 645 3C   N 10 HA   "130"      -  132.0 -132.0
+"M" 11 18 425 428 2D   S  9 HA   "110"      -   96.0  -96.0
+"M" 10 18 429 424 3D   S  9 C7   "110"      -   96.0  -96.0
+"M"  7 18 432 421 3C   S  9 DA   "110"      -   96.0  -96.0
+"M"  6 18 449 459 2D   S  9 H3   "110"      -   96.0  -96.0
+"M"  2 18 453 455 2D   S  9 HA   "110"      -   96.0  -96.0
+"M"  4 18 457 451 3C   N  9 HK   "110"      -   96.0  -96.0
+"N"  8 18 531 522 3D   S  9 HA   "110"      -   96.0  -96.0
+"N"  5 18 550 558 3D   S  9 HA   "110"      -   96.0  -96.0
+"O" 12 17 626 656 3D   S  9 HA   "110"      -   96.0  -96.0
+"O" 10 17 628 654 3D   S  9 HA   "110"      -   96.0  -96.0
+"O"  7 17 631 651 3C   N  9 HK   "110"      -   96.0  -96.0
+"O"  3 17 647 635 3D   S  9 HA   "110"      -   96.0  -96.0
+"O"  4 17 648 634 3D   S  9 HA   "110"      -   96.0  -96.0
+"O"  8 17 630 652 3H   W  8 CK   "100"      -   93.0  -93.0
+"M"  8 18 431 422 1N   S  6 H6       -  "100"  -96.0   96.0
+"M"  3 18 456 452 4D   S  9 HA       -  "100"  -96.0   96.0
+"M"  1 18 460 454 3C   N  8 HK       -  "100"  -96.0   96.0
+"N"  9 18 523 530 4C   N  9 HK       -  "100"  -96.0   96.0
+"O" 13 17 625 657 1N   S  6 H2       -  "100"  -96.0   96.0
+"M"  9 18 423 430 2H   W  9 S4       -  "140" -135.0  135.0
+"M"  5 18 450 458 2H   W  9 S4       -  "140" -135.0  135.0
+"N" 11 18 525 528 2H   W  9 CK       -  "140" -135.0  135.0
+"N" 12 18 527 526 2H   W  9 S4       -  "140" -135.0  135.0
+"N"  7 18 532 521 2H   W  9 S3       -  "140" -135.0  135.0
+"N"  6 18 549 559 3H   W  9 CK       -  "140" -135.0  135.0
+"N"  3 18 556 552 2H   W  9 S4       -  "140" -135.0  135.0
+"O" 16 17 622 621 2H   W  9 S4       -  "140" -135.0  135.0
+"O"  6 17 632 650 3H   E  9 D2       -  "140" -135.0  135.0
+"O" 11 17 655 627 2H   W  9 CK       -  "140" -135.0  135.0
+"O" 15 17 659 623 2H   W  9 CK       -  "140" -135.0  135.0
+"N"  4 18 557 551 5D   S  9 DA       -  "200" -192.0  192.0
+"M" 12 18 427 426 3N   N  6 HK       -  "300" -273.0  273.0
+"O"  2 17 636 646 3C   N  6 HK       -  "300" -273.0  273.0
+[OptimumScore "NS 110"]
+[OptimumContract "3D N 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H  8
+W  D  2
+W  C  5
+W NT  7
+N  S  6
+N  H  4
+N  D  9
+N  C  6
+N NT  5
+E  S  6
+E  H  8
+E  D  2
+E  C  5
+E NT  7
+S  S  6
+S  H  4
+S  D  9
+S  C  6
+S NT  5
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "37"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:JT8.52.A843.AJ82 A763.J4.KT62.976 Q9.QT76.Q.KQT543 K542.AK983.J975."]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"N"  2 19 554 556 3N   N  9 D7   "600"      -  459.0 -459.0
+"O"  2 21 648 650 4SX  E  8 CK   "300"      -  320.0 -320.0
+"O"  7 21 635 655 4C   S 10 HA   "130"      -  192.0 -192.0
+"O"  9 21 657 633 4C   S 10 HA   "130"      -  192.0 -192.0
+"M" 10 19 430 425 3C   S  9 HA   "110"      -  168.0 -168.0
+"M"  5 19 451 459 3C   S  9 HA   "110"      -  168.0 -168.0
+"N" 10 19 530 525 3C   S  9 HA   "110"      -  168.0 -168.0
+"N"  7 19 549 522 2C   S  9 HA   "110"      -  168.0 -168.0
+"N"  4 19 558 552 3C   S  9 HA   "110"      -  168.0 -168.0
+"O"  5 21 645 653 2C   S  9 HA   "110"      -  168.0 -168.0
+"N"  3 19 557 553 3HX  W  8 CA   "100"      -  166.0 -166.0
+"M"  7 19 449 422 4S   E  9 DQ    "50"      -  118.0 -118.0
+"N"  9 19 524 531 4S   E  9 CK    "50"      -  118.0 -118.0
+"N"  5 19 551 559 4S   E  9 DQ    "50"      -  118.0 -118.0
+"O" 13 21 629 622 4S   E  9 DQ    "50"      -  118.0 -118.0
+"O"  6 21 636 654 4S   E  9 CK    "50"      -  118.0 -118.0
+"M"  8 19 432 423 4C   S  9 HA       -  "100"  -17.0   17.0
+"N" 11 19 526 529 4C   S  9 HA       -  "100"  -17.0   17.0
+"N"  1 19 560 555 4C   S  9 HK       -  "100"  -17.0   17.0
+"O"  4 21 652 646 4C   S  9 S4       -  "100"  -17.0   17.0
+"M"  2 19 454 456 3D   W  9 CA       -  "110"  -28.0   28.0
+"O" 15 21 624 627 3D   E 10 SQ       -  "130"  -52.0   52.0
+"M" 11 19 426 429 3S   E  9 CK       -  "140"  -56.0   56.0
+"M" 12 19 428 427 3S   E  9 CK       -  "140"  -56.0   56.0
+"M"  1 19 460 455 3S   E  9 DQ       -  "140"  -56.0   56.0
+"N" 12 19 528 527 3S   E  9 DQ       -  "140"  -56.0   56.0
+"N"  8 19 532 523 3S   E  9 C2       -  "140"  -56.0   56.0
+"O" 14 21 628 623 3H   E  9 H4       -  "140"  -56.0   56.0
+"O" 11 21 659 631 3H   E  9 SJ       -  "140"  -56.0   56.0
+"O"  3 21 651 647 3D   E 11 CK       -  "150"  -63.0   63.0
+"O" 12 21 630 621 3S   E 10 DQ       -  "170"  -92.0   92.0
+"O" 10 21 632 658 3S   E 10 D2       -  "170"  -92.0   92.0
+"M"  9 19 424 431 3N   S  7 D7       -  "200" -114.0  114.0
+"M"  6 19 450 421 4CX  S  9 HA       -  "200" -114.0  114.0
+"M"  4 19 458 452 4S   E 10 DQ       -  "420" -294.0  294.0
+"O" 16 21 626 625 4S   E 10 DQ       -  "420" -294.0  294.0
+"O"  8 21 634 656 4S   E 10 DQ       -  "420" -294.0  294.0
+"M"  3 19 457 453 4S   E 11 DQ       -  "450" -310.0  310.0
+"N"  6 19 550 521 3DX  W  9 SJ       -  "470" -331.0  331.0
+"O"  1 21 660 649 3DX  W 10 CA       -  "570" -389.0  389.0
+[OptimumScore "NS -420"]
+[OptimumContract "4S E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 10
+W  H  8
+W  D 10
+W  C  4
+W NT  6
+N  S  2
+N  H  4
+N  D  2
+N  C  9
+N NT  7
+E  S 10
+E  H  8
+E  D 10
+E  C  4
+E NT  6
+S  S  2
+S  H  4
+S  D  2
+S  C  9
+S NT  7
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "38"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:JT75.T6.A9.QJT87 AKQ2.K8.QJ654.42 843.J742.872.A95 96.AQ953.KT3.K63"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M" 10 19 430 425 3N   S 12 D8   "490"      -  347.0 -347.0
+"N"  6 19 550 521 3N   S 11 S6   "460"      -  337.0 -337.0
+"O" 14 21 628 623 3N   S 11 D8   "460"      -  337.0 -337.0
+"M"  5 19 451 459 3N   S 10 D2   "430"      -  300.0 -300.0
+"O" 12 21 630 621 3N   S 10 D2   "430"      -  300.0 -300.0
+"M"  7 19 449 422 4H   N 10 CJ   "420"      -  300.0 -300.0
+"M"  4 19 458 452 4H   N 10 CQ   "420"      -  300.0 -300.0
+"N" 10 19 530 525 4H   N 10 CQ   "420"      -  300.0 -300.0
+"O" 15 21 624 627 4H   N 10 CQ   "420"      -  300.0 -300.0
+"O"  8 21 634 656 4H   N 10 CQ   "420"      -  300.0 -300.0
+"M"  9 19 424 431 3N   N  8 CQ       -   "50"  -94.0   94.0
+"M" 12 19 428 427 3N   S  8 C3       -   "50"  -94.0   94.0
+"M"  8 19 432 423 3N   N  8 CQ       -   "50"  -94.0   94.0
+"M"  6 19 450 421 3N   N  8 CQ       -   "50"  -94.0   94.0
+"M"  2 19 454 456 3N   N  8 CQ       -   "50"  -94.0   94.0
+"M"  3 19 457 453 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N"  9 19 524 531 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N" 11 19 526 529 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N" 12 19 528 527 3N   S  8 C5       -   "50"  -94.0   94.0
+"N"  8 19 532 523 3N   N  8 S3       -   "50"  -94.0   94.0
+"N"  7 19 549 522 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N"  5 19 551 559 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N"  3 19 557 553 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N"  4 19 558 552 3N   N  8 CQ       -   "50"  -94.0   94.0
+"N"  1 19 560 555 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O" 13 21 629 622 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O" 10 21 632 658 3N   N  8 D2       -   "50"  -94.0   94.0
+"O"  7 21 635 655 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O"  6 21 636 654 3N   S  8 C5       -   "50"  -94.0   94.0
+"O"  5 21 645 653 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O"  2 21 648 650 3N   N  8 CJ       -   "50"  -94.0   94.0
+"O"  3 21 651 647 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O"  4 21 652 646 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O"  9 21 657 633 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O" 11 21 659 631 3N   N  8 CQ       -   "50"  -94.0   94.0
+"O"  1 21 660 649 3N   N  8 CQ       -   "50"  -94.0   94.0
+"M" 11 19 426 429 3N   N  7 CQ       -  "100" -160.0  160.0
+"M"  1 19 460 455 3N   N  7 CQ       -  "100" -160.0  160.0
+"N"  2 19 554 556 3N   N  7 CQ       -  "100" -160.0  160.0
+"O" 16 21 626 625 4S   S  7 C5       -  "150" -197.0  197.0
+[OptimumScore "NS 420"]
+[OptimumContract "4S S 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  3
+W  H  2
+W  D  2
+W  C  6
+W NT  2
+N  S 10
+N  H 10
+N  D 11
+N  C  7
+N NT  8
+E  S  3
+E  H  2
+E  D  2
+E  C  6
+E NT  2
+S  S 10
+S  H 10
+S  D 11
+S  C  7
+S NT  8
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "39"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQJ7.K93.AJ73.QT K863.AQJ4.Q.KJ86 9542.T875.T4.942 T.62.K98652.A753"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  2 19 646 648 3NX  W  8 S4   "200"      -  344.0 -344.0
+"O" 16 19 624 623 2N   W  7 C2   "100"      -  270.0 -270.0
+"O" 15 19 622 625 1N   S  7 C6    "90"      -  268.0 -268.0
+"M" 10 20 431 426 1N   S  6 H4       -  "100"   99.0  -99.0
+"M"  2 20 455 457 2D   E  9 SA       -  "110"   98.0  -98.0
+"M"  1 20 460 456 2D   E  9 CQ       -  "110"   98.0  -98.0
+"N"  9 20 525 532 3D   E  9 SA       -  "110"   98.0  -98.0
+"N" 11 20 527 530 2H   W  8 DT       -  "110"   98.0  -98.0
+"N"  5 20 552 521 2H   W  8 C2       -  "110"   98.0  -98.0
+"N"  3 20 558 554 2H   W  8 DT       -  "110"   98.0  -98.0
+"N"  1 20 560 556 3D   E  9 D3       -  "110"   98.0  -98.0
+"O" 12 19 628 658 2D   E  9 HJ       -  "110"   98.0  -98.0
+"O"  8 19 632 654 2H   E  8 D2       -  "110"   98.0  -98.0
+"O"  6 19 634 652 2H   E  8 CQ       -  "110"   98.0  -98.0
+"M" 12 20 429 428 3D   E 10 SA       -  "130"   67.0  -67.0
+"M"  7 20 450 423 3D   E 10 SA       -  "130"   67.0  -67.0
+"M"  6 20 451 422 3C   W 10 DT       -  "130"   67.0  -67.0
+"N" 10 20 531 526 3D   W 10 C2       -  "130"   67.0  -67.0
+"N"  2 20 555 557 3C   E 10 SA       -  "130"   67.0  -67.0
+"N"  4 20 559 553 3C   E 10 CT       -  "130"   67.0  -67.0
+"O" 14 19 626 621 2D   E 10 SA       -  "130"   67.0  -67.0
+"O"  3 19 649 645 3C   W 10 H7       -  "130"   67.0  -67.0
+"O"  4 19 650 636 2C   E 10 SQ       -  "130"   67.0  -67.0
+"M"  4 20 459 453 2H   E  9 H3       -  "140"   63.0  -63.0
+"O" 13 19 627 659 2H   W  9 DT       -  "140"   63.0  -63.0
+"O" 10 19 630 656 2H   W  9 C2       -  "140"   63.0  -63.0
+"O"  9 19 655 631 2H   W  9 DT       -  "140"   63.0  -63.0
+"O" 11 19 657 629 2H   E  9 H2       -  "140"   63.0  -63.0
+"M" 11 20 427 430 1N   S  5 HJ       -  "200"   -1.0    1.0
+"M"  8 20 449 424 2S   S  6 D2       -  "200"   -1.0    1.0
+"M"  3 20 458 454 2S   S  5 C3       -  "300"  -92.0   92.0
+"O"  5 19 635 651 2S   S  5 DQ       -  "300"  -92.0   92.0
+"M"  9 20 425 432 2DX  E  9 CQ       -  "380" -154.0  154.0
+"N"  7 20 550 523 2D   S  4 C8       -  "400" -170.0  170.0
+"N" 12 20 529 528 3H   N  4 ST       -  "500" -244.0  244.0
+"M"  5 20 452 421 2DX  W 10 CQ       -  "580" -297.0  297.0
+"N"  8 20 549 524 3N   W  9 C9       -  "600" -302.0  302.0
+"N"  6 20 551 522 1DX  S  3 DQ       - "1100" -506.0  506.0
+"O"  7 19 633 653 3NX  S  5 S6       - "1100" -506.0  506.0
+"O"  1 19 660 647 1NXX E  8 H2       - "1160" -514.0  514.0
+[OptimumScore "NS -600"]
+[OptimumContract "3N W 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H  9
+W  D 10
+W  C 10
+W NT  9
+N  S  5
+N  H  4
+N  D  3
+N  C  2
+N NT  4
+E  S  8
+E  H  9
+E  D 10
+E  C 10
+E NT  9
+S  S  5
+S  H  4
+S  D  3
+S  C  2
+S NT  4
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "40"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AQ.QJ543.42.AJT4 863.2.AJ85.KQ965 J942.AT98.QT63.3 KT75.K76.K97.872"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"M" 12 20 429 428 4H   W  9 H2    "50"      -  324.0 -324.0
+"O" 12 19 628 658 4H   W  9 H2    "50"      -  324.0 -324.0
+"M"  2 20 455 457 3H   W  9 CK       -  "140"  174.0 -174.0
+"N" 10 20 531 526 3H   W  9 CK       -  "140"  174.0 -174.0
+"O" 16 19 624 623 2H   W  9 CK       -  "140"  174.0 -174.0
+"O"  1 19 660 647 3S   S  6 HQ       -  "150"  174.0 -174.0
+"M" 11 20 427 430 3H   W 10 CQ       -  "170"  139.0 -139.0
+"M"  7 20 450 423 2H   W 10 H2       -  "170"  139.0 -139.0
+"M"  6 20 451 422 3H   W 10 S3       -  "170"  139.0 -139.0
+"M"  5 20 452 421 3H   W 10 CK       -  "170"  139.0 -139.0
+"M"  4 20 459 453 3H   W 10 CK       -  "170"  139.0 -139.0
+"M"  1 20 460 456 3H   W 10 S2       -  "170"  139.0 -139.0
+"N"  9 20 525 532 3H   W 10 CK       -  "170"  139.0 -139.0
+"N" 12 20 529 528 3H   W 10 CK       -  "170"  139.0 -139.0
+"O" 14 19 626 621 2H   W 10 CK       -  "170"  139.0 -139.0
+"O"  9 19 655 631 2H   W 10 CK       -  "170"  139.0 -139.0
+"O" 10 19 630 656 3H   W 11 S3       -  "200"  120.0 -120.0
+"O"  3 19 649 645 3DX  S  7 H3       -  "300"   14.0  -14.0
+"M"  9 20 425 432 4H   W 10 CK       -  "420"  -91.0   91.0
+"M" 10 20 431 426 4H   W 10 CK       -  "420"  -91.0   91.0
+"M"  8 20 449 424 4H   W 10 CK       -  "420"  -91.0   91.0
+"M"  3 20 458 454 4H   W 10 H2       -  "420"  -91.0   91.0
+"N" 11 20 527 530 4H   W 10 CK       -  "420"  -91.0   91.0
+"N"  7 20 550 523 4H   W 10 CK       -  "420"  -91.0   91.0
+"N"  6 20 551 522 4H   W 10 CK       -  "420"  -91.0   91.0
+"N"  5 20 552 521 4H   W 10 CK       -  "420"  -91.0   91.0
+"N"  3 20 558 554 4H   W 10 CK       -  "420"  -91.0   91.0
+"N"  4 20 559 553 4H   W 10 CK       -  "420"  -91.0   91.0
+"N"  1 20 560 556 4H   W 10 CQ       -  "420"  -91.0   91.0
+"O" 13 19 627 659 4H   W 10 S3       -  "420"  -91.0   91.0
+"O"  8 19 632 654 4H   E 10 CK       -  "420"  -91.0   91.0
+"O"  6 19 634 652 4H   W 10 CK       -  "420"  -91.0   91.0
+"O"  4 19 650 636 4H   W 10 CQ       -  "420"  -91.0   91.0
+"O" 11 19 657 629 4H   E 10 S2       -  "420"  -91.0   91.0
+"N"  8 20 549 524 4H   W 11 CK       -  "450" -126.0  126.0
+"O" 15 19 622 625 4H   W 11 CK       -  "450" -126.0  126.0
+"O"  7 19 633 653 3HX  W  9 H2       -  "530" -191.0  191.0
+"O"  5 19 635 651 4HX  W 10 S3       -  "590" -252.0  252.0
+"O"  2 19 646 648 4HX  W 11 S3       -  "690" -325.0  325.0
+"N"  2 20 555 557 4CX  N  6 HA       -  "800" -392.0  392.0
+[OptimumScore "NS -420"]
+[OptimumContract "4H W 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  6
+W  H 10
+W  D  7
+W  C  6
+W NT  7
+N  S  7
+N  H  3
+N  D  6
+N  C  7
+N NT  5
+E  S  6
+E  H 10
+E  D  7
+E  C  6
+E NT  6
+S  S  6
+S  H  3
+S  D  6
+S  C  7
+S NT  5
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "41"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:J.QJT764.QT875.J KQT87.A85.K.A763 A2.K93.J632.Q954 96543.2.A94.KT82"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  4 20 651 645 7SX  W 11 SA   "500"      -  553.0 -553.0
+"N"  1 21 560 557 6S   W 11 HJ   "100"      -  429.0 -429.0
+"M" 10 21 432 427 3H   N  8 SQ       -   "50"  358.0 -358.0
+"O" 15 20 623 626 4H   N  9 DK       -   "50"  358.0 -358.0
+"M" 11 21 428 431 4DX  N  9 DK       -  "100"  316.0 -316.0
+"N" 12 21 530 529 5HX  N  9 DK       -  "300"  190.0 -190.0
+"N" 10 21 532 527 5HX  N  9 S3       -  "300"  190.0 -190.0
+"N"  2 21 556 558 5HX  N  9 DK       -  "300"  190.0 -190.0
+"O" 16 20 625 624 5HX  N  9 SK       -  "300"  190.0 -190.0
+"O" 14 20 627 622 5HX  N  9 SK       -  "300"  190.0 -190.0
+"O"  8 20 633 655 5HX  S  9 S9       -  "300"  190.0 -190.0
+"O"  3 20 650 646 5HX  N  9 SK       -  "300"  190.0 -190.0
+"O"  1 20 660 648 5HX  N  9 DK       -  "300"  190.0 -190.0
+"M"  2 21 456 458 6HX  N  9 SK       -  "500"   26.0  -26.0
+"M"  3 21 459 455 6HX  N  9 SK       -  "500"   26.0  -26.0
+"N"  8 21 550 525 6HX  N  9 SK       -  "500"   26.0  -26.0
+"M"  7 21 451 424 4S   E 11 D2       -  "650" -110.0  110.0
+"M"  6 21 452 423 5S   E 11 H3       -  "650" -110.0  110.0
+"M"  1 21 460 457 5S   E 11 H3       -  "650" -110.0  110.0
+"N"  4 21 521 554 5S   E 11 H3       -  "650" -110.0  110.0
+"N"  3 21 559 555 5S   E 11 H3       -  "650" -110.0  110.0
+"O"  7 20 634 654 5S   E 11 HK       -  "650" -110.0  110.0
+"O"  5 20 636 652 4S   E 11 H2       -  "650" -110.0  110.0
+"O"  2 20 647 649 5S   E 11 H3       -  "650" -110.0  110.0
+"O"  9 20 656 632 5S   E 11 H3       -  "650" -110.0  110.0
+"O" 11 20 658 630 5S   E 11 D3       -  "650" -110.0  110.0
+"M"  4 21 421 454 5S   E 12 H3       -  "680" -144.0  144.0
+"M"  9 21 426 449 5S   W 12 CJ       -  "680" -144.0  144.0
+"M" 12 21 430 429 5S   E 12 H3       -  "680" -144.0  144.0
+"M"  8 21 450 425 4S   E 12 H3       -  "680" -144.0  144.0
+"N"  9 21 526 549 4S   E 12 HK       -  "680" -144.0  144.0
+"N" 11 21 528 531 4S   E 12 HK       -  "680" -144.0  144.0
+"N"  7 21 551 524 4S   E 12 H2       -  "680" -144.0  144.0
+"N"  6 21 552 523 5S   E 12 HK       -  "680" -144.0  144.0
+"N"  5 21 553 522 4S   W 12 HQ       -  "680" -144.0  144.0
+"O" 13 20 628 621 4S   E 12 H3       -  "680" -144.0  144.0
+"O" 12 20 629 659 5S   E 12 D3       -  "680" -144.0  144.0
+"O" 10 20 631 657 5S   E 12 H3       -  "680" -144.0  144.0
+"O"  6 20 635 653 6HX  N  8 SK       -  "800" -241.0  241.0
+"M"  5 21 453 422 6S   E 12 H3       - "1430" -543.0  543.0
+[OptimumScore "NS -1100"]
+[OptimumContract "7DX N 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 12
+W  H  4
+W  D  5
+W  C 11
+W NT 10
+N  S  1
+N  H  8
+N  D  8
+N  C  1
+N NT  2
+E  S 12
+E  H  4
+E  D  5
+E  C 11
+E NT 10
+S  S  1
+S  H  8
+S  D  8
+S  C  1
+S NT  2
+
+[Event "Silver 1 - Best Western City Hotel"]
+[Site "Sveriges Bridgeförbund, Sverige"]
+[Date "2011.07.29"]
+[Board "42"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:8.AQT.AT73.AK763 T965432.32.J8.Q5 Q7.9874.Q654.984 AKJ.KJ65.K92.JT2"]
+[Scoring "IMP;Cross"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2011.07.29"]
+[Annotator "Förbundet Svensk Bridge - Bridgefestivalen - Örebro 2011"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\2R;Round\2R;PairId_NS\3R;PairId_EW\3R;Contract\4L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\6R;IMP_EW\6R"]
+"O"  1 20 660 648 4H   E  6 ST   "400"      -  366.0 -366.0
+"N"  3 21 559 555 4C   E  8 H3   "200"      -  222.0 -222.0
+"N"  1 21 560 557 4C   E  8 S5   "200"      -  222.0 -222.0
+"O"  7 20 634 654 4H   W  8 SA   "200"      -  222.0 -222.0
+"O"  5 20 636 652 5DX  W 10 SA   "200"      -  222.0 -222.0
+"M"  6 21 452 423 3S   S 10 D4   "170"      -  193.0 -193.0
+"M"  4 21 421 454 3S   S  9 C4   "140"      -  169.0 -169.0
+"M"  8 21 450 425 2S   S  9 D5   "140"      -  169.0 -169.0
+"M"  1 21 460 457 3S   S  9 C4   "140"      -  169.0 -169.0
+"N"  8 21 550 525 3S   S  9 D5   "140"      -  169.0 -169.0
+"O" 16 20 625 624 2S   N  9 CA   "140"      -  169.0 -169.0
+"N"  9 21 526 549 2S   S  8 C4   "110"      -  133.0 -133.0
+"N" 10 21 532 527 2S   N  8 CA   "110"      -  133.0 -133.0
+"N" 11 21 528 531 4H   W  9 SA   "100"      -  133.0 -133.0
+"O"  2 20 647 649 3D   W  8 SK   "100"      -  133.0 -133.0
+"M"  9 21 426 449 2C   E  8 S4       -   "90"  -53.0   53.0
+"O" 11 20 658 630 2C   E  8 ST       -   "90"  -53.0   53.0
+"N"  4 21 521 554 4S   N  9 CK       -  "100"  -56.0   56.0
+"N"  6 21 552 523 3S   S  8 H9       -  "100"  -56.0   56.0
+"N"  2 21 556 558 3S   S  8 C4       -  "100"  -56.0   56.0
+"O" 15 20 623 626 3S   S  8 C9       -  "100"  -56.0   56.0
+"O" 12 20 629 659 3S   S  8 C9       -  "100"  -56.0   56.0
+"O" 10 20 631 657 3S   S  8 C4       -  "100"  -56.0   56.0
+"O"  8 20 633 655 4S   S  9 C6       -  "100"  -56.0   56.0
+"O"  3 20 650 646 3S   S  8 C4       -  "100"  -56.0   56.0
+"O"  9 20 656 632 4S   S  9 C4       -  "100"  -56.0   56.0
+"M"  3 21 459 455 1N   E  8 H4       -  "120"  -84.0   84.0
+"M" 11 21 428 431 2D   W 10 SA       -  "130"  -90.0   90.0
+"M" 12 21 430 429 4D   E 10 H3       -  "130"  -90.0   90.0
+"N" 12 21 530 529 3C   E 10 H3       -  "130"  -90.0   90.0
+"N"  7 21 551 524 2C   E 10 H3       -  "130"  -90.0   90.0
+"N"  5 21 553 522 3D   W 10 SA       -  "130"  -90.0   90.0
+"O" 14 20 627 622 4D   E 10 H3       -  "130"  -90.0   90.0
+"O"  6 20 635 653 3D   W 10 SA       -  "130"  -90.0   90.0
+"O"  4 20 651 645 4D   W 10 SA       -  "130"  -90.0   90.0
+"O" 13 20 628 621 3H   W  9 SA       -  "140"  -97.0   97.0
+"M" 10 21 432 427 4S   S  7 C8       -  "300" -243.0  243.0
+"M"  7 21 451 424 4SXX N  9 C3       -  "400" -314.0  314.0
+"M"  5 21 453 422 4SX  S  8 H8       -  "500" -378.0  378.0
+"M"  2 21 456 458 4SX  S  8 C5       -  "500" -378.0  378.0
+[OptimumScore "NS 140"]
+[OptimumContract "3S N 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  4
+W  H  8
+W  D  9
+W  C  9
+W NT  8
+N  S  9
+N  H  5
+N  D  4
+N  C  4
+N NT  5
+E  S  4
+E  H  8
+E  D  9
+E  C  9
+E NT  8
+S  S  8
+S  H  5
+S  D  3
+S  C  3
+S NT  5

@@ -1,0 +1,102 @@
+% PBN 2.0
+% EXPORT
+% 
+% <META  name=Generator                  content="Ruter">
+% <META  name=Version                    content="4.7">
+% <META  name=Author                     content="www.brenning.se">
+% 
+% <META  name=Licencee                   content="SBL 0901 Kati Sandström">
+% <META  name=Arranger                   content="SBL 0901 Kati Sandström">
+% <META  name=Signature                  content="SBL 0901 Kati Sandström">
+% <META  name=Created                    content="2013-09-24 17:55:15">
+% 
+% <META  name=ContestDate                content="2013-09-15">
+% <META  name=ContestName                content="Salo joukkuekilpailu">
+% <META  name=ContestType                content="4">
+% <META  name=ScoringType                content="Teams">
+% <META  name=TournamentDirector         content="">
+% 
+% <META  name=TableCount                 content="5">
+% <META  name=TeamCount                  content="10">
+% <META  name=PhantomCount               content="0">
+% <META  name=RoundCount                 content="6">
+% <META  name=RoundCountMax              content="">
+% <META  name=SegmentCount               content="1">
+% <META  name=Average                    content="">
+% <META  name=HandicapPercentageAverage  content="">
+% 
+% <META  name=CRCategoryID               content="-2">
+% <META  name=Factor                     content="1">
+% <META  name=FactorReason               content="">
+% <META  name=ContestID                  content="589823999">
+% <META  name=SerialNumber               content="">
+% <META  name=PlayerCategoryCount        content="">
+% 
+% <META  name=CRMultiSession             content="">
+% <META  name=CRMultiSessionID           content="">
+% <META  name=CRSession                  content="">
+% <META  name=CRSessionCount             content="">
+% <META  name=CRCutAfterSession          content="">
+% 
+[Event "Salo joukkuekilpailu"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.15"]
+[Board "202"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "Teams"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Teams"]
+[EventDate "2013.09.15"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[TotalScoreTable "Rank\2R;TeamId\2R;Table\1R;Direction\7R;TotalScoreVP\5R;TeamName\17L;NrRounds\1R;MP\5R;Roster\74L;RosterDetails\88L"]
+ 1  5 3 "Hemma" 75.23 "URI"             6 "2.1" "Uri Gilboa - Kauko Koistinen - Seppo Niemi - Johan Linden"                "+22,Gilboa,Uri|1438,Koistinen,Kauko|1362,Niemi,Seppo|1163,Linden,Johan"                
+ 2  4 2 "Borta" 70.93 "KARHUKOPLA"      6 "0.8" "Arttu Karhulahti - Vesa Fagerlund - Markku Pekkinen - Lasse Utter"        "1616,Karhulahti,Arttu|1268,Fagerlund,Vesa|1829,Pekkinen,Markku|1013,Utter,Lasse"       
+ 3  3 2 "Hemma" 67.72 "T-SALO"          6 "0.4" "Timo Mäkelä - Heikki Lehtinen - Pasi Kuokkanen - Olli Puurtinen"          "1319,Mäkelä,Timo|1030,Lehtinen,Heikki|1405,Kuokkanen,Pasi|1696,Puurtinen,Olli"         
+ 4  2 1 "Borta" 62.96 "EESO"            6     - "Marko Tenn - Oleg Sirotin - Ylis Riisalu - Arvo Priimägi"                 "+25,Tenn,Marko|+24,Sirotin,Oleg|+23,Riisalu,Ylis|1382,Priimägi,Arvo"                   
+ 5  8 4 "Borta" 61.48 "EIKKA"           6     - "Pekka Uskali - Kaj Sundsten - Seppo Laine - Alpo Järvinen"                "1506,Uskali,Pekka|1379,Sundsten,Kaj|1333,Laine,Seppo|1672,Järvinen,Alpo"               
+ 6  1 1 "Hemma" 59.45 "MENTAL INTO HUT" 6     - "Anni Mäkelä - Jukka Aalto - Kari Noponen - Timo Halttunen"                "1849,Mäkelä,Anni|1928,Aalto,Jukka|1092,Noponen,Kari|1447,Halttunen,Timo"               
+ 7  6 3 "Borta" 53.90 "EL PRESIDENTO"   6     - "Jarmo Laakso - Markku Kanerva - Veijo Lösönen - Timo Arppe"               "1365,Laakso,Jarmo|1003,Kanerva,Markku|1411,Lösönen,Veijo|1166,Arppe,Timo"              
+ 8  9 5 "Hemma" 52.03 "JÄRVA"           6     - "Rein Kaarjas - Aimur Raudsepp - Urmas Virves - Tiit Kalda"                "+26,Kaarjas,Rein|+27,Raudsepp,Aimur|+28,Virves,Urmas|+29,Kalda,Tiit"                   
+ 9  7 4 "Hemma" 49.49 "KESA"            6     - "Ensio Lehtinen - Veli-Pekka Lukka - Pertti Holmberg - Nikolai Kaplitsnoi" "1184,Lehtinen,Ensio|1403,Lukka,Veli-Pekka|2270,Holmberg,Pertti|1360,Kaplitsnoi,Nikolai"
+10 10 5 "Borta" 46.81 "GRADIENTTI"      6     - "Riku Mattila - Teodor Velkov - Mika Karjalainen - Jari Böling"            "1349,Mattila,Riku|1099,Velkov,Teodor|1073,Karjalainen,Mika|1504,Böling,Jari"           
+[ScoreTable "Round\1R;Table\1R;TeamId_Home\2R;TeamId_Away\2R;MatchDetails\11L;VP_Home\5R;VP_Away\5R;LineupDetails_Home\112L;LineupDetails_Away\112L"]
+1 1  1  2 "200,25,8"  15.75  4.25 "1,O,N,1849,Mäkelä,Anni|1,O,S,1928,Aalto,Jukka|1,C,E,1447,Halttunen,Timo|1,C,W,1092,Noponen,Kari"                "1,O,E,+23,Riisalu,Ylis|1,O,W,1382,Priimägi,Arvo|1,C,N,+24,Sirotin,Oleg|1,C,S,+25,Tenn,Marko"                   
+1 2  3  4 "200,16,7"  13.45  6.55 "1,O,N,1405,Kuokkanen,Pasi|1,O,S,1696,Puurtinen,Olli|1,C,E,1030,Lehtinen,Heikki|1,C,W,1319,Mäkelä,Timo"          "1,O,E,1268,Fagerlund,Vesa|1,O,W,1616,Karhulahti,Arttu|1,C,N,1829,Pekkinen,Markku|1,C,S,1013,Utter,Lasse"       
+1 3  5  6 "200,24,17" 12.77  7.23 "1,O,N,1438,Koistinen,Kauko|1,O,S,+22,Gilboa,Uri|1,C,E,1362,Niemi,Seppo|1,C,W,1163,Linden,Johan"                 "1,O,E,1411,Lösönen,Veijo|1,O,W,1166,Arppe,Timo|1,C,N,1003,Kanerva,Markku|1,C,S,1365,Laakso,Jarmo"              
+1 4  7  8 "200,24,10" 14.96  5.04 "1,O,N,1184,Lehtinen,Ensio|1,O,S,1403,Lukka,Veli-Pekka|1,C,E,2270,Holmberg,Pertti|1,C,W,1360,Kaplitsnoi,Nikolai" "1,O,E,1506,Uskali,Pekka|1,O,W,1672,Järvinen,Alpo|1,C,N,1379,Sundsten,Kaj|1,C,S,1333,Laine,Seppo"               
+1 5  9 10 "200,6,21"   4.77 15.23 "1,O,N,+26,Kaarjas,Rein|1,O,S,+27,Raudsepp,Aimur|1,C,E,+28,Virves,Urmas|1,C,W,+29,Kalda,Tiit"                    "1,O,E,1504,Böling,Jari|1,O,W,1099,Velkov,Teodor|1,C,N,1349,Mattila,Riku|1,C,S,1073,Karjalainen,Mika"           
+2 1  1 10 "200,13,11" 10.86  9.14 "1,O,N,1849,Mäkelä,Anni|1,O,S,1928,Aalto,Jukka|1,C,E,1447,Halttunen,Timo|1,C,W,1092,Noponen,Kari"                "1,O,E,1504,Böling,Jari|1,O,W,1099,Velkov,Teodor|1,C,N,1349,Mattila,Riku|1,C,S,1073,Karjalainen,Mika"           
+2 2  7  3 "200,32,18" 14.96  5.04 "1,O,N,1184,Lehtinen,Ensio|1,O,S,1403,Lukka,Veli-Pekka|1,C,E,2270,Holmberg,Pertti|1,C,W,1360,Kaplitsnoi,Nikolai" "1,O,E,1030,Lehtinen,Heikki|1,O,W,1319,Mäkelä,Timo|1,C,N,1405,Kuokkanen,Pasi|1,C,S,1696,Puurtinen,Olli"         
+2 3  5  4 "200,33,5"  18.04  1.96 "1,O,N,1438,Koistinen,Kauko|1,O,S,+22,Gilboa,Uri|1,C,E,1362,Niemi,Seppo|1,C,W,1163,Linden,Johan"                 "1,O,E,1268,Fagerlund,Vesa|1,O,W,1616,Karhulahti,Arttu|1,C,N,1829,Pekkinen,Markku|1,C,S,1013,Utter,Lasse"       
+2 4  6  8 "200,12,17"  7.95 12.05 "1,O,N,1003,Kanerva,Markku|1,O,S,1365,Laakso,Jarmo|1,C,E,1411,Lösönen,Veijo|1,C,W,1166,Arppe,Timo"               "1,O,E,1672,Järvinen,Alpo|1,O,W,1506,Uskali,Pekka|1,C,N,1379,Sundsten,Kaj|1,C,S,1333,Laine,Seppo"               
+2 5  9  2 "200,20,22"  9.14 10.86 "1,O,N,+26,Kaarjas,Rein|1,O,S,+27,Raudsepp,Aimur|1,C,E,+28,Virves,Urmas|1,C,W,+29,Kalda,Tiit"                    "1,O,E,+23,Riisalu,Ylis|1,O,W,1382,Priimägi,Arvo|1,C,N,+25,Tenn,Marko|1,C,S,+24,Sirotin,Oleg"                   
+3 1  5  7 "200,54,1"  20.00  0.00 "1,O,N,+22,Gilboa,Uri|1,O,S,1438,Koistinen,Kauko|1,C,E,1362,Niemi,Seppo|1,C,W,1163,Linden,Johan"                 "1,O,E,1360,Kaplitsnoi,Nikolai|1,O,W,2270,Holmberg,Pertti|1,C,N,1184,Lehtinen,Ensio|1,C,S,1403,Lukka,Veli-Pekka"
+3 2  1  3 "200,9,19"   6.22 13.78 "1,O,N,1849,Mäkelä,Anni|1,O,S,1928,Aalto,Jukka|1,C,E,1447,Halttunen,Timo|1,C,W,1092,Noponen,Kari"                "1,O,E,1030,Lehtinen,Heikki|1,O,W,1319,Mäkelä,Timo|1,C,N,1405,Kuokkanen,Pasi|1,C,S,1696,Puurtinen,Olli"         
+3 3 10  8 "200,0,42"   0.05 19.95 "1,O,N,1349,Mattila,Riku|1,O,S,1073,Karjalainen,Mika|1,C,E,1504,Böling,Jari|1,C,W,1099,Velkov,Teodor"            "1,O,E,1672,Järvinen,Alpo|1,O,W,1506,Uskali,Pekka|1,C,N,1379,Sundsten,Kaj|1,C,S,1333,Laine,Seppo"               
+3 4  6  2 "200,24,40"  4.50 15.50 "1,O,N,1003,Kanerva,Markku|1,O,S,1365,Laakso,Jarmo|1,C,E,1166,Arppe,Timo|1,C,W,1411,Lösönen,Veijo"               "1,O,E,+23,Riisalu,Ylis|1,O,W,1382,Priimägi,Arvo|1,C,N,+25,Tenn,Marko|1,C,S,+24,Sirotin,Oleg"                   
+3 5  9  4 "200,14,35"  3.32 16.68 "1,O,N,+26,Kaarjas,Rein|1,O,S,+27,Raudsepp,Aimur|1,C,E,+29,Kalda,Tiit|1,C,W,+28,Virves,Urmas"                    "1,O,E,1616,Karhulahti,Arttu|1,O,W,1268,Fagerlund,Vesa|1,C,N,1829,Pekkinen,Markku|1,C,S,1013,Utter,Lasse"       
+4 1  5  8 "200,18,22"  8.33 11.67 "1,O,N,+22,Gilboa,Uri|1,O,S,1438,Koistinen,Kauko|1,C,E,1362,Niemi,Seppo|1,C,W,1163,Linden,Johan"                 "1,O,E,1506,Uskali,Pekka|1,O,W,1672,Järvinen,Alpo|1,C,N,1379,Sundsten,Kaj|1,C,S,1333,Laine,Seppo"               
+4 2  1  7 "200,5,15"   6.22 13.78 "1,O,N,1849,Mäkelä,Anni|1,O,S,1928,Aalto,Jukka|1,C,E,1447,Halttunen,Timo|1,C,W,1092,Noponen,Kari"                "1,O,E,2270,Holmberg,Pertti|1,O,W,1360,Kaplitsnoi,Nikolai|1,C,N,1184,Lehtinen,Ensio|1,C,S,1403,Lukka,Veli-Pekka"
+4 3  3  2 "200,7,11"   8.33 11.67 "1,O,N,1405,Kuokkanen,Pasi|1,O,S,1696,Puurtinen,Olli|1,C,E,1030,Lehtinen,Heikki|1,C,W,1319,Mäkelä,Timo"          "1,O,E,+23,Riisalu,Ylis|1,O,W,1382,Priimägi,Arvo|1,C,N,+25,Tenn,Marko|1,C,S,+24,Sirotin,Oleg"                   
+4 4  4 10 "200,23,7"  15.50  4.50 "1,O,N,1829,Pekkinen,Markku|1,O,S,1013,Utter,Lasse|1,C,E,1268,Fagerlund,Vesa|1,C,W,1616,Karhulahti,Arttu"        "1,O,E,1504,Böling,Jari|1,O,W,1099,Velkov,Teodor|1,C,N,1349,Mattila,Riku|1,C,S,1073,Karjalainen,Mika"           
+4 5  6  9 "200,19,9"  13.78  6.22 "1,O,N,1003,Kanerva,Markku|1,O,S,1365,Laakso,Jarmo|1,C,E,1411,Lösönen,Veijo|1,C,W,1166,Arppe,Timo"               "1,O,E,+26,Kaarjas,Rein|1,O,W,+27,Raudsepp,Aimur|1,C,N,+29,Kalda,Tiit|1,C,S,+28,Virves,Urmas"                   
+5 1  5  2 "200,22,15" 12.77  7.23 "1,O,N,1438,Koistinen,Kauko|1,O,S,+22,Gilboa,Uri|1,C,E,1362,Niemi,Seppo|1,C,W,1163,Linden,Johan"                 "1,O,E,+23,Riisalu,Ylis|1,O,W,1382,Priimägi,Arvo|1,C,N,+24,Sirotin,Oleg|1,C,S,+25,Tenn,Marko"                   
+5 2  8  4 "200,7,17"   6.22 13.78 "1,O,N,1379,Sundsten,Kaj|1,O,S,1333,Laine,Seppo|1,C,E,1672,Järvinen,Alpo|1,C,W,1506,Uskali,Pekka"                "1,O,E,1616,Karhulahti,Arttu|1,O,W,1268,Fagerlund,Vesa|1,C,N,1829,Pekkinen,Markku|1,C,S,1013,Utter,Lasse"       
+5 3  7  6 "200,0,22"   3.10 16.90 "1,O,N,1184,Lehtinen,Ensio|1,O,S,1403,Lukka,Veli-Pekka|1,C,E,2270,Holmberg,Pertti|1,C,W,1360,Kaplitsnoi,Nikolai" "1,O,E,1166,Arppe,Timo|1,O,W,1411,Lösönen,Veijo|1,C,N,1003,Kanerva,Markku|1,C,S,1365,Laakso,Jarmo"              
+5 4  3 10 "200,32,31" 10.44  9.56 "1,O,N,1405,Kuokkanen,Pasi|1,O,S,1696,Puurtinen,Olli|1,C,E,1030,Lehtinen,Heikki|1,C,W,1319,Mäkelä,Timo"          "1,O,E,1504,Böling,Jari|1,O,W,1099,Velkov,Teodor|1,C,N,1349,Mattila,Riku|1,C,S,1073,Karjalainen,Mika"           
+5 5  1  9 "200,20,23"  8.73 11.27 "1,O,N,1849,Mäkelä,Anni|1,O,S,1928,Aalto,Jukka|1,C,E,1447,Halttunen,Timo|1,C,W,1092,Noponen,Kari"                "1,O,E,+26,Kaarjas,Rein|1,O,W,+27,Raudsepp,Aimur|1,C,N,+28,Virves,Urmas|1,C,S,+29,Kalda,Tiit"                   
+6 1  5  3 "200,5,26"   3.32 16.68 "1,O,N,+22,Gilboa,Uri|1,O,S,1438,Koistinen,Kauko|1,C,E,1362,Niemi,Seppo|1,C,W,1163,Linden,Johan"                 "1,O,E,1030,Lehtinen,Heikki|1,O,W,1319,Mäkelä,Timo|1,C,N,1405,Kuokkanen,Pasi|1,C,S,1696,Puurtinen,Olli"         
+6 2  2  8 "200,28,19" 13.45  6.55 "1,O,N,+25,Tenn,Marko|1,O,S,+24,Sirotin,Oleg|1,C,E,+23,Riisalu,Ylis|1,C,W,1382,Priimägi,Arvo"                    "1,O,E,1672,Järvinen,Alpo|1,O,W,1506,Uskali,Pekka|1,C,N,1379,Sundsten,Kaj|1,C,S,1333,Laine,Seppo"               
+6 3  4  6 "200,23,3"  16.46  3.54 "1,O,N,1829,Pekkinen,Markku|1,O,S,1013,Utter,Lasse|1,C,E,1268,Fagerlund,Vesa|1,C,W,1616,Karhulahti,Arttu"        "1,O,E,1166,Arppe,Timo|1,O,W,1411,Lösönen,Veijo|1,C,N,1003,Kanerva,Markku|1,C,S,1365,Laakso,Jarmo"              
+6 4  1 10 "200,21,17" 11.67  8.33 "1,O,N,1447,Halttunen,Timo|1,O,S,1092,Noponen,Kari|1,C,E,1928,Aalto,Jukka|1,C,W,1849,Mäkelä,Anni"                "1,O,E,1504,Böling,Jari|1,O,W,1099,Velkov,Teodor|1,C,N,1349,Mattila,Riku|1,C,S,1073,Karjalainen,Mika"           
+6 5  7  9 "200,10,34"  2.69 17.31 "1,O,N,1403,Lukka,Veli-Pekka|1,O,S,1184,Lehtinen,Ensio|1,C,E,2270,Holmberg,Pertti|1,C,W,1360,Kaplitsnoi,Nikolai" "1,O,E,+26,Kaarjas,Rein|1,O,W,+27,Raudsepp,Aimur|1,C,N,+29,Kalda,Tiit|1,C,S,+28,Virves,Urmas"                   

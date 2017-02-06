@@ -3,6 +3,7 @@ package com.pbn.parser;
 import static org.junit.Assert.assertTrue;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -25,7 +26,8 @@ import com.pbn.ast.PbnObject;
 
 public class ParserTest {
 
-    private TestPbnParser parser = Parboiled.createParser(TestPbnParser.class);
+    private static TestPbnParser parser = Parboiled
+            .createParser(TestPbnParser.class);
 
     private ParsingResult<Pbn> getResult(String input, Rule rule) {
         ReportingParseRunner<Pbn> runner = new ReportingParseRunner<>(rule);
@@ -265,7 +267,7 @@ public class ParserTest {
      */
 
     @SuppressWarnings("unused")
-    private void reportFailure(String input, Rule rule) {
+    private static void reportFailure(String input, Rule rule) {
 
         ReportingParseRunner<Object> runner = new ReportingParseRunner<>(rule);
         ParsingResult<Object> result = runner.run(input);
@@ -295,13 +297,19 @@ public class ParserTest {
         }
     }
 
+    public static void reportFailure(String pbn) {
+        reportFailure(pbn, parser.Events());
+    }
+
     public static String inputText(String fileName) {
         Charset charset = Charset.forName("ISO-8859-1");
         if (fileName == null) {
             return null;
         }
 
-        String uri = "/home/esa/Documents/pbn/" + fileName + ".pbn";
+        File resourcesDirectory = new File("src/main/resources");
+        String uri = resourcesDirectory.getAbsolutePath() + "/" + fileName
+                + ".pbn";
 
         String line = null;
 
