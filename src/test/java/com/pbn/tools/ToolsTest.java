@@ -28,9 +28,6 @@ import com.pbn.pbnjson.JsonTotalScoreTable;
 
 public class ToolsTest {
 
-    public ToolsTest() {
-    }
-
     public static class P {
         public static void on(String s) {
             System.out.println(s);
@@ -100,8 +97,8 @@ public class ToolsTest {
         if (e.get("Result") != null) {
             j.setEvent(e.get("Result").value());
         }
-        if (e.get("Competion") != null) {
-            j.setCompetion(e.get("Competion").value());
+        if (e.get("Competition") != null) {
+            j.setCompetition(e.get("Competition").value());
         }
         if (e.get("ScoreTable") != null) {
             j.setScoreTable(new JsonScoreTable(e.get("ScoreTable").header(),
@@ -203,7 +200,15 @@ public class ToolsTest {
         assertTrue(t != null);
         assertTrue(!t.getHeader().isEmpty());
         assertTrue(!t.getRows().isEmpty());
+    }
 
+    /***
+     * rawEvents computes raw JsonEvent list i.e. it does not filter event
+     * tables yet
+     */
+    public static List<JsonEvent> rawEvents(String fileName) {
+        String pbn = ParserTest.inputText(fileName);
+        return fromJson(toJson(getPbnResult(pbn)));
     }
 
     // private ParsingResult<Pbn> getResult(String input, Rule rule) {

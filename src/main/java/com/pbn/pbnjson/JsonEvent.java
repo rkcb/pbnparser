@@ -3,7 +3,7 @@ package com.pbn.pbnjson;
 import java.util.LinkedList;
 
 public class JsonEvent {
-
+    // See PBN v.2 specification
     private String event;
     private String site;
     private String date;
@@ -18,7 +18,7 @@ public class JsonEvent {
     private String declarer;
     private String contract;
     private String result;
-    private String competion;
+    private String competition;
 
     private LinkedList<LinkedList<String>> deal; // north, east, south, west
     private JsonTotalScoreTable totalScoreTable;
@@ -145,12 +145,12 @@ public class JsonEvent {
         this.result = result;
     }
 
-    public String getCompetion() {
-        return competion;
+    public String getCompetition() {
+        return competition;
     }
 
-    public void setCompetion(String competion) {
-        this.competion = competion;
+    public void setCompetition(String competition) {
+        this.competition = competition;
     }
 
     public JsonTotalScoreTable getTotalScoreTable() {
