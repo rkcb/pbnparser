@@ -2,7 +2,6 @@ package com.pbn.pbnjson;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -32,10 +31,10 @@ public class JsonTable {
      * rowFilter builds an index list which contains positions of the items;
      *
      * @param subHeaderItems
-     *            items of header
+     *            items of the header
      */
-    protected List<Integer> rowFilter(HashSet<String> subHeaderItems) {
-        List<Integer> indexes = new LinkedList<>();
+    protected HashSet<Integer> rowFilter(HashSet<String> subHeaderItems) {
+        HashSet<Integer> indexes = new HashSet<>(subHeaderItems.size());
 
         Iterator<String> headeri = header.iterator();
         int i = 0;

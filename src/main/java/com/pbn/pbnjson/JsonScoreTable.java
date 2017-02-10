@@ -1,11 +1,13 @@
 package com.pbn.pbnjson;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class JsonScoreTable extends JsonTable {
 
@@ -19,8 +21,11 @@ public class JsonScoreTable extends JsonTable {
     private static transient String[] scoreTableHeader;
     private static transient HashSet<String> idColumns; // in header
     private static transient List<Integer> idIndexes; // in header
-    private static transient List<List<Integer>> rowFilters;
+    private static transient HashMap<Integer, HashSet<Integer>> rowFilters;
 
+    /***
+     * 1. initialize competion type 2.
+     */
     public JsonScoreTable(List<String> header, List<List<String>> rows) {
         super(header, rows);
         if (numberColumns == null) {
@@ -33,7 +38,7 @@ public class JsonScoreTable extends JsonTable {
         }
 
         idIndexes = new LinkedList<>();
-        rowFilters = new LinkedList<>();
+        rowFilters = new HashMap<>();
     }
 
     public static void setCompetition(String type) {
@@ -45,9 +50,8 @@ public class JsonScoreTable extends JsonTable {
      * type is valid
      */
     public void setScoreTableHeader() {
-        // Individuals
         if (competition.matches("Individuals")) {
-            // by convention ScoreTable header is for South
+            // by convention ScoreTable header is for South;
             indiScoreItems = indiScoreItems("South");
             // keep only items interesting for South
             scoreTableHeader = header.stream()
@@ -62,6 +66,8 @@ public class JsonScoreTable extends JsonTable {
 
     /***
      * scoreTableHeader gives the PBN ScoreTableHeader set by competion type
+     *
+     * @return ScoreTableHeader
      */
     public static String[] scoreTableHeader() {
         return scoreTableHeader != null ? JsonScoreTable.scoreTableHeader
@@ -72,14 +78,17 @@ public class JsonScoreTable extends JsonTable {
      * indiScoreItems gives column names for a direction
      *
      * @param direction
-     *            the direction for which header is constructed
+     *            the direction for which header is constructed: "North",
+     *            "South", "East", "West"
      */
     public static HashSet<String> indiScoreItems(String direction) {
         HashSet<String> items = new HashSet<>(8);
-        Collections.addAll(items, "Board", "Contract", "Declarer",
-                "PlayerId_" + direction, "Result", "Lead", "Score_" + direction,
-                "IMP_" + direction, "MP_" + direction,
-                "Percentage_" + direction);
+        if (direction.matches("North|South|East|West")) {
+            Collections.addAll(items, "Board", "Contract", "Declarer",
+                    "PlayerId_" + direction, "Result", "Lead",
+                    "Score_" + direction, "IMP_" + direction, "MP_" + direction,
+                    "Percentage_" + direction);
+        }
         return items;
     }
 
@@ -103,47 +112,89 @@ public class JsonScoreTable extends JsonTable {
                 .collect(Collectors.toList());
     }
 
-    private void setRowFilters() {
-        if (competition.equals("Individuals")) {
+    /***
+     * data return filtered row which contains the id
+     *
+     * @param id
+     *            PBN id
+     */
+    public List<String> data(String id) {
 
-        } else if (competition.equals("Pairs")) {
-        } else if (competition.equals("Teams")) {
+        Iterator<List<String>> it = rows.iterator();
+        int idPos = -1;
+        List<String> row;
+
+        // find the row with id; must exist
+        while (it.hasNext() && idPos < 0) {
+            row = it.next();
+            idPos = findIdPos(row, id);
+        }
+
+        return null;
+    }
+
+    /***
+     * setRowFilters builds correct row filters for the competion type
+     */
+    private void setRowFilters() {
+        if (rowFilters.isEmpty()) {
+            if (competition.equals("Individuals")) {
+                int x = 0;
+                Stream<String> dirs = Stream.of("North", "South", "East",
+                        "West");
+                Iterator<String> dir = dirs.iterator();
+                while (dir.hasNext()) {
+                    rowFilters.put(x++, rowFilter(indiScoreItems(dir.next())));
+                }
+            } else if (competition.equals("Pairs")) {
+            } else if (competition.equals("Teams")) {
+            }
         }
     }
 
     /***
-     * foundId finds if possible index where id occurred in header
+     * subRow builds a subrow which matches the id
      *
-     * @param PBN
-     *            player, pair or team id
-     * @return nonnegative integer when found and -1 otherwise
+     * @param id
+     *            PBN id of the playing unit (indi, pair, team)
+     * @param row
+     *            "super" row
+     * @return subrow
      */
-    private int foundId(List<String> row, String id) {
-        int found = -1;
-        if (!idIndexes.isEmpty()) {
-            Iterator<Integer> i = idIndexes.iterator();
-            while (found < 0) {
-                int x = i.next();
-                found = row.get(i.next()).equals(id) ? x : -1;
+    private List<String> subRow(List<String> row, String id) {
+
+        HashSet<Integer> filterSet = rowFilters.get(findIdPos(row, id));
+        int i = 0;
+        Iterator<String> it = row.iterator();
+        List<String> subRow = new LinkedList<>();
+        while (it.hasNext()) {
+            String value = it.next();
+            if (filterSet.contains(i++)) {
+                subRow.add(value);
             }
         }
-        return found;
+
+        return subRow;
     }
 
-    // /***
-    // * findRow
-    // *
-    // * @return the row with the id or an empty row
-    // */
-    // public List<String> findRow(String id) {
-    // List<String> row = new LinkedList<>();
-    // Iterator<List<String>> i = rows.iterator();
-    // boolean found = false;
-    // while (!found && i.hasNext()) {
-    // row = i.next();
-    // found = foundId(row, id) >= 0;
-    // }
-    // return found ? row : new LinkedList<>();
-    // }
+    /**
+     *
+     * @param finds
+     *            position of the id in idIndexes
+     * @param id
+     *            PBN player, pair or team id
+     * @return nonnegative index of idIndexes when found and -1 otherwise
+     */
+    private int findIdPos(List<String> row, String id) {
+        boolean found = false;
+        Iterator<Integer> it = idIndexes.iterator();
+        int i = 0;
+        while (!found && it.hasNext()) {
+            it.next();
+            i++;
+            found = row.get(it.next()).equals(id);
+        }
+        return found ? i : -1;
+    }
 
 }
