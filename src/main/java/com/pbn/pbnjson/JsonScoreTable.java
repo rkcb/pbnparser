@@ -1,6 +1,7 @@
 package com.pbn.pbnjson;
 
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -22,6 +23,7 @@ public class JsonScoreTable extends JsonTable {
     private static transient HashSet<String> idColumns; // in header
     private static transient List<Integer> idIndexes; // in header
     private static transient HashMap<Integer, HashSet<Integer>> rowFilters;
+    private static boolean adjacentIds = false;
 
     /***
      * 1. initialize competion type 2.
@@ -110,6 +112,11 @@ public class JsonScoreTable extends JsonTable {
 
         idIndexes = ids.stream().map(i -> header.indexOf(i))
                 .collect(Collectors.toList());
+        idIndexes.sort(Comparator.naturalOrder());
+
+        adjacentIds = idIndexes.get(idIndexes.size() - 1)
+                - idIndexes.get(0) == idIndexes.size() - 1;
+
     }
 
     /***
