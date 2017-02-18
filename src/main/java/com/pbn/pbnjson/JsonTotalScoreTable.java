@@ -34,5 +34,4 @@ public class JsonTotalScoreTable extends JsonTable {
     public void filter() {
         filterTable(headerItems);
     }
-
 }

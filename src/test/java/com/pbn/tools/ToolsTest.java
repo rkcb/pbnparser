@@ -127,9 +127,11 @@ public class ToolsTest {
      * @return ParsingResult<PBN> which contains possible errors
      */
     public static ParsingResult<Pbn> getPbnResult(String pbn) {
+
         ReportingParseRunner<Pbn> runner = new ReportingParseRunner<>(
                 parser.Events());
         ParsingResult<Pbn> result = runner.run(pbn);
+
         return result;
     }
 
@@ -153,6 +155,7 @@ public class ToolsTest {
      * @return deserialization
      */
     public static LinkedList<JsonEvent> fromJson(String json) {
+
         JsonParser jsonParser = new JsonParser();
         JsonArray jarray = jsonParser.parse(json).getAsJsonArray();
         LinkedList<JsonEvent> jsonEvents = new LinkedList<>();

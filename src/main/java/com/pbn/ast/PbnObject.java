@@ -52,10 +52,16 @@ public class PbnObject extends Pbn {
 
     public static PbnObject pbnDeal(String dir,
             LinkedList<LinkedList<String>> hands) {
-        PbnObject o = PbnObject.pbnTag("Deal");
-        dir = dir.toUpperCase(Locale.ROOT);
-        o.hands = p.permute(dir, hands);
-        return o;
+        if (dir != null) { // nonempty deal
+            PbnObject o = PbnObject.pbnTag("Deal");
+            dir = dir.toUpperCase(Locale.ROOT);
+            o.hands = p.permute(dir, hands);
+            return o;
+        } else { // empty deal
+            PbnObject o = PbnObject.pbnTag("Deal");
+            o.hands = new LinkedList<>();
+            return o;
+        }
     }
 
     /***

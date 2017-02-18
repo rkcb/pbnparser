@@ -10,170 +10,354 @@ import java.util.stream.Collectors;
 
 public class JsonScoreTable extends JsonTable {
 
-	private static transient HashSet<String> numberColumns;
-	private static transient String competition = "";
-	private static transient HashSet<String> indiScoreItems;
-	private static transient String[] scoreTableHeader;
-	private static transient List<Integer> idIndexes; // in header
-	private static transient int minId = -1;
-	private static transient int maxId = -1;
-	private static transient HashMap<Integer, HashSet<Integer>> rowFilters;
+    private static transient HashSet<String> numberColumns;
+    private static transient String competition = "";
+    private static transient List<String> scoreTableHeader; // fixed for a
+                                                            // direction
+    private static transient List<String> comparisonHeader;
+    private static transient List<Integer> idIndexes; // in header
+    private static transient int minId = -1;
+    private static transient int maxId = -1;
+    private static transient HashMap<Integer, HashSet<Integer>> rowFilters;
 
-	/***
-	 * indiScoreItems gives column names for a direction
-	 *
-	 * @param direction
-	 *            the direction for which header is constructed: "North",
-	 *            "South", "East", "West"
-	 */
-	public static HashSet<String> indiScoreItems(String direction) {
-		HashSet<String> items = new HashSet<>(8);
-		if (direction.matches("North|South|East|West")) {
-			Collections.addAll(items, "Board", "Contract", "Declarer", "PlayerId_" + direction, "Result", "Lead",
-					"Score_" + direction, "IMP_" + direction, "MP_" + direction, "Percentage_" + direction);
-		}
-		return items;
-	}
+    private static transient HashSet<String> comparisonItems;
 
-	/***
-	 * scoreTableHeader gives the PBN ScoreTableHeader set by competion type
-	 *
-	 * @return ScoreTableHeader
-	 */
-	public static String[] scoreTableHeader() {
-		return scoreTableHeader != null ? JsonScoreTable.scoreTableHeader : new String[0];
-	}
+    /***
+     * 1. set competion type 2. call setIdIndexes 3. setMinMaxId 4. call
+     * setIdIndexes 5. call setScoreTableHeader 6. call subrow
+     */
 
-	/***
-	 * setAdjacent tests are id positions adjacent
-	 */
-	public static void setAdjacent() {
-		if (idIndexes.size() < 2) {
-			return;
-		}
+    public void initialize(String competion) {
+        JsonScoreTable.competition = competion;
+        setIdIndexes();
+        setRowFilters();
+        setMinMaxId();
+        setIdIndexes();
+        setScoreTableHeader();
+        setComparisonHeader();
+    }
 
-		Iterator<Integer> it = idIndexes.iterator();
-		int x = it.next();
-		boolean adjacent = true;
-		while (it.hasNext() && adjacent) {
-			int y = it.next();
-			adjacent = x + 1 == y;
-			x = y;
-		}
-		if (adjacent) {
-			minId = idIndexes.get(0);
-			maxId = idIndexes.get(idIndexes.size() - 1);
-		}
-	}
+    public HashMap<Integer, HashSet<Integer>> filters() {
+        return rowFilters;
+    }
 
-	public static void setCompetition(String type) {
-		competition = type.matches("Individuals|Pairs|Teams") ? type : "";
-	}
+    /***
+     * indiScoreItems gives column names for a direction
+     *
+     * @param direction
+     *            the direction for which header is constructed: "North",
+     *            "South", "East", "West"
+     */
 
-	/***
-	 * 1. initialize competion type 2.
-	 */
-	public JsonScoreTable(List<String> header, List<List<String>> rows) {
-		super(header, rows);
-		if (numberColumns == null) {
-			numberColumns = new HashSet<>(20);
-			Collections.addAll(numberColumns, "Rank", "Result", "Score_NS", "Score_EW", "IMP_NS", "IMP_EW", "MP_NS",
-					"MP_EW", "Percentage_NS", "Percentage_EW", "Percentage_North", "Percentage_East",
-					"Percentage_South", "Percentage_West", "Multiplicity");
-		}
+    protected static String indiScoreDirection(String direction) {
+        return direction.matches("North|South") ? "NS" : "EW";
+    }
 
-		idIndexes = new LinkedList<>();
-		rowFilters = new HashMap<>();
-	}
+    protected static String otherDirection(String direction) {
+        return direction.equals("NS") ? "EW" : "NS";
+    }
 
-	/***
-	 * containsId tests whether this row contains the id
-	 */
-	public boolean containsId(List<String> row, String id) {
-		if (minId >= 0 && maxId > minId) {
-			return row.subList(minId, maxId).contains(id);
-		} else {
-			return idIndexes.stream().map(i -> row.get(i)).anyMatch(i -> id.equals(i));
-		}
-	}
+    protected static String otherTeam(String team) {
+        return team.equals("Home") ? "Away" : "Home";
+    }
 
-	/***
-	 * data return filtered row which contains the id
-	 *
-	 * @param id
-	 *            PBN id
-	 */
-	public List<String> data(String id) {
+    /***
+     * indiScoreItems picks up the items in the header
+     *
+     * @param the
+     *            interesting direction
+     * @return hashset of the items
+     */
+    protected static HashSet<String> indiScoreItems(String direction) {
+        HashSet<String> items = new HashSet<>();
+        if (direction.matches("North|South|East|West")) {
+            Collections.addAll(items, "PlayerId_" + direction, "Contract",
+                    "Declarer", "Result", "Lead",
+                    "Score_" + indiScoreDirection(direction),
+                    "IMP_" + direction, "MP_" + direction,
+                    "Percentage_" + direction);
+        } else if (direction.matches("NS|EW")) {
+            Collections.addAll(items, "");
+        }
+        return items;
+    }
 
-		Iterator<List<String>> it = rows.iterator();
-		int idPos = -1;
-		List<String> row;
+    /***
+     * pairScoreItems picks up the items in the header
+     *
+     * @param the
+     *            interesting direction
+     * @return hashset of the items
+     */
+    public static HashSet<String> pairScoreItems(String direction) {
+        HashSet<String> items = new HashSet<>();
+        if (direction.matches("NS|EW")) {
+            Collections.addAll(items, "PairId_" + otherDirection(direction),
+                    "Contract", "Declarer", "Result", "Lead",
+                    "Score_" + direction, "IMP_" + direction, "MP_" + direction,
+                    "Percentage_" + direction);
+        }
+        return items;
+    }
 
-		// find the row with id; must exist
-		while (it.hasNext() && idPos < 0) {
-			row = it.next();
-			idPos = findIdPos(row, id);
-		}
+    /***
+     * teamScoreItems picks up the items in the header
+     *
+     * @param the
+     *            interesting direction
+     * @return hashset of the items
+     */
+    protected static HashSet<String> teamScoreItems(String team) {
+        HashSet<String> items = new HashSet<>();
+        if (team.matches("Home|Away")) {
+            Collections.addAll(items, "Round", "TeamId_" + otherTeam(team),
+                    "VP_" + team, "BAM_" + team);
+        }
+        return items;
+    }
 
-		return null;
-	}
+    /***
+     * scoreItemIndexes computes scoreItemIndexes
+     *
+     * @param items
+     *            header column names
+     * @return set of indexes
+     */
 
-	/**
-	 *
-	 * @param finds
-	 *            position of the id in idIndexes
-	 * @param id
-	 *            PBN player, pair or team id
-	 * @return nonnegative index of idIndexes when found and -1 otherwise
-	 */
-	private int findIdPos(List<String> row, String id) {
-		boolean found = false;
-		Iterator<Integer> it = idIndexes.iterator();
-		int i = 0;
-		while (!found && it.hasNext()) {
-			it.next();
-			i++;
-			found = row.get(it.next()).equals(id);
-		}
-		return found ? i : -1;
-	}
+    protected HashSet<Integer> scoreItemIndexes(HashSet<String> items) {
+        Iterator<String> hi = header.iterator();
+        HashSet<Integer> indexSet = new HashSet<>(items.size());
+        int i = 0;
+        while (hi.hasNext()) {
+            if (items.contains(hi.next())) {
+                indexSet.add(i);
+            }
+            i++;
+        }
 
-	/***
-	 * idIndexes finds the indexes of the header where the ids locate and stores
-	 * it
-	 */
-	public void setIdIndexes() {
-		List<String> ids = new LinkedList<>();
+        return indexSet;
+    }
 
-		if (competition.equals("Individuals")) {
-			Collections.addAll(ids, "PlayerId_North", "PlayerId_South", "PlayerId_East", "PlayerId_West");
-		} else if (competition.equals("Pairs")) {
-			Collections.addAll(ids, "PairId_NS", "PairId_EW");
-		} else if (competition.equals("Teams")) {
-			Collections.addAll(ids, "TeamId_Home", "TeamId_Away");
-		}
+    /***
+     * scoreTableHeader gives the PBN ScoreTableHeader set by competion type
+     *
+     * @return ScoreTableHeader
+     */
+    public static List<String> scoreTableHeader() {
+        return scoreTableHeader != null ? JsonScoreTable.scoreTableHeader
+                : new LinkedList<>();
+    }
 
-		idIndexes = ids.stream().map(i -> header.indexOf(i)).collect(Collectors.toList());
-		idIndexes.iterator();
+    /***
+     * setRowFilters maps id indexes to a set of indexes in the header which are
+     * interesting for this id index set
+     */
+    protected void setRowFilters() {
+        rowFilters.clear();
 
-	}
+        if (competition.equals("Individuals")) {
+            List<String> dirs = new LinkedList<>();
+            Collections.addAll(dirs, "North", "South", "East", "West");
+            Iterator<String> diri = dirs.iterator();
+            Iterator<Integer> idi = idIndexes.iterator();
+            while (idi.hasNext() && diri.hasNext()) {
+                // map dir id index to corresponding index set for directions
+                rowFilters.put(idi.next(),
+                        scoreItemIndexes(indiScoreItems(diri.next())));
+            }
+        } else if (competition.equals("Pairs")) {
+            rowFilters.put(idIndexes.get(0),
+                    scoreItemIndexes(pairScoreItems("NS")));
+            rowFilters.put(idIndexes.get(1),
+                    scoreItemIndexes(pairScoreItems("EW")));
+        } else if (competition.equals("Teams")) {
+            rowFilters.put(idIndexes.get(0),
+                    scoreItemIndexes(teamScoreItems("Home")));
+            rowFilters.put(idIndexes.get(1),
+                    scoreItemIndexes(teamScoreItems("Away")));
+        }
+    }
 
-	/***
-	 * setScoreTableHeader sets correct ScoreTableHeader given that competion
-	 * type is valid
-	 */
-	public void setScoreTableHeader() {
-		if (competition.matches("Individuals")) {
-			// by convention ScoreTable header is for South;
-			indiScoreItems = indiScoreItems("South");
-			// keep only items interesting for South
-			scoreTableHeader = header.stream().filter(i -> indiScoreItems.contains(i)).collect(Collectors.toList())
-					.toArray(new String[0]);
-		} else if (competition.matches("Pairs")) {
+    /***
+     * setAdjacent tests are id positions adjacent
+     */
+    public static void setMinMaxId() {
+        if (idIndexes.size() < 2) {
+            return;
+        }
 
-		} else if (competition.matches("Teams")) {
+        Iterator<Integer> it = idIndexes.iterator();
+        int x = it.next();
+        boolean adjacent = true;
+        while (it.hasNext() && adjacent) {
+            int y = it.next();
+            adjacent = x + 1 == y;
+            x = y;
+        }
+        if (adjacent) {
+            minId = idIndexes.get(0);
+            maxId = idIndexes.get(idIndexes.size() - 1);
+        }
+    }
 
-		}
-	}
+    public void setCompetition(String type) {
+        competition = type.matches("Individuals|Pairs|Teams") ? type : "";
+    }
+
+    /***
+     * 1. initialize competion type 2.
+     */
+    public JsonScoreTable(List<String> header, List<List<String>> rows) {
+        super(header, rows);
+        if (numberColumns == null) {
+            numberColumns = new HashSet<>(20);
+            Collections.addAll(numberColumns, "Rank", "Result", "Score_NS",
+                    "Score_EW", "IMP_NS", "IMP_EW", "MP_NS", "MP_EW",
+                    "Percentage_NS", "Percentage_EW", "Percentage_North",
+                    "Percentage_East", "Percentage_South", "Percentage_West",
+                    "Multiplicity");
+        }
+
+        idIndexes = new LinkedList<>();
+        rowFilters = new HashMap<>();
+    }
+
+    /***
+     * containsId finds the id index
+     *
+     * @param row
+     *            any row this table
+     * @param id
+     *            PBN id
+     * @return index of id or -1 if not found
+     */
+    protected int containsId(List<String> row, String id) {
+        if (minId >= 0) {
+            int index = row.subList(minId, maxId + 1).indexOf(id);
+            return index >= 0 ? index + minId : -1;
+        } else {
+            boolean found = false;
+            Iterator<Integer> i = idIndexes.iterator();
+            int index = -1;
+            while (!found && i.hasNext()) {
+                index = i.next();
+                found = row.get(index).equals(id);
+            }
+            return index >= 0 ? index : -1;
+        }
+    }
+
+    /***
+     * row searches for a row with the id
+     *
+     * @param id
+     *            that is contained in this row
+     * @return the row which contains the id or an empty list otherwise
+     */
+    public List<String> subrow(String id) {
+
+        Iterator<List<String>> ri = rows.iterator();
+        List<String> row = new LinkedList<>();
+        int index = -1;
+        while (index < 0 && ri.hasNext()) {
+            row = ri.next();
+            index = containsId(row, id);
+        }
+
+        // traverse row and check whether index belongs to desired indexes
+        List<String> subrow = new LinkedList<>();
+        if (index >= 0) {
+            Iterator<String> rowi = row.iterator();
+            int i = 0;
+            HashSet<Integer> items = rowFilters.get(index);
+
+            while (i < row.size()) {
+                String value = rowi.next();
+                if (items.contains(i++)) {
+                    subrow.add(value);
+                }
+            }
+        }
+
+        return subrow;
+    }
+
+    /***
+     * idIndexes finds the indexes of the header where the ids locate and stores
+     * it
+     */
+    protected void setIdIndexes() {
+        List<String> ids = new LinkedList<>();
+
+        if (competition.equals("Individuals")) {
+            Collections.addAll(ids, "PlayerId_North", "PlayerId_South",
+                    "PlayerId_East", "PlayerId_West");
+        } else if (competition.equals("Pairs")) {
+            Collections.addAll(ids, "PairId_NS", "PairId_EW");
+        } else if (competition.equals("Teams")) {
+            Collections.addAll(ids, "TeamId_Home", "TeamId_Away");
+        }
+
+        idIndexes = ids.stream().map(i -> header.indexOf(i))
+                .collect(Collectors.toList());
+
+    }
+
+    /***
+     * setScoreTableHeader sets correct ScoreTableHeader given that competion
+     * type is valid
+     */
+    protected void setScoreTableHeader() {
+        if (competition.matches("Individuals")) {
+            // by convention ScoreTable header is for South;
+            HashSet<String> items = indiScoreItems("South");
+            // keep only items interesting for South
+            scoreTableHeader = header.stream().filter(i -> items.contains(i))
+                    .collect(Collectors.toList());
+        } else if (competition.matches("Pairs")) {
+            HashSet<String> items = pairScoreItems("NS");
+            // as above, for NS
+            scoreTableHeader = header.stream().filter(i -> items.contains(i))
+                    .collect(Collectors.toList());
+        } else if (competition.matches("Teams")) {
+            HashSet<String> items = new HashSet<>(4);
+            Collections.addAll(items, "Round", "TeamId_Away", "VP_Home",
+                    "BAM_Home");
+            scoreTableHeader = header.stream().filter(i -> items.contains(i))
+                    .collect(Collectors.toList());
+        }
+    }
+
+    /***
+     * setComparisonHeader constructs the comparison header
+     */
+    public void setComparisonHeader() {
+
+        if (comparisonItems == null && competition != null
+                && competition.matches("Individuals|Pairs")) {
+            comparisonItems = new HashSet<>();
+
+            Collections.addAll(comparisonItems, "PairId_NS", "PairId_EW",
+                    "PlayerId_North", "PlayerId_South", "PlayerId_East",
+                    "PlayerId_West", "Contract", "Declarer", "Result", "Lead",
+                    "IMP_NS", "IMP_EW", "MP_NS", "MP_EW", "Percentage_NS",
+                    "Percentage_EW", "Percentage_North", "Percentage_East",
+                    "MP_North", "MP_East", "IMP_North", "IMP_East", "BAM_North",
+                    "BAM_East");
+
+            comparisonHeader = header.stream()
+                    .filter(i -> comparisonItems.contains(i))
+                    .collect(Collectors.toList());
+        }
+    }
+
+    /***
+     * comparisonHeader
+     *
+     * @return the header of the comparison table
+     */
+    public static List<String> comparisonHeader() {
+        return comparisonHeader != null ? comparisonHeader : new LinkedList<>();
+    }
 
 }

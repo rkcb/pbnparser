@@ -19,6 +19,8 @@ public class JsonEvent {
     private String contract;
     private String result;
     private String competition;
+    private String optimumScore;
+    private String optimumContract;
 
     private LinkedList<LinkedList<String>> deal; // north, east, south, west
     private JsonTotalScoreTable totalScoreTable;
@@ -151,6 +153,22 @@ public class JsonEvent {
 
     public void setCompetition(String competition) {
         this.competition = competition;
+    }
+
+    public String getOptimumScore() {
+        return optimumScore;
+    }
+
+    public void setOptimumScore(String optimumScore) {
+        this.optimumScore = optimumScore;
+    }
+
+    public String getOptimumContract() {
+        return optimumContract;
+    }
+
+    public void setOptimumContract(String optimumContract) {
+        this.optimumContract = optimumContract;
     }
 
     public JsonTotalScoreTable getTotalScoreTable() {

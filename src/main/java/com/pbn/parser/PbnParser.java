@@ -95,7 +95,7 @@ public class PbnParser extends BaseParser<Pbn> {
 
     }
 
-    protected Rule Deal() {
+    protected Rule NonEmptyDeal() {
         Var<LinkedList<LinkedList<String>>> hands = new Var<>(
                 new LinkedList<>());
         StringVar dir = new StringVar();
@@ -104,8 +104,16 @@ public class PbnParser extends BaseParser<Pbn> {
                 push(PbnObject.pbnDeal(dir.get(), hands.get())));
     }
 
+    protected Rule EmptyDeal() {
+        return Sequence("", push(PbnObject.pbnDeal(null, null)));
+    }
+
+    protected Rule Deal() {
+        return FirstOf(NonEmptyDeal(), EmptyDeal());
+    }
+
     protected Rule VulVals() {
-        return FirstOf("None", "NS", "EW", "All");
+        return FirstOf("None", "NS", "EW", "All", "");
     }
 
     protected Rule VulExtraVals() {

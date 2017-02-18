@@ -1,10 +1,14 @@
 package com.pbn.pbnjson;
 
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import org.junit.Test;
+
+import com.pbn.tools.ToolsTest;
 
 /* TableFactory gives the header and contents for TotalScoreTable, ScoreTable and ComparisonTable
  */
@@ -14,6 +18,14 @@ public class TableFactory {
     private JsonTotalScoreTable totalScoreTable;
 
     public TableFactory() {
+    }
+
+    public static void on(String s) {
+        System.out.println(s);
+    }
+
+    public static void o(String s) {
+        System.out.print(s);
     }
 
     public static TableFactory getFactory(List<JsonEvent> events) {
@@ -51,5 +63,8 @@ public class TableFactory {
 
     @Test
     public void testing() {
+        List<JsonEvent> events = ToolsTest.rawEvents("indi");
+
+        assertTrue(!events.isEmpty());
     }
 }

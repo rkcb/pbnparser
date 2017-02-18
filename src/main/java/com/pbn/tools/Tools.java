@@ -100,6 +100,12 @@ public class Tools {
         if (e.get("Competion") != null) {
             j.setCompetition(e.get("Competion").value());
         }
+        if (e.get("OptimumScore") != null) {
+            j.setOptimumScore(e.get("OptimumScore").value());
+        }
+        if (e.get("OptimumContract") != null) {
+            j.setOptimumContract(e.get("OptimumContract").value());
+        }
         if (e.get("ScoreTable") != null) {
             j.setScoreTable(new JsonScoreTable(e.get("ScoreTable").header(),
                     e.get("ScoreTable").rows()));

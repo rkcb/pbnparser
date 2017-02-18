@@ -92,7 +92,7 @@ public class ParserTest {
      */
     @Test
     public void pbnFileTest() {
-        String input = inputText("test");
+        String input = inputText("indi");
         assertTrue(matched(input, parser.TestEvents()));
     }
 
@@ -200,6 +200,13 @@ public class ParserTest {
         assertTrue(Objects.deepEquals(e, o.hands().get(1)));
         assertTrue(Objects.deepEquals(s, o.hands().get(2)));
         assertTrue(Objects.deepEquals(w, o.hands().get(3)));
+
+        // test an empty deal
+        d = "";
+        result = getResult(d, parser.TestDeal());
+        o = (PbnObject) result.resultValue;
+        assertTrue(result.matched);
+
     }
 
     @Test
