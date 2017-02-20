@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 public class JsonScoreTable extends JsonTable {
 
     private static transient HashSet<String> numberColumns;
-    private static transient String competition = "";
     private static transient List<String> scoreTableHeader; // fixed for a
                                                             // direction
     private static transient List<String> comparisonHeader;
@@ -27,8 +26,8 @@ public class JsonScoreTable extends JsonTable {
      * setIdIndexes 5. call setScoreTableHeader 6. call subrow
      */
 
-    public void initialize(String competion) {
-        JsonScoreTable.competition = competion;
+    public void initialize(String competition) {
+        JsonTable.competition = competition;
         setIdIndexes();
         setRowFilters();
         setMinMaxId();
@@ -198,10 +197,6 @@ public class JsonScoreTable extends JsonTable {
             minId = idIndexes.get(0);
             maxId = idIndexes.get(idIndexes.size() - 1);
         }
-    }
-
-    public void setCompetition(String type) {
-        competition = type.matches("Individuals|Pairs|Teams") ? type : "";
     }
 
     /***

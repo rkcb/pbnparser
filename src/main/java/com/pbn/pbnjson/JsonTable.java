@@ -2,6 +2,7 @@ package com.pbn.pbnjson;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -9,6 +10,7 @@ public class JsonTable {
 
     protected List<String> header;
     protected List<List<String>> rows;
+    protected static String competition;
 
     public JsonTable(List<String> header, List<List<String>> rows) {
         this.header = header;
@@ -50,6 +52,10 @@ public class JsonTable {
         return indexes;
     }
 
+    public void setCompetition(String type) {
+        competition = type.matches("Individuals|Pairs|Teams") ? type : "";
+    }
+
     /***
      * filterTable removes header and the corresponding row items which are not
      * contained in headerItems;
@@ -76,6 +82,14 @@ public class JsonTable {
         // remove uninteresting header items
         header = header.stream().filter(c -> headerItems.contains(c))
                 .collect(Collectors.toList());
+    }
+
+    protected List<String> rowItems(String col) {
+        int i = header.indexOf(col);
+        return i >= 0
+                ? rows.stream().map(r -> r.get(i)).collect(Collectors.toList())
+                : new LinkedList<>();
+
     }
 
 }
