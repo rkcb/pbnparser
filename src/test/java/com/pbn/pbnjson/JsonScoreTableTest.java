@@ -41,21 +41,18 @@ public class JsonScoreTableTest {
         assertTrue(events != null);
         JsonScoreTable t = events.get(0).getScoreTable();
         assertTrue(t.getHeader() != null);
-
+        assertTrue(!events.get(0).getCompetition().isEmpty());
         t.initialize(events.get(0).getCompetition());
+        assertTrue(events != null && !events.isEmpty());
         assertTrue(events.get(0).getCompetition().equals("Individuals"));
         // note that pbn file must be the indi.pbn
         List<String> l = new LinkedList<>();
         Collections.addAll(l, "11", "3N", "W", "9", "CA", "400", "0.0", "0");
         assertTrue(Objects.deepEquals(l, t.subrow("11")));
         l.clear();
-        for (String i : JsonScoreTable.scoreTableHeader()) {
+        for (String i : t.scoreTableHeader()) {
             l.add(i);
         }
-        // P.on(t.subrow("7").toString());
-        // P.on(t.subrow("27").toString());
-        // P.on(t.subrow("44").toString());
-        // P.on(t.subrow("11").toString());
         List<String> l2 = new LinkedList<>();
         Collections.addAll(l2, "PlayerId_South", "Contract", "Declarer",
                 "Result", "Lead", "Score_NS", "MP_South", "Percentage_South");

@@ -14,10 +14,10 @@ import java.util.regex.Pattern;
 
 public class JsonTotalScoreTable extends JsonTable {
 
-    private static transient HashSet<String> numberColumns;
-    private static transient HashSet<String> headerItems;
-    private static transient HashMap<String, Double> masterPoints;
-    private static transient HashSet<String> playerFedCodes;
+    private transient HashSet<String> numberColumns;
+    private transient HashSet<String> headerItems;
+    private transient HashMap<String, Double> masterPoints;
+    private transient HashSet<String> playerFedCodes;
 
     public JsonTotalScoreTable(List<String> header, List<List<String>> rows) {
         super(header, rows);
@@ -36,6 +36,10 @@ public class JsonTotalScoreTable extends JsonTable {
                     "TeamName", "Roster", "ScorePenalty", "Club", "MP");
         }
         masterPoints = new HashMap<>();
+    }
+
+    public void initialize(String competition) {
+        this.competition = competition;
     }
 
     /***
@@ -79,6 +83,21 @@ public class JsonTotalScoreTable extends JsonTable {
         return mpRows;
     }
 
+    /***
+     * teamIds
+     *
+     * @return list of fed codes of the team; possible empty
+     */
+    private List<String> teamIds(String rosterDetails) {
+        List<String> ids = new LinkedList<>();
+        Pattern p = Pattern.compile("\\d+");
+        Matcher m = p.matcher(rosterDetails);
+        while (m.find()) {
+            ids.add(m.group());
+        }
+        return ids;
+    }
+
     /*
      * ids finds player id(s)
      *
@@ -104,11 +123,7 @@ public class JsonTotalScoreTable extends JsonTable {
             int i = header.indexOf("RosterDetails");
             if (i >= 0) {
                 // fed code must be a number this to work!
-                Pattern p = Pattern.compile("\\d+");
-                Matcher m = p.matcher(row.get(i));
-                while (m.find()) {
-                    ids.add(m.group());
-                }
+                ids.addAll(teamIds(row.get(i)));
             }
         }
 
@@ -133,12 +148,18 @@ public class JsonTotalScoreTable extends JsonTable {
      * TotalScoreTable
      */
     public void findMasterPoints() {
-        final int mpi = header.indexOf("MP");
-        for (List<String> row : containMps()) {
-            List<String> ids = ids(row);
-            double mpts = masterPoints(row, mpi) / ids.size();
-            for (String id : ids) {
-                masterPoints.put(id, mpts);
+        if (masterPoints == null) {
+            masterPoints = new HashMap<>();
+
+            final int mpi = header.indexOf("MP");
+            if (mpi >= 0) {
+                for (List<String> row : containMps()) {
+                    List<String> ids = ids(row);
+                    double mpts = masterPoints(row, mpi) / ids.size();
+                    for (String id : ids) {
+                        masterPoints.put(id, mpts);
+                    }
+                }
             }
         }
     }
@@ -151,8 +172,23 @@ public class JsonTotalScoreTable extends JsonTable {
     public HashSet<String> getPlayerFedCodes() {
         if (playerFedCodes == null) {
             playerFedCodes = new HashSet<>();
+            if (competition.equals("Individuals")) {
+                playerFedCodes.addAll(column("MemberID"));
+            } else if (competition.equals("Pairs")) {
+                playerFedCodes.addAll(column("MemberID1"));
+                playerFedCodes.addAll(column("MemberID2"));
+            } else if (competition.equals("Teams")) {
+
+                int i = header.indexOf("RosterDetails");
+                if (i >= 0) {
+                    List<String> rosters = column("RosterDetails");
+                    for (String r : rosters) {
+                        playerFedCodes.addAll(teamIds(r));
+                    }
+                }
+            }
         }
 
-        return null;
+        return playerFedCodes;
     }
 }

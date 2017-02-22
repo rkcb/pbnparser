@@ -10,7 +10,7 @@ public class JsonTable {
 
     protected List<String> header;
     protected List<List<String>> rows;
-    protected static String competition;
+    protected String competition;
 
     public JsonTable(List<String> header, List<List<String>> rows) {
         this.header = header;
@@ -84,7 +84,7 @@ public class JsonTable {
                 .collect(Collectors.toList());
     }
 
-    protected List<String> rowItems(String col) {
+    protected List<String> column(String col) {
         int i = header.indexOf(col);
         return i >= 0
                 ? rows.stream().map(r -> r.get(i)).collect(Collectors.toList())

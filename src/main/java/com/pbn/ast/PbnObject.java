@@ -7,6 +7,9 @@ import java.util.Locale;
 
 import com.pbn.parser.SuitPermutation;
 
+/***
+ * PbnObject represents a PBN section, table (special case of section) or value
+ */
 public class PbnObject extends Pbn {
 
     private String tag;

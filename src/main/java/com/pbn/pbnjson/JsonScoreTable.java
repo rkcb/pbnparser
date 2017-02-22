@@ -10,16 +10,16 @@ import java.util.stream.Collectors;
 
 public class JsonScoreTable extends JsonTable {
 
-    private static transient HashSet<String> numberColumns;
-    private static transient List<String> scoreTableHeader; // fixed for a
-                                                            // direction
-    private static transient List<String> comparisonHeader;
-    private static transient List<Integer> idIndexes; // in header
-    private static transient int minId = -1;
-    private static transient int maxId = -1;
-    private static transient HashMap<Integer, HashSet<Integer>> rowFilters;
+    private transient HashSet<String> numberColumns;
+    private transient List<String> scoreTableHeader; // fixed for a
+                                                     // direction
+    private transient List<String> comparisonHeader;
+    private transient List<Integer> idIndexes; // in header
+    private transient int minId = -1;
+    private transient int maxId = -1;
+    private transient HashMap<Integer, HashSet<Integer>> rowFilters;
 
-    private static transient HashSet<String> comparisonItems;
+    private transient HashSet<String> comparisonItems;
 
     /***
      * 1. set competion type 2. call setIdIndexes 3. setMinMaxId 4. call
@@ -27,7 +27,7 @@ public class JsonScoreTable extends JsonTable {
      */
 
     public void initialize(String competition) {
-        JsonTable.competition = competition;
+        this.competition = competition;
         setIdIndexes();
         setRowFilters();
         setMinMaxId();
@@ -36,6 +36,35 @@ public class JsonScoreTable extends JsonTable {
         setComparisonHeader();
     }
 
+    // public boolean test() {
+    // return scoreTableHeader != null && comparisonHeader != null
+    // && idIndexes != null && minId >= 0 && maxId >= 0
+    // && !rowFilters.isEmpty();
+    // }
+
+    /***
+     * initialize copies "from" values to "to" values
+     * 
+     * @param to
+     * @param from
+     * 
+     */
+    public static void initialize(JsonScoreTable to, JsonScoreTable from) {
+        to.numberColumns = from.numberColumns;
+        to.scoreTableHeader = from.scoreTableHeader;
+        to.comparisonHeader = from.comparisonHeader;
+        to.idIndexes = from.idIndexes;
+        to.minId = from.minId;
+        to.maxId = from.maxId;
+        to.rowFilters = from.rowFilters;
+        to.comparisonItems = from.comparisonItems;
+    }
+
+    /***
+     * filters
+     *
+     * @return return indexes of interesting row items; see setRowFilters
+     */
     public HashMap<Integer, HashSet<Integer>> filters() {
         return rowFilters;
     }
@@ -142,9 +171,8 @@ public class JsonScoreTable extends JsonTable {
      *
      * @return ScoreTableHeader
      */
-    public static List<String> scoreTableHeader() {
-        return scoreTableHeader != null ? JsonScoreTable.scoreTableHeader
-                : new LinkedList<>();
+    public List<String> scoreTableHeader() {
+        return scoreTableHeader != null ? scoreTableHeader : new LinkedList<>();
     }
 
     /***
@@ -152,35 +180,38 @@ public class JsonScoreTable extends JsonTable {
      * interesting for this id index set
      */
     protected void setRowFilters() {
-        rowFilters.clear();
 
-        if (competition.equals("Individuals")) {
-            List<String> dirs = new LinkedList<>();
-            Collections.addAll(dirs, "North", "South", "East", "West");
-            Iterator<String> diri = dirs.iterator();
-            Iterator<Integer> idi = idIndexes.iterator();
-            while (idi.hasNext() && diri.hasNext()) {
-                // map dir id index to corresponding index set for directions
-                rowFilters.put(idi.next(),
-                        scoreItemIndexes(indiScoreItems(diri.next())));
+        if (rowFilters == null) {
+            rowFilters = new HashMap<>();
+            if (competition.equals("Individuals")) {
+                List<String> dirs = new LinkedList<>();
+                Collections.addAll(dirs, "North", "South", "East", "West");
+                Iterator<String> diri = dirs.iterator();
+                Iterator<Integer> idi = idIndexes.iterator();
+                while (idi.hasNext() && diri.hasNext()) {
+                    // map dir id index to corresponding index set for
+                    // directions
+                    rowFilters.put(idi.next(),
+                            scoreItemIndexes(indiScoreItems(diri.next())));
+                }
+            } else if (competition.equals("Pairs")) {
+                rowFilters.put(idIndexes.get(0),
+                        scoreItemIndexes(pairScoreItems("NS")));
+                rowFilters.put(idIndexes.get(1),
+                        scoreItemIndexes(pairScoreItems("EW")));
+            } else if (competition.equals("Teams")) {
+                rowFilters.put(idIndexes.get(0),
+                        scoreItemIndexes(teamScoreItems("Home")));
+                rowFilters.put(idIndexes.get(1),
+                        scoreItemIndexes(teamScoreItems("Away")));
             }
-        } else if (competition.equals("Pairs")) {
-            rowFilters.put(idIndexes.get(0),
-                    scoreItemIndexes(pairScoreItems("NS")));
-            rowFilters.put(idIndexes.get(1),
-                    scoreItemIndexes(pairScoreItems("EW")));
-        } else if (competition.equals("Teams")) {
-            rowFilters.put(idIndexes.get(0),
-                    scoreItemIndexes(teamScoreItems("Home")));
-            rowFilters.put(idIndexes.get(1),
-                    scoreItemIndexes(teamScoreItems("Away")));
         }
     }
 
     /***
      * setAdjacent tests are id positions adjacent
      */
-    public static void setMinMaxId() {
+    public void setMinMaxId() {
         if (idIndexes.size() < 2) {
             return;
         }
@@ -247,7 +278,9 @@ public class JsonScoreTable extends JsonTable {
      *
      * @param id
      *            that is contained in this row
-     * @return the row which contains the id or an empty list otherwise
+     * @return the row which contains the id or an empty list otherwise; this
+     *         row contains only items which are interesting for this playing
+     *         unit; see setRowFilters and rowFilters
      */
     public List<String> subrow(String id) {
 
@@ -351,7 +384,7 @@ public class JsonScoreTable extends JsonTable {
      *
      * @return the header of the comparison table
      */
-    public static List<String> comparisonHeader() {
+    public List<String> comparisonHeader() {
         return comparisonHeader != null ? comparisonHeader : new LinkedList<>();
     }
 

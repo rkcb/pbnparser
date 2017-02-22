@@ -51,7 +51,7 @@ public class JsonScoreTableTest {
         Collections.addAll(l, "11", "3N", "W", "9", "CA", "400", "0.0", "0");
         assertTrue(Objects.deepEquals(l, t.subrow("11")));
         l.clear();
-        for (String i : JsonScoreTable.scoreTableHeader()) {
+        for (String i : t.scoreTableHeader()) {
             l.add(i);
         }
         // P.on(t.subrow("7").toString());

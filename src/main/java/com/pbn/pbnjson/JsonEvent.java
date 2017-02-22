@@ -27,6 +27,32 @@ public class JsonEvent {
     private JsonScoreTable scoreTable;
     private JsonOptimumResultTable optimumResultTable;
 
+    /**
+     * initialize builds help values in totalScoreTable and scoreTable if they
+     * exist
+     */
+    public void initialize() {
+        if (competition != null && scoreTable != null
+                && totalScoreTable != null) {
+            scoreTable.initialize(competition);
+            totalScoreTable.initialize(competition);
+        }
+    }
+
+    /***
+     * initialize copy
+     *
+     * @param to
+     *            copy to this
+     * @param from
+     *            copy to this
+     */
+    public static void initialize(JsonEvent to, JsonEvent from) {
+        if (to != null && from != null && from.scoreTable != null) {
+            JsonScoreTable.initialize(to.getScoreTable(), from.getScoreTable());
+        }
+    }
+
     public String getEvent() {
         return event;
     }
