@@ -111,9 +111,10 @@ public class Tools {
                     e.get("ScoreTable").rows()));
         }
         if (e.get("TotalScoreTable") != null) {
-            j.setTotalScoreTable(
-                    new JsonTotalScoreTable(e.get("TotalScoreTable").header(),
-                            e.get("TotalScoreTable").rows()));
+            JsonTotalScoreTable tst = new JsonTotalScoreTable(
+                    e.get("TotalScoreTable").header(),
+                    e.get("TotalScoreTable").rows());
+            j.setTotalScoreTable(tst);
         }
         if (e.get("OptimumResultTable") != null) {
             j.setOptimumResultTable(new JsonOptimumResultTable(

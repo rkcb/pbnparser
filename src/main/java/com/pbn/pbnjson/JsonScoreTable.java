@@ -36,18 +36,12 @@ public class JsonScoreTable extends JsonTable {
         setComparisonHeader();
     }
 
-    // public boolean test() {
-    // return scoreTableHeader != null && comparisonHeader != null
-    // && idIndexes != null && minId >= 0 && maxId >= 0
-    // && !rowFilters.isEmpty();
-    // }
-
     /***
      * initialize copies "from" values to "to" values
-     * 
+     *
      * @param to
      * @param from
-     * 
+     *
      */
     public static void initialize(JsonScoreTable to, JsonScoreTable from) {
         to.numberColumns = from.numberColumns;

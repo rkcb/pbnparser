@@ -214,38 +214,4 @@ public class ToolsTest {
         return fromJson(toJson(getPbnResult(pbn)));
     }
 
-    // private ParsingResult<Pbn> getResult(String input, Rule rule) {
-    // ReportingParseRunner<Pbn> runner = new ReportingParseRunner<>(rule);
-    // ParsingResult<Pbn> result = runner.run(input);
-    // return result;
-    // }
-    //
-    // @Test
-    // public void ToJsonObjectsTest() {
-    // String input = ParserTest.inputText("sm1");
-    // ParsingResult<Pbn> result = getResult(input, parser.Events());
-    // Events es = (Events) result.resultValue;
-    //
-    // List<Event> evs = es.events();
-    //
-    // Gson gson = new GsonBuilder().create();
-    //
-    // Function<Event, JsonEvent> f = e -> Tools.event2JsonEvent(e);
-    //
-    // List<JsonEvent> l = evs.stream().map(f).collect(Collectors.toList());
-    // JsonEvent jevent = l.get(1);
-    // String json = gson.toJson(l);
-    //
-    // // this is a recommended Gson way to deserialize
-    // JsonParser parser = new JsonParser();
-    // JsonArray jarray = parser.parse(json).getAsJsonArray();
-    // JsonEvent jevent2 = gson.fromJson(jarray.get(1), JsonEvent.class);
-    //
-    // if (jevent.getScoreTable() != null) {
-    // assertTrue(Objects.deepEquals(jevent.getScoreTable().getHeader(),
-    // jevent2.getScoreTable().getHeader()));
-    // }
-    // assertTrue(Objects.deepEquals(jevent.getBoard(), jevent2.getBoard()));
-    //
-    // }
 }

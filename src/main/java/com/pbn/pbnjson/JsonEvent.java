@@ -222,4 +222,33 @@ public class JsonEvent {
         this.optimumResultTable = optimumResultTable;
     }
 
+    /***
+     * absDouble parse double
+     *
+     * @return parsed absolute value of double; return -1 if parsing fails
+     */
+    private double absDouble(String s) {
+        double d = -1;
+        try {
+            d = Double.parseDouble(s);
+            return Math.abs(d);
+        } catch (Exception e) {
+        }
+        return d;
+    }
+
+    /***
+     * maxIMP
+     *
+     * @return max imp in this event and -1 if not possible
+     */
+    public double maxIMP() {
+        if (scoreTable != null && scoreTable.header != null
+                && scoreTable.header.indexOf("IMP_EW") >= 0) {
+            return scoreTable.column("IMP_EW").stream()
+                    .mapToDouble(i -> absDouble(i)).max().orElse(-1);
+        }
+        return -1;
+    }
+
 }

@@ -17,7 +17,7 @@ import com.pbn.pbnjson.JsonEvent;
 import com.pbn.pbnjson.JsonTotalScoreTable;
 import com.pbn.tools.ToolsTest;
 
-public class TestJsonTotalScoreTable {
+public class JsonTotalScoreTableTest {
 
     static private PbnParser parser = Parboiled.createParser(PbnParser.class);
     static private Gson gson = new GsonBuilder().create();
@@ -47,6 +47,5 @@ public class TestJsonTotalScoreTable {
         List<JsonEvent> jevents = ToolsTest.fromJson(json);
 
         JsonTotalScoreTable t = jevents.get(0).getTotalScoreTable();
-        t.filter();
     }
 }

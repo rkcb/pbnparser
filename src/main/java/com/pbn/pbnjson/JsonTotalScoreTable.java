@@ -36,6 +36,7 @@ public class JsonTotalScoreTable extends JsonTable {
                     "TeamName", "Roster", "ScorePenalty", "Club", "MP");
         }
         masterPoints = new HashMap<>();
+        filter();
     }
 
     public void initialize(String competition) {
@@ -136,7 +137,10 @@ public class JsonTotalScoreTable extends JsonTable {
      * @return true iff this table contains master points
      */
     public boolean hasMasterPoints() {
-        return masterPoints.isEmpty();
+        if (masterPoints == null) {
+            findMasterPoints();
+        }
+        return !masterPoints.isEmpty();
     }
 
     public double getMasterPoints(String fedId) {

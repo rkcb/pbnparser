@@ -2,15 +2,14 @@ package com.pbn.pbnjson;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.OptionalDouble;
+import java.util.stream.Collectors;
 
 public class JsonEvents {
 
     private List<JsonEvent> events;
     private JsonTotalScoreTable totalScoreTable;
     private String competition;
-    private Boolean mpScoring;
-    private Boolean impScoring;
-    private Boolean vpScoring;
 
     public JsonEvents(List<JsonEvent> events) {
         this.events = events;
@@ -30,6 +29,7 @@ public class JsonEvents {
     public JsonTotalScoreTable totalScoreTable() {
         if (totalScoreTable == null && events != null) {
             Iterator<JsonEvent> i = events.iterator();
+            // find first event with totalScoreTable if possible
             while (i.hasNext() && totalScoreTable == null) {
                 totalScoreTable = i.next().getTotalScoreTable();
             }
@@ -68,16 +68,25 @@ public class JsonEvents {
         return competition;
     }
 
-    public JsonEvent event(int i) {
+    public Double averageMaxIMP() {
+        OptionalDouble d = events.stream().mapToDouble(e -> e.maxIMP())
+                .average();
+
+        return d.orElse(-1);
+    }
+
+    /***
+     * get
+     *
+     * @param i
+     *            index of the events
+     * @return event with this index or null otherwise
+     */
+    public JsonEvent get(int i) {
         return events != null && i >= 0 && i < events.size() ? events.get(i)
                 : null;
     }
 
-    /***
-     * size
-     *
-     * @return number of JSON events
-     */
     public int size() {
         return events != null ? events.size() : 0;
     }
@@ -98,12 +107,14 @@ public class JsonEvents {
     }
 
     /***
-     * private def matchPointScoring(): Boolean = {
-     * events.head.header("TotalScoreTable").contains("TotalScoreMP"); } private
-     * def impScoring(): Boolean = {
-     * events.head.header("TotalScoreTable").contains("TotalScoreIMP"); }
+     * data find interesting scoreTable rows
      *
-     * private def vpScoring(): Boolean = {
-     * events.head.header("ScoreTable").contains("VP_Home") }
+     * @param id
+     * @return scoreTable rows which contain the id
      */
+    public List<List<String>> data(String id) {
+        return events.stream().map(e -> e.getScoreTable().subrow(id))
+                .collect(Collectors.toList());
+    }
+
 }

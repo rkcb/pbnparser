@@ -84,7 +84,14 @@ public class JsonTable {
                 .collect(Collectors.toList());
     }
 
-    protected List<String> column(String col) {
+    /***
+     * column
+     *
+     * @param col
+     *            column header name
+     * @return items of this column; empty list if nonexisting
+     */
+    public List<String> column(String col) {
         int i = header.indexOf(col);
         return i >= 0
                 ? rows.stream().map(r -> r.get(i)).collect(Collectors.toList())
