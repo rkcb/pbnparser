@@ -267,7 +267,7 @@ public class PbnParser extends BaseParser<Pbn> {
         return NoneOf("{}[]\"\r\n\t\f ");
     }
 
-    protected Rule RowNonString(Var<LinkedList<String>> rw) {
+    protected Rule RowNonString(Var<LinkedList<Object>> rw) {
         return Sequence(OneOrMore(NonString()), rw.get().add(match()));
     }
 
@@ -277,23 +277,23 @@ public class PbnParser extends BaseParser<Pbn> {
                 Sequence("\\", s.append('\\'))));
     }
 
-    protected Rule String(Var<LinkedList<String>> rw) {
+    protected Rule String(Var<LinkedList<Object>> rw) {
         StringVar s = new StringVar("");
         return Sequence(Str(s), rw.get().add(s.get()));
     }
 
-    protected Rule RowString(Var<LinkedList<String>> rw) {
+    protected Rule RowString(Var<LinkedList<Object>> rw) {
         return Sequence('"', String(rw), '"');
     }
 
-    protected Rule Row(Var<LinkedList<String>> rw) {
+    protected Rule Row(Var<LinkedList<Object>> rw) {
         return Sequence(
                 OneOrMore(FirstOf(RowNonString(rw), RowString(rw)),
                         LineSpace()),
                 LineEnd(), push(PbnObject.addRow((PbnObject) pop(), rw.get())));
     }
 
-    protected Rule TableRow(Var<LinkedList<String>> rw, int size) {
+    protected Rule TableRow(Var<LinkedList<Object>> rw, int size) {
         // the top stack item must contain a nonnull table header
         return Sequence(
                 NTimes(size, FirstOf(RowNonString(rw), RowString(rw)),
@@ -314,7 +314,7 @@ public class PbnParser extends BaseParser<Pbn> {
     }
 
     protected Rule TableRow() {
-        Var<LinkedList<String>> rw = new Var<>(new LinkedList<>());
+        Var<LinkedList<Object>> rw = new Var<>(new LinkedList<>());
         Var<Integer> size = new Var<>();
         // the top stack item must contain a nonnull header
         return Sequence(size.set(((PbnObject) peek()).header().size()),
@@ -325,7 +325,7 @@ public class PbnParser extends BaseParser<Pbn> {
     }
 
     protected Rule Rows() {
-        Var<LinkedList<String>> rw = new Var<>(new LinkedList<>());
+        Var<LinkedList<Object>> rw = new Var<>(new LinkedList<>());
         // the top item in the stack must contain the header object
         return OneOrMore(Sequence(
                 OneOrMore(FirstOf(RowNonString(rw), RowString(rw)),

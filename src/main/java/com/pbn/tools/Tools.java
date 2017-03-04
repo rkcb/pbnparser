@@ -65,56 +65,49 @@ public class Tools {
             j.setBoard(e.get("Board").value());
         }
         if (e.get("West") != null) {
-            j.setEvent(e.get("West").value());
+            j.setWest(e.get("West").value());
         }
         if (e.get("North") != null) {
-            j.setEvent(e.get("North").value());
+            j.setNorth(e.get("North").value());
         }
         if (e.get("East") != null) {
-            j.setEvent(e.get("East").value());
+            j.setEast(e.get("East").value());
         }
         if (e.get("South") != null) {
-            j.setEvent(e.get("South").value());
+            j.setSouth(e.get("South").value());
         }
         if (e.get("Dealer") != null) {
-            j.setEvent(e.get("Dealer").value());
+            j.setDealer(e.get("Dealer").value());
         }
         if (e.get("Vulnerable") != null) {
-            j.setEvent(e.get("Vulnerable").value());
+            j.setVulnerable(e.get("Vulnerable").value());
         }
         if (e.get("Deal") != null) {
             j.setDeal(e.get("Deal").hands());
         }
         if (e.get("Scoring") != null) {
-            j.setEvent(e.get("Scoring").value());
+            j.setScoring(e.get("Scoring").value());
         }
         if (e.get("Declarer") != null) {
-            j.setEvent(e.get("Declarer").value());
+            j.setDeclarer(e.get("Declarer").value());
         }
         if (e.get("Contract") != null) {
-            j.setEvent(e.get("Contract").value());
+            j.setContract(e.get("Contract").value());
         }
         if (e.get("Result") != null) {
-            j.setEvent(e.get("Result").value());
+            j.setResult(e.get("Result").value());
         }
-        if (e.get("Competion") != null) {
-            j.setCompetition(e.get("Competion").value());
-        }
-        if (e.get("OptimumScore") != null) {
-            j.setOptimumScore(e.get("OptimumScore").value());
-        }
-        if (e.get("OptimumContract") != null) {
-            j.setOptimumContract(e.get("OptimumContract").value());
+        if (e.get("Competition") != null) {
+            j.setCompetition(e.get("Competition").value());
         }
         if (e.get("ScoreTable") != null) {
             j.setScoreTable(new JsonScoreTable(e.get("ScoreTable").header(),
                     e.get("ScoreTable").rows()));
         }
         if (e.get("TotalScoreTable") != null) {
-            JsonTotalScoreTable tst = new JsonTotalScoreTable(
-                    e.get("TotalScoreTable").header(),
-                    e.get("TotalScoreTable").rows());
-            j.setTotalScoreTable(tst);
+            j.setTotalScoreTable(
+                    new JsonTotalScoreTable(e.get("TotalScoreTable").header(),
+                            e.get("TotalScoreTable").rows()));
         }
         if (e.get("OptimumResultTable") != null) {
             j.setOptimumResultTable(new JsonOptimumResultTable(

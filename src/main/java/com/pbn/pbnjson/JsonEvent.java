@@ -227,10 +227,10 @@ public class JsonEvent {
      *
      * @return parsed absolute value of double; return -1 if parsing fails
      */
-    private double absDouble(String s) {
+    private double absDouble(Object s) {
         double d = -1;
         try {
-            d = Double.parseDouble(s);
+            d = Double.parseDouble((String) s);
             return Math.abs(d);
         } catch (Exception e) {
         }

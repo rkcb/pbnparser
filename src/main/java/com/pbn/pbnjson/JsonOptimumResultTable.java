@@ -10,7 +10,7 @@ import java.util.function.Function;
 
 public class JsonOptimumResultTable extends JsonTable {
 
-    private static Comparator<List<String>> rowComp;
+    private static Comparator<List<Object>> rowComp;
     private static int decli = -1;
     private static int denomi = -1;
     private static HashMap<String, Integer> declw = new HashMap<>();
@@ -35,7 +35,7 @@ public class JsonOptimumResultTable extends JsonTable {
         }
     }
 
-    private static Function<List<String>, List<String>> swap(int i, int j) {
+    private static Function<List<Object>, List<Object>> swap(int i, int j) {
         return t -> {
             Collections.swap(t, i, j);
             return t;
@@ -48,7 +48,7 @@ public class JsonOptimumResultTable extends JsonTable {
      * @param is
      *            list of indexes of the OptimumResultTable header items
      */
-    private static Function<List<String>, List<String>> getPermutation(
+    private static Function<List<Object>, List<Object>> getPermutation(
             LinkedList<Integer> is) {
         int i = 0;
 
@@ -135,10 +135,10 @@ public class JsonOptimumResultTable extends JsonTable {
             denomi = denomj;
 
             rowComp = (l1, l2) -> {
-                String decl1 = l1.get(decli);
-                String denom1 = l1.get(denomi);
-                String decl2 = l2.get(decli);
-                String denom2 = l2.get(denomi);
+                String decl1 = (String) l1.get(decli);
+                String denom1 = (String) l1.get(denomi);
+                String decl2 = (String) l2.get(decli);
+                String denom2 = (String) l2.get(denomi);
 
                 int comp1 = compareDecl(decl1, decl2);
                 int comp2 = compareDenom(denom1, denom2);
@@ -170,7 +170,7 @@ public class JsonOptimumResultTable extends JsonTable {
     }
 
     public JsonOptimumResultTable(List<String> header,
-            List<List<String>> rows) {
+            List<List<Object>> rows) {
         super(header, rows);
         Objects.requireNonNull(header);
         Objects.requireNonNull(rows);

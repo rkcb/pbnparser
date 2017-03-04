@@ -9,10 +9,10 @@ import java.util.stream.Collectors;
 public class JsonTable {
 
     protected List<String> header;
-    protected List<List<String>> rows;
+    protected List<List<Object>> rows;
     protected String competition;
 
-    public JsonTable(List<String> header, List<List<String>> rows) {
+    public JsonTable(List<String> header, List<List<Object>> rows) {
         this.header = header;
         this.rows = rows;
     }
@@ -21,7 +21,7 @@ public class JsonTable {
         return header;
     }
 
-    public List<List<String>> getRows() {
+    public List<List<Object>> getRows() {
         return rows;
     }
 
@@ -52,6 +52,9 @@ public class JsonTable {
         return indexes;
     }
 
+    /***
+     * setCompetition sets competions type: Individuals, Pairs or Teams
+     */
     public void setCompetition(String type) {
         competition = type.matches("Individuals|Pairs|Teams") ? type : "";
     }
@@ -71,7 +74,7 @@ public class JsonTable {
         while (it.hasNext()) {
             String item = it.next();
             if (!headerItems.contains(item)) {
-                for (List<String> row : rows) {
+                for (List<Object> row : rows) {
                     row.remove(i);
                 }
             } else {
@@ -91,7 +94,7 @@ public class JsonTable {
      *            column header name
      * @return items of this column; empty list if nonexisting
      */
-    public List<String> column(String col) {
+    public List<Object> column(String col) {
         int i = header.indexOf(col);
         return i >= 0
                 ? rows.stream().map(r -> r.get(i)).collect(Collectors.toList())
@@ -99,4 +102,52 @@ public class JsonTable {
 
     }
 
+    /***
+     * subRow picks indexed items
+     *
+     * @param inds
+     *            items of the row
+     * @param row
+     *            items to pick from
+     */
+    public List<Object> subRow(List<Integer> inds, List<Object> row) {
+        int i = 0;
+        Iterator<Object> rit = row.iterator();
+        List<Object> subrow = new LinkedList<>();
+        Object value = rit.next();
+        for (int ind : inds) {
+            while (i < ind) {
+                i++;
+                value = rit.next();
+            }
+            subrow.add(value);
+        }
+
+        return subrow;
+    }
+
+    protected double toDouble(Object o) {
+        double d = 0;
+        if (o != null && o instanceof String) {
+            try {
+                d = Double.parseDouble((String) o);
+            } catch (Exception e) {
+            }
+        }
+        return d;
+
+    }
+
+    /***
+     * numberMap maps data column items to numbers; see numberColumns. Note that
+     * this mapping is only needed when importing data from pbnparser to json
+     * since Gson deserialization contains this type information
+     */
+    public void numberMap(HashSet<String> numbers) {
+        if (numbers != null) {
+            for (List<Object> row : rows) {
+
+            }
+        }
+    }
 }

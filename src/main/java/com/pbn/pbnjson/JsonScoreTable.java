@@ -20,6 +20,7 @@ public class JsonScoreTable extends JsonTable {
     private transient HashMap<Integer, HashSet<Integer>> rowFilters;
 
     private transient HashSet<String> comparisonItems;
+    private transient List<Integer> comparisonItemIndexes;
 
     /***
      * 1. set competion type 2. call setIdIndexes 3. setMinMaxId 4. call
@@ -34,6 +35,21 @@ public class JsonScoreTable extends JsonTable {
         setIdIndexes();
         setScoreTableHeader();
         setComparisonHeader();
+        findComparisonDataIndexes();
+    }
+
+    private void findComparisonDataIndexes() {
+        // comparison table is only used in indi and pair games
+        if (comparisonItems != null && !comparisonItems.isEmpty()) {
+            comparisonItemIndexes = new LinkedList<>();
+            int i = 0;
+            for (String col : header) {
+                if (comparisonItems.contains(col)) {
+                    comparisonItemIndexes.add(i);
+                }
+                i++;
+            }
+        }
     }
 
     /***
@@ -44,6 +60,7 @@ public class JsonScoreTable extends JsonTable {
      *
      */
     public static void initialize(JsonScoreTable to, JsonScoreTable from) {
+        to.competition = from.competition;
         to.numberColumns = from.numberColumns;
         to.scoreTableHeader = from.scoreTableHeader;
         to.comparisonHeader = from.comparisonHeader;
@@ -52,6 +69,7 @@ public class JsonScoreTable extends JsonTable {
         to.maxId = from.maxId;
         to.rowFilters = from.rowFilters;
         to.comparisonItems = from.comparisonItems;
+        to.comparisonItemIndexes = from.comparisonItemIndexes;
     }
 
     /***
@@ -59,7 +77,7 @@ public class JsonScoreTable extends JsonTable {
      *
      * @return return indexes of interesting row items; see setRowFilters
      */
-    public HashMap<Integer, HashSet<Integer>> filters() {
+    protected HashMap<Integer, HashSet<Integer>> filters() {
         return rowFilters;
     }
 
@@ -161,7 +179,8 @@ public class JsonScoreTable extends JsonTable {
     }
 
     /***
-     * scoreTableHeader gives the PBN ScoreTableHeader set by competion type
+     * scoreTableHeader gives the PBN ScoreTableHeader set by competion type;
+     * use this with the data(String id) function
      *
      * @return ScoreTableHeader
      */
@@ -224,10 +243,7 @@ public class JsonScoreTable extends JsonTable {
         }
     }
 
-    /***
-     * 1. initialize competion type 2.
-     */
-    public JsonScoreTable(List<String> header, List<List<String>> rows) {
+    public JsonScoreTable(List<String> header, List<List<Object>> rows) {
         super(header, rows);
         if (numberColumns == null) {
             numberColumns = new HashSet<>(20);
@@ -236,6 +252,7 @@ public class JsonScoreTable extends JsonTable {
                     "Percentage_NS", "Percentage_EW", "Percentage_North",
                     "Percentage_East", "Percentage_South", "Percentage_West",
                     "Multiplicity");
+
         }
 
         idIndexes = new LinkedList<>();
@@ -251,7 +268,7 @@ public class JsonScoreTable extends JsonTable {
      *            PBN id
      * @return index of id or -1 if not found
      */
-    protected int containsId(List<String> row, String id) {
+    protected int containsId(List<Object> row, String id) {
         if (minId >= 0) {
             int index = row.subList(minId, maxId + 1).indexOf(id);
             return index >= 0 ? index + minId : -1;
@@ -276,10 +293,10 @@ public class JsonScoreTable extends JsonTable {
      *         row contains only items which are interesting for this playing
      *         unit; see setRowFilters and rowFilters
      */
-    public List<String> subrow(String id) {
+    public List<Object> subrow(String id) {
 
-        Iterator<List<String>> ri = rows.iterator();
-        List<String> row = new LinkedList<>();
+        Iterator<List<Object>> ri = rows.iterator();
+        List<Object> row = new LinkedList<>();
         int index = -1;
         while (index < 0 && ri.hasNext()) {
             row = ri.next();
@@ -287,14 +304,14 @@ public class JsonScoreTable extends JsonTable {
         }
 
         // traverse row and check whether index belongs to desired indexes
-        List<String> subrow = new LinkedList<>();
+        List<Object> subrow = new LinkedList<>();
         if (index >= 0) {
-            Iterator<String> rowi = row.iterator();
+            Iterator<Object> rowi = row.iterator();
             int i = 0;
             HashSet<Integer> items = rowFilters.get(index);
 
             while (i < row.size()) {
-                String value = rowi.next();
+                Object value = rowi.next();
                 if (items.contains(i++)) {
                     subrow.add(value);
                 }
@@ -354,7 +371,6 @@ public class JsonScoreTable extends JsonTable {
      * setComparisonHeader constructs the comparison header
      */
     public void setComparisonHeader() {
-
         if (comparisonItems == null && competition != null
                 && competition.matches("Individuals|Pairs")) {
             comparisonItems = new HashSet<>();
@@ -373,6 +389,10 @@ public class JsonScoreTable extends JsonTable {
         }
     }
 
+    public List<Integer> comparisonIndexes() {
+        return comparisonItemIndexes;
+    }
+
     /***
      * comparisonHeader
      *
@@ -380,6 +400,23 @@ public class JsonScoreTable extends JsonTable {
      */
     public List<String> comparisonHeader() {
         return comparisonHeader != null ? comparisonHeader : new LinkedList<>();
+    }
+
+    /***
+     * comparisonData
+     *
+     * @return row items which are under comparisonHeader
+     */
+    public List<List<Object>> comparisonData() {
+        List<List<Object>> subrows = new LinkedList<>();
+        if (comparisonItems != null && competition != null
+                && competition.matches("Individuals|Pairs")) {
+            for (List<Object> r : rows) {
+                subrows.add(subRow(comparisonItemIndexes, r));
+            }
+        }
+
+        return subrows;
     }
 
 }

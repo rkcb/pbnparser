@@ -42,8 +42,8 @@ public class TestPbnParser extends PbnParser {
         return Sequence(Events(), EOI);
     }
 
-    protected Rule TestString(LinkedList<String> l) {
-        Var<LinkedList<String>> rw = new Var<>(new LinkedList<>());
+    protected Rule TestString(LinkedList<Object> l) {
+        Var<LinkedList<Object>> rw = new Var<>(new LinkedList<>());
         return Sequence('"', String(rw), l.add(rw.get().get(0)), '"', EOI);
     }
 

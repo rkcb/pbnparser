@@ -16,10 +16,10 @@ public class JsonTotalScoreTable extends JsonTable {
 
     private transient HashSet<String> numberColumns;
     private transient HashSet<String> headerItems;
-    private transient HashMap<String, Double> masterPoints;
-    private transient HashSet<String> playerFedCodes;
+    private transient HashMap<Object, Double> masterPoints;
+    private transient HashSet<Object> playerFedCodes;
 
-    public JsonTotalScoreTable(List<String> header, List<List<String>> rows) {
+    public JsonTotalScoreTable(List<String> header, List<List<Object>> rows) {
         super(header, rows);
         if (numberColumns == null) {
             numberColumns = new HashSet<>(20);
@@ -56,9 +56,9 @@ public class JsonTotalScoreTable extends JsonTable {
      *
      * @return master points found; zero if no master points found
      */
-    private double masterPoints(List<String> row, int i) {
+    private double masterPoints(List<Object> row, int i) {
         try {
-            return Double.parseDouble(row.get(i));
+            return Double.parseDouble((String) row.get(i));
         } catch (NumberFormatException e) {
             return 0;
         }
@@ -69,12 +69,12 @@ public class JsonTotalScoreTable extends JsonTable {
      *
      * @return list of rows which contains master points
      */
-    private List<List<String>> containMps() {
-        List<List<String>> mpRows = new LinkedList<>();
+    private List<List<Object>> containMps() {
+        List<List<Object>> mpRows = new LinkedList<>();
         final int i = header.indexOf("MP");
 
         if (i >= 0) {
-            for (List<String> row : rows) {
+            for (List<Object> row : rows) {
                 if (masterPoints(row, i) > 0) {
                     mpRows.add(row);
                 }
@@ -89,10 +89,10 @@ public class JsonTotalScoreTable extends JsonTable {
      *
      * @return list of fed codes of the team; possible empty
      */
-    private List<String> teamIds(String rosterDetails) {
-        List<String> ids = new LinkedList<>();
+    private List<Object> teamIds(Object rosterDetails) {
+        List<Object> ids = new LinkedList<>();
         Pattern p = Pattern.compile("\\d+");
-        Matcher m = p.matcher(rosterDetails);
+        Matcher m = p.matcher((String) rosterDetails);
         while (m.find()) {
             ids.add(m.group());
         }
@@ -100,14 +100,14 @@ public class JsonTotalScoreTable extends JsonTable {
     }
 
     /*
-     * ids finds player id(s)
+     * ids finds player id(s) assuming "competion" is defined
      *
      * @param row TotalScoreTable row
      *
      * @return list of PBN ids found
      */
-    private List<String> ids(List<String> row) {
-        List<String> ids = new LinkedList<>();
+    private List<Object> ids(List<Object> row) {
+        List<Object> ids = new LinkedList<>();
         if (competition.equals("Individuals")) {
             int i = header.indexOf("PlayerID");
             if (i >= 0) {
@@ -157,10 +157,10 @@ public class JsonTotalScoreTable extends JsonTable {
 
             final int mpi = header.indexOf("MP");
             if (mpi >= 0) {
-                for (List<String> row : containMps()) {
-                    List<String> ids = ids(row);
+                for (List<Object> row : containMps()) {
+                    List<Object> ids = ids(row);
                     double mpts = masterPoints(row, mpi) / ids.size();
-                    for (String id : ids) {
+                    for (Object id : ids) {
                         masterPoints.put(id, mpts);
                     }
                 }
@@ -173,7 +173,7 @@ public class JsonTotalScoreTable extends JsonTable {
      *
      * @return federation codes found in this table
      */
-    public HashSet<String> getPlayerFedCodes() {
+    public HashSet<Object> getPlayerFedCodes() {
         if (playerFedCodes == null) {
             playerFedCodes = new HashSet<>();
             if (competition.equals("Individuals")) {
@@ -185,8 +185,8 @@ public class JsonTotalScoreTable extends JsonTable {
 
                 int i = header.indexOf("RosterDetails");
                 if (i >= 0) {
-                    List<String> rosters = column("RosterDetails");
-                    for (String r : rosters) {
+                    List<Object> rosters = column("RosterDetails");
+                    for (Object r : rosters) {
                         playerFedCodes.addAll(teamIds(r));
                     }
                 }

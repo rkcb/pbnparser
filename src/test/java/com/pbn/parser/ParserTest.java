@@ -105,7 +105,7 @@ public class ParserTest {
     @Test
     public void String() {
         String s = "\"\\\"x\\\"\"";
-        LinkedList<String> l = new LinkedList<>();
+        LinkedList<Object> l = new LinkedList<>();
         assertTrue(matched(s, parser.TestString(l)));
         // simon \"brave\" maps to simon "brave"
         assertTrue(l.get(0).equals("\"x\""));

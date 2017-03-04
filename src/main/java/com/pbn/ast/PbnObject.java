@@ -15,7 +15,7 @@ public class PbnObject extends Pbn {
     private String tag;
     private String value;
     private List<String> header;
-    private List<LinkedList<String>> rows;
+    private List<LinkedList<Object>> rows;
     private LinkedList<LinkedList<String>> hands; // NESW; SHDC
     public final int s = 2;
 
@@ -94,7 +94,7 @@ public class PbnObject extends Pbn {
      * @param old
      *            contains the old rows
      */
-    public static PbnObject addRow(PbnObject old, LinkedList<String> row) {
+    public static PbnObject addRow(PbnObject old, LinkedList<Object> row) {
         old.rows.add(row);
         return old;
     }
@@ -151,7 +151,7 @@ public class PbnObject extends Pbn {
      *
      * @return list of data rows of the table
      */
-    public List<List<String>> rows() {
+    public List<List<Object>> rows() {
         return Collections.unmodifiableList(rows);
     }
 
