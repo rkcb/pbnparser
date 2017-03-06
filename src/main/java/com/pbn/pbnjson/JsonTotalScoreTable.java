@@ -5,8 +5,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 /***
  * 1. call findMasterPoints
@@ -14,10 +16,12 @@ import java.util.regex.Pattern;
 
 public class JsonTotalScoreTable extends JsonTable {
 
-    private transient HashSet<String> numberColumns;
-    private transient HashSet<String> headerItems;
+    private HashSet<String> numberColumns;
+    private HashSet<String> headerItems;
     private transient HashMap<Object, Double> masterPoints;
     private transient HashSet<Object> playerFedCodes;
+    private transient List<Object> dataHeader;
+    private transient List<List<Object>> dataRows;
 
     public JsonTotalScoreTable(List<String> header, List<List<Object>> rows) {
         super(header, rows);
@@ -36,7 +40,8 @@ public class JsonTotalScoreTable extends JsonTable {
                     "TeamName", "Roster", "ScorePenalty", "Club", "MP");
         }
         masterPoints = new HashMap<>();
-        filter();
+        // map number data columns to numbers
+        numberMap(numberColumns);
     }
 
     public void initialize(String competition) {
@@ -44,12 +49,45 @@ public class JsonTotalScoreTable extends JsonTable {
     }
 
     /***
+     * resultHeader filtered data
+     */
+    public List<Object> dataHeader() {
+        if (dataHeader == null) {
+            return header.stream().filter(i -> headerItems.contains(i))
+                    .collect(Collectors.toList());
+        }
+        return dataHeader;
+    }
+
+    public List<List<Object>> dataRows() {
+        if (dataRows == null) {
+            // find indexes of useful columns
+            List<Integer> indexes = new LinkedList<>();
+            ListIterator<String> it = header.listIterator();
+            int i = 0;
+            for (String h : header) {
+                if (headerItems.contains(h)) {
+                    indexes.add(i);
+                }
+                i++;
+            }
+            dataRows = new LinkedList<>();
+            for (List<Object> row : rows) {
+                dataRows.add(subRow(indexes, row));
+            }
+
+        }
+        return dataRows;
+
+    }
+
+    /***
      * filter removes the uninteresting (see headerItems) header items and the
      * corresponding row items
      */
-    public void filter() {
-        filterTable(headerItems);
-    }
+    // public void filter() {
+    // filterTable(headerItems);
+    // }
 
     /***
      * mps extract master points
@@ -182,7 +220,6 @@ public class JsonTotalScoreTable extends JsonTable {
                 playerFedCodes.addAll(column("MemberID1"));
                 playerFedCodes.addAll(column("MemberID2"));
             } else if (competition.equals("Teams")) {
-
                 int i = header.indexOf("RosterDetails");
                 if (i >= 0) {
                     List<Object> rosters = column("RosterDetails");

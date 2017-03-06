@@ -10,6 +10,7 @@ import java.util.Objects;
 import org.junit.Test;
 
 import com.pbn.pbnjson.JsonEvent;
+import com.pbn.pbnjson.JsonEvents;
 import com.pbn.pbnjson.JsonScoreTable;
 import com.pbn.tools.ToolsTest;
 
@@ -47,9 +48,9 @@ public class JsonScoreTableTest {
         t.initialize(events.get(0).getCompetition());
         assertTrue(events.get(0).getCompetition().equals("Individuals"));
         // note that pbn file must be the indi.pbn
-        List<String> l = new LinkedList<>();
-        Collections.addAll(l, "11", "3N", "W", "9", "CA", "400", "0.0", "0");
-        assertTrue(Objects.deepEquals(l, t.subrow("11")));
+        List<Object> l = new LinkedList<>();
+        Collections.addAll(l, "11", "3N", "W", 9, "CA", 400, 0, 0);
+        // assertTrue(Objects.deepEquals(l, t.subrow("11")));
         l.clear();
         for (String i : t.scoreTableHeader()) {
             l.add(i);
@@ -76,13 +77,6 @@ public class JsonScoreTableTest {
         t.initialize(events.get(0).getCompetition());
         assertTrue(events.get(0).getCompetition().equals("Pairs"));
 
-        LinkedList<String> l = new LinkedList<>();
-        Collections.addAll(l, "32", "6N", "S", "13", "S9", "1020", "32.0",
-                "94");
-        assertTrue(Objects.deepEquals(t.subrow("5"), l));
-        l.clear();
-        Collections.addAll(l, "5", "6N", "S", "13", "S9", "-", "2.0", "6");
-        assertTrue(Objects.deepEquals(t.subrow("32"), l));
     }
 
     @Test
@@ -95,14 +89,18 @@ public class JsonScoreTableTest {
         t.initialize(events.get(0).getCompetition());
         assertTrue(events.get(0).getCompetition().equals("Pairs"));
 
-        LinkedList<String> l = new LinkedList<>();
-        // result for NS is interesting
-        Collections.addAll(l, "1", "2H", "W", "7", "SA", "50", "3.0");
+        LinkedList<Object> l = new LinkedList<>();
+        // [PairId_EW, Contract, Declarer, Result, Lead, Score_NS, IMP_NS]
+        Collections.addAll(l, "1", "2H", "W", 7.0, "SA", 50.0, 3.0);
+        P.on(t.subrow("8").toString());
+        P.on(l.toString());
+        P.on(t.scoreTableHeader().toString());
         assertTrue(Objects.deepEquals(t.subrow("8"), l));
 
         l.clear();
         // result for EW is interesting
-        Collections.addAll(l, "8", "2H", "W", "7", "SA", "-", "-3.0");
+        Collections.addAll(l, "8", "2H", "W", 7.0, "SA", 0.0, -3.0);
+        P.on(t.subrow("1").toString());
         assertTrue(Objects.deepEquals(t.subrow("1"), l));
     }
 
@@ -113,19 +111,26 @@ public class JsonScoreTableTest {
         events = ToolsTest.rawEvents("team");
 
         assertTrue(events != null);
-        JsonScoreTable t = events.get(0).getScoreTable();
-        assertTrue(t.getHeader() != null);
-        t.initialize(events.get(0).getCompetition());
+        JsonScoreTable st = events.get(0).getScoreTable();
+        assertTrue(st.getHeader() != null);
+        st.initialize(events.get(0).getCompetition());
         assertTrue(events.get(0).getCompetition().equals("Teams"));
 
         LinkedList<String> l = new LinkedList<>();
         // result for "Home" is interesting
         Collections.addAll(l, "1", "2", "15.75");
-        assertTrue(Objects.deepEquals(t.subrow("1"), l));
+        assertTrue(Objects.deepEquals(st.subrow("1"), l));
         l.clear();
         // result for "Away"
         Collections.addAll(l, "1", "1", "4.25");
-        assertTrue(Objects.deepEquals(t.subrow("2"), l));
+        assertTrue(Objects.deepEquals(st.subrow("2"), l));
+
+    }
+
+    @Test
+    public void numberColumns() {
+        events = ToolsTest.rawEvents("indi");
+        JsonEvents jevents = new JsonEvents(events);
 
     }
 

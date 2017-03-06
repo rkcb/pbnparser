@@ -28,8 +28,8 @@ public class JsonEvent {
     private JsonOptimumResultTable optimumResultTable;
 
     /**
-     * initialize builds help values in totalScoreTable and scoreTable if they
-     * exist
+     * initialize builds help variables in totalScoreTable and scoreTable if
+     * they exist
      */
     public void initialize() {
         if (competition != null && scoreTable != null
@@ -225,13 +225,16 @@ public class JsonEvent {
     /***
      * absDouble parse double
      *
+     * @param o
+     *            any Double
+     *
      * @return parsed absolute value of double; return -1 if parsing fails
      */
-    private double absDouble(Object s) {
+    private double absDouble(Object o) {
         double d = -1;
         try {
-            d = Double.parseDouble((String) s);
-            return Math.abs(d);
+            d = (Double) o;
+            d = Math.abs(d);
         } catch (Exception e) {
         }
         return d;

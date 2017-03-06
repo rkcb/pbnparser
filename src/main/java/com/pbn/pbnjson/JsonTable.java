@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.stream.Collectors;
 
 public class JsonTable {
@@ -61,7 +62,7 @@ public class JsonTable {
 
     /***
      * filterTable removes header and the corresponding row items which are not
-     * contained in headerItems;
+     * contained in headerItems; CANNOT BE USED because MemberID data vanish
      */
     protected void filterTable(HashSet<String> headerItems) {
         if (header == null || rows == null || headerItems == null) {
@@ -105,17 +106,17 @@ public class JsonTable {
     /***
      * subRow picks indexed items
      *
-     * @param inds
+     * @param indexes
      *            items of the row
      * @param row
      *            items to pick from
      */
-    public List<Object> subRow(List<Integer> inds, List<Object> row) {
+    public List<Object> subRow(List<Integer> indexes, List<Object> row) {
         int i = 0;
         Iterator<Object> rit = row.iterator();
         List<Object> subrow = new LinkedList<>();
         Object value = rit.next();
-        for (int ind : inds) {
+        for (int ind : indexes) {
             while (i < ind) {
                 i++;
                 value = rit.next();
@@ -126,6 +127,11 @@ public class JsonTable {
         return subrow;
     }
 
+    /*
+     * toDouble maps string to a number
+     *
+     * @return the number the string represented or 0 if the parsing failed
+     */
     protected double toDouble(Object o) {
         double d = 0;
         if (o != null && o instanceof String) {
@@ -135,7 +141,20 @@ public class JsonTable {
             }
         }
         return d;
+    }
 
+    protected void mapNumbers(List<Object> row, HashSet<String> numbers) {
+        if (numbers != null && row.size() == header.size()) {
+            Iterator<String> hit = header.iterator();
+            ListIterator<Object> rit = row.listIterator();
+            while (hit.hasNext()) {
+                String h = hit.next();
+                Object o = rit.next();
+                if (numbers.contains(h)) {
+                    rit.set(toDouble(o));
+                }
+            }
+        }
     }
 
     /***
@@ -143,10 +162,10 @@ public class JsonTable {
      * this mapping is only needed when importing data from pbnparser to json
      * since Gson deserialization contains this type information
      */
-    public void numberMap(HashSet<String> numbers) {
+    protected void numberMap(HashSet<String> numbers) {
         if (numbers != null) {
             for (List<Object> row : rows) {
-
+                mapNumbers(row, numbers);
             }
         }
     }

@@ -2,6 +2,10 @@ package com.pbn.pbnjson;
 
 import static org.junit.Assert.assertTrue;
 
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+
 import org.junit.Test;
 
 import com.pbn.ast.Events;
@@ -31,7 +35,8 @@ public class JsonEventsTest {
     public void testJsonEvents() {
         // impcross
         events = new JsonEvents(ToolsTest.rawEvents("impcross"));
-        assertTrue(events.get(1).maxIMP() > 0);
+        // board 2
+        assertTrue(events.get(1).maxIMP() == 508);
         assertTrue(events.averageMaxIMP() < events.get(1).maxIMP());
         assertTrue(events.hasMasterPoints() == false);
 
@@ -45,5 +50,45 @@ public class JsonEventsTest {
         events = new JsonEvents(ToolsTest.rawEvents("team"));
 
         assertTrue(events.size() == 1);
+    }
+
+    @Test
+    public void testNumbercolumns() {
+        events = new JsonEvents(ToolsTest.rawEvents("impcross"));
+        JsonTotalScoreTable tst = events.get(0).getTotalScoreTable();
+        assertTrue(tst.competition.equals("Pairs"));
+        assertTrue(tst != null);
+
+        // total score table
+        HashSet<String> numberColumns0 = new HashSet<>();
+        Collections.addAll(numberColumns0, "Rank", "TotalScoreMP",
+                "TotalPercentage", "TotalScore", "TotalIMP", "TotalMP",
+                "NrBoards", "MeanScore", "MeanIMP", "MeanMP");
+        // verify that number items exists as expected
+        Iterator<Object> it0 = tst.getRows().get(0).iterator();
+        for (String s : tst.getHeader()) {
+            Object o = it0.next();
+            if (numberColumns0.contains(s)) {
+                assertTrue(o instanceof Double);
+            }
+        }
+
+        // score table
+        JsonScoreTable st = events.get(1).getScoreTable();
+        HashSet<String> numberColumns = new HashSet<>(20);
+        Collections.addAll(numberColumns, "Rank", "Result", "Score_NS",
+                "Score_EW", "IMP_NS", "IMP_EW", "MP_NS", "MP_EW",
+                "Percentage_NS", "Percentage_EW", "Percentage_North",
+                "Percentage_East", "Percentage_South", "Percentage_West",
+                "Multiplicity");
+
+        // verify that number items exists as expected
+        Iterator<Object> it = st.getRows().get(0).iterator();
+        for (String s : st.getHeader()) {
+            Object o = it.next();
+            if (numberColumns.contains(s)) {
+                assertTrue(o instanceof Double);
+            }
+        }
     }
 }

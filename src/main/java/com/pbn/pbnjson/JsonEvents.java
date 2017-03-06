@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
+import com.pbn.tools.Tools;
+
 /***
  * JsonEvents collects PBN events in one class and assumes that the events are
  * consistent: events contains at most one TotalScoreTable and ScoreTable varies
@@ -32,6 +34,17 @@ public class JsonEvents {
         }
     }
 
+    /***
+     * @param json
+     *            string (serialization of List<JsonEvent> by Gson)
+     */
+    public JsonEvents(String json) {
+        this(Tools.fromJson(json));
+    }
+
+    /***
+     * mapBoards board -> event
+     */
     private void mapBoards() {
         boardsMap = new HashMap<>();
         for (JsonEvent e : events) {
@@ -214,8 +227,4 @@ public class JsonEvents {
             return new LinkedList<>();
         }
     }
-
-    // public List<List<String>> optimumTableData(int i) {
-    //
-    // }
 }

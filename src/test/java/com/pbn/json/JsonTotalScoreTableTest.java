@@ -2,8 +2,6 @@ package com.pbn.json;
 
 import static org.junit.Assert.assertTrue;
 
-import java.util.List;
-
 import org.junit.Test;
 import org.parboiled.Parboiled;
 import org.parboiled.support.ParsingResult;
@@ -13,7 +11,7 @@ import com.google.gson.GsonBuilder;
 import com.pbn.ast.Pbn;
 import com.pbn.parser.ParserTest;
 import com.pbn.parser.PbnParser;
-import com.pbn.pbnjson.JsonEvent;
+import com.pbn.pbnjson.JsonEvents;
 import com.pbn.pbnjson.JsonTotalScoreTable;
 import com.pbn.tools.ToolsTest;
 
@@ -44,8 +42,9 @@ public class JsonTotalScoreTableTest {
         assertTrue(json != null && !json.isEmpty());
 
         // deserialize json string to List<JsonEvent>
-        List<JsonEvent> jevents = ToolsTest.fromJson(json);
+        JsonEvents jevents = new JsonEvents(ToolsTest.rawEvents("sm1"));
+        JsonTotalScoreTable t = jevents.totalScoreTable();
 
-        JsonTotalScoreTable t = jevents.get(0).getTotalScoreTable();
     }
+
 }

@@ -6,7 +6,10 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.stream.Collectors;
+
+import org.jsoup.nodes.Document;
 
 public class JsonScoreTable extends JsonTable {
 
@@ -21,6 +24,8 @@ public class JsonScoreTable extends JsonTable {
 
     private transient HashSet<String> comparisonItems;
     private transient List<Integer> comparisonItemIndexes;
+    private static transient final String[] suits = { "&spades;", "&hearts;",
+            "&diams;", "&clubs;" };
 
     /***
      * 1. set competion type 2. call setIdIndexes 3. setMinMaxId 4. call
@@ -257,6 +262,54 @@ public class JsonScoreTable extends JsonTable {
 
         idIndexes = new LinkedList<>();
         rowFilters = new HashMap<>();
+        // map number data columns to numbers
+        numberMap(numberColumns);
+        mapColumnsToHtml();
+    }
+
+    protected static String getSuit(int i) {
+        Document d = new Document("");
+        String color = i == 1 || i == 2 ? "red" : "black";
+        d.appendElement("span").attr("style", "color:" + color)
+                .append(suits[i]);
+        return d.html();
+    }
+
+    /***
+     * toHtml maps bid or lead to html representation
+     *
+     * @param s
+     *            pbn bid or lead
+     */
+    protected String toHtml(String s) {
+        if (s.matches(".*(n|N).*")) {
+            s = s.replaceFirst("(n|N)", "NT");
+        } else if (s.matches(".*(c|C).*")) {
+            s = s.replaceFirst("c|C", getSuit(0));
+        } else if (s.matches(".*(d|D).*")) {
+            s = s.replaceFirst("d|D", getSuit(1));
+        } else if (s.matches(".*(h|H).*")) {
+            s = s.replaceFirst("h|H", getSuit(2));
+        } else if (s.matches(".*(s|S).*")) {
+            s = s.replaceFirst("s|S", getSuit(3));
+        }
+        return s;
+    }
+
+    /***
+     * mapmapColumnsToHtml maps Lead and Contract columns to html; e.g. 1C ->
+     *
+     */
+    protected void mapColumnsToHtml() {
+        int i = header.indexOf("Lead");
+        int j = header.indexOf("Contract");
+        if (i >= 0 && j >= 0) {
+            for (ListIterator<List<Object>> rit = rows.listIterator(); rit
+                    .hasNext();) {
+                List<Object> row = rit.next();
+                row.set(i, toHtml((String) row.get(i)));
+            }
+        }
     }
 
     /***
