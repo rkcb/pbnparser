@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.junit.Test;
 import org.parboiled.Parboiled;
 import org.parboiled.parserunners.ReportingParseRunner;
 import org.parboiled.support.ParsingResult;
@@ -179,7 +178,6 @@ public class Tools {
         return results.matched ? toJson(results) : "";
     }
 
-    @Test
     public void testing() {
         String input = ParserTest.inputText("sm1");
         // parse pbn string

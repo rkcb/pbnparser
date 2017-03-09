@@ -7,8 +7,12 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 import org.junit.Test;
+import org.parboiled.support.ParsingResult;
 
 import com.pbn.ast.Events;
+import com.pbn.ast.Pbn;
+import com.pbn.parser.ParserTest;
+import com.pbn.tools.Tools;
 import com.pbn.tools.ToolsTest;
 
 public class JsonEventsTest {
@@ -90,5 +94,23 @@ public class JsonEventsTest {
                 assertTrue(o instanceof Double);
             }
         }
+    }
+
+    @Test
+    public void masterPoints() {
+        // case for teams
+        events = new JsonEvents(ToolsTest.rawEvents("team"));
+        assertTrue(events != null && events.hasMasterPoints()
+                && events.totalScoreTableExists());
+        double mps = events.masterPointsEarned("1438");
+        // kauko got 0.525 points while team got 2.1 points
+        assertTrue(mps == 0.525);
+    }
+
+    @Test
+    public void JsonEventsGeneral() {
+        String input = ParserTest.inputText("team");
+        ParsingResult<Pbn> result = Tools.getPbnResult(input);
+        assertTrue(result.matched);
     }
 }

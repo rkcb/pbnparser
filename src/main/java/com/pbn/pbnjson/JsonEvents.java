@@ -131,6 +131,22 @@ public class JsonEvents {
     }
 
     /***
+     * masterPointsEarned computes how much this particular earned master
+     * points; see findMasterPoints()
+     *
+     * @param fedId
+     *            federation code
+     * @return master points for this player or null if mps not supported
+     */
+    public Double masterPointsEarned(String fedId) {
+        if (hasMasterPoints()) {
+            return totalScoreTable.getMasterPoints(fedId);
+        } else {
+            return null;
+        }
+    }
+
+    /***
      * get
      *
      * @param i

@@ -181,6 +181,12 @@ public class JsonTotalScoreTable extends JsonTable {
         return !masterPoints.isEmpty();
     }
 
+    /***
+     * getMasterPoints
+     * 
+     * @fedId federation id
+     * @return master points for this id; zero if no masterpoints
+     */
     public double getMasterPoints(String fedId) {
         return fedId != null ? masterPoints.getOrDefault(fedId, (double) 0) : 0;
     }
