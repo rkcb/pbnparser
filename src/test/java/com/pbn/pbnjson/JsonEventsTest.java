@@ -103,7 +103,7 @@ public class JsonEventsTest {
         assertTrue(events != null && events.hasMasterPoints()
                 && events.totalScoreTableExists());
         double mps = events.masterPointsEarned("1438");
-        // kauko got 0.525 points while team got 2.1 points
+        // kauko got 0.525 points while the team got 2.1 points
         assertTrue(mps == 0.525);
     }
 
@@ -112,5 +112,10 @@ public class JsonEventsTest {
         String input = ParserTest.inputText("team");
         ParsingResult<Pbn> result = Tools.getPbnResult(input);
         assertTrue(result.matched);
+        JsonEvents jevents = new JsonEvents(
+                Tools.fromJson(Tools.toJson(result)));
+        assertTrue(jevents != null);
+        assertTrue(jevents.totalScoreTable() != null);
+        assertTrue(jevents.totalScoreTableExists());
     }
 }

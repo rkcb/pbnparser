@@ -229,7 +229,7 @@ public class JsonEvents {
     }
 
     public boolean totalScoreTableExists() {
-        return totalScoreTable != null;
+        return totalScoreTable() != null;
     }
 
     public boolean scoreTableExists() {
