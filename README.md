@@ -8,7 +8,7 @@ The parser produces a "parse result" which contains
 all boards as a Java list. This project uses [GSON](https://github.com/google/gson/blob/master/UserGuide.md) to allow  developer 
 to serialize and deserialize this board list between JsonEvents and the corresponding 
 Json string. 
-The reason for this extra step is simply performance: Once the pbn is 
-validated it is sufficient to retrieve board data from json to JsonEvents 
+The reason for this extra step is simply performance: Once the PBN is 
+validated it is sufficient to retrieve board data from Json to JsonEvents. 
 Note that JsonEvent contains strictly less information than the Pbn Java 
 equivalent since JsonEvent is usually enough.
