@@ -1,6 +1,7 @@
 # pbnparser
 
-Pbnparser takes a PBN 2.0 string, see the specification, and parses
+Pbnparser takes a [PBN 2.0](http://home.claranet.nl/users/veugent/pbn/pbn_v20.txt) 
+string, see the specification, and parses
 it and reports possible errors and where these occurred. The parser is based 
 on [Parboiled](https://github.com/sirthias/parboiled/wiki "Parboiled").
 Furthermore the parser produces a "parse result" which contains 
