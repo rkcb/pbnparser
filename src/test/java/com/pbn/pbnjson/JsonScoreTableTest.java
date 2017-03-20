@@ -62,6 +62,15 @@ public class JsonScoreTableTest {
     }
 
     @Test
+    public void htmlColumns() {
+        events = ToolsTest.rawEvents("sm1");
+        JsonScoreTable st = events.get(0).getScoreTable();
+        P.o(st.toHtml("S9"));
+        P.o(st.column("Lead").toString());
+        P.o(st.column("Contract").toString());
+    }
+
+    @Test
     public void pairTest() {
         events = ToolsTest.rawEvents("sm1");
 
@@ -71,12 +80,6 @@ public class JsonScoreTableTest {
         t.initialize(events.get(0).getCompetition());
         assertTrue(events.get(0).getCompetition().equals("Pairs"));
         // P.on(t.subrow("1").toString());
-        for (String s : t.scoreTableHeader()) {
-            P.o(s + ", ");
-        }
-        for (String s : JsonScoreTable.pairScoreItems("NS")) {
-            P.o(s + ", ");
-        }
 
         assertTrue(true);
     }

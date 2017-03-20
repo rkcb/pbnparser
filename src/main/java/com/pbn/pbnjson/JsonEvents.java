@@ -178,6 +178,20 @@ public class JsonEvents {
     }
 
     /***
+     * scoreHeader is the header for scoreData(id); note that this uses the
+     * first JsonEvent
+     *
+     * @return header for scoreData using first event; empty list if nonexisting
+     */
+    public List<String> scoreHeader() {
+        if (eventsOk()) {
+            return events.get(0).getScoreTable().scoreTableHeader();
+        } else {
+            return new LinkedList<>();
+        }
+    }
+
+    /***
      * data find interesting scoreTable rows; for example if id belongs to EW
      * then show opponents
      *

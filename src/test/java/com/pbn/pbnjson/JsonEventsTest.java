@@ -108,6 +108,14 @@ public class JsonEventsTest {
     }
 
     @Test
+    public void columnTypes() {
+        events = new JsonEvents(ToolsTest.rawEvents("sm1"));
+        assertTrue(events.get(0).getScoreTable().numberColumns() != null);
+        assertTrue(events.get(0).getScoreTable().htmlColumns() != null);
+        assertTrue(events != null);
+    }
+
+    @Test
     public void JsonEventsGeneral() {
         String input = ParserTest.inputText("team");
         ParsingResult<Pbn> result = Tools.getPbnResult(input);

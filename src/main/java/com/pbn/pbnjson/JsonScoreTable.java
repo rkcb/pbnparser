@@ -14,6 +14,7 @@ import org.jsoup.nodes.Document;
 public class JsonScoreTable extends JsonTable {
 
     private transient HashSet<String> numberColumns;
+    private transient HashSet<String> htmlColumns;
     private transient List<String> scoreTableHeader; // fixed for a
                                                      // direction
     private transient List<String> comparisonHeader;
@@ -40,7 +41,27 @@ public class JsonScoreTable extends JsonTable {
         setIdIndexes();
         setScoreTableHeader();
         setComparisonHeader();
+        setColumnTypes();
         findComparisonDataIndexes();
+    }
+
+    /***
+     * setColumnTypes define numberColumns and htmlColumns
+     */
+    private void setColumnTypes() {
+        if (numberColumns == null) {
+            numberColumns = new HashSet<>(20);
+            Collections.addAll(numberColumns, "Rank", "Result", "Score_NS",
+                    "Score_EW", "IMP_NS", "IMP_EW", "MP_NS", "MP_EW",
+                    "Percentage_NS", "Percentage_EW", "Percentage_North",
+                    "Percentage_East", "Percentage_South", "Percentage_West",
+                    "Multiplicity");
+
+        }
+        if (htmlColumns == null) {
+            htmlColumns = new HashSet<>(2);
+            Collections.addAll(htmlColumns, "Lead", "Contract");
+        }
     }
 
     private void findComparisonDataIndexes() {
@@ -67,6 +88,7 @@ public class JsonScoreTable extends JsonTable {
     public static void initialize(JsonScoreTable to, JsonScoreTable from) {
         to.competition = from.competition;
         to.numberColumns = from.numberColumns;
+        to.htmlColumns = from.htmlColumns;
         to.scoreTableHeader = from.scoreTableHeader;
         to.comparisonHeader = from.comparisonHeader;
         to.idIndexes = from.idIndexes;
@@ -75,6 +97,20 @@ public class JsonScoreTable extends JsonTable {
         to.rowFilters = from.rowFilters;
         to.comparisonItems = from.comparisonItems;
         to.comparisonItemIndexes = from.comparisonItemIndexes;
+    }
+
+    /***
+     * numberColumns lists columns which are of Doubles
+     */
+    public HashSet<String> numberColumns() {
+        return numberColumns;
+    }
+
+    /***
+     * htmlColumns list columns which are html strings
+     */
+    public HashSet<String> htmlColumns() {
+        return htmlColumns;
     }
 
     /***
@@ -250,16 +286,7 @@ public class JsonScoreTable extends JsonTable {
 
     public JsonScoreTable(List<String> header, List<List<Object>> rows) {
         super(header, rows);
-        if (numberColumns == null) {
-            numberColumns = new HashSet<>(20);
-            Collections.addAll(numberColumns, "Rank", "Result", "Score_NS",
-                    "Score_EW", "IMP_NS", "IMP_EW", "MP_NS", "MP_EW",
-                    "Percentage_NS", "Percentage_EW", "Percentage_North",
-                    "Percentage_East", "Percentage_South", "Percentage_West",
-                    "Multiplicity");
-
-        }
-
+        setColumnTypes();
         idIndexes = new LinkedList<>();
         rowFilters = new HashMap<>();
         // map number data columns to numbers
@@ -281,16 +308,24 @@ public class JsonScoreTable extends JsonTable {
      * @param s
      *            pbn bid or lead
      */
-    protected String toHtml(String s) {
-        if (s.matches(".*(n|N).*")) {
+    public String toHtml(String s) {
+
+        String rank = "|[aAkKqQjJtT]";
+        String sp = "(s|S)";
+        String hs = "(h|H)";
+        String ds = "(d|D)";
+        String cl = "(c|C)";
+        String n = "(n|N)";
+
+        if (s.matches("\\d+(n|N).*")) {
             s = s.replaceFirst("(n|N)", "NT");
-        } else if (s.matches(".*(c|C).*")) {
+        } else if (s.matches("^\\d+(c|C).*|^(c|C).*" + rank + cl)) {
             s = s.replaceFirst("c|C", getSuit(0));
-        } else if (s.matches(".*(d|D).*")) {
+        } else if (s.matches("^\\d+(d|D).*|^(d|D).*" + rank + ds)) {
             s = s.replaceFirst("d|D", getSuit(1));
-        } else if (s.matches(".*(h|H).*")) {
+        } else if (s.matches("^\\d+(h|H).*|^(h|H).*" + rank + hs)) {
             s = s.replaceFirst("h|H", getSuit(2));
-        } else if (s.matches(".*(s|S).*")) {
+        } else if (s.matches("^\\d+(s|S).*|^(s|S).*" + rank + sp)) {
             s = s.replaceFirst("s|S", getSuit(3));
         }
         return s;
@@ -303,11 +338,13 @@ public class JsonScoreTable extends JsonTable {
     protected void mapColumnsToHtml() {
         int i = header.indexOf("Lead");
         int j = header.indexOf("Contract");
+
         if (i >= 0 && j >= 0) {
             for (ListIterator<List<Object>> rit = rows.listIterator(); rit
                     .hasNext();) {
                 List<Object> row = rit.next();
                 row.set(i, toHtml((String) row.get(i)));
+                row.set(j, toHtml((String) row.get(j)));
             }
         }
     }
