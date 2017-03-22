@@ -1,6 +1,7 @@
 package com.pbn.pbnjson;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -68,18 +69,26 @@ public class JsonEvents {
         return totalScoreTable;
     }
 
+    public HashSet<String> scoreTableNumberColumns() {
+        return scoreTableExists()
+                ? events.get(0).getScoreTable().numberColumns() : null;
+    }
+
     /***
      * hasMasterPoints
      *
      * @return true if events contain master points and false otherwise
      */
     public boolean hasMasterPoints() {
-        if (events != null) {
-            if (totalScoreTable() != null) {
-                return totalScoreTable.hasMasterPoints();
-            }
+        if (events != null && totalScoreTable() != null) {
+            return totalScoreTable.hasMasterPoints();
         }
         return false;
+    }
+
+    public HashMap<Object, Double> masterPointRegistry() {
+        return hasMasterPoints() ? totalScoreTable().masterPointRegistry()
+                : null;
     }
 
     /***
@@ -184,7 +193,7 @@ public class JsonEvents {
      * @return header for scoreData using first event; empty list if nonexisting
      */
     public List<String> scoreHeader() {
-        if (eventsOk()) {
+        if (eventsOk() && events.get(0).getScoreTable() != null) {
             return events.get(0).getScoreTable().scoreTableHeader();
         } else {
             return new LinkedList<>();
@@ -218,7 +227,7 @@ public class JsonEvents {
      * @return ComparisonTable header of the first JsonEvent
      */
     public List<String> comparisonHeader() {
-        if (eventsOk()) {
+        if (eventsOk() && events.get(0).getScoreTable() != null) {
             return events.get(0).getScoreTable().comparisonHeader();
         } else {
             return new LinkedList<>();
@@ -247,11 +256,24 @@ public class JsonEvents {
     }
 
     public boolean scoreTableExists() {
-        return eventsOk() ? events.get(0).getScoreTable() != null : false;
+        return !scoreHeader().isEmpty();
+    }
+
+    public boolean dealsExists() {
+        return eventsOk() ? events.get(0).getDeal() != null : false;
+    }
+
+    public boolean comparisonTableExists() {
+        return eventsOk() && events.get(0).getScoreTable() != null
+                && competion().matches("Individuals|Pairs");
+    }
+
+    public boolean optimumResultTableExists() {
+        return !optimumTableHeader().isEmpty();
     }
 
     public List<String> optimumTableHeader() {
-        if (eventsOk()) {
+        if (eventsOk() && events.get(0).getOptimumResultTable() != null) {
             return events.get(0).getOptimumResultTable().getHeader();
         } else {
             return new LinkedList<>();

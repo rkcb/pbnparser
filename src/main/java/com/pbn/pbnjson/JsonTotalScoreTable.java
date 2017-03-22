@@ -20,7 +20,7 @@ public class JsonTotalScoreTable extends JsonTable {
     private HashSet<String> headerItems;
     private transient HashMap<Object, Double> masterPoints;
     private transient HashSet<Object> playerFedCodes;
-    private transient List<Object> dataHeader;
+    private transient List<String> dataHeader;
     private transient List<List<Object>> dataRows;
 
     public JsonTotalScoreTable(List<String> header, List<List<Object>> rows) {
@@ -51,7 +51,7 @@ public class JsonTotalScoreTable extends JsonTable {
     /***
      * resultHeader filtered data
      */
-    public List<Object> dataHeader() {
+    public List<String> dataHeader() {
         if (dataHeader == null) {
             return header.stream().filter(i -> headerItems.contains(i))
                     .collect(Collectors.toList());
@@ -78,16 +78,7 @@ public class JsonTotalScoreTable extends JsonTable {
 
         }
         return dataRows;
-
     }
-
-    /***
-     * filter removes the uninteresting (see headerItems) header items and the
-     * corresponding row items
-     */
-    // public void filter() {
-    // filterTable(headerItems);
-    // }
 
     /***
      * mps extract master points
@@ -120,6 +111,10 @@ public class JsonTotalScoreTable extends JsonTable {
         }
 
         return mpRows;
+    }
+
+    public HashSet<String> getNumberColumns() {
+        return numberColumns;
     }
 
     /***
@@ -183,12 +178,21 @@ public class JsonTotalScoreTable extends JsonTable {
 
     /***
      * getMasterPoints
-     * 
+     *
      * @fedId federation id
      * @return master points for this id; zero if no masterpoints
      */
     public double getMasterPoints(String fedId) {
         return fedId != null ? masterPoints.getOrDefault(fedId, (double) 0) : 0;
+    }
+
+    /***
+     * masterPointRegistry
+     *
+     * @return HashMap which is a mapping between fedId and the master points
+     */
+    public HashMap<Object, Double> masterPointRegistry() {
+        return masterPoints;
     }
 
     /***
