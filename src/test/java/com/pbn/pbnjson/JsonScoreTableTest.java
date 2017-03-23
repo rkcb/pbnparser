@@ -62,12 +62,20 @@ public class JsonScoreTableTest {
     }
 
     @Test
+    public void comparisonTableTest() {
+        events = ToolsTest.rawEvents("butler");
+        assertTrue(events.get(0).getScoreTable().comparisonHeader() != null);
+
+        assertTrue(events != null);
+    }
+
+    @Test
     public void htmlColumns() {
         events = ToolsTest.rawEvents("sm1");
         JsonScoreTable st = events.get(0).getScoreTable();
-        P.o(st.toHtml("S9"));
-        P.o(st.column("Lead").toString());
-        P.o(st.column("Contract").toString());
+        // P.o(st.toHtml("S9"));
+        // P.o(st.column("Lead").toString());
+        // P.o(st.column("Contract").toString());
     }
 
     @Test
