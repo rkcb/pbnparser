@@ -254,4 +254,11 @@ public class JsonEvent {
         return -1;
     }
 
+    /***
+     * hcp compute points for hand
+     */
+    public String hcp(Integer direction) {
+        return "";
+    }
+
 }

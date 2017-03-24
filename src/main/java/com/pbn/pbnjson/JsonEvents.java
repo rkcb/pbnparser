@@ -279,4 +279,20 @@ public class JsonEvents {
             return new LinkedList<>();
         }
     }
+
+    /***
+     * idField column name which contains indi, pair or team id
+     */
+    public String idField() {
+        if (competition.matches("Individuals")) {
+            return "PlayerId";
+        } else if (competition.matches("Pairs")) {
+            return "PairId";
+        } else if (competition.matches("Teams")) {
+            return "TeamId";
+        } else {
+            return "";
+        }
+
+    }
 }
