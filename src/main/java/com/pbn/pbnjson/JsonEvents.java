@@ -260,7 +260,7 @@ public class JsonEvents {
     }
 
     public boolean dealsExists() {
-        return eventsOk() ? events.get(0).getDeal() != null : false;
+        return eventsOk() && !events.get(0).getDeal().isEmpty();
     }
 
     public boolean comparisonTableExists() {

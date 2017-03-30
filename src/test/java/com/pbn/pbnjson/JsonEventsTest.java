@@ -1,5 +1,6 @@
 package com.pbn.pbnjson;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Collections;
@@ -126,4 +127,15 @@ public class JsonEventsTest {
         assertTrue(jevents.totalScoreTable() != null);
         assertTrue(jevents.totalScoreTableExists());
     }
+
+    @Test
+    public void dealsTest() {
+        // no deals
+        events = new JsonEvents(ToolsTest.rawEvents("butler"));
+        assertFalse(events.dealsExists());
+        // deals exists
+        events = new JsonEvents(ToolsTest.rawEvents("sm1"));
+        assertTrue(events.dealsExists());
+    }
+
 }
