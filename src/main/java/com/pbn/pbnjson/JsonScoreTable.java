@@ -55,8 +55,7 @@ public class JsonScoreTable extends JsonTable {
                     "Score_EW", "IMP_NS", "IMP_EW", "MP_NS", "MP_EW",
                     "Percentage_NS", "Percentage_EW", "Percentage_North",
                     "Percentage_East", "Percentage_South", "Percentage_West",
-                    "Multiplicity");
-
+                    "VP_Home", "VP_Away", "Multiplicity");
         }
         if (htmlColumns == null) {
             htmlColumns = new HashSet<>(2);
@@ -394,6 +393,7 @@ public class JsonScoreTable extends JsonTable {
         }
 
         // traverse row and check whether index belongs to desired indexes
+        // and add the value if so
         List<Object> subrow = new LinkedList<>();
         if (index >= 0) {
             Iterator<Object> rowi = row.iterator();
@@ -409,6 +409,36 @@ public class JsonScoreTable extends JsonTable {
         }
 
         return subrow;
+    }
+
+    /***
+     * subrows find all rows which contain the id and keep only items that are
+     * interesting for this id
+     *
+     * @param id
+     *            PBN team id
+     * @return exactly as subrow(String id)
+     */
+    public List<List<Object>> subrows(String id) {
+        List<List<Object>> result = new LinkedList<>();
+        for (List<Object> row : rows) {
+            int index = containsId(row, id);
+            // find appropriate filter
+            HashSet<Integer> items = rowFilters.get(index);
+            List<Object> subrow = new LinkedList<>();
+            // keep only desired items
+            if (index >= 0) {
+                Iterator<Object> rowi = row.iterator();
+                for (int i = 0; i < row.size(); i++) {
+                    Object item = rowi.next();
+                    if (items.contains(i)) {
+                        subrow.add(item);
+                    }
+                }
+                result.add(subrow);
+            }
+        }
+        return result;
     }
 
     /***

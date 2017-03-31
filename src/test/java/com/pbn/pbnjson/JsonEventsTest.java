@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 
 import org.junit.Test;
 import org.parboiled.support.ParsingResult;
@@ -136,6 +137,32 @@ public class JsonEventsTest {
         // deals exists
         events = new JsonEvents(ToolsTest.rawEvents("sm1"));
         assertTrue(events.dealsExists());
+    }
+
+    @Test
+    public void scoringTest() {
+        events = new JsonEvents(ToolsTest.rawEvents("sm1"));
+        assertTrue(events.mpScoring());
+        events = new JsonEvents(ToolsTest.rawEvents("butler"));
+        assertTrue(events.impScoring());
+
+        events = new JsonEvents(ToolsTest.rawEvents("team"));
+        assertTrue(events.vpScoring());
+    }
+
+    @Test
+    public void scoreTest() {
+        events = new JsonEvents(ToolsTest.rawEvents("team"));
+        P.on(events.get(0).getScoreTable().header.toString());
+        for (List<Object> l : events.scoreData("1")) {
+            P.on(l.toString());
+        }
+        assertTrue(events.scoreData("1").size() == 6);
+    }
+
+    @Test
+    public void idToNameTest() {
+
     }
 
 }

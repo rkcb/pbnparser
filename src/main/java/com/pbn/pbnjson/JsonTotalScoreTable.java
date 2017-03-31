@@ -242,4 +242,5 @@ public class JsonTotalScoreTable extends JsonTable {
 
         return playerFedCodes;
     }
+
 }

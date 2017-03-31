@@ -172,17 +172,17 @@ public class JsonEvents {
     }
 
     public boolean mpScoring() {
-        return totalScoreTable == null ? false
+        return !totalScoreTableExists() ? false
                 : totalScoreTable.header.contains("TotalScoreMP");
     }
 
     public boolean impScoring() {
-        return totalScoreTable == null ? false
+        return !totalScoreTableExists() ? false
                 : totalScoreTable.header.contains("TotalScoreIMP");
     }
 
     public boolean vpScoring() {
-        return totalScoreTable == null ? false
+        return !totalScoreTableExists() ? false
                 : totalScoreTable.header.contains("TotalScoreVP");
     }
 
@@ -201,17 +201,21 @@ public class JsonEvents {
     }
 
     /***
-     * data find interesting scoreTable rows; for example if id belongs to EW
-     * then show opponents
+     * data find interesting scoreTable rows for indi or pair score results; for
+     * example if id belongs to EW then show opponents;
      *
      * @param id
      * @return scoreTable rows which contain the id or an empty list if not
      *         possible
      */
     public List<List<Object>> scoreData(String id) {
-        if (eventsOk()) {
-            return events.stream().map(e -> e.getScoreTable().subrow(id))
-                    .collect(Collectors.toList());
+        if (eventsOk() && !competion().isEmpty()) {
+            if (competion().matches("Individuals|Pairs")) {
+                return events.stream().map(e -> e.getScoreTable().subrow(id))
+                        .collect(Collectors.toList());
+            } else {
+                return events.get(0).getScoreTable().subrows(id);
+            }
         } else {
             return new LinkedList<>();
         }
@@ -293,6 +297,58 @@ public class JsonEvents {
         } else {
             return "";
         }
+    }
 
+    public String nameField() {
+        if (competition.matches("Individuals")) {
+            return "Name";
+        } else if (competition.matches("Pairs")) {
+            return "Names";
+        } else if (competition.matches("Teams")) {
+            return "TeamName";
+        } else {
+            return "";
+        }
+    }
+
+    /***
+     * indiName
+     *
+     * @param name
+     *            original name
+     * @return the first name
+     */
+    private Object indiName(Object name) {
+        if (name != null && name instanceof String) {
+            String n = (String) name;
+            return n.split(" ")[0];
+        } else {
+            return "";
+        }
+    }
+
+    /***
+     * pairName
+     * 
+     * @param names
+     *            for example "John Doe - George Well"
+     */
+    private Object pairName(Object names) {
+        if (names != null && names instanceof String) {
+            String[] ar = ((String) names).split(" - ");
+            String name1 = ar[0].trim().split(" ")[0];
+            String name2 = ar[1].trim().split(" ")[0];
+            return name1 + " & " + name2;
+        } else {
+            return "";
+        }
+    }
+
+    public HashMap<String, String> nameDB() {
+        HashMap<String, String> db = new HashMap<>();
+        List<Object> ids = totalScoreTable().column(idField());
+        List<Object> names = totalScoreTable().column(nameField());
+
+        return null;
     }
 }
