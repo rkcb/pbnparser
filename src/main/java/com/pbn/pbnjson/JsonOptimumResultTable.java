@@ -67,7 +67,6 @@ public class JsonOptimumResultTable extends JsonTable {
         } else {
             return swap(1, 2);
         }
-
     }
 
     /*
@@ -80,12 +79,13 @@ public class JsonOptimumResultTable extends JsonTable {
         int x = table.header.indexOf("Declarer");
         int y = table.header.indexOf("Denomination");
         int z = table.header.indexOf("Result");
-        LinkedList<Integer> xs = new LinkedList<>();
-        Collections.addAll(xs, x, y, z);
+        LinkedList<Integer> is = new LinkedList<>();
+        Collections.addAll(is, x, y, z);
 
         if (x == 0 && y == 1 && z == 2) {
             return; // is sorted if isValid() == true
         } else {
+            table.rows.stream().map(getPermutation(is));
         }
 
     }
