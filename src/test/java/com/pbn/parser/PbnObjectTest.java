@@ -30,7 +30,7 @@ public class PbnObjectTest {
     @Test
     public void PbnObjectRowTest() {
         PbnObject o = PbnObject.pbnHeader("Tag");
-        LinkedList<String> row = new LinkedList<>();
+        LinkedList<Object> row = new LinkedList<>();
         Collections.addAll(row, "a", "b");
         PbnObject.addRow(o, row);
         assertTrue(o.tag().equals("Tag"));
@@ -40,7 +40,7 @@ public class PbnObjectTest {
     @Test
     public void PbnObjectAddRowTest() {
         PbnObject o = PbnObject.pbnHeader("Tag");
-        LinkedList<String> row = new LinkedList<>();
+        LinkedList<Object> row = new LinkedList<>();
         row.add("test");
         o = PbnObject.addRow(o, row);
         assertTrue(Objects.deepEquals(row, o.rows().get(0)));

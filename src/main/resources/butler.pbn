@@ -1,0 +1,746 @@
+% PBN 2.0
+% EXPORT
+% 
+% <META  name=Generator                  content="Magic Contest">
+% <META  name=Version                    content="4.7">
+% <META  name=Author                     content="www.brenning.se">
+% 
+% <META  name=Licencee                   content="SBL 0301 H6">
+% <META  name=Arranger                   content="SBL 0301 H6">
+% <META  name=Signature                  content="SBL 0301 H6">
+% <META  name=Created                    content="2000-02-08 06:17:10">
+% 
+% <META  name=ContestDate                content="2013-08-20">
+% <META  name=ContestName                content="H6 20.8.2013">
+% <META  name=ContestType                content="2">
+% <META  name=ScoringType                content="IMP;Butler-2;Mean">
+% <META  name=TournamentDirector         content="">
+% 
+% <META  name=TableCount                 content="4">
+% <META  name=PairCount                  content="7">
+% <META  name=PhantomCount               content="1">
+% <META  name=BoardCount                 content="28">
+% <META  name=RoundCount                 content="7">
+% <META  name=Average                    content="">
+% <META  name=HandicapPercentageAverage  content="">
+% 
+% <META  name=CRCategoryID               content="-2">
+% <META  name=Factor                     content="1">
+% <META  name=FactorReason               content="">
+% <META  name=ContestID                  content="">
+% <META  name=SerialNumber               content="">
+% <META  name=PlayerCategoryCount        content="">
+% 
+% <META  name=CRMultiSession             content="">
+% <META  name=CRMultiSessionID           content="">
+% <META  name=CRSession                  content="">
+% <META  name=CRSessionCount             content="">
+% <META  name=CRCutAfterSession          content="">
+% 
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[TotalScoreTable "Rank\1R;PairId\1R;Table\1R;Direction\5R;TotalScoreIMP\5R;Names\34L;NrBoards\2R;Club\15L;MemberID1\6R;MemberID2\6R;Sex1\3R;Sex2\3R"]
+1 5 4 "N-S"  42.0 "Riku Mattila - Patrik Eriksson"   28 "H6 - Turun BK" "1349" "1263"   -   -
+2 6 2 "E-W"  24.5 "Markku Kanerva - Lauri Kurki"     28 "H6 - Turun BK" "1003" "1353" "M"   -
+3 2 3 "N-S"  22.2 "Olavi Gustafsson - Paula Lindell" 28 "Åbo BK"        "1277" "3054"   -   -
+4 3 2 "N-S"   4.7 "Leena Torkki - Salme Amberla"     28 "Turun BK"      "1352" "1872"   - "W"
+5 4 4 "E-W" -21.0 "Anne Juhola - Noora Manninen"     28 -                 "+4"   "+1"   -   -
+6 8 1 "N-S" -29.2 "Lea Seestelä - Maria Mylläri"     28 "Turun BK - H6" "1324" "2891"   -   -
+7 1 1 "E-W" -43.2 "Arja Niskanen - Tuula Kukkonen"   28 "Turun BK"      "2956"      -   -   -
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 1  8  1 2H  W  7 SA   "50"      -   3.0  -3.0  -50
+4 2  6  5 2S  N  7 DQ      -   "50"   0.0   0.0  -50
+3 3  4  2 1N  S  5 D5      -  "100"  -2.0   2.0  -50
+2 5  -  3 -   -  - -   "Bye"  "Bye"     -   0.2    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 1  8  1 3N  N  9 S5  "600"      -   7.0  -7.0  300
+4 2  6  5 2CX W  6 DK  "300"      -   0.0   0.0  300
+3 3  4  2 2S  S  7 DA      -  "100"  -9.0   9.0  300
+2 5  -  3 -   -  - -   "Bye"  "Bye"     -   0.2    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 1  8  1 2D  S  9 SK  "110"      -   0.0   0.0  100
+3 3  4  2 3S  W  8 D6  "100"      -   0.0   0.0  100
+4 2  6  5 3S  W  8 D6  "100"      -   0.0   0.0  100
+2 5  -  3 -   -  - -   "Bye"  "Bye"     -   0.2    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 3  4  2 2S  S 10 C8  "170"      -   0.0   0.0  170
+4 2  6  5 3S  N 10 CA  "170"      -   0.0   0.0  170
+1 1  8  1 2S  N 10 HK  "170"      -   0.0   0.0  170
+2 5  -  3 -   -  - -   "Bye"  "Bye"     -   0.2    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 6  1  4 4H  E  9 S5   "50"      -   0.0   0.0   50
+3 4  5  3 4H  E  9 H5   "50"      -   0.0   0.0   50
+1 2  8  2 3H  E  9 SA      -  "140"  -5.0   5.0   50
+4 3  -  6 -   -  - -   "Bye"  "Bye"     -   0.9    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 2  8  2 2H  N 11 DK  "200"      -   1.0  -1.0  170
+3 4  5  3 2H  N 10 DA  "170"      -   0.0   0.0  170
+2 6  1  4 3H  N  9 S3  "140"      -  -1.0   1.0  170
+4 3  -  6 -   -  - -   "Bye"  "Bye"     -   0.9    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 4  5  3 3N  N 10 H6  "630"      -   1.0  -1.0  600
+2 6  1  4 3N  N  9 H4  "600"      -   0.0   0.0  600
+1 2  8  2 3N  N  9 H4  "600"      -   0.0   0.0  600
+4 3  -  6 -   -  - -   "Bye"  "Bye"     -   0.9    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 4  5  3 3S  S  7 H4      -  "100"   1.0  -1.0 -140
+2 6  1  4 3H  E  9 C5      -  "140"   0.0   0.0 -140
+1 2  8  2 2H  E  9 CJ      -  "140"   0.0   0.0 -140
+4 3  -  6 -   -  - -   "Bye"  "Bye"     -   0.9    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 5  6  4 2H  N 10 D6  "170"      -   1.0  -1.0  140
+2 7  2  5 2S  N  9 HQ  "140"      -   0.0   0.0  140
+1 3  8  3 4H  S  9 DA      -   "50"  -5.0   5.0  140
+4 4  1  - -   -  - -   "Bye"  "Bye"  -1.5     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 3  8  3 2S  N  8 C6  "110"      -   5.0  -5.0 -100
+3 5  6  4 4S  N  9 DA      -  "100"   0.0   0.0 -100
+2 7  2  5 1N  W  8 H3      -  "120"  -1.0   1.0 -100
+4 4  1  - -   -  - -   "Bye"  "Bye"  -1.5     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 7  2  5 1N  W  6 S8   "50"      -   0.0   0.0   50
+3 5  6  4 1N  E  6 S6   "50"      -   0.0   0.0   50
+1 3  8  3 1N  E  6 S5   "50"      -   0.0   0.0   50
+4 4  1  - -   -  - -   "Bye"  "Bye"  -1.5     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 5  6  4 2S  N 11 HT  "200"      -   3.0  -3.0  100
+1 3  8  3 3DX E  8 HA  "100"      -   0.0   0.0  100
+2 7  2  5 3D  W  9 HK      -  "110"  -5.0   5.0  100
+4 4  1  - -   -  - -   "Bye"  "Bye"  -1.5     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 1  3  6 5D  W  9 S5  "200"      -   2.0  -2.0  140
+4 5  2  1 3H  S  9 S4  "140"      -   0.0   0.0  140
+1 4  8  4 3C  N  6 HT      -  "300" -10.0  10.0  140
+3 6  -  5 -   -  - -   "Bye"  "Bye"     -   1.5    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 1  3  6 3C  S 10 HT  "130"      -   5.0  -5.0  -50
+4 5  2  1 2S  N  7 C3      -   "50"   0.0   0.0  -50
+1 4  8  4 3N  N  8 D5      -   "50"   0.0   0.0  -50
+3 6  -  5 -   -  - -   "Bye"  "Bye"     -   1.5    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 4  8  4 1N  W  3 S3  "200"      -   2.0  -2.0  140
+4 5  2  1 1S  N  9 C9  "140"      -   0.0   0.0  140
+2 1  3  6 3S  N  8 C9      -  "100"  -6.0   6.0  140
+3 6  -  5 -   -  - -   "Bye"  "Bye"     -   1.5    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+4 5  2  1 3H  W 10 D3      -  "170"  10.0 -10.0 -650
+2 1  3  6 4H  W 11 D5      -  "650"   0.0   0.0 -650
+1 4  8  4 5H  E 12 DA      -  "680"  -1.0   1.0 -650
+3 6  -  5 -   -  - -   "Bye"  "Bye"     -   1.5    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+4 6  3  2 5C  W 12 DT      -  "420"   2.0  -2.0 -490
+3 7  1  6 3N  E 12 S9      -  "490"   0.0   0.0 -490
+1 5  8  5 6N  E 12 DK      -  "990" -11.0  11.0 -490
+2 2  4  - -   -  - -   "Bye"  "Bye"  -0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+4 6  3  2 2N  S  7 C6      -  "100"   1.0  -1.0 -120
+3 7  1  6 1N  E  8 H9      -  "120"   0.0   0.0 -120
+1 5  8  5 2N  S  6 C9      -  "200"  -2.0   2.0 -120
+2 2  4  - -   -  - -   "Bye"  "Bye"  -0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 5  8  5 2S  N  7 CA      -   "50"   1.0  -1.0  -90
+3 7  1  6 1N  E  7 D3      -   "90"   0.0   0.0  -90
+4 6  3  2 2D  S  6 C6      -  "100"   0.0   0.0  -90
+2 2  4  - -   -  - -   "Bye"  "Bye"  -0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 5  8  5 3C  W  9 DA      -  "110"   1.0  -1.0 -150
+3 7  1  6 1N  W  9 H5      -  "150"   0.0   0.0 -150
+4 6  3  2 3N  W  9 H5      -  "600" -10.0  10.0 -150
+2 2  4  - -   -  - -   "Bye"  "Bye"  -0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 3  5  1 5H  W 12 SK      -  "480"   1.0  -1.0 -510
+4 7  4  3 4H  W 13 SK      -  "510"   0.0   0.0 -510
+1 6  8  6 7H  W 13 DJ      - "1510" -14.0  14.0 -510
+3 1  2  - -   -  - -   "Bye"  "Bye"   0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+1 6  8  6 3N  W  7 C3  "200"      -   3.0  -3.0  100
+2 3  5  1 2N  W  7 S9  "100"      -   0.0   0.0  100
+4 7  4  3 3N  W  9 S3      -  "600" -12.0  12.0  100
+3 1  2  - -   -  - -   "Bye"  "Bye"   0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 3  5  1 2N  W  9 DK      -  "150"  10.0 -10.0 -630
+1 6  8  6 3N  W 10 DK      -  "630"   0.0   0.0 -630
+4 7  4  3 3N  W 11 D8      -  "660"  -1.0   1.0 -630
+3 1  2  - -   -  - -   "Bye"  "Bye"   0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 3  5  1 4H  N 11 C4  "450"      -   6.0  -6.0  200
+4 7  4  3 2H  S 11 ST  "200"      -   0.0   0.0  200
+1 6  8  6 3H  N 11 S7  "200"      -   0.0   0.0  200
+3 1  2  - -   -  - -   "Bye"  "Bye"   0.8     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 4  6  2 4C  W 11 D6      -  "150"  10.0 -10.0 -600
+4 1  5  4 3N  W  9 D2      -  "600"   0.0   0.0 -600
+3 2  3  1 3N  W 11 D4      -  "660"  -2.0   2.0 -600
+1 7  8  - -   -  - -   "Bye"  "Bye"  -1.0     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 2  3  1 3S  N 11 DA  "200"      -   1.0  -1.0  170
+4 1  5  4 1S  N 10 H9  "170"      -   0.0   0.0  170
+2 4  6  2 2S  N 10 DA  "170"      -   0.0   0.0  170
+1 7  8  - -   -  - -   "Bye"  "Bye"  -1.0     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+3 2  3  1 1C  S 10 C9  "130"      -   5.0  -5.0  -50
+4 1  5  4 4H  S  9 DK      -   "50"   0.0   0.0  -50
+2 4  6  2 3H  N  6 SK      -  "150"  -3.0   3.0  -50
+1 7  8  - -   -  - -   "Bye"  "Bye"  -1.0     -    -
+
+[Event "H6 20.8.2013"]
+[Site "SBL 0301 H6, Turku"]
+[Date "2013.08.20"]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal ""]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.08.20"]
+[Annotator "SBL 0301 H6"]
+[Application "Magic Contest - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\6R;IMP_NS\5R;IMP_EW\5R;ButlerDatum\4R"]
+2 4  6  2 3D  W  7 C6  "100"      -   0.0   0.0   90
+4 1  5  4 2C  S  8 DA   "90"      -   0.0   0.0   90
+3 2  3  1 2D  E  8 H4      -   "90"  -5.0   5.0   90
+1 7  8  - -   -  - -   "Bye"  "Bye"  -1.0     -    -

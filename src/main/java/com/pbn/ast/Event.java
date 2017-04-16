@@ -3,6 +3,10 @@ package com.pbn.ast;
 import java.util.HashMap;
 import java.util.Objects;
 
+/***
+ * Event contains all PBN sections, tables and values: PbnObject represents all
+ * of these
+ */
 public class Event extends Pbn {
 
     private HashMap<String, PbnObject> pbns = new HashMap<>(25);

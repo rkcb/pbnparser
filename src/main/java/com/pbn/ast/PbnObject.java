@@ -7,12 +7,15 @@ import java.util.Locale;
 
 import com.pbn.parser.SuitPermutation;
 
+/***
+ * PbnObject represents a PBN section, table (special case of section) or value
+ */
 public class PbnObject extends Pbn {
 
     private String tag;
     private String value;
     private List<String> header;
-    private List<LinkedList<String>> rows;
+    private List<LinkedList<Object>> rows;
     private LinkedList<LinkedList<String>> hands; // NESW; SHDC
     public final int s = 2;
 
@@ -52,10 +55,16 @@ public class PbnObject extends Pbn {
 
     public static PbnObject pbnDeal(String dir,
             LinkedList<LinkedList<String>> hands) {
-        PbnObject o = PbnObject.pbnTag("Deal");
-        dir = dir.toUpperCase(Locale.ROOT);
-        o.hands = p.permute(dir, hands);
-        return o;
+        if (dir != null) { // nonempty deal
+            PbnObject o = PbnObject.pbnTag("Deal");
+            dir = dir.toUpperCase(Locale.ROOT);
+            o.hands = p.permute(dir, hands);
+            return o;
+        } else { // empty deal
+            PbnObject o = PbnObject.pbnTag("Deal");
+            o.hands = new LinkedList<>();
+            return o;
+        }
     }
 
     /***
@@ -85,7 +94,7 @@ public class PbnObject extends Pbn {
      * @param old
      *            contains the old rows
      */
-    public static PbnObject addRow(PbnObject old, LinkedList<String> row) {
+    public static PbnObject addRow(PbnObject old, LinkedList<Object> row) {
         old.rows.add(row);
         return old;
     }
@@ -112,19 +121,37 @@ public class PbnObject extends Pbn {
         return hands;
     }
 
+    /***
+     * tag pbn tag
+     */
     public String tag() {
         return tag;
     }
 
+    /***
+     * value
+     *
+     * @return the value of the tag
+     */
     public String value() {
         return value;
     }
 
+    /***
+     * header
+     *
+     * @return pbn table header
+     */
     public List<String> header() {
         return Collections.unmodifiableList(header);
     }
 
-    public List<List<String>> rows() {
+    /***
+     * rows
+     *
+     * @return list of data rows of the table
+     */
+    public List<List<Object>> rows() {
         return Collections.unmodifiableList(rows);
     }
 

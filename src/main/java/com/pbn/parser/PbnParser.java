@@ -71,15 +71,6 @@ public class PbnParser extends BaseParser<Pbn> {
      * isSuit checks for rank duplicates
      */
     protected boolean isSuit(String s) {
-
-        if (s.isEmpty()) {
-            return true;
-        }
-
-        if (s.length() > 13) {
-            return false;
-        }
-
         s.toUpperCase(Locale.ROOT);
         return s.chars().distinct().count() == s.length();
     }
@@ -97,7 +88,6 @@ public class PbnParser extends BaseParser<Pbn> {
 
     protected boolean isDealValid(LinkedList<LinkedList<String>> hands) {
         if (hands.size() == 4) {
-
             return true;
         } else {
             return false;
@@ -105,7 +95,7 @@ public class PbnParser extends BaseParser<Pbn> {
 
     }
 
-    protected Rule Deal() {
+    protected Rule NonEmptyDeal() {
         Var<LinkedList<LinkedList<String>>> hands = new Var<>(
                 new LinkedList<>());
         StringVar dir = new StringVar();
@@ -114,8 +104,16 @@ public class PbnParser extends BaseParser<Pbn> {
                 push(PbnObject.pbnDeal(dir.get(), hands.get())));
     }
 
+    protected Rule EmptyDeal() {
+        return Sequence("", push(PbnObject.pbnDeal(null, null)));
+    }
+
+    protected Rule Deal() {
+        return FirstOf(NonEmptyDeal(), EmptyDeal());
+    }
+
     protected Rule VulVals() {
-        return FirstOf("None", "NS", "EW", "All");
+        return FirstOf("None", "NS", "EW", "All", "");
     }
 
     protected Rule VulExtraVals() {
@@ -269,7 +267,7 @@ public class PbnParser extends BaseParser<Pbn> {
         return NoneOf("{}[]\"\r\n\t\f ");
     }
 
-    protected Rule RowNonString(Var<LinkedList<String>> rw) {
+    protected Rule RowNonString(Var<LinkedList<Object>> rw) {
         return Sequence(OneOrMore(NonString()), rw.get().add(match()));
     }
 
@@ -279,23 +277,23 @@ public class PbnParser extends BaseParser<Pbn> {
                 Sequence("\\", s.append('\\'))));
     }
 
-    protected Rule String(Var<LinkedList<String>> rw) {
+    protected Rule String(Var<LinkedList<Object>> rw) {
         StringVar s = new StringVar("");
         return Sequence(Str(s), rw.get().add(s.get()));
     }
 
-    protected Rule RowString(Var<LinkedList<String>> rw) {
+    protected Rule RowString(Var<LinkedList<Object>> rw) {
         return Sequence('"', String(rw), '"');
     }
 
-    protected Rule Row(Var<LinkedList<String>> rw) {
+    protected Rule Row(Var<LinkedList<Object>> rw) {
         return Sequence(
                 OneOrMore(FirstOf(RowNonString(rw), RowString(rw)),
                         LineSpace()),
                 LineEnd(), push(PbnObject.addRow((PbnObject) pop(), rw.get())));
     }
 
-    protected Rule TableRow(Var<LinkedList<String>> rw, int size) {
+    protected Rule TableRow(Var<LinkedList<Object>> rw, int size) {
         // the top stack item must contain a nonnull table header
         return Sequence(
                 NTimes(size, FirstOf(RowNonString(rw), RowString(rw)),
@@ -316,7 +314,7 @@ public class PbnParser extends BaseParser<Pbn> {
     }
 
     protected Rule TableRow() {
-        Var<LinkedList<String>> rw = new Var<>(new LinkedList<>());
+        Var<LinkedList<Object>> rw = new Var<>(new LinkedList<>());
         Var<Integer> size = new Var<>();
         // the top stack item must contain a nonnull header
         return Sequence(size.set(((PbnObject) peek()).header().size()),
@@ -327,7 +325,7 @@ public class PbnParser extends BaseParser<Pbn> {
     }
 
     protected Rule Rows() {
-        Var<LinkedList<String>> rw = new Var<>(new LinkedList<>());
+        Var<LinkedList<Object>> rw = new Var<>(new LinkedList<>());
         // the top item in the stack must contain the header object
         return OneOrMore(Sequence(
                 OneOrMore(FirstOf(RowNonString(rw), RowString(rw)),
@@ -365,7 +363,8 @@ public class PbnParser extends BaseParser<Pbn> {
 
     protected Rule PbnObject() {
         // push a tag object
-        return Sequence(LBR, NameToken(), push(PbnObject.pbnTag(match())), LQT,
+        return Sequence(LBR, TestNot(PreTags()), NameToken(),
+                push(PbnObject.pbnTag(match())), LQT,
                 FirstOf(Value(), Section()));
     }
 
@@ -393,6 +392,12 @@ public class PbnParser extends BaseParser<Pbn> {
         return Sequence("Deal", LQT, Deal());
     }
 
+    /* MUST exist to catch invalid prevalues for example */
+    protected Rule PreTags() {
+        return FirstOf("Deal", "Vulnerable", "Dealer", "Date", "Board",
+                TableName());
+    }
+
     protected Rule PredefinedValue() {
         return Sequence(LBR, FirstOf(PbnDeal(), PbnVulnerable(), PbnDealer(),
                 PbnDate(), PbnBoard()), ValueEnd());
@@ -406,7 +411,7 @@ public class PbnParser extends BaseParser<Pbn> {
                 push(ev.get()), EmptyLine());
     }
 
-    protected Rule Events() {
+    public Rule Events() {
         Var<Events> evs = new Var<>(new Events());
         return Sequence(Optional(Escapes()),
                 OneOrMore(Event(), evs.get().add((Event) pop())),

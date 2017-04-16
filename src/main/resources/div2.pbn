@@ -1,0 +1,99 @@
+% PBN 2.0
+% EXPORT
+% 
+% <META  name=Generator                  content="Ruter">
+% <META  name=Version                    content="4.7">
+% <META  name=Author                     content="www.brenning.se">
+% 
+% <META  name=Licencee                   content="SBL 0901 Kati Sandström">
+% <META  name=Arranger                   content="SBL 0901 Kati Sandström">
+% <META  name=Signature                  content="SBL 0901 Kati Sandström">
+% <META  name=Created                    content="2013-09-26 00:15:20">
+% 
+% <META  name=ContestDate                content="2013-09-25 - 2014-04-24">
+% <META  name=ContestName                content="Lounaisliiga II divisioona">
+% <META  name=ContestType                content="4">
+% <META  name=ScoringType                content="Teams">
+% <META  name=TournamentDirector         content="">
+% 
+% <META  name=TableCount                 content="3">
+% <META  name=TeamCount                  content="6">
+% <META  name=PhantomCount               content="0">
+% <META  name=RoundCount                 content="1">
+% <META  name=RoundCountMax              content="10">
+% <META  name=SegmentCount               content="2">
+% <META  name=Average                    content="">
+% <META  name=HandicapPercentageAverage  content="">
+% 
+% <META  name=CRCategoryID               content="-2">
+% <META  name=Factor                     content="1">
+% <META  name=FactorReason               content="">
+% <META  name=ContestID                  content="1341325311">
+% <META  name=SerialNumber               content="">
+% <META  name=PlayerCategoryCount        content="">
+% 
+% <META  name=CRMultiSession             content="">
+% <META  name=CRMultiSessionID           content="">
+% <META  name=CRSession                  content="">
+% <META  name=CRSessionCount             content="">
+% <META  name=CRCutAfterSession          content="">
+% 
+[Event "Lounaisliiga II divisioona"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2014.04.24"]
+[Board "202"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal ""]
+[Scoring "Teams"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Teams"]
+[EventDate "2013.09.25"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[TotalScoreTable "Rank\1R;TeamId\1R;Table\1R;Direction\7R;TotalScoreVP\5R;TeamName\16L;NrRounds\1R;Roster\115L;RosterDetails\138L"]
+1 5 5 "Hemma" 20.00 "HELP?"          1 "Leena Torkki - Heikki Kaisti - Esa Reuna - Pirjo Marela"                                                           "1352,Torkki,Leena|1356,Kaisti,Heikki|1513,Reuna,Esa|1858,Marela,Pirjo"                                                                   
+2 6 4 "Hemma" 19.68 "PELASTUSRENGAS" 1 "Timo Järvi - Marjatta Nordlund - Reijo Sillanpää - Esa Auranen - Heikki Hytönen - Tapio Siivonen - Heikki Mattila" "1420,Järvi,Timo|1351,Nordlund,Marjatta|1489,Sillanpää,Reijo|1665,Auranen,Esa|1947,Hytönen,Heikki|1561,Siivonen,Tapio|2657,Mattila,Heikki"
+3 4 6 "Hemma" 13.78 "LIMESTONES"     1 "Henrik Laaksonen - Göran Lax - Harry Vuorinen - Jan Erik Bergqvist - Leif Mickelsson"                              "2837,Laaksonen,Henrik|2723,Lax,Göran|1174,Vuorinen,Harry|1336,Bergqvist,Jan Erik|1678,Mickelsson,Leif"                                   
+4 3 6 "Borta"  6.22 "AV"             1 "Marja-Liisa Frey - Marika Löfman - Paula Lindell - Lillemor Karlsson"                                              "1211,Frey,Marja-Liisa|1663,Löfman,Marika|3054,Lindell,Paula|1871,Karlsson,Lillemor"                                                      
+5 1 4 "Borta"  0.32 "BC HERTTA 6"    1 "Noora Manninen - Anne Juhola - Mikko Mattila - Taika Lapintie - Elina Korpela - Maria Mylläri"                     "1634,Manninen,Noora|+30,Juhola,Anne|3018,Mattila,Mikko|+31,Lapintie,Taika|+32,Korpela,Elina|2891,Mylläri,Maria"                          
+6 2 5 "Borta"  0.00 "HUNTERS"        1 "Eija Laakso - Seija Wiklund - Tuula Kukkonen - Anita Blomström - Arja Niskanen"                                    "3021,Laakso,Eija|3051,Wiklund,Seija|1518,Kukkonen,Tuula|2917,Blomström,Anita|2956,Niskanen,Arja"                                         
+
+[ScoreTable "Round\2R;Table\1R;TeamId_Home\1R;TeamId_Away\1R;MatchDetails\28L;VP_Home\5R;VP_Away\4R;LineupDetails_Home\223L;LineupDetails_Away\215L"]
+ 1 4 6 1 "1,31,29|2,79,2|200,110,31"  19.68 0.32 "1,O,N,1420,Järvi,Timo|1,O,S,1351,Nordlund,Marjatta|1,C,E,1489,Sillanpää,Reijo|1,C,W,1665,Auranen,Esa|2,O,N,1420,Järvi,Timo|2,O,S,1351,Nordlund,Marjatta|2,C,E,1489,Sillanpää,Reijo|2,C,W,1665,Auranen,Esa"                     "1,O,E,+32,Korpela,Elina|1,O,W,3018,Mattila,Mikko|1,C,N,2891,Mylläri,Maria|1,C,S,+30,Juhola,Anne|2,O,E,2891,Mylläri,Maria|2,O,W,+30,Juhola,Anne|2,C,N,3018,Mattila,Mikko|2,C,S,+32,Korpela,Elina"                      
+ 1 5 5 2 "1,74,7|2,105,14|200,179,21" 20.00 0.00 "1,O,N,1858,Marela,Pirjo|1,O,S,1352,Torkki,Leena|1,C,E,1513,Reuna,Esa|1,C,W,1356,Kaisti,Heikki|2,O,N,1352,Torkki,Leena|2,O,S,1858,Marela,Pirjo|2,C,E,1513,Reuna,Esa|2,C,W,1356,Kaisti,Heikki"                                   "1,O,E,2917,Blomström,Anita|1,O,W,1518,Kukkonen,Tuula|1,C,N,2956,Niskanen,Arja|1,C,S,3051,Wiklund,Seija|2,O,E,3051,Wiklund,Seija|2,O,W,2956,Niskanen,Arja|2,C,N,2917,Blomström,Anita|2,C,S,1518,Kukkonen,Tuula"        
+ 1 6 4 3 "1,49,42|2,47,34|200,96,76"  13.78 6.22 "1,O,N,2837,Laaksonen,Henrik|1,O,S,1678,Mickelsson,Leif|1,C,E,1336,Bergqvist,Jan Erik|1,C,W,1174,Vuorinen,Harry|2,O,N,2837,Laaksonen,Henrik|2,O,S,1678,Mickelsson,Leif|2,C,E,1336,Bergqvist,Jan Erik|2,C,W,1174,Vuorinen,Harry" "1,O,E,1871,Karlsson,Lillemor|1,O,W,1663,Löfman,Marika|1,C,N,1211,Frey,Marja-Liisa|1,C,S,3054,Lindell,Paula|2,O,E,1211,Frey,Marja-Liisa|2,O,W,3054,Lindell,Paula|2,C,N,1663,Löfman,Marika|2,C,S,1871,Karlsson,Lillemor"
+ 2 4 2 6 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 2 5 1 3 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 2 6 5 4 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 3 4 6 3 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 3 5 2 4 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 3 6 1 5 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 4 4 4 6 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 4 5 3 5 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 4 6 2 1 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 5 4 6 5 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 5 5 4 1 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 5 6 3 2 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 6 4 1 6 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 6 5 2 5 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 6 6 3 4 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 7 4 6 2 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 7 5 3 1 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 7 6 4 5 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 8 4 3 6 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 8 5 4 2 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 8 6 5 1 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 9 4 6 4 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 9 5 5 3 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+ 9 6 1 2 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+10 4 5 6 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+10 5 1 4 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      
+10 6 2 3 -                                -    - -                                                                                                                                                                                                                               -                                                                                                                                                                                                                      

@@ -1,0 +1,991 @@
+% PBN 2.0
+% EXPORT
+% 
+% <META  name=Generator                  content="Ruter">
+% <META  name=Version                    content="4.7">
+% <META  name=Author                     content="www.brenning.se">
+% 
+% <META  name=Licencee                   content="SBL 0901 Kati Sandström">
+% <META  name=Arranger                   content="SBL 0901 Kati Sandström">
+% <META  name=Signature                  content="SBL 0901 Kati Sandström">
+% <META  name=Created                    content="2013-09-26 00:03:45">
+% 
+% <META  name=ContestDate                content="2013-09-25">
+% <META  name=ContestName                content="Lounaisliiga2013-2014 - 1:2">
+% <META  name=ContestType                content="2">
+% <META  name=ScoringType                content="IMP;Cross2">
+% <META  name=TournamentDirector         content="">
+% 
+% <META  name=TableCount                 content="12">
+% <META  name=PairCount                  content="24">
+% <META  name=PhantomCount               content="0">
+% <META  name=BoardCount                 content="16">
+% <META  name=RoundCount                 content="1">
+% <META  name=Average                    content="">
+% <META  name=HandicapPercentageAverage  content="">
+% 
+% <META  name=CRCategoryID               content="">
+% <META  name=Factor                     content="">
+% <META  name=FactorReason               content="">
+% <META  name=ContestID                  content="1509752831">
+% <META  name=SerialNumber               content="">
+% <META  name=PlayerCategoryCount        content="">
+% 
+% <META  name=CRMultiSession             content="">
+% <META  name=CRMultiSessionID           content="">
+% <META  name=CRSession                  content="">
+% <META  name=CRSessionCount             content="">
+% <META  name=CRCutAfterSession          content="">
+% 
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A97.T652.642.JT9 5.AQJ974.AKQ.K76 K3.K8.JT753.Q432 QJT8642.3.98.A85"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[TotalScoreTable "Rank\2R;PairId\3R;Section\3R;Table\1R;Direction\5R;TotalScoreIMP\5R;Names\37L;NrBoards\2R;Team\16L;MemberID1\6R;MemberID2\6R;Sex1\3R;Sex2\3R"]
+ 1 305 "B" 5 "Ö-V"  4.14 "Esa Reuna - Heikki Kaisti"           16 "HELP?"          "1513" "1356"   -   -
+ 2 304 "B" 4 "Ö-V"  3.17 "Reijo Sillanpää - Esa Auranen"       16 "PELASTUSRENGAS" "1489" "1665"   -   -
+ 3   6 "A" 6 "N-S"  2.33 "Henrik Laaksonen - Leif Mickelsson"  16 "LIMESTONES"     "2837" "1678"   -   -
+ 4   5 "A" 5 "N-S"  2.05 "Leena Torkki - Pirjo Marela"         16 "HELP?"          "1352" "1858"   -   -
+ 5   4 "A" 4 "N-S"  1.74 "Timo Järvi - Marjatta Nordlund"      16 "PELASTUSRENGAS" "1420" "1351"   - "W"
+ 6 106 "B" 6 "N-S"  1.59 "Marika Löfman - Lillemor Karlsson"   16 "AV"             "1663" "1871"   -   -
+ 7 301 "B" 1 "Ö-V"  1.50 "Lasse Bergroth - Kristina Fagerlund" 16 "BLACKWOOD"      "1040" "1328"   -   -
+ 8 103 "B" 3 "N-S"  1.06 "Teodor Velkov - Riku Mattila"        16 "KARHU"          "1099" "1349"   -   -
+ 9   2 "A" 2 "N-S"  1.06 "Seppo Laine - Kalervo Aro"           16 "LAHJATTOMAT"    "1333" "1503"   -   -
+10 302 "B" 2 "Ö-V"  0.86 "Olli A. Manni - Pekka Uskali"        16 "LAHJATTOMAT"    "1361" "1506"   -   -
+11 203 "A" 3 "Ö-V"  0.29 "Riitta-Liisa Mäkelä - Timo Mäkelä"   16 "KARHU"          "1318" "1319"   -   -
+12   1 "A" 1 "N-S"  0.13 "Kati Sandström - Markku Kanerva"     16 "BLACKWOOD"      "1001" "1003" "W" "M"
+13 201 "A" 1 "Ö-V" -0.13 "Ensio Lehtinen - Birger Salonen"     16 "KESA"           "1184" "1385"   -   -
+14   3 "A" 3 "N-S" -0.29 "Jari Böling - Jyrki Lahtonen"        16 "POJAT"          "1504" "1569"   -   -
+15 102 "B" 2 "N-S" -0.86 "Patrik Eriksson - Arvo Priimägi"     16 "USKELA"         "1263" "1382"   -   -
+16 202 "A" 2 "Ö-V" -1.06 "Timo Arppe - Veijo Lösönen"          16 "USKELA"         "1166" "1411"   -   -
+17 303 "B" 3 "Ö-V" -1.06 "Pasi Lehmus - Asko Suoranta"         16 "POJAT"          "1355" "1857"   -   -
+18 101 "B" 1 "N-S" -1.50 "Veli-Pekka Lukka - Pertti Holmberg"  16 "KESA"           "1403" "2270"   -   -
+19 306 "B" 6 "Ö-V" -1.59 "Jan Erik Bergqvist - Harry Vuorinen" 16 "LIMESTONES"     "1336" "1174"   -   -
+20 204 "A" 4 "Ö-V" -1.74 "Maria Mylläri - Anne Juhola"         16 "BC  HERTTA 6"   "2891"  "+30"   -   -
+21 205 "A" 5 "Ö-V" -2.05 "Seija Wiklund - Arja Niskanen"       16 "HUNTERS"        "3051" "2956"   -   -
+22 206 "A" 6 "Ö-V" -2.33 "Marja-Liisa Frey - Paula Lindell"    16 "AV"             "1211" "3054"   -   -
+23 104 "B" 4 "N-S" -3.17 "Mikko Mattila - Elina Korpela"       16 "BC  HERTTA 6"   "3018"  "+32"   -   -
+24 105 "B" 5 "N-S" -4.14 "Anita Blomström - Tuula Kukkonen"    16 "HUNTERS"        "2917" "1518"   - "W"
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 5 1   5 205 3N  E  8 DJ   "50"     -  112 -112
+"A" 4 1   4 204 3H  E 10 DJ      - "170"   60  -60
+"B" 6 1 106 306 3N  E  9 D5      - "400"   -1    1
+"A" 1 1   1 201 4H  E 10 DJ      - "420"  -10   10
+"A" 3 1   3 203 4S  W 10 CJ      - "420"  -10   10
+"A" 6 1   6 206 4H  E 10 D6      - "420"  -10   10
+"A" 2 1   2 202 4S  W 11 CJ      - "450"  -22   22
+"B" 1 1 101 301 4S  W 11 D6      - "450"  -22   22
+"B" 2 1 102 302 4S  W 11 D2      - "450"  -22   22
+"B" 3 1 103 303 4S  W 11 CJ      - "450"  -22   22
+"B" 5 1 105 305 4S  W 11 CJ      - "450"  -22   22
+"B" 4 1 104 304 4S  W 12 CJ      - "480"  -31   31
+[OptimumScore "NS -450"]
+[OptimumContract "5S E 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 11
+W  H 10
+W  D  7
+W  C  9
+W NT 10
+N  S  2
+N  H  2
+N  D  6
+N  C  4
+N NT  3
+E  S 11
+E  H 10
+E  D  7
+E  C  9
+E NT 10
+S  S  2
+S  H  2
+S  D  6
+S  C  4
+S NT  3
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:9.AQJ74.AJ3.A643 Q42.K.8642.KJT52 AKJ83.8653.QT9.8 T765.T92.K75.Q97"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 6 1   6 206 3H  E 12 S3      - "230"   94  -94
+"A" 5 1   5 205 4H  E 11 C5      - "450"   44  -44
+"A" 1 1   1 201 4H  E 12 S2      - "480"   37  -37
+"A" 2 1   2 202 4H  E 12 S2      - "480"   37  -37
+"A" 3 1   3 203 4H  E 12 D6      - "480"   37  -37
+"A" 4 1   4 204 4H  E 12 D6      - "480"   37  -37
+"B" 3 1 103 303 5H  E 12 D2      - "480"   37  -37
+"B" 6 1 106 306 4H  E 12 D2      - "480"   37  -37
+"B" 1 1 101 301 6H  E 12 D8      - "980"  -90   90
+"B" 2 1 102 302 6H  E 12 S2      - "980"  -90   90
+"B" 4 1 104 304 6H  E 12 CJ      - "980"  -90   90
+"B" 5 1 105 305 6H  E 12 CT      - "980"  -90   90
+[OptimumScore "NS -1510"]
+[OptimumContract "7H E 13"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S 12
+W  H 13
+W  D 11
+W  C  8
+W NT 12
+N  S  1
+N  H  0
+N  D  2
+N  C  4
+N NT  1
+E  S 12
+E  H 13
+E  D 11
+E  C  8
+E NT 12
+S  S  1
+S  H  0
+S  D  2
+S  C  4
+S NT  1
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KJ94.65.KJ652.64 AQ65.A973.A9.T75 T87.KJT8.7.Q9832 32.Q42.QT843.AKJ"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 6 1   6 206 4H  W  8 C2  "200"     -  138 -138
+"A" 1 1   1 201 2H  W  9 D7      - "140"   92  -92
+"A" 2 1   2 202 3N  W  9 C2      - "600"  -18   18
+"A" 3 1   3 203 3N  W  9 C3      - "600"  -18   18
+"A" 4 1   4 204 3N  E  9 S4      - "600"  -18   18
+"B" 3 1 103 303 3N  W  9 C3      - "600"  -18   18
+"B" 6 1 106 306 3N  W  9 C3      - "600"  -18   18
+"B" 2 1 102 302 4H  W 10 C2      - "620"  -28   28
+"A" 5 1   5 205 3N  W 10 H8      - "630"  -28   28
+"B" 1 1 101 301 3N  W 10 C2      - "630"  -28   28
+"B" 4 1 104 304 3N  W 10 HK      - "630"  -28   28
+"B" 5 1 105 305 3N  W 10 H8      - "630"  -28   28
+[OptimumScore "NS -600"]
+[OptimumContract "3N W 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  9
+W  H  9
+W  D  9
+W  C  8
+W NT  9
+N  S  4
+N  H  3
+N  D  4
+N  C  5
+N NT  4
+E  S  9
+E  H  9
+E  D  9
+E  C  8
+E NT  9
+S  S  4
+S  H  3
+S  D  4
+S  C  5
+S NT  4
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KQ74.T87.JT6.952 AT8.63.AK9.AQT86 J93.AJ94.Q873.J7 652.KQ52.542.K43"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"B" 2 1 102 302 3N  N 10 H3  "630"     -   95  -95
+"A" 6 1   6 206 3N  S  9 S6  "600"     -   86  -86
+"B" 1 1 101 301 3N  N  9 S3  "600"     -   86  -86
+"A" 2 1   2 202 1N  N 10 H4  "180"     -  -17   17
+"A" 3 1   3 203 2N  N 10 C2  "180"     -  -17   17
+"A" 4 1   4 204 1N  N 10 H4  "180"     -  -17   17
+"B" 3 1 103 303 1N  N 10 D7  "180"     -  -17   17
+"B" 5 1 105 305 2N  N 10 H4  "180"     -  -17   17
+"A" 5 1   5 205 2N  N  9 D3  "150"     -  -28   28
+"B" 6 1 106 306 2N  N  9 H9  "150"     -  -28   28
+"A" 1 1   1 201 2N  N  8 S9  "120"     -  -37   37
+"B" 4 1 104 304 3N  N  8 H4      - "100"  -89   89
+[OptimumScore "NS 630"]
+[OptimumContract "4N N 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H  4
+W  D  5
+W  C  3
+W NT  3
+N  S  8
+N  H  8
+N  D  7
+N  C 10
+N NT 10
+E  S  5
+E  H  4
+E  D  5
+E  C  3
+E NT  3
+S  S  8
+S  H  8
+S  D  7
+S  C 10
+S NT 10
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K652.QT52..AT954 A.AK9763.QJ43.72 J4.J.AT975.KJ863 QT9873.84.K862.Q"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 4 1   4 204 5C  N 11 HA  "600"     -  124 -124
+"A" 1 1   1 201 2N  E  6 SJ  "100"     -   17  -17
+"B" 3 1 103 303 3S  W  7 CA  "100"     -   17  -17
+"A" 2 1   2 202 2S  W  7 CA   "50"     -   -2    2
+"A" 3 1   3 203 4H  E  9 S2   "50"     -   -2    2
+"A" 5 1   5 205 4H  E  9 C6   "50"     -   -2    2
+"B" 2 1 102 302 4H  E  9 D2   "50"     -   -2    2
+"B" 4 1 104 304 4H  E  9 SJ   "50"     -   -2    2
+"B" 6 1 106 306 4H  E  9 CK   "50"     -   -2    2
+"A" 6 1   6 206 5C  N 10 SA      - "100"  -45   45
+"B" 5 1 105 305 3D  E  9 HJ      - "110"  -45   45
+"B" 1 1 101 301 2H  E  9 SJ      - "140"  -56   56
+[OptimumScore "NS 500"]
+[OptimumContract "5HX E 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H  8
+W  D  7
+W  C  2
+W NT  5
+N  S  5
+N  H  5
+N  D  6
+N  C 11
+N NT  8
+E  S  7
+E  H  8
+E  D  6
+E  C  2
+E NT  5
+S  S  5
+S  H  5
+S  D  6
+S  C 11
+S NT  8
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J74.JT432.K64.43 K8652.9.85.KQJT9 AQ93.AQ75.QJ97.2 T.K86.AT32.A8765"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"B" 1 1 101 301 5CX N 11 HJ  "550"     -   92  -92
+"B" 3 1 103 303 5CX N 11 H2  "550"     -   92  -92
+"A" 1 1   1 201 5C  N 11 HJ  "400"     -   59  -59
+"A" 2 1   2 202 5C  S 11 HA  "400"     -   59  -59
+"A" 6 1   6 206 5C  N 11 H8  "400"     -   59  -59
+"B" 6 1 106 306 5HX E 10 CK  "200"     -   13  -13
+"A" 4 1   4 204 4C  N 11 D4  "150"     -    0    0
+"B" 2 1 102 302 4C  N  9 H3      -  "50"  -48   48
+"B" 4 1 104 304 5C  S 10 D4      -  "50"  -48   48
+"A" 5 1   5 205 3H  E  9 CK      - "140"  -67   67
+"B" 5 1 105 305 2H  E 10 CK      - "170"  -71   71
+"A" 3 1   3 203 4H  E 10 C2      - "620" -140  140
+[OptimumScore "NS 130"]
+[OptimumContract "4C S 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H  9
+W  D  7
+W  C  2
+W NT  6
+N  S  6
+N  H  3
+N  D  6
+N  C 10
+N NT  6
+E  S  7
+E  H  9
+E  D  7
+E  C  2
+E NT  6
+S  S  6
+S  H  3
+S  D  6
+S  C 10
+S NT  6
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:T963..K83.AQT752 A2.AK982.QJ95.98 87.QJT76543.T4.J KQJ54..A762.K643"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 4 1   4 204 5D  W  7 CJ  "400"     -   83  -83
+"A" 1 1   1 201 4S  E  8 CA  "200"     -   34  -34
+"A" 2 1   2 202 4S  E  8 CJ  "200"     -   34  -34
+"A" 5 1   5 205 3D  W  7 CJ  "200"     -   34  -34
+"A" 6 1   6 206 3SX E  8 D4  "200"     -   34  -34
+"B" 1 1 101 301 3N  E  7 C5  "200"     -   34  -34
+"B" 6 1 106 306 5D  W  9 CJ  "200"     -   34  -34
+"B" 3 1 103 303 4D  W  9 H3  "100"     -    5   -5
+"B" 4 1 104 304 5D  W 10 H3  "100"     -    5   -5
+"A" 3 1   3 203 3D  W 10 C2      - "130"  -52   52
+"B" 5 1 105 305 2HX N  6 SK      - "500" -116  116
+"B" 2 1 102 302 4S  E 10 S3      - "620" -129  129
+[OptimumScore "NS -630"]
+[OptimumContract "4N W 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  9
+W  H  5
+W  D  9
+W  C  7
+W NT 10
+N  S  3
+N  H  7
+N  D  2
+N  C  6
+N NT  3
+E  S  9
+E  H  6
+E  D 10
+E  C  7
+E NT 10
+S  S  3
+S  H  7
+S  D  2
+S  C  6
+S NT  3
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:K952.T87.752.QJ3 8.J964.Q6.AKT764 Q6.K32.JT943.982 AJT743.AQ5.AK8.5"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"B" 4 1 104 304 3N  S 11 S2  "460"     -   26  -26
+"B" 6 1 106 306 3N  S 11 HT  "460"     -   26  -26
+"A" 6 1   6 206 4S  S 11 HT  "450"     -   26  -26
+"A" 3 1   3 203 3N  N 10 C2  "430"     -   14  -14
+"A" 4 1   4 204 3N  N 10 DJ  "430"     -   14  -14
+"A" 5 1   5 205 3N  N 10 DJ  "430"     -   14  -14
+"B" 1 1 101 301 3N  S 10 HT  "430"     -   14  -14
+"B" 2 1 102 302 3N  S 10 H7  "430"     -   14  -14
+"B" 3 1 103 303 3N  N 10 DJ  "430"     -   14  -14
+"A" 2 1   2 202 3N  N  9 DJ  "400"     -    4   -4
+"B" 5 1 105 305 2S  S 10 HT  "170"     -  -57   57
+"A" 1 1   1 201 5S  S 10 CQ      -  "50" -109  109
+[OptimumScore "NS 980"]
+[OptimumContract "6H N 12"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  2
+W  H  1
+W  D  3
+W  C  1
+W NT  2
+N  S 11
+N  H 12
+N  D 10
+N  C 12
+N NT 11
+E  S  2
+E  H  1
+E  D  3
+E  C  1
+E NT  2
+S  S 11
+S  H 12
+S  D 10
+S  C 12
+S NT 11
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:76542.9.J92.8642 AK.AKT652.KT8.Q9 JT8.Q743.Q4.AJ73 Q93.J8.A7653.KT5"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"B" 2 1 102 302 6HX E 11 CA  "200"     -  103 -103
+"A" 2 1   2 202 6D  W 11 H9  "100"     -   86  -86
+"B" 3 1 103 303 6D  W 11 S4  "100"     -   86  -86
+"B" 5 1 105 305 6D  W 11 H9  "100"     -   86  -86
+"B" 6 1 106 306 6H  E 11 CA  "100"     -   86  -86
+"A" 1 1   1 201 4H  E 10 DQ      - "620"  -54   54
+"A" 3 1   3 203 4H  E 10 SJ      - "620"  -54   54
+"A" 4 1   4 204 4H  E 11 SJ      - "650"  -65   65
+"A" 5 1   5 205 4H  E 11 SJ      - "650"  -65   65
+"A" 6 1   6 206 4H  E 11 S8      - "650"  -65   65
+"B" 1 1 101 301 4H  E 12 SJ      - "680"  -72   72
+"B" 4 1 104 304 4H  E 12 DQ      - "680"  -72   72
+[OptimumScore "NS -660"]
+[OptimumContract "5N E 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H 11
+W  D 11
+W  C  8
+W NT 11
+N  S  4
+N  H  2
+N  D  2
+N  C  4
+N NT  2
+E  S  8
+E  H 11
+E  D 11
+E  C  8
+E NT 11
+S  S  4
+S  H  2
+S  D  2
+S  C  4
+S NT  2
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:Q3.AQJ5.KT2.AK96 AKT97.T974.A4.73 J652.K8632.Q9.T2 84..J87653.QJ854"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 3 1   3 203 3N  W  8 S4  "100"     -   91  -91
+"B" 2 1 102 302 3N  W  8 S8  "100"     -   91  -91
+"A" 4 1   4 204 2S  S  7 H2      - "100"   51  -51
+"A" 6 1   6 206 2N  W  8 S4      - "120"   47  -47
+"A" 5 1   5 205 2H  E  9 SA      - "140"   38  -38
+"A" 1 1   1 201 3H  W 10 S8      - "170"   31  -31
+"B" 6 1 106 306 2H  W 10 S8      - "170"   31  -31
+"A" 2 1   2 202 4H  W 10 S8      - "620"  -76   76
+"B" 1 1 101 301 4H  E 10 SA      - "620"  -76   76
+"B" 3 1 103 303 4H  W 10 S4      - "620"  -76   76
+"B" 4 1 104 304 4H  W 10 CQ      - "620"  -76   76
+"B" 5 1 105 305 3N  W 10 S4      - "630"  -76   76
+[OptimumScore "NS -620"]
+[OptimumContract "4H E 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H 10
+W  D  6
+W  C  7
+W NT  9
+N  S  6
+N  H  3
+N  D  7
+N  C  6
+N NT  3
+E  S  6
+E  H 10
+E  D  5
+E  C  6
+E NT  9
+S  S  6
+S  H  3
+S  D  7
+S  C  6
+S NT  3
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AT9864.852.64.87 KQJ.T93.AK7.JT53 73.A764.T932.K94 52.KQJ.QJ85.AQ62"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 5 1   5 205 3D  W  9 S7      - "110"   89  -89
+"A" 4 1   4 204 3N  W 10 H4      - "430"    3   -3
+"A" 1 1   1 201 3N  W 11 S7      - "460"   -8    8
+"A" 2 1   2 202 3N  E 11 S9      - "460"   -8    8
+"A" 3 1   3 203 3N  W 11 S3      - "460"   -8    8
+"B" 1 1 101 301 3N  W 11 DT      - "460"   -8    8
+"B" 2 1 102 302 3N  W 11 H6      - "460"   -8    8
+"B" 3 1 103 303 3N  E 11 ST      - "460"   -8    8
+"B" 4 1 104 304 3N  E 11 S9      - "460"   -8    8
+"B" 5 1 105 305 3N  W 11 H4      - "460"   -8    8
+"B" 6 1 106 306 3N  W 11 H4      - "460"   -8    8
+"A" 6 1   6 206 2SX S  5 DK      - "500"  -20   20
+[OptimumScore "NS -460"]
+[OptimumContract "5N W 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  8
+W  H 10
+W  D 11
+W  C 11
+W NT 11
+N  S  5
+N  H  3
+N  D  2
+N  C  2
+N NT  2
+E  S  8
+E  H 10
+E  D 11
+E  C 11
+E NT 11
+S  S  5
+S  H  3
+S  D  2
+S  C  2
+S NT  2
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:6.J86.KQT8642.KQ KT832.K75.J75.J5 Q954.AQ.A3.AT732 AJ7.T9432.9.9864"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 6 1   6 206 5D  W 10 C5   "50"     -  115 -115
+"A" 5 1   5 205 3D  W 10 S3      - "130"   84  -84
+"A" 1 1   1 201 3N  E 12 SA      - "490"  -10   10
+"A" 2 1   2 202 3N  E 13 SJ      - "520"  -21   21
+"A" 3 1   3 203 3N  E 13 C8      - "520"  -21   21
+"A" 4 1   4 204 3N  E 13 HT      - "520"  -21   21
+"B" 1 1 101 301 3N  E 13 HT      - "520"  -21   21
+"B" 2 1 102 302 3N  E 13 C5      - "520"  -21   21
+"B" 3 1 103 303 3N  E 13 H3      - "520"  -21   21
+"B" 4 1 104 304 3N  E 13 H3      - "520"  -21   21
+"B" 5 1 105 305 3N  E 13 H2      - "520"  -21   21
+"B" 6 1 106 306 3N  E 13 H3      - "520"  -21   21
+[OptimumScore "NS -920"]
+[OptimumContract "6D W 12"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H  7
+W  D 12
+W  C 10
+W NT 10
+N  S  5
+N  H  6
+N  D  0
+N  C  0
+N NT  0
+E  S  7
+E  H  7
+E  D 12
+E  C 10
+E NT 10
+S  S  5
+S  H  6
+S  D  0
+S  C  0
+S NT  0
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "29"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:KQ97.J975.K876.7 AJ852.3.J95.KT93 T63.AT2.AQ4.A864 4.KQ864.T32.QJ52"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 3 1   3 203 2S  E  4 S6  "400"     -   76  -76
+"B" 3 1 103 303 2S  E  5 S6  "300"     -   51  -51
+"B" 4 1 104 304 1N  S  9 H6  "150"     -    7   -7
+"A" 1 1   1 201 2H  N  9 C7  "140"     -    6   -6
+"A" 2 1   2 202 1N  N  8 S5  "120"     -   -4    4
+"A" 4 1   4 204 2N  S  8 S4  "120"     -   -4    4
+"A" 5 1   5 205 1N  S  8 H6  "120"     -   -4    4
+"A" 6 1   6 206 2N  S  8 H3  "120"     -   -4    4
+"B" 6 1 106 306 1N  N  8 S8  "120"     -   -4    4
+"B" 1 1 101 301 1S  E  6 HA  "100"     -  -13   13
+"B" 2 1 102 302 1N  N  7 S2   "90"     -  -14   14
+"B" 5 1 105 305 1S  N  5 H3      - "200"  -93   93
+[OptimumScore "NS 140"]
+[OptimumContract "3S N 9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  4
+W  H  4
+W  D  4
+W  C  7
+W NT  5
+N  S  9
+N  H  8
+N  D  8
+N  C  5
+N NT  7
+E  S  4
+E  H  4
+E  D  4
+E  C  7
+E NT  5
+S  S  9
+S  H  8
+S  D  8
+S  C  5
+S NT  8
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "30"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:963.52.T9863.J96 7.AQJ874.Q4.8753 KQT542.T93.A5.AT AJ8.K6.KJ72.KQ42"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"B" 3 1 103 303 3N  N 11 S3  "460"     -   15  -15
+"A" 1 1   1 201 4H  S 11 SK  "450"     -   15  -15
+"A" 2 1   2 202 4H  N 11 S3  "450"     -   15  -15
+"A" 3 1   3 203 4H  S 11 H2  "450"     -   15  -15
+"A" 4 1   4 204 4H  S 11 S4  "450"     -   15  -15
+"A" 5 1   5 205 4H  S 11 DA  "450"     -   15  -15
+"A" 6 1   6 206 4H  S 11 DA  "450"     -   15  -15
+"B" 1 1 101 301 4H  S 11 SK  "450"     -   15  -15
+"B" 2 1 102 302 4H  S 11 SK  "450"     -   15  -15
+"B" 6 1 106 306 4H  S 11 CA  "450"     -   15  -15
+"B" 5 1 105 305 3H  S 10 CA  "170"     -  -69   69
+"B" 4 1 104 304 3C  N 10 S3  "130"     -  -81   81
+[OptimumScore "NS 450"]
+[OptimumContract "5H S 11"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H  2
+W  D  5
+W  C  2
+W NT  3
+N  S  6
+N  H 11
+N  D  8
+N  C 11
+N NT 10
+E  S  7
+E  H  2
+E  D  5
+E  C  2
+E NT  3
+S  S  6
+S  H 11
+S  D  8
+S  C 11
+S NT 10
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "31"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:KT763..Q9532.KQT QJ852.J53.AT6.98 94.QT76.KJ87.A76 A.AK9842.4.J5432"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 5 1   5 205 3S  S  9 H3  "140"     -   75  -75
+"A" 2 1   2 202 4HX E  9 D2  "100"     -   69  -69
+"B" 3 1 103 303 4HX E  9 D3  "100"     -   69  -69
+"B" 6 1 106 306 4HX E  9 DQ  "100"     -   69  -69
+"A" 3 1   3 203 5D  N 10 SA      - "100"   18  -18
+"A" 1 1   1 201 3H  E 10 CK      - "170"   -5    5
+"A" 4 1   4 204 2H  E 10 CK      - "170"   -5    5
+"A" 6 1   6 206 6D  N 10 HA      - "200"  -10   10
+"B" 1 1 101 301 4H  E 10 D3      - "420"  -70   70
+"B" 2 1 102 302 4H  E 10 CK      - "420"  -70   70
+"B" 4 1 104 304 4H  E 10 CK      - "420"  -70   70
+"B" 5 1 105 305 4H  E 10 CK      - "420"  -70   70
+[OptimumScore "NS -200"]
+[OptimumContract "5DX S 10"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  5
+W  H 10
+W  D  3
+W  C  7
+W NT  5
+N  S  8
+N  H  3
+N  D 10
+N  C  5
+N NT  6
+E  S  5
+E  H 10
+E  D  3
+E  C  7
+E NT  5
+S  S  8
+S  H  3
+S  D 10
+S  C  5
+S NT  6
+
+[Event "Lounaisliiga2013-2014 - 1:2"]
+[Site "SBL 0901 Kati Sandström, Åbo, Finland"]
+[Date "2013.09.25"]
+[Board "32"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:T875.KT953.A5.43 J42.J4.KJT986.86 A6.A7.Q742.KQT92 KQ93.Q862.3.AJ75"]
+[Scoring "IMP;Cross2"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2013.09.25"]
+[Round "1.2"]
+[Annotator "SBL 0901 Kati Sandström"]
+[AnnotatorNA "katarina.sandstrom@novia.fi"]
+[Application "Ruter - Read more at www.brenning.se"]
+[ScoreTable "Section\3R;Table\1R;Round\1R;PairId_NS\3R;PairId_EW\3R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\5R;Score_EW\5R;IMP_NS\4R;IMP_EW\4R"]
+"A" 2 1   2 202 2D  E  6 D3  "200"     -   50  -50
+"A" 4 1   4 204 3H  E  7 D3  "200"     -   50  -50
+"A" 5 1   5 205 3C  E  7 D3  "200"     -   50  -50
+"B" 6 1 106 306 2H  W  6 S2  "200"     -   50  -50
+"A" 3 1   3 203 3N  E  8 SK  "100"     -   20  -20
+"B" 4 1 104 304 3N  E  8 D3  "100"     -   20  -20
+"B" 5 1 105 305 2C  E  8 D3      -  "90"  -32   32
+"A" 1 1   1 201 3D  N  7 HA      - "100"  -35   35
+"B" 2 1 102 302 2H  E  8 D3      - "110"  -37   37
+"B" 3 1 103 303 2H  W  8 DJ      - "110"  -37   37
+"B" 1 1 101 301 2H  W  9 DJ      - "140"  -49   49
+"A" 6 1   6 206 3N  S  6 C6      - "150"  -50   50
+[OptimumScore "NS -120"]
+[OptimumContract "2N E 8"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+W  S  7
+W  H  8
+W  D  7
+W  C  8
+W NT  7
+N  S  6
+N  H  5
+N  D  6
+N  C  5
+N NT  5
+E  S  7
+E  H  8
+E  D  7
+E  C  8
+E NT  8
+S  S  6
+S  H  5
+S  D  6
+S  C  5
+S NT  5

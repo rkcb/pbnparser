@@ -3,6 +3,7 @@ package com.pbn.parser;
 import static org.junit.Assert.assertTrue;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -25,7 +26,8 @@ import com.pbn.ast.PbnObject;
 
 public class ParserTest {
 
-    private TestPbnParser parser = Parboiled.createParser(TestPbnParser.class);
+    private static TestPbnParser parser = Parboiled
+            .createParser(TestPbnParser.class);
 
     private ParsingResult<Pbn> getResult(String input, Rule rule) {
         ReportingParseRunner<Pbn> runner = new ReportingParseRunner<>(rule);
@@ -90,7 +92,7 @@ public class ParserTest {
      */
     @Test
     public void pbnFileTest() {
-        String input = inputText("test");
+        String input = inputText("indi");
         assertTrue(matched(input, parser.TestEvents()));
     }
 
@@ -103,7 +105,7 @@ public class ParserTest {
     @Test
     public void String() {
         String s = "\"\\\"x\\\"\"";
-        LinkedList<String> l = new LinkedList<>();
+        LinkedList<Object> l = new LinkedList<>();
         assertTrue(matched(s, parser.TestString(l)));
         // simon \"brave\" maps to simon "brave"
         assertTrue(l.get(0).equals("\"x\""));
@@ -119,12 +121,9 @@ public class ParserTest {
     @Test
     public void pbnValueObjectTest() {
         String v = "[ Tag \"Value\"]";
-        ParsingResult<Pbn> result = getResult(v, parser.TestValue());
+        ParsingResult<Pbn> result = getResult(v, parser.TestEvents());
         assertTrue(result.matched);
         assertTrue(result.valueStack.size() == 1);
-        PbnObject o = (PbnObject) result.resultValue;
-        assertTrue(o.tag().equals("Tag"));
-        assertTrue(o.value().equals("Value"));
     }
 
     @Test
@@ -153,9 +152,28 @@ public class ParserTest {
 
     @Test
     public void pbnFileObjectTest() {
-        String input = inputText("sm1");
+        String input = inputText("test");
         ParsingResult<Pbn> result = getResult(input, parser.TestEvents());
         Events evs = (Events) result.resultValue;
+        if (!result.matched) {
+            int i0 = result.parseErrors.get(0).getStartIndex();
+            int i1 = result.parseErrors.get(0).getEndIndex();
+            int line1 = result.inputBuffer.getPosition(i0).line;
+            int pos1 = result.inputBuffer.getPosition(i0).column;
+
+            int line2 = result.inputBuffer.getPosition(i1).line;
+            int pos2 = result.inputBuffer.getPosition(i1).column;
+
+            if (line1 != line2) {
+                o("Error starts at line " + line1 + " and column " + pos1
+                        + " and ends at line " + line2 + " and column " + pos2
+                        + ": >>>" + result.inputBuffer.charAt(i0) + "<<<");
+            } else {
+                o("Error starts at line " + line1 + " and column " + pos1
+                        + " and ends by the column " + pos2);
+            }
+        }
+        assertTrue(result.matched);
         assertTrue(evs.size() == 66);
     }
 
@@ -182,6 +200,13 @@ public class ParserTest {
         assertTrue(Objects.deepEquals(e, o.hands().get(1)));
         assertTrue(Objects.deepEquals(s, o.hands().get(2)));
         assertTrue(Objects.deepEquals(w, o.hands().get(3)));
+
+        // test an empty deal
+        d = "";
+        result = getResult(d, parser.TestDeal());
+        o = (PbnObject) result.resultValue;
+        assertTrue(result.matched);
+
     }
 
     @Test
@@ -249,7 +274,7 @@ public class ParserTest {
      */
 
     @SuppressWarnings("unused")
-    private void reportFailure(String input, Rule rule) {
+    private static void reportFailure(String input, Rule rule) {
 
         ReportingParseRunner<Object> runner = new ReportingParseRunner<>(rule);
         ParsingResult<Object> result = runner.run(input);
@@ -276,9 +301,11 @@ public class ParserTest {
             o("error line(s): \n\n" + errContext + "\n");
             o("error >>>" + "" + error.getInputBuffer().charAt(i0) + "<<<"
                     + " at line: " + pos.line + " and column: " + pos.column);
-        } else {
-            o("Matched!");
         }
+    }
+
+    public static void reportFailure(String pbn) {
+        reportFailure(pbn, parser.Events());
     }
 
     public static String inputText(String fileName) {
@@ -287,7 +314,9 @@ public class ParserTest {
             return null;
         }
 
-        String uri = "/home/esa/Documents/pbn/" + fileName + ".pbn";
+        File resourcesDirectory = new File("src/main/resources");
+        String uri = resourcesDirectory.getAbsolutePath() + "/" + fileName
+                + ".pbn";
 
         String line = null;
 

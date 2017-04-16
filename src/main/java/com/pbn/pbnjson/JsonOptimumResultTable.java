@@ -5,11 +5,12 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Function;
 
 public class JsonOptimumResultTable extends JsonTable {
 
-    private static Comparator<List<String>> rowComp;
+    private static Comparator<List<Object>> rowComp;
     private static int decli = -1;
     private static int denomi = -1;
     private static HashMap<String, Integer> declw = new HashMap<>();
@@ -22,15 +23,19 @@ public class JsonOptimumResultTable extends JsonTable {
      */
     public static void sortRows(JsonOptimumResultTable table) {
 
+        Objects.requireNonNull(table);
+        Objects.requireNonNull(table.header);
+        Objects.requireNonNull(table.rows);
         final int decli = table.header.indexOf("Declarer");
         final int denomi = table.header.indexOf("Denomination");
-        final int resulti = table.header.indexOf("Result");
 
-        createRowComparator(decli, denomi);
-        table.rows.sort(rowComp);
+        if (table.isValid()) {
+            createRowComparator(decli, denomi);
+            table.rows.sort(rowComp);
+        }
     }
 
-    private static Function<List<String>, List<String>> swap(int i, int j) {
+    private static Function<List<Object>, List<Object>> swap(int i, int j) {
         return t -> {
             Collections.swap(t, i, j);
             return t;
@@ -43,7 +48,7 @@ public class JsonOptimumResultTable extends JsonTable {
      * @param is
      *            list of indexes of the OptimumResultTable header items
      */
-    private static Function<List<String>, List<String>> getPermutation(
+    private static Function<List<Object>, List<Object>> getPermutation(
             LinkedList<Integer> is) {
         int i = 0;
 
@@ -91,13 +96,11 @@ public class JsonOptimumResultTable extends JsonTable {
     }
 
     private static int compareDecl(String d1, String d2) {
-        if (declw.getOrDefault(d1, -10) < declw.getOrDefault(d2, -10)) {
-            return -1;
-        } else if (declw.getOrDefault(d1, -10) == declw.getOrDefault(d2, -10)) {
-            return 0;
-        } else {
-            return 1;
-        }
+        int x = declw.getOrDefault(d1, -10);
+        int y = declw.getOrDefault(d2, -10);
+
+        return x < y ? -1 : x == y ? 0 : 1;
+
     }
 
     private static int compareDenom(String d1, String d2) {
@@ -132,10 +135,10 @@ public class JsonOptimumResultTable extends JsonTable {
             denomi = denomj;
 
             rowComp = (l1, l2) -> {
-                String decl1 = l1.get(decli);
-                String denom1 = l1.get(denomi);
-                String decl2 = l2.get(decli);
-                String denom2 = l2.get(denomi);
+                String decl1 = (String) l1.get(decli);
+                String denom1 = (String) l1.get(denomi);
+                String decl2 = (String) l2.get(decli);
+                String denom2 = (String) l2.get(denomi);
 
                 int comp1 = compareDecl(decl1, decl2);
                 int comp2 = compareDenom(denom1, denom2);
@@ -152,19 +155,25 @@ public class JsonOptimumResultTable extends JsonTable {
 
     }
 
-    private boolean isValid() {
+    /***
+     * isValid checks that the table has correct header and correct number of
+     * rows
+     */
+    public boolean isValid() {
         final int decli = header.indexOf("Declarer");
         final int denomi = header.indexOf("Denomination");
         final int resulti = header.indexOf("Result");
         final boolean validHeader = header.size() == 3 && decli >= 0
                 && denomi >= 0 && resulti >= 0 && rows.size() == 20;
 
-        return true;
+        return validHeader;
     }
 
     public JsonOptimumResultTable(List<String> header,
-            List<List<String>> rows) {
+            List<List<Object>> rows) {
         super(header, rows);
+        Objects.requireNonNull(header);
+        Objects.requireNonNull(rows);
     }
 
 }
