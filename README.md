@@ -10,5 +10,5 @@ to serialize and deserialize this board list between JsonEvents and the correspo
 Json string. 
 The reason for this extra step is simply performance: Once the PBN is 
 validated it is sufficient to retrieve board data from Json to JsonEvents. 
-Note that JsonEvent contains strictly less information than the Pbn Java 
-equivalent since JsonEvent is usually enough.
+Note that JsonEvent contains strictly less information than the respective Pbn Java 
+object since JsonEvent is usually enough.
